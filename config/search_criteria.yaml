@@ -148,16 +148,3 @@ forums:
       - "num_comments >= 5"
     api_endpoint: "https://lobste.rs/search.json"
     justification: "High signal-to-noise technical discussions"
-
-  quora:
-    search_type: "term-based + manual expert-credential filtering"
-    keywords:
-      - "JNI"
-      - "Java Native Interface"
-      - "JNA"
-    filters:
-      - "Must discuss architectural trade-offs or library selection"
-      - "Must contain substantive technical reasoning"
-      - "Exclude career advice and beginner questions"
-    api_endpoint: "Manual web browsing + export"
-    justification: "Captures high-level architectural debates (JNI vs JNA vs Panama)"

@@ -1,0 +1,6 @@
+forum_name,total_posts,posts_with_valid_dates,earliest_post,latest_post,time_period,forum,Pre-GenAI,Post-GenAI,Total
+GitHub Issues,542,542,2013-09-14,2026-06-16,2013-09-14 to 2026-06-16,GitHub Issues,331.0,211.0,542.0
+LLVM Discourse,16,16,2004-11-11,2022-10-19,2004-11-11 to 2022-10-19,LLVM Discourse,16.0,0.0,16.0
+Stack Overflow,8241,8241,2008-08-01,2026-06-17,2008-08-01 to 2026-06-17,Stack Overflow,7707.0,534.0,8241.0
+Bugzilla,417,417,1998-09-09,2026-04-05,1998-09-09 to 2026-04-05,Bugzilla,406.0,11.0,417.0
+Microsoft Q&A,660,0,Unknown,Unknown,Unknown to Unknown,,,,
