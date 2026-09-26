@@ -1,0 +1,91 @@
+source,url,category,context,type,creation_date
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Exception handling,exceptions thrown by managed code do not unwind native,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Exception handling,thrown across the JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Exception handling,"error checking. Errors usually result in a crash. Android also offers a mode called CheckJNI, where the JavaVM and JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Exception handling,Exceptions: making a JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Memory management,"allocate"" local",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Memory management,free local references until the thread detaches.  Any local,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Memory management,Release with JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Memory management,"ReleaseByteArrayElements(array, data, JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Memory management,"Release modes: passing a bad release mode to a release call (something other than 0, JNI_ABORT, or JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,"UTF-16.  For convenience, JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,UTF-8 data to JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,"string to a JNI call, or passing a NULL pointer to a JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,String” style of class name to a JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,UTF-8: passing an invalid Modified UTF-8 byte sequence to a JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,"String;I)Z"", reinterpret_cast<void*>(native",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,String handling,string has the correct format.  JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,thread in the Java code via JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,threads that need to touch or be touched by JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,"thread pools in both the Java and C++ languages, try to keep JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,"thread-local storage.  For this reason, you cannot share a JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,thread's JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,"attached, it has no JNIEnv, and cannot make JNI",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,"thread_t, and std::thread::native",documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,Attaching a native,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,threads executing native,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,thread the next time it makes a JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,Threads attached through JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,thread_setspecific() to store the JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Thread safety,attach a native,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,Critical calls: making a JNI,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative annotation can be applied only to native,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative native,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Performance Guide,https://developer.android.com/training/articles/perf-jni,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Exception handling,exceptions thrown by managed code do not unwind native,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Exception handling,thrown across the JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Exception handling,"error checking. Errors usually result in a crash. Android also offers a mode called CheckJNI, where the JavaVM and JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Exception handling,Exceptions: making a JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Memory management,"allocate"" local",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Memory management,free local references until the thread detaches.  Any local,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Memory management,Release with JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Memory management,"ReleaseByteArrayElements(array, data, JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Memory management,"Release modes: passing a bad release mode to a release call (something other than 0, JNI_ABORT, or JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,"UTF-16.  For convenience, JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,UTF-8 data to JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,"string to a JNI call, or passing a NULL pointer to a JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,String” style of class name to a JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,UTF-8: passing an invalid Modified UTF-8 byte sequence to a JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,"String;I)Z"", reinterpret_cast<void*>(native",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,String handling,string has the correct format.  JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,thread in the Java code via JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,threads that need to touch or be touched by JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,"thread pools in both the Java and C++ languages, try to keep JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,"thread-local storage.  For this reason, you cannot share a JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,thread's JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,"attached, it has no JNIEnv, and cannot make JNI",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,"thread_t, and std::thread::native",documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,Attaching a native,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,threads executing native,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,thread the next time it makes a JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,Threads attached through JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,thread_setspecific() to store the JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Thread safety,attach a native,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,Critical calls: making a JNI,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative annotation can be applied only to native,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative native,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
+Android JNI Tips,https://developer.android.com/ndk/guides/jni-tips,Performance,CriticalNative,documentation,N/A
