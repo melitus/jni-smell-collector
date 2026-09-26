@@ -1,0 +1,1045 @@
+# Phase 1: Dataset Profiling & Temporal Split — Implementation Guide
+
+Copy this entire document into Claude Code as your prompt/context.
+
+---
+
+## SECTION 1: PROJECT CONTEXT
+
+### What We're Building
+
+We have a dataset of **8,868 forum posts** about JNI (Java Native Interface) design smells collected from **11 different forums**. We need to:
+1. Profile the dataset (count posts per forum)
+2. Document our search methodology
+3. Verify Stack Overflow tags
+4. Split posts into Pre-GenAI vs Post-GenAI cohorts
+5. Generate a spreadsheet with all this information
+
+### Existing Project Structure
+
+```
+jni-smell-collector/
+├── config/
+│   ├── settings.yaml
+│   └── forums.yaml              # Forum definitions
+├── data/
+│   ├── raw/
+│   │   ├── stackoverflow_posts.json
+│   │   ├── github_issues.json
+│   │   ├── reddit_posts.json
+│   │   ├── hacker_news_posts.json
+│   │   ├── llvm_discourse_posts.json
+│   │   ├── apache_mailing_list_posts.json
+│   │   ├── bugzilla_posts.json
+│   │   ├── microsoft_qa_posts.json
+│   │   ├── oracle_community_posts.json
+│   │   ├── lobsters_posts.json
+│   │   └── quora_posts.json
+│   └── processed/
+│       ├── all_posts_combined.csv      # [TO BE CREATED]
+│       ├── phase1_profiling_report.csv  # [TO BE CREATED]
+│       └── temporal_split/
+│           ├── pre_genai_posts.csv      # [TO BE CREATED]
+│           └── post_genai_posts.csv     # [TO BE CREATED]
+├── scripts/
+│   ├── phase1_profile_dataset.py        # [TO BE CREATED]
+│   ├── phase1_temporal_split.py         # [TO BE CREATED]
+│   └── phase1_generate_report.py        # [TO BE CREATED]
+├── results/
+│   └── phase1/
+│       ├── forum_distribution.csv       # [TO BE CREATED]
+│       ├── search_criteria.csv          # [TO BE CREATED]
+│       ├── so_tag_verification.csv      # [TO BE CREATED]
+│       ├── temporal_split_summary.csv   # [TO BE CREATED]
+│       └── phase1_master_spreadsheet.xlsx  # [TO BE CREATED]
+├── Makefile
+├── requirements.txt
+└── README.md
+```
+
+### Forum Definitions (Already Exist in Code)
+
+```python
+PHASE1_FORUMS = [
+    # Baseline forums (for comparison)
+    {"name": "Stack Overflow", "site": "stackoverflow.com", "method": "stackexchange"},
+    {"name": "GitHub Issues", "site": "github.com", "method": "github"},
+    {"name": "Bugzilla", "site": "bugzilla.mozilla.org", "method": "bugzilla_api"},
+    # Extension forums
+    {"name": "Microsoft Q&A", "site": "learn.microsoft.com", "method": "microsoft_qa_api"},
+    {"name": "Oracle Community", "site": "community.oracle.com", "method": "fallback"},
+    {"name": "Reddit", "site": "reddit.com", "method": "reddit_json"},
+    {"name": "Hacker News", "site": "news.ycombinator.com", "method": "hn_api"},
+    {"name": "LLVM Discourse", "site": "discourse.llvm.org", "method": "llvm_api"},
+    {"name": "Apache Lists", "site": "lists.apache.org", "method": "apache_api"},
+    {"name": "Lobsters", "site": "lobste.rs", "method": "lobsters_api"},
+    {"name": "Quora", "site": "quora.com", "method": "manual_export"},
+]
+```
+
+### Key Constants
+
+```python
+GENAI_CUTOFF_DATE = "2022-11-30"  # ChatGPT launch date
+SO_TARGET_TAGS = ["java-native-interface", "jni", "jniwrapper", "jna"]
+```
+
+---
+
+## SECTION 2: TASK 1 — Forum Distribution
+
+### Objective
+Count the number of posts from each forum and create a distribution summary.
+
+### Implementation: `scripts/phase1_profile_dataset.py`
+
+```python
+"""
+Phase 1 Task 1: Forum Distribution
+Count posts per forum and generate distribution summary.
+"""
+
+import json
+import pandas as pd
+from pathlib import Path
+from datetime import datetime
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "data" / "raw"
+RESULTS_DIR = PROJECT_ROOT / "results" / "phase1"
+
+# Forum definitions
+FORUMS = [
+    {"name": "Stack Overflow", "file": "stackoverflow_posts.json", "date_field": "creation_date"},
+    {"name": "GitHub Issues", "file": "github_issues.json", "date_field": "created_at"},
+    {"name": "Bugzilla", "file": "bugzilla_posts.json", "date_field": "creation_time"},
+    {"name": "Microsoft Q&A", "file": "microsoft_qa_posts.json", "date_field": "creationDate"},
+    {"name": "Oracle Community", "file": "oracle_community_posts.json", "date_field": "post_date"},
+    {"name": "Reddit", "file": "reddit_posts.json", "date_field": "created_utc"},
+    {"name": "Hacker News", "file": "hacker_news_posts.json", "date_field": "time"},
+    {"name": "LLVM Discourse", "file": "llvm_discourse_posts.json", "date_field": "created_at"},
+    {"name": "Apache Lists", "file": "apache_mailing_list_posts.json", "date_field": "date"},
+    {"name": "Lobsters", "file": "lobsters_posts.json", "date_field": "created_at"},
+    {"name": "Quora", "file": "quora_posts.json", "date_field": "answer_date"},
+]
+
+
+def load_posts(file_path: Path) -> list[dict]:
+    """Load posts from JSON file."""
+    if not file_path.exists():
+        print(f"Warning: {file_path} not found. Skipping.")
+        return []
+    
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    # Handle both list and dict formats
+    if isinstance(data, list):
+        return data
+    elif isinstance(data, dict) and "items" in data:
+        return data["items"]
+    else:
+        return [data]
+
+
+def normalize_date(post: dict, date_field: str) -> str | None:
+    """Extract and normalize date from post."""
+    date_value = post.get(date_field)
+    
+    if date_value is None:
+        return None
+    
+    # Handle Unix timestamp (int/float)
+    if isinstance(date_value, (int, float)):
+        try:
+            return datetime.fromtimestamp(date_value).strftime("%Y-%m-%d")
+        except (ValueError, OSError):
+            return None
+    
+    # Handle ISO string
+    if isinstance(date_value, str):
+        try:
+            # Try parsing ISO format
+            dt = datetime.fromisoformat(date_value.replace('Z', '+00:00'))
+            return dt.strftime("%Y-%m-%d")
+        except ValueError:
+            # Try parsing common formats
+            for fmt in ["%Y-%m-%dT%H:%M:%S", "%Y-%m-%d", "%d/%m/%Y"]:
+                try:
+                    return datetime.strptime(date_value[:19], fmt).strftime("%Y-%m-%d")
+                except ValueError:
+                    continue
+    
+    return None
+
+
+def generate_forum_distribution() -> pd.DataFrame:
+    """Generate forum distribution summary."""
+    results = []
+    
+    for forum in FORUMS:
+        file_path = DATA_DIR / forum["file"]
+        posts = load_posts(file_path)
+        
+        # Count posts with valid dates
+        valid_posts = 0
+        date_range_start = None
+        date_range_end = None
+        
+        for post in posts:
+            date_str = normalize_date(post, forum["date_field"])
+            if date_str:
+                valid_posts += 1
+                if date_range_start is None or date_str < date_range_start:
+                    date_range_start = date_str
+                if date_range_end is None or date_str > date_range_end:
+                    date_range_end = date_str
+        
+        results.append({
+            "forum_name": forum["name"],
+            "total_posts": len(posts),
+            "posts_with_valid_dates": valid_posts,
+            "earliest_post": date_range_start or "Unknown",
+            "latest_post": date_range_end or "Unknown",
+            "time_period": f"{date_range_start or 'Unknown'} to {date_range_end or 'Unknown'}",
+        })
+    
+    return pd.DataFrame(results)
+
+
+def main():
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    print("Generating forum distribution...")
+    df = generate_forum_distribution()
+    
+    # Save to CSV
+    output_path = RESULTS_DIR / "forum_distribution.csv"
+    df.to_csv(output_path, index=False)
+    
+    print(f"\nForum Distribution Summary:")
+    print(df.to_string(index=False))
+    print(f"\nSaved to {output_path}")
+    
+    return df
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### Expected Output
+```csv
+forum_name,total_posts,posts_with_valid_dates,earliest_post,latest_post,time_period
+Stack Overflow,5432,5432,2008-07-01,2026-01-15,2008-07-01 to 2026-01-15
+GitHub Issues,1526,1526,2015-01-01,2026-01-15,2015-01-01 to 2026-01-15
+Reddit,403,403,2018-01-01,2026-01-15,2018-01-01 to 2026-01-15
+...
+```
+
+---
+
+## SECTION 3: TASK 2 — Search Criteria Documentation
+
+### Objective
+Document the exact search queries, keywords, and filters used for each forum.
+
+### Implementation: Create `config/search_criteria.yaml`
+
+```yaml
+# Search Criteria Documentation
+# This file documents the exact search strategy used for each forum.
+
+forums:
+  stack_overflow:
+    search_type: "hybrid"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "UnsatisfiedLinkError"
+      - "System.loadLibrary"
+    tags:
+      - "java-native-interface"
+      - "jni"
+      - "jniwrapper"
+      - "jna"
+    filters:
+      - "score >= 0"
+      - "body_length >= 100"
+    api_endpoint: "https://api.stackexchange.com/2.3/questions"
+    justification: "Hybrid approach ensures high recall by capturing both tagged and keyword-matched posts"
+
+  github_issues:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native method"
+      - "Java Native Interface"
+    filters:
+      - "repository_language includes Java AND (C OR C++)"
+      - "is not a pull request"
+      - "body_length >= 50"
+    api_endpoint: "https://api.github.com/search/issues"
+    justification: "Term-based search captures JNI-related issues across repositories"
+
+  reddit:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native code"
+      - "Java Native Interface"
+    subreddits:
+      - "java"
+      - "androiddev"
+      - "programming"
+    filters:
+      - "score >= 1"
+    api_endpoint: "https://www.reddit.com/search.json"
+    justification: "Captures informal developer discussions and pain points"
+
+  hacker_news:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "native interop"
+    filters:
+      - "points >= 5"
+      - "num_comments >= 10"
+    api_endpoint: "https://hn.algolia.com/api/v1/search"
+    justification: "Captures high-level architectural discussions"
+
+  llvm_discourse:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java"
+      - "native interop"
+      - "FFI"
+    categories:
+      - "Development"
+      - "Users"
+      - "LLVM"
+    filters:
+      - "body_length >= 100"
+    api_endpoint: "https://discourse.llvm.org/search.json"
+    justification: "Captures systems-level discussions relevant to JNI"
+
+  apache_mailing_lists:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native"
+      - "Java Native Interface"
+    projects:
+      - "hadoop"
+      - "spark"
+      - "kafka"
+      - "flink"
+    filters:
+      - "thread_length >= 2"
+    api_endpoint: "https://lists.apache.org/api/stats.lua"
+    justification: "Captures architectural decisions in major OSS projects"
+
+  bugzilla:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native"
+      - "Java"
+    components:
+      - "Core"
+      - "DOM"
+      - "JavaScript Engine"
+    filters:
+      - "status != INVALID"
+      - "status != DUPLICATE"
+      - "severity >= normal"
+    api_endpoint: "https://bugzilla.mozilla.org/rest/bug"
+    justification: "Captures detailed technical defect reports"
+
+  microsoft_qa:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "interop"
+    categories:
+      - "Java"
+      - "Android"
+      - "Cross-platform"
+    filters:
+      - "has >= 1 answer or comment"
+    api_endpoint: "Microsoft Q&A API"
+    justification: "Captures official vendor answers and acknowledged bugs"
+
+  oracle_community:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "native method"
+    forums:
+      - "Java SE"
+      - "Java Development"
+      - "Android"
+    filters:
+      - "body_length >= 100"
+    api_endpoint: "Manual scraping"
+    justification: "Official source for Java platform clarifications"
+
+  lobsters:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native interop"
+      - "FFI"
+    filters:
+      - "points >= 3"
+      - "num_comments >= 5"
+    api_endpoint: "https://lobste.rs/search.json"
+    justification: "High signal-to-noise technical discussions"
+
+  quora:
+    search_type: "term-based + manual expert-credential filtering"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "JNA"
+    filters:
+      - "Must discuss architectural trade-offs or library selection"
+      - "Must contain substantive technical reasoning"
+      - "Exclude career advice and beginner questions"
+    api_endpoint: "Manual web browsing + export"
+    justification: "Captures high-level architectural debates (JNI vs JNA vs Panama)"
+```
+
+### Implementation: `scripts/phase1_generate_report.py` (Task 2 portion)
+
+```python
+"""
+Phase 1 Task 2: Search Criteria Documentation
+Generate search criteria summary from config file.
+"""
+
+import yaml
+import pandas as pd
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+CONFIG_DIR = PROJECT_ROOT / "config"
+RESULTS_DIR = PROJECT_ROOT / "results" / "phase1"
+
+
+def generate_search_criteria() -> pd.DataFrame:
+    """Generate search criteria summary from config."""
+    config_path = CONFIG_DIR / "search_criteria.yaml"
+    
+    with open(config_path, 'r', encoding='utf-8') as f:
+        config = yaml.safe_load(f)
+    
+    results = []
+    
+    for forum_key, forum_config in config["forums"].items():
+        results.append({
+            "forum_name": forum_key.replace("_", " ").title(),
+            "search_type": forum_config["search_type"],
+            "keywords": ", ".join(forum_config.get("keywords", [])),
+            "tags": ", ".join(forum_config.get("tags", [])) or "N/A",
+            "filters": "; ".join(forum_config.get("filters", [])) or "N/A",
+            "api_endpoint": forum_config.get("api_endpoint", "Manual"),
+            "justification": forum_config.get("justification", ""),
+        })
+    
+    return pd.DataFrame(results)
+
+
+def main():
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    print("Generating search criteria documentation...")
+    df = generate_search_criteria()
+    
+    output_path = RESULTS_DIR / "search_criteria.csv"
+    df.to_csv(output_path, index=False)
+    
+    print(f"\nSearch Criteria Summary:")
+    print(df.to_string(index=False))
+    print(f"\nSaved to {output_path}")
+    
+    return df
+
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+
+## SECTION 4: TASK 3 — Stack Overflow Tag Verification
+
+### Objective
+Filter Stack Overflow posts to verify they contain the required JNI tags.
+
+### Implementation: `scripts/phase1_so_tag_verification.py`
+
+```python
+"""
+Phase 1 Task 3: Stack Overflow Tag Verification
+Verify and extract posts containing specific JNI tags.
+"""
+
+import json
+import pandas as pd
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "data" / "raw"
+RESULTS_DIR = PROJECT_ROOT / "results" / "phase1"
+
+SO_TARGET_TAGS = ["java-native-interface", "jni", "jniwrapper", "jna"]
+
+
+def verify_so_tags() -> pd.DataFrame:
+    """Verify Stack Overflow posts contain required tags."""
+    so_file = DATA_DIR / "stackoverflow_posts.json"
+    
+    if not so_file.exists():
+        print(f"Error: {so_file} not found")
+        return pd.DataFrame()
+    
+    with open(so_file, 'r', encoding='utf-8') as f:
+        posts = json.load(f)
+    
+    if isinstance(posts, dict) and "items" in posts:
+        posts = posts["items"]
+    
+    results = []
+    
+    for post in posts:
+        post_id = post.get("question_id", "unknown")
+        title = post.get("title", "")
+        tags = post.get("tags", [])
+        
+        # Check if post has any of the target tags
+        has_target_tag = any(tag in SO_TARGET_TAGS for tag in tags)
+        
+        # Determine which specific tags are present
+        matched_tags = [tag for tag in tags if tag in SO_TARGET_TAGS]
+        
+        results.append({
+            "post_id": post_id,
+            "title": title[:100],  # Truncate for readability
+            "all_tags": ", ".join(tags),
+            "has_target_tag": has_target_tag,
+            "matched_tags": ", ".join(matched_tags) if matched_tags else "None",
+            "num_matched_tags": len(matched_tags),
+        })
+    
+    df = pd.DataFrame(results)
+    
+    # Summary statistics
+    print(f"\nStack Overflow Tag Verification Summary:")
+    print(f"  Total posts: {len(df)}")
+    print(f"  Posts with target tags: {df['has_target_tag'].sum()}")
+    print(f"  Posts without target tags: {(~df['has_target_tag']).sum()}")
+    
+    # Count by specific tag
+    print(f"\n  Tag distribution:")
+    for tag in SO_TARGET_TAGS:
+        count = df['matched_tags'].str.contains(tag).sum()
+        print(f"    {tag}: {count} posts")
+    
+    return df
+
+
+def main():
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    print("Verifying Stack Overflow tags...")
+    df = verify_so_tags()
+    
+    if not df.empty:
+        output_path = RESULTS_DIR / "so_tag_verification.csv"
+        df.to_csv(output_path, index=False)
+        print(f"\nSaved to {output_path}")
+    
+    return df
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### Expected Output
+```csv
+post_id,title,all_tags,has_target_tag,matched_tags,num_matched_tags
+6804253,"Calling DeleteObjectRef...","java-native-interface,android",True,"java-native-interface",1
+1234567,"JNI memory leak...","jni,memory-leaks",True,"jni",1
+```
+
+---
+
+## SECTION 5: TASK 4 — Temporal Split Scripting
+
+### Objective
+Divide all posts into Pre-GenAI and Post-GenAI cohorts based on creation timestamp.
+
+### Implementation: `scripts/phase1_temporal_split.py`
+
+```python
+"""
+Phase 1 Task 4: Temporal Split
+Divide posts into Pre-GenAI and Post-GenAI cohorts.
+"""
+
+import json
+import pandas as pd
+from pathlib import Path
+from datetime import datetime
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = PROJECT_ROOT / "data" / "raw"
+RESULTS_DIR = PROJECT_ROOT / "results" / "phase1"
+TEMPORAL_DIR = RESULTS_DIR / "temporal_split"
+
+GENAI_CUTOFF_DATE = datetime(2022, 11, 30)  # ChatGPT launch date
+
+FORUMS = [
+    {"name": "Stack Overflow", "file": "stackoverflow_posts.json", "date_field": "creation_date"},
+    {"name": "GitHub Issues", "file": "github_issues.json", "date_field": "created_at"},
+    {"name": "Bugzilla", "file": "bugzilla_posts.json", "date_field": "creation_time"},
+    {"name": "Microsoft Q&A", "file": "microsoft_qa_posts.json", "date_field": "creationDate"},
+    {"name": "Oracle Community", "file": "oracle_community_posts.json", "date_field": "post_date"},
+    {"name": "Reddit", "file": "reddit_posts.json", "date_field": "created_utc"},
+    {"name": "Hacker News", "file": "hacker_news_posts.json", "date_field": "time"},
+    {"name": "LLVM Discourse", "file": "llvm_discourse_posts.json", "date_field": "created_at"},
+    {"name": "Apache Lists", "file": "apache_mailing_list_posts.json", "date_field": "date"},
+    {"name": "Lobsters", "file": "lobsters_posts.json", "date_field": "created_at"},
+    {"name": "Quora", "file": "quora_posts.json", "date_field": "answer_date"},
+]
+
+
+def normalize_date(post: dict, date_field: str) -> datetime | None:
+    """Extract and normalize date from post."""
+    date_value = post.get(date_field)
+    
+    if date_value is None:
+        return None
+    
+    # Handle Unix timestamp
+    if isinstance(date_value, (int, float)):
+        try:
+            return datetime.fromtimestamp(date_value)
+        except (ValueError, OSError):
+            return None
+    
+    # Handle ISO string
+    if isinstance(date_value, str):
+        try:
+            return datetime.fromisoformat(date_value.replace('Z', '+00:00'))
+        except ValueError:
+            for fmt in ["%Y-%m-%dT%H:%M:%S", "%Y-%m-%d", "%d/%m/%Y"]:
+                try:
+                    return datetime.strptime(date_value[:19], fmt)
+                except ValueError:
+                    continue
+    
+    return None
+
+
+def temporal_split() -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Split all posts into Pre-GenAI and Post-GenAI cohorts."""
+    TEMPORAL_DIR.mkdir(parents=True, exist_ok=True)
+    
+    pre_genai_posts = []
+    post_genai_posts = []
+    
+    for forum in FORUMS:
+        file_path = DATA_DIR / forum["file"]
+        
+        if not file_path.exists():
+            print(f"Warning: {file_path} not found. Skipping.")
+            continue
+        
+        with open(file_path, 'r', encoding='utf-8') as f:
+            posts = json.load(f)
+        
+        if isinstance(posts, dict) and "items" in posts:
+            posts = posts["items"]
+        
+        for post in posts:
+            post_date = normalize_date(post, forum["date_field"])
+            
+            if post_date is None:
+                continue
+            
+            # Add metadata
+            post_record = {
+                "forum": forum["name"],
+                "post_id": post.get("question_id") or post.get("id") or post.get("number", "unknown"),
+                "title": post.get("title", "")[:100],
+                "creation_date": post_date.strftime("%Y-%m-%d"),
+                "era": "Pre-GenAI" if post_date < GENAI_CUTOFF_DATE else "Post-GenAI",
+            }
+            
+            if post_date < GENAI_CUTOFF_DATE:
+                pre_genai_posts.append(post_record)
+            else:
+                post_genai_posts.append(post_record)
+    
+    pre_df = pd.DataFrame(pre_genai_posts)
+    post_df = pd.DataFrame(post_genai_posts)
+    
+    # Save to CSV
+    pre_df.to_csv(TEMPORAL_DIR / "pre_genai_posts.csv", index=False)
+    post_df.to_csv(TEMPORAL_DIR / "post_genai_posts.csv", index=False)
+    
+    print(f"\nTemporal Split Summary:")
+    print(f"  Pre-GenAI posts: {len(pre_df)}")
+    print(f"  Post-GenAI posts: {len(post_df)}")
+    print(f"  Total posts: {len(pre_df) + len(post_df)}")
+    print(f"  Cutoff date: {GENAI_CUTOFF_DATE.strftime('%Y-%m-%d')}")
+    
+    return pre_df, post_df
+
+
+def generate_temporal_summary(pre_df: pd.DataFrame, post_df: pd.DataFrame) -> pd.DataFrame:
+    """Generate summary by forum and era."""
+    all_posts = pd.concat([pre_df, post_df], ignore_index=True)
+    
+    summary = all_posts.groupby(["forum", "era"]).size().unstack(fill_value=0)
+    summary["Total"] = summary.sum(axis=1)
+    summary = summary.reset_index()
+    
+    # Ensure both columns exist
+    if "Pre-GenAI" not in summary.columns:
+        summary["Pre-GenAI"] = 0
+    if "Post-GenAI" not in summary.columns:
+        summary["Post-GenAI"] = 0
+    
+    return summary[["forum", "Pre-GenAI", "Post-GenAI", "Total"]]
+
+
+def main():
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    print("Performing temporal split...")
+    pre_df, post_df = temporal_split()
+    
+    print("\nGenerating temporal summary by forum...")
+    summary = generate_temporal_summary(pre_df, post_df)
+    
+    output_path = RESULTS_DIR / "temporal_split_summary.csv"
+    summary.to_csv(output_path, index=False)
+    
+    print(f"\nTemporal Split by Forum:")
+    print(summary.to_string(index=False))
+    print(f"\nSaved to {output_path}")
+    
+    return summary
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### Expected Output
+```csv
+forum,Pre-GenAI,Post-GenAI,Total
+Stack Overflow,3247,2185,5432
+GitHub Issues,892,634,1526
+Reddit,156,247,403
+...
+```
+
+---
+
+## SECTION 6: TASK 5 — Generate Master Spreadsheet
+
+### Objective
+Combine all results into a single Excel spreadsheet matching the professor's table structure.
+
+### Implementation: `scripts/phase1_master_spreadsheet.py`
+
+```python
+"""
+Phase 1 Task 5: Generate Master Spreadsheet
+Combine all results into a single Excel file matching professor's table structure.
+"""
+
+import pandas as pd
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+RESULTS_DIR = PROJECT_ROOT / "results" / "phase1"
+
+# Search criteria definitions (from config/search_criteria.yaml)
+SEARCH_CRITERIA = {
+    "Stack Overflow": {
+        "technique": "Hybrid (Tags + Keywords)",
+        "keywords": "JNI, Java Native Interface, UnsatisfiedLinkError",
+        "tags": "java-native-interface, jni, jniwrapper, jna",
+        "inclusion": "Keywords OR Tags present; Body >= 100 chars",
+        "exclusion": "Closed/deleted; Duplicates; Non-Java tags only",
+    },
+    "GitHub Issues": {
+        "technique": "Term-based + Repo filter",
+        "keywords": "JNI, native method, Java Native Interface",
+        "tags": "N/A",
+        "inclusion": "Keywords in title/body; Repo has Java + C/C++; Not a PR",
+        "exclusion": "Build config only; Duplicates; Labeled 'invalid'",
+    },
+    "Reddit": {
+        "technique": "Term-based + Subreddit filter",
+        "keywords": "JNI, native code, Java Native Interface",
+        "tags": "N/A",
+        "inclusion": "Keywords present; In r/java, r/androiddev, r/programming",
+        "exclusion": "Memes; NDK build only; < 3 comments",
+    },
+    "Hacker News": {
+        "technique": "Term-based",
+        "keywords": "JNI, Java Native Interface, native interop",
+        "tags": "N/A",
+        "inclusion": "Keywords present; Points >= 5; Comments >= 10",
+        "exclusion": "Job listings; JVM-only; Off-topic",
+    },
+    "LLVM Discourse": {
+        "technique": "Term-based + Category filter",
+        "keywords": "JNI, Java, FFI, native interop",
+        "tags": "N/A",
+        "inclusion": "Keywords present; In Development/Users/LLVM categories",
+        "exclusion": "LLVM IR only; Meeting announcements",
+    },
+    "Apache Lists": {
+        "technique": "Term-based + Project filter",
+        "keywords": "JNI, native, Java Native Interface",
+        "tags": "N/A",
+        "inclusion": "Keywords present; In hadoop/spark/kafka/flink lists",
+        "exclusion": "Commit notifications; Maven/Gradle only",
+    },
+    "Bugzilla": {
+        "technique": "Term-based + Component filter",
+        "keywords": "JNI, native, Java",
+        "tags": "N/A",
+        "inclusion": "Keywords present; Status not INVALID/DUPLICATE",
+        "exclusion": "UI/frontend only; Duplicates; No description",
+    },
+    "Microsoft Q&A": {
+        "technique": "Term-based + Category filter",
+        "keywords": "JNI, Java Native Interface, interop",
+        "tags": "N/A",
+        "inclusion": "Keywords present; In Java/Android/Cross-platform categories",
+        "exclusion": ".NET-only; Product announcements; Closed without resolution",
+    },
+    "Oracle Community": {
+        "technique": "Term-based + Forum filter",
+        "keywords": "JNI, Java Native Interface, native method",
+        "tags": "N/A",
+        "inclusion": "Keywords present; In Java SE/Java Development forums",
+        "exclusion": "Database-only; Product announcements; Duplicates",
+    },
+    "Lobsters": {
+        "technique": "Term-based",
+        "keywords": "JNI, native interop, FFI",
+        "tags": "N/A",
+        "inclusion": "Keywords present; Points >= 3; Comments >= 5",
+        "exclusion": "Off-topic; JVM-only",
+    },
+    "Quora": {
+        "technique": "Term-based + Manual expert-credential filtering",
+        "keywords": "JNI, Java Native Interface, JNA",
+        "tags": "N/A",
+        "inclusion": "Keywords present; Architectural focus; Expert credentials",
+        "exclusion": "Career advice; Beginner questions; Spam; Pure Java/C++",
+    },
+}
+
+
+def generate_master_spreadsheet():
+    """Generate the master spreadsheet matching professor's table structure."""
+    
+    # Load individual results
+    forum_dist = pd.read_csv(RESULTS_DIR / "forum_distribution.csv")
+    temporal_summary = pd.read_csv(RESULTS_DIR / "temporal_split_summary.csv")
+    
+    # Merge data
+    master_data = []
+    
+    for _, row in forum_dist.iterrows():
+        forum_name = row["forum_name"]
+        
+        # Get temporal data for this forum
+        temporal_row = temporal_summary[temporal_summary["forum"] == forum_name]
+        if not temporal_row.empty:
+            pre_genai = int(temporal_row["Pre-GenAI"].values[0])
+            post_genai = int(temporal_row["Post-GenAI"].values[0])
+            total = int(temporal_row["Total"].values[0])
+        else:
+            pre_genai = 0
+            post_genai = 0
+            total = int(row["total_posts"])
+        
+        # Get search criteria
+        criteria = SEARCH_CRITERIA.get(forum_name, {})
+        
+        master_data.append({
+            "Forum Used for topic Search": forum_name,
+            "Identification Technique (Rules)": criteria.get("technique", "Unknown"),
+            "Pre Gen of AI": pre_genai,
+            "Post Gen AI": post_genai,
+            "Post Get": int(row["total_posts"]),
+            "Inclusion Criteria": criteria.get("inclusion", "Unknown"),
+            "Exclusion Criteria": criteria.get("exclusion", "Unknown"),
+            "Total Post": total,
+            "Time Period": row["time_period"],
+            "Keywords": criteria.get("keywords", ""),
+            "Tags": criteria.get("tags", ""),
+        })
+    
+    df = pd.DataFrame(master_data)
+    
+    # Save to Excel
+    output_path = RESULTS_DIR / "phase1_master_spreadsheet.xlsx"
+    
+    with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
+        df.to_excel(writer, index=False, sheet_name="Master Summary")
+        
+        # Auto-adjust column widths
+        worksheet = writer.sheets["Master Summary"]
+        for column in worksheet.columns:
+            max_length = min(max(len(str(cell.value or "")) for cell in column) + 2, 50)
+            worksheet.column_dimensions[column[0].column_letter].width = max_length
+    
+    # Also save as CSV
+    csv_path = RESULTS_DIR / "phase1_master_spreadsheet.csv"
+    df.to_csv(csv_path, index=False)
+    
+    print(f"\nMaster Spreadsheet Summary:")
+    print(df.to_string(index=False))
+    print(f"\nSaved to {output_path}")
+    print(f"Also saved to {csv_path}")
+    
+    return df
+
+
+def main():
+    RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+    
+    print("Generating master spreadsheet...")
+    df = generate_master_spreadsheet()
+    
+    return df
+
+
+if __name__ == "__main__":
+    main()
+```
+
+---
+
+## SECTION 7: EXECUTION ORDER
+
+Run the scripts in this order:
+
+```bash
+# Step 1: Forum Distribution
+python scripts/phase1_profile_dataset.py
+
+# Step 2: Search Criteria Documentation
+python scripts/phase1_generate_report.py
+
+# Step 3: Stack Overflow Tag Verification
+python scripts/phase1_so_tag_verification.py
+
+# Step 4: Temporal Split
+python scripts/phase1_temporal_split.py
+
+# Step 5: Master Spreadsheet
+python scripts/phase1_master_spreadsheet.py
+```
+
+Or add to `Makefile`:
+
+```makefile
+phase1-profile:
+	python scripts/phase1_profile_dataset.py
+
+phase1-criteria:
+	python scripts/phase1_generate_report.py
+
+phase1-so-tags:
+	python scripts/phase1_so_tag_verification.py
+
+phase1-temporal:
+	python scripts/phase1_temporal_split.py
+
+phase1-master:
+	python scripts/phase1_master_spreadsheet.py
+
+phase1-all: phase1-profile phase1-criteria phase1-so-tags phase1-temporal phase1-master
+```
+
+---
+
+## SECTION 8: VALIDATION CRITERIA
+
+The implementation is correct if:
+
+### Functional Tests
+- [ ] All 5 scripts run without errors
+- [ ] All output files are created in `results/phase1/`
+- [ ] `forum_distribution.csv` has exactly 11 rows (one per forum)
+- [ ] `search_criteria.csv` has exactly 11 rows
+- [ ] `so_tag_verification.csv` has one row per Stack Overflow post
+- [ ] `temporal_split_summary.csv` has exactly 11 rows
+- [ ] `phase1_master_spreadsheet.xlsx` has all 9 required columns
+
+### Data Validation
+- [ ] `Pre Gen AI + Post Gen AI = Total Post` for each forum
+- [ ] `Total Post <= Post Get` (some posts may be filtered out)
+- [ ] All dates are in `YYYY-MM-DD` format
+- [ ] No null values in required columns
+
+### Sanity Checks
+- [ ] Stack Overflow has the most posts (typically >5,000)
+- [ ] Quora has the fewest posts (manual collection)
+- [ ] Pre-GenAI > Post-GenAI for most forums (more historical content)
+- [ ] Time periods are reasonable (e.g., SO starts around 2008)
+
+---
+
+## SECTION 9: IMPORTANT NOTES FOR AI ASSISTANT
+
+1. **DO NOT modify existing data files** in `data/raw/`
+2. **CREATE new output files** in `results/phase1/`
+3. **Handle missing files gracefully** — if a forum's JSON doesn't exist, skip it with a warning
+4. **Normalize dates** — handle both Unix timestamps and ISO strings
+5. **Use pandas and openpyxl** for Excel generation
+6. **Include error handling** — try/except around file I/O operations
+7. **Print progress messages** so the user can track execution
+
+---
+
+## SECTION 10: EXPECTED OUTPUT FILES
+
+After running all scripts, `results/phase1/` should contain:
+
+```
+results/phase1/
+├── forum_distribution.csv          # Task 1: Post counts per forum
+├── search_criteria.csv             # Task 2: Search methodology documentation
+├── so_tag_verification.csv         # Task 3: SO tag verification
+├── temporal_split_summary.csv      # Task 4: Pre/Post GenAI counts per forum
+├── phase1_master_spreadsheet.xlsx  # Task 5: Combined master spreadsheet
+├── phase1_master_spreadsheet.csv   # Task 5: CSV version
+└── temporal_split/
+    ├── pre_genai_posts.csv         # All Pre-GenAI posts
+    └── post_genai_posts.csv        # All Post-GenAI posts
+```
+
+---
+
+**END OF IMPLEMENTATION GUIDE**
+
+Use this document as your complete specification. Implement each section in order, test thoroughly, and validate all outputs before proceeding to the next task.

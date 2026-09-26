@@ -1,0 +1,6 @@
+Forum Used for topic Search,Identification Technique (Rules),Pre Gen of AI,Post Gen AI,Post Get,Inclusion Criteria,Exclusion Criteria,Total Post,Time Period,Keywords,Tags
+GitHub Issues,Term-based + Repo filter,331,211,542,Keywords in title/body; Repo has Java + C/C++; Not a PR,Build config only; Duplicates; Labeled 'invalid',542,2013-09-14 to 2026-06-16,"JNI, native method, Java Native Interface",N/A
+LLVM Discourse,Term-based + Category filter,16,0,16,Keywords present; In Development/Users/LLVM categories,LLVM IR only; Meeting announcements,16,2004-11-11 to 2022-10-19,"JNI, Java, FFI, native interop",N/A
+Stack Overflow,Hybrid (Tags + Keywords),7707,534,8241,Keywords OR Tags present; Body >= 100 chars,Closed/deleted; Duplicates; Non-Java tags only,8241,2008-08-01 to 2026-06-17,"JNI, Java Native Interface, UnsatisfiedLinkError","java-native-interface, jni, jniwrapper, jna"
+Bugzilla,Term-based + Component filter,406,11,417,Keywords present; Status not INVALID/DUPLICATE,UI/frontend only; Duplicates; No description,417,1998-09-09 to 2026-04-05,"JNI, native, Java",N/A
+Microsoft Q&A,Term-based + Category filter,0,0,660,Keywords present; In Java/Android/Cross-platform categories,.NET-only; Product announcements; Closed without resolution,660,Unknown to Unknown,"JNI, Java Native Interface, interop",N/A

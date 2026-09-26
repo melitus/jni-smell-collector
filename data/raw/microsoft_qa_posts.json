@@ -1,0 +1,3302 @@
+[
+  {
+    "title": "NotMyFault - Sysinternals",
+    "id": "9200",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "About the list of tools - Microsoft Edge Developer documentation",
+    "id": "9201",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enable memory integrity",
+    "id": "9202",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Read small memory dump files - Windows Client",
+    "id": "9203",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Step 4: Memory & Persistence",
+    "id": "9204",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "VMMap - Sysinternals",
+    "id": "9205",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Create and Use Memory - Microsoft Foundry",
+    "id": "9206",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Find and Fix Memory Leaks in Windows - Windows drivers",
+    "id": "9207",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Look For Potential Memory Leaks With PerfMon - Windows drivers",
+    "id": "9208",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PoolMon - Overview - Windows drivers",
+    "id": "9209",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Cache in-memory in ASP.NET Core",
+    "id": "9210",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Measure memory usage in your apps - Visual Studio (Windows)",
+    "id": "9211",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use PoolMon to Find a Kernel-Mode Memory Leak - Windows drivers",
+    "id": "9212",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Testlimit - Sysinternals",
+    "id": "9213",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Debug a memory leak tutorial - .NET",
+    "id": "9214",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "What is Memory? - Microsoft Foundry",
+    "id": "9215",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Look For User-Mode Memory Leak With PerfMon - Windows drivers",
+    "id": "9216",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Application or Service Memory Leaks Troubleshooting Guidance - Windows Server",
+    "id": "9217",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Analyze memory usage in the Performance Profiler - Visual Studio (Windows)",
+    "id": "9218",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot High Memory Usage in Applications - Internet Information Services",
+    "id": "9219",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Memory<T> and Span<T> usage guidelines - .NET",
+    "id": "9220",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Monitor Memory Usage - SQL Server",
+    "id": "9221",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Memory management and patterns in ASP.NET Core",
+    "id": "9222",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0x10E VIDEO_MEMORY_MANAGEMENT_INTERNAL - Windows drivers",
+    "id": "9223",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Memory leak occurs when printing documents in Windows 10 and 11 - Application Developer",
+    "id": "9224",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Finding a Kernel-Mode Memory Leak - Windows drivers",
+    "id": "9225",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Finding a User-Mode Memory Leak - Windows drivers",
+    "id": "9226",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Choose a memory analysis tool - Visual Studio (Windows)",
+    "id": "9227",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Data Capture for Managed Memory Leaks - Internet Information Services",
+    "id": "9228",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot native memory leak in an IIS 7.x application pool - Internet Information Services",
+    "id": "9229",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JNIEnv.DeleteLocalRef(IntPtr) Method (Android.Runtime)",
+    "id": "9230",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JNIEnv Class (Android.Runtime)",
+    "id": "9231",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamics 365 Finance documentation",
+    "id": "9232",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft Agent 365 documentation",
+    "id": "9233",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Define your naming convention - Cloud Adoption Framework",
+    "id": "9234",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Type '<typename>' is not defined - Visual Basic",
+    "id": "9235",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Entity Framework documentation hub",
+    "id": "9236",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "NotMyFault - Sysinternals",
+    "id": "9237",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Power Query M function reference - PowerQuery M",
+    "id": "9238",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Manage personal access tokens using policies - Azure DevOps",
+    "id": "9239",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DAX function reference - DAX",
+    "id": "9240",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Data Analysis Expressions (DAX) Reference - DAX",
+    "id": "9241",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure AKV references - Microsoft Fabric",
+    "id": "9242",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Understand variables in canvas apps - Power Apps",
+    "id": "9243",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Smart pointers (Modern C++)",
+    "id": "9244",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "The using directive: Import types from a namespace - C# reference",
+    "id": "9245",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "global.json overview - .NET CLI",
+    "id": "9246",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to find your tenant ID - Microsoft Entra",
+    "id": "9247",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to manage the global packages, HTTP cache, temp folders in NuGet",
+    "id": "9248",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Formula reference - canvas apps - Power Platform",
+    "id": "9249",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use a connection reference in a solution with Microsoft Dataverse - Power Apps",
+    "id": "9250",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install the Global Secure Access Client for Windows - Global Secure Access",
+    "id": "9251",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enable Compliant Network Check with Conditional Access - Global Secure Access",
+    "id": "9252",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Global Query Filters - EF Core",
+    "id": "9253",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Global Flags Editor - Overview - Windows drivers",
+    "id": "9254",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Work with global variables - Microsoft Copilot Studio",
+    "id": "9255",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Debug a memory leak tutorial - .NET",
+    "id": "9256",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "C docs - get started, tutorials, reference.",
+    "id": "9257",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot the Windows Global Secure Access client: Health check - Global Secure Access",
+    "id": "9258",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Object lifetime and resource management (RAII)",
+    "id": "9259",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Find and Fix Memory Leaks in Windows - Windows drivers",
+    "id": "9260",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Global Secure Access documentation - Global Secure Access",
+    "id": "9261",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft Intune documentation - Microsoft Intune",
+    "id": "9262",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamics 365 Supply Chain Management documentation",
+    "id": "9263",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamics 365 Finance documentation",
+    "id": "9264",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Minecraft: Bedrock Edition Creator Documentation",
+    "id": "9265",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "SharePoint documentation",
+    "id": "9266",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Power Query M function reference - PowerQuery M",
+    "id": "9267",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Understand variables in canvas apps - Power Apps",
+    "id": "9268",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Migrate C# Apps from In-process to Isolated Worker Model",
+    "id": "9269",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Object required (Error 424)",
+    "id": "9270",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "NuGet Package Restore",
+    "id": "9271",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Can't find project or library",
+    "id": "9272",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Type '<typename>' is not defined - Visual Basic",
+    "id": "9273",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "The using directive: Import types from a namespace - C# reference",
+    "id": "9274",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Office shared",
+    "id": "9275",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use a connection reference in a solution with Microsoft Dataverse - Power Apps",
+    "id": "9276",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Key Vault documentation",
+    "id": "9277",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Access",
+    "id": "9278",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use Key Vault References as App Settings - Azure App Service",
+    "id": "9279",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Assemblies in .NET - .NET",
+    "id": "9280",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "NuGet documentation",
+    "id": "9281",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure AKV references - Microsoft Fabric",
+    "id": "9282",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Excel Visual Basic for Applications (VBA) reference",
+    "id": "9283",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install the Global Secure Access Client for Windows - Global Secure Access",
+    "id": "9284",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Linker Tools Error LNK2005",
+    "id": "9285",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Specify the targeted .NET Frameworks - Visual Studio (Windows)",
+    "id": "9286",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Transact-SQL Reference (Database Engine) - SQL Server",
+    "id": "9287",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PowerPoint",
+    "id": "9288",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Work with global variables - Microsoft Copilot Studio",
+    "id": "9289",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Outlook",
+    "id": "9290",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Office client development",
+    "id": "9291",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Architecture Center - Azure Architecture Center",
+    "id": "9292",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure DevOps documentation",
+    "id": "9293",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Visual Studio 2019 version 16.11 Release Notes",
+    "id": "9294",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft C/C++ Documentation",
+    "id": "9295",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use the Azurite emulator for local Azure Storage development",
+    "id": "9296",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Minecraft: Bedrock Edition Creator Documentation",
+    "id": "9297",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Formula reference - canvas apps - Power Platform",
+    "id": "9298",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install and run the Azurite emulator for Azure Storage",
+    "id": "9299",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "decimal and numeric (Transact-SQL) - SQL Server",
+    "id": "9300",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Power Query M function reference - PowerQuery M",
+    "id": "9301",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Develop and run Azure Functions locally",
+    "id": "9302",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Windows Hardware Developer Documentation - Windows drivers",
+    "id": "9303",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Access",
+    "id": "9304",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DAX function reference - DAX",
+    "id": "9305",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Active Directory B2C documentation",
+    "id": "9306",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "WITH common_table_expression (Transact-SQL) - SQL Server",
+    "id": "9307",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Get started with Foundry Local - Foundry Local",
+    "id": "9308",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Local release information - Azure Local",
+    "id": "9309",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Accounts",
+    "id": "9310",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Office shared",
+    "id": "9311",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Excel Visual Basic for Applications (VBA) reference",
+    "id": "9312",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "NuGet documentation",
+    "id": "9313",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Local accounts",
+    "id": "9314",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "What is Foundry Local? - Foundry Local",
+    "id": "9315",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Windows AI",
+    "id": "9316",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Jump statements - break, continue, return, and goto - C# reference",
+    "id": "9317",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Release notes with fixed and known issues in Azure Local - Azure Local",
+    "id": "9318",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure AKV references - Microsoft Fabric",
+    "id": "9319",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "What's new in Hyperconverged Deployments of Azure Local latest release - Azure Local",
+    "id": "9320",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Translator documentation - quickstarts, tutorials, API reference - Foundry Tools",
+    "id": "9321",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Region availability for Foundry Models sold by Azure - Microsoft Foundry",
+    "id": "9322",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamics 365 Finance documentation",
+    "id": "9323",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamics 365 Supply Chain Management documentation",
+    "id": "9324",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure developer documentation",
+    "id": "9325",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Power Query M function reference - PowerQuery M",
+    "id": "9326",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Define your naming convention - Cloud Adoption Framework",
+    "id": "9327",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Type '<typename>' is not defined - Visual Basic",
+    "id": "9328",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Entity Framework documentation hub",
+    "id": "9329",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Understand variables in canvas apps - Power Apps",
+    "id": "9330",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Data Analysis Expressions (DAX) Reference - DAX",
+    "id": "9331",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DAX function reference - DAX",
+    "id": "9332",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Formula reference - canvas apps - Power Platform",
+    "id": "9333",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to find your tenant ID - Microsoft Entra",
+    "id": "9334",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install the Global Secure Access Client for Windows - Global Secure Access",
+    "id": "9335",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Excel Visual Basic for Applications (VBA) reference",
+    "id": "9336",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "The using directive: Import types from a namespace - C# reference",
+    "id": "9337",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use a connection reference in a solution with Microsoft Dataverse - Power Apps",
+    "id": "9338",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure AKV references - Microsoft Fabric",
+    "id": "9339",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "global.json overview - .NET CLI",
+    "id": "9340",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to manage the global packages, HTTP cache, temp folders in NuGet",
+    "id": "9341",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use Key Vault References as App Settings - Azure App Service",
+    "id": "9342",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Find a Global Training Partner",
+    "id": "9343",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Set up global navigation in the SharePoint app bar",
+    "id": "9344",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to configure connectors for Microsoft Entra Private Access - Global Secure Access",
+    "id": "9345",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Large object heap (LOH) on Windows - .NET",
+    "id": "9346",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft Cybersecurity Reference Architectures (MCRA)",
+    "id": "9347",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Work with global variables - Microsoft Copilot Studio",
+    "id": "9348",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Add references in the Reference Manager - Visual Studio (Windows)",
+    "id": "9349",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "C docs - get started, tutorials, reference.",
+    "id": "9350",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Global Query Filters - EF Core",
+    "id": "9351",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UnsatisfiedLinkError Class (Java.Lang)",
+    "id": "9352",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UnsatisfiedLinkError Constructor (Java.Lang)",
+    "id": "9353",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Programming ADSI with Java/COM - Win32 apps",
+    "id": "9354",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshooting Bindings - .NET for Android",
+    "id": "9355",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UnsatisfiedLinkError.JniPeerMembers Property (Java.Lang)",
+    "id": "9356",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "AdoptOpenJDK 8 issue on Windows 10 Enterprise - Microsoft Q&A",
+    "id": "9357",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Overview - .NET for Android",
+    "id": "9358",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UnsatisfiedLinkError.ThresholdClass Property (Java.Lang)",
+    "id": "9359",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Getting below error when appending data in a parquet file stored in azure data lake gen2 - Microsoft Q&A",
+    "id": "9360",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UnsatisfiedLinkError.ThresholdType Property (Java.Lang)",
+    "id": "9361",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Runtime.Load(String) Method (Java.Lang)",
+    "id": "9362",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java.Lang Namespace",
+    "id": "9363",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Android SpeechConfig.fromSubscription(subscriptionKey, region) java.lang.UnsatisfiedLinkError - Microsoft Q&A",
+    "id": "9364",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Skip DLL file loading in Windows Authentication - Microsoft Q&A",
+    "id": "9365",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Runtime.LoadLibrary(String) Method (Java.Lang)",
+    "id": "9366",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "problem in java - Microsoft Q&A",
+    "id": "9367",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Create and run JARs on serverless compute - Azure Databricks",
+    "id": "9368",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Exception while running Azure Speech to text SDK with jar file (UnsatisfiedLinkError , setTempDirectory) - Microsoft Q&A",
+    "id": "9369",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Can I do voice-to-text conversion on an actual Android device? - Microsoft Q&A",
+    "id": "9370",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Exception in SpeechConfig setTempDirectory - Microsoft Q&A",
+    "id": "9371",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure speech service can not use - Microsoft Q&A",
+    "id": "9372",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JavaSystem.LoadLibrary(String) Method (Java.Lang)",
+    "id": "9373",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to fix java.lang.UnsatisfiedLinkError: E:\\ProjecName\\jre64\\bin\\chrome_elf.dll: \u627e\u4e0d\u5230\u6307\u5b9a\u7684\u7a0b\u5e8f(Translate:The specifiled program could not be found) - Microsoft Q&A",
+    "id": "9374",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Text Speech when SpeechConfig init got error - Microsoft Q&A",
+    "id": "9375",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Spatial Anchors Android NDK lib fails to load when minify enabled - Microsoft Q&A",
+    "id": "9376",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "java.lang.UnsatisfiedLinkError trying to run Azure text to speech quickstart - Microsoft Q&A",
+    "id": "9377",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to debug and fix 'Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR)' error on MAUI Android app - Microsoft Q&A",
+    "id": "9378",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "SIGSEGV when setting ImageSource - Microsoft Q&A",
+    "id": "9379",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "OsConstants.Sigsegv Property (Android.Systems)",
+    "id": "9380",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Minecraft Java : Error code: 0 / EXCEPTION_ACCESS_VIOLATION (0xc0000005) - Microsoft Q&A",
+    "id": "9381",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How do I fix the hs_err_pid? - Microsoft Q&A",
+    "id": "9382",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "i am finding this error again and again in minecraft - Microsoft Q&A",
+    "id": "9383",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "I received this fatal error How do I fix it?? - Microsoft Q&A",
+    "id": "9384",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "hs_err_pid4008 errors- how do I get rid of this? - Microsoft Q&A",
+    "id": "9385",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "minecart and pc problem - Microsoft Q&A",
+    "id": "9386",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "(fixed) minecraft forge crashes with: EXCEPTION_ACCESS_VIOLATION (0xc0000005) atio6axx.dll error - Microsoft Q&A",
+    "id": "9387",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java application crashing randomly with no error logs.  NTDLL and 0xc0000409 listed in event viewer. - Microsoft Q&A",
+    "id": "9388",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "App crashes on android after about 1 hr usage with Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 6664 (SGen worker) - Microsoft Q&A",
+    "id": "9389",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JVM Error: EXCEPTION_ACCESS_VIOLATION (0xc0000005) - Microsoft Q&A",
+    "id": "9390",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "I keep getting error hs_err _pid 5472.log Notepad and hs_err _pid3852.log  I don't understand what that means. I haven't installed anything new. - Microsoft Q&A",
+    "id": "9391",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java on Azure Fundamentals Documentation - Java on Azure",
+    "id": "9392",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure SDK for Java Documentation - Java on Azure",
+    "id": "9393",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "minecraft crash - Microsoft Q&A",
+    "id": "9394",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Reasons to move to Java 25 - Azure",
+    "id": "9395",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Upgrade Java Apps by Using GitHub Copilot App Modernization",
+    "id": "9396",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java Runtimes with jlink",
+    "id": "9397",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "EXCEPTION_ACCESS_VIOLATION (0xc0000005) in Minecraft - Microsoft Q&A",
+    "id": "9398",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Application Crash  Code:  c0000409    SubCode:  FAST_FAIL_INVALID_SET_OF_CONTEXT   What does the subcode mean? - Microsoft Q&A",
+    "id": "9399",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Tools for Java Developers - Java on Azure",
+    "id": "9400",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Minecraft keeps crashing on windows ten - Microsoft Q&A",
+    "id": "9401",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Reasons to move to Java 11 - Azure",
+    "id": "9402",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java error - Microsoft Q&A",
+    "id": "9403",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to fix LWGL 'EXCEPTION_ACCESS_VIOLATION' error - Microsoft Q&A",
+    "id": "9404",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure AI for Java Documentation - Java on Azure",
+    "id": "9405",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure for Java developer documentation",
+    "id": "9406",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java EE, Jakarta EE, and MicroProfile - Java on Azure",
+    "id": "9407",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Application-defined or object-defined error",
+    "id": "9408",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DebugView - Sysinternals",
+    "id": "9409",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Introduction to TroubleShootingScript toolset (TSS) - Windows Client",
+    "id": "9410",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "ProcDump - Sysinternals",
+    "id": "9411",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Automation error (Error 440)",
+    "id": "9412",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MS-ERREF]: NTSTATUS Values",
+    "id": "9413",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Handle - Sysinternals",
+    "id": "9414",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Logging in C# - .NET",
+    "id": "9415",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Registry entries about Kerberos protocol and Key Distribution Center (KDC) - Windows Server",
+    "id": "9416",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Activity Log in Azure Monitor - Azure Monitor",
+    "id": "9417",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Kerberos Authentication Troubleshooting Guidance - Windows Server",
+    "id": "9418",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "On Error statement (VBA)",
+    "id": "9419",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Ingest syslog and CEF messages to Microsoft Sentinel - AMA",
+    "id": "9420",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Find Process ID (PID) in Windows - Windows drivers",
+    "id": "9421",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "hs_err_pid error keeps popping up on notepad on my desktop.  I delete it but it keeps coming back - Microsoft Q&A",
+    "id": "9422",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "what are hs_err_pid5 and hs_err_pid1? and what do I need to do? - Microsoft Q&A",
+    "id": "9423",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enable Kerberos event logging - Windows Server",
+    "id": "9424",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Windows Setup Log Files and Event Logs",
+    "id": "9425",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "hs_err_pid - Microsoft Q&A",
+    "id": "9426",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Single database vCore resource limits - Azure SQL Database",
+    "id": "9427",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Windows Setup Edition Configuration and Product ID Files (EI.cfg and PID.txt)",
+    "id": "9428",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "HubSpot CRM (Independent Publisher) - Connectors",
+    "id": "9429",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Monitor Logs reference - NetworkAccessTraffic - Azure Monitor",
+    "id": "9430",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "KSPROPERTY_BDA_PIDFILTER_UNMAP_PIDS - Windows drivers",
+    "id": "9431",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "sys.dm_hs_database_log_rate (Transact-SQL) - SQL Server",
+    "id": "9432",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "HS_NETWORK_PROFILE structure - Windows drivers",
+    "id": "9433",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "HS_PLUGIN_QUERY_HIDDEN_NETWORK function - Windows drivers",
+    "id": "9434",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "MIB_TCPTABLE_OWNER_PID (tcpmib.h) - Win32 apps",
+    "id": "9435",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "HS_PLUGIN_PROFILE structure - Windows drivers",
+    "id": "9436",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "HS_PLUGIN_START_POST_CONNECT_AUTH function - Windows drivers",
+    "id": "9437",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Release Notes for OLE DB Driver - OLE DB Driver for SQL Server",
+    "id": "9438",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "NotMyFault - Sysinternals",
+    "id": "9439",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Visual Studio App Center - Visual Studio App Center",
+    "id": "9440",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Debugging Tools for Windows SDK and WDK - Windows drivers",
+    "id": "9441",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DebugView - Sysinternals",
+    "id": "9442",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Generate a kernel or complete crash dump - Windows Client",
+    "id": "9443",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Collecting User-Mode Dumps - Win32 apps",
+    "id": "9444",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to determine the appropriate page file size for 64-bit versions of Windows - Windows Client",
+    "id": "9445",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Speechsynthesizer causes JVM crash during finalization (Speech client-sdk for Java) - Microsoft Q&A",
+    "id": "9446",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IForeachWriter.Close(Exception) Method (Microsoft.Spark.Sql) - .NET for Apache Spark",
+    "id": "9447",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Forcing a System Crash from the Keyboard - Windows drivers",
+    "id": "9448",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "The application or service crashing behavior troubleshooting guidance - Windows Server",
+    "id": "9449",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Containerize your Java Applications - Java on Azure",
+    "id": "9450",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to get the exception context address from a crashed process using its handle - Microsoft Q&A",
+    "id": "9451",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "About agentless multi-disk crash-consistent backup for Azure Virtual Machines by using Azure Backup - Azure Backup",
+    "id": "9452",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "App Restart Issues Caused by Out-of-Memory Issues - Azure Spring Apps",
+    "id": "9453",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tools to Troubleshoot Memory Issues - Azure Spring Apps",
+    "id": "9454",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use the Diagnostic Settings of JVM Options for Advanced Troubleshooting in Azure Spring Apps",
+    "id": "9455",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot a Process Crash in an IIS Application Pool - Internet Information Services",
+    "id": "9456",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "App Center Crashes for React Native - Visual Studio App Center",
+    "id": "9457",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Command Launcher for Java",
+    "id": "9458",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0xE2 MANUALLY_INITIATED_CRASH - Windows drivers",
+    "id": "9459",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "FeatureBase<T>.ToString Method (Microsoft.Spark.ML.Feature) - .NET for Apache Spark",
+    "id": "9460",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Forcing a System Crash from the Debugger - Windows drivers",
+    "id": "9461",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Forcing a System Crash - Windows drivers",
+    "id": "9462",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IJarUploadedUserSourceInfo.JvmOption Property (Microsoft.Azure.PowerShell.Cmdlets.SpringCloud.Models.Api20220401)",
+    "id": "9463",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": ".crash (Force System Crash) - Windows drivers",
+    "id": "9464",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Open a Dump File with WinDbg - Windows drivers",
+    "id": "9465",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JarUploadedUserSourceInfo.JvmOption Property (Microsoft.Azure.PowerShell.Cmdlets.SpringCloud.Models.Api20220401)",
+    "id": "9466",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IJarUploadedUserSourceInfo.JvmOption Property (Microsoft.Azure.PowerShell.Cmdlets.SpringCloud.Models)",
+    "id": "9467",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Release Notes for OLE DB Driver - OLE DB Driver for SQL Server",
+    "id": "9468",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "An overview on Windows Terminal",
+    "id": "9469",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to serialize JSON in C# - .NET",
+    "id": "9470",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to deserialize JSON in C# - .NET",
+    "id": "9471",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Collation and Unicode Support - SQL Server",
+    "id": "9472",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "char and varchar (Transact-SQL) - SQL Server",
+    "id": "9473",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Built-in reference types - C# reference",
+    "id": "9474",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "nchar and nvarchar (Transact-SQL) - SQL Server",
+    "id": "9475",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Resolve errors and warnings for string literal declarations - C# reference",
+    "id": "9476",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JsonSerializer.Deserialize Method (System.Text.Json)",
+    "id": "9477",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "MultiByteToWideChar function (stringapiset.h) - Win32 apps",
+    "id": "9478",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "System.Text.Json Namespace",
+    "id": "9479",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use UTF-8 code pages in Windows apps - Windows apps",
+    "id": "9480",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Strange characters in Outlook email text - Outlook",
+    "id": "9481",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JsonSerializer Class (System.Text.Json)",
+    "id": "9482",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "about_Character_Encoding - PowerShell",
+    "id": "9483",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Encoding.UTF8 Property (System.Text)",
+    "id": "9484",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "RandomAccessFile.WriteUTF(String) Method (Java.IO)",
+    "id": "9485",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "/utf-8 (Set source and execution character sets to UTF-8)",
+    "id": "9486",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "ObjectInputStream.ReadUTF Method (Java.IO)",
+    "id": "9487",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MS-ISO10646]: [ISO10646] Section D.4, Mapping from UCS-4 form to UTF-8 form",
+    "id": "9488",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UTF-8 character ranges for modern gamertags - Microsoft Game Development Kit",
+    "id": "9489",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "December 21, 2015 - UTF-8 Encoding of Reporting Data",
+    "id": "9490",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MS-BCP]: Glossary",
+    "id": "9491",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Utf8 Class (System.Text.Unicode)",
+    "id": "9492",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MS-OFFCRYPTO]: Length-Prefixed UTF-8 String (UTF-8-LP-P4)",
+    "id": "9493",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MC-NBFX]: Chars8Text Record (0x98)",
+    "id": "9494",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot: Reading UTF-8 text from CSV or PARQUET files using serverless SQL pool - Azure Synapse Analytics",
+    "id": "9495",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Utf8.TryWriteInterpolatedStringHandler Struct (System.Text.Unicode)",
+    "id": "9496",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UTF-8 Support in OLE DB Driver for SQL Server - OLE DB Driver for SQL Server",
+    "id": "9497",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Cost Management + Billing - Microsoft Cost Management",
+    "id": "9498",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "char and varchar (Transact-SQL) - SQL Server",
+    "id": "9499",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Value types - C# reference",
+    "id": "9500",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Plan and Manage Costs - Microsoft Foundry",
+    "id": "9501",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tutorial - Create and manage Cost Management exports - Microsoft Cost Management",
+    "id": "9502",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Understand Cost Management data - Microsoft Cost Management",
+    "id": "9503",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Plan costs and understand pricing and billing - Microsoft Sentinel",
+    "id": "9504",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "const and volatile pointers",
+    "id": "9505",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFEventsEventContents - PlayFab",
+    "id": "9506",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "The const keyword - C# reference",
+    "id": "9507",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Assign access to Cost Management data - Microsoft Cost Management",
+    "id": "9508",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "char attribute - Win32 apps",
+    "id": "9509",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "CA1834: Use StringBuilder.Append(char) for single character strings (code analysis) - .NET",
+    "id": "9510",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "azureml.automl.runtime.shared.pipeline_spec.EnsembleObject class - Azure Machine Learning Python",
+    "id": "9511",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tutorial - Create and manage budgets - Microsoft Cost Management",
+    "id": "9512",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFCharacterResult - PlayFab",
+    "id": "9513",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Upgrade to a general-purpose v2 storage account - Azure Storage",
+    "id": "9514",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFAccountManagementLinkGameCenterAccountRequest - PlayFab",
+    "id": "9515",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFEvent - PlayFab",
+    "id": "9516",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "What are Azure Reservations? - Microsoft Cost Management",
+    "id": "9517",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFCatalogReportItemReviewRequest - PlayFab",
+    "id": "9518",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Overview of Cost Management - Microsoft Cost Management",
+    "id": "9519",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFItemInstance - PlayFab",
+    "id": "9520",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFMultiplayerServerRequestMultiplayerServerResponse - PlayFab",
+    "id": "9521",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFLinkedPlatformAccountModel - PlayFab",
+    "id": "9522",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFInventoryTransactionRedeemDetails - PlayFab",
+    "id": "9523",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFCatalogContent - PlayFab",
+    "id": "9524",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFUserOpenIdInfo - PlayFab",
+    "id": "9525",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFCatalogImage - PlayFab",
+    "id": "9526",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PFUserGoogleInfo - PlayFab",
+    "id": "9527",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "The array reference type - C# reference",
+    "id": "9528",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array Class (System)",
+    "id": "9529",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use data operations in Power Automate - Power Automate",
+    "id": "9530",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Create and run simple C# console applications (Get started with C#, Part 2) - Training",
+    "id": "9531",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Everything you wanted to know about arrays - PowerShell",
+    "id": "9532",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Perform operations on data - Azure Logic Apps",
+    "id": "9533",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Using arrays (VBA)",
+    "id": "9534",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Explore ranges of data using indices and ranges - C#",
+    "id": "9535",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "about_Arrays - PowerShell",
+    "id": "9536",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Store and Iterate Through Sequences of Data using Arrays and the foreach Statement in C# - Training",
+    "id": "9537",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array.Copy Method (System)",
+    "id": "9538",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Arrays (C++)",
+    "id": "9539",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Arrays - Visual Basic",
+    "id": "9540",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Declaring arrays (VBA)",
+    "id": "9541",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array.IndexOf Method (System)",
+    "id": "9542",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Arrays - C# language specification",
+    "id": "9543",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Resolve errors and warnings related to array and collection declarations and initializations - C# reference",
+    "id": "9544",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bicep functions - arrays - Azure Resource Manager",
+    "id": "9545",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to convert a byte array to an int - C#",
+    "id": "9546",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array.CopyTo Method (System)",
+    "id": "9547",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Get byte array from a variant variable - Microsoft Q&A",
+    "id": "9548",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array.BinarySearch Method (System)",
+    "id": "9549",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array.Reverse Method (System)",
+    "id": "9550",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array function (Visual Basic for Applications)",
+    "id": "9551",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array methods - Business Central",
+    "id": "9552",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Array.Clone Method (System)",
+    "id": "9553",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Multidimensional Arrays (C)",
+    "id": "9554",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "array Class (C++ Standard Library)",
+    "id": "9555",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to: Assign One Array to Another Array - Visual Basic",
+    "id": "9556",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to: Obtain a Pointer to Byte Array",
+    "id": "9557",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Fix Windows Update corruptions and installation failures - Windows Server",
+    "id": "9558",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Prepare a Win32 App to Be Uploaded to Microsoft Intune - Microsoft Intune",
+    "id": "9559",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "upgrade Command",
+    "id": "9560",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "install Command",
+    "id": "9561",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Custom date and time format strings - .NET",
+    "id": "9562",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "STRING_SPLIT (Transact-SQL) - SQL Server",
+    "id": "9563",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0xEF CRITICAL_PROCESS_DIED - Windows drivers",
+    "id": "9564",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Encrypt Windows devices with BitLocker using Intune - Microsoft Intune",
+    "id": "9565",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install console - Configuration Manager",
+    "id": "9566",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0x139 KERNEL_SECURITY_CHECK_FAILURE - Windows drivers",
+    "id": "9567",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install the sensor v2.x - Microsoft Defender for Identity",
+    "id": "9568",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Error 0x800f0831 when installing an update - Windows Server",
+    "id": "9569",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Common errors in MSAL JS - Microsoft Authentication Library for JavaScript",
+    "id": "9570",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Anti-Corruption Layer Pattern - Azure Architecture Center",
+    "id": "9571",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Deploy Microsoft Defender for Endpoint on iOS with Microsoft Intune - Microsoft Defender for Endpoint",
+    "id": "9572",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enforcing BitLocker policies by using Intune: known issues - Windows Client",
+    "id": "9573",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0x13A KERNEL_MODE_HEAP_CORRUPTION - Windows drivers",
+    "id": "9574",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "GitUtils Class (Microsoft.TeamFoundation.SourceControl.WebApi)",
+    "id": "9575",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "GitUtils.SafeUnicodeLENoBOM Field (Microsoft.TeamFoundation.SourceControl.WebApi)",
+    "id": "9576",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Guidance for Troubleshooting Data Corruption and Disk Errors - Windows Server",
+    "id": "9577",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Silently configure user accounts - SharePoint in Microsoft 365",
+    "id": "9578",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Breaking change: CRC32 validation added when reading ZIP archive entries - .NET",
+    "id": "9579",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Teams Silent Testing - Microsoft Teams",
+    "id": "9580",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IX509CertificateRequestPkcs7.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9581",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "CSignerCertificateClass.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9582",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IX509CertificateRequestCmc2.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9583",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IX509CertificateRequestPkcs10.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9584",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IX509CertificateRequestPkcs10V2.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9585",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "CX509PrivateKeyClass.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9586",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IX509CertificateRequestCmc.Silent Property (Microsoft.Hpc.Scheduler.Store)",
+    "id": "9587",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "What Are Paginated Reports in Power Bi? - Power BI",
+    "id": "9588",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "BitLocker FAQ",
+    "id": "9589",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PowerToys Always On Top Utility for Windows",
+    "id": "9590",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PowerToys Command Palette Utility for Windows",
+    "id": "9591",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Certificate Authority details",
+    "id": "9592",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Agent Registry in Microsoft 365 admin center - Microsoft 365 admin",
+    "id": "9593",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PassportForWork CSP",
+    "id": "9594",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PowerToys Peek Utility - Preview Files Without Opening Apps",
+    "id": "9595",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Step 4: Memory & Persistence",
+    "id": "9596",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "BitLocker countermeasures",
+    "id": "9597",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enable memory integrity",
+    "id": "9598",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Add the Power BI app to Microsoft Teams - Power BI",
+    "id": "9599",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "What is Memory? - Microsoft Foundry",
+    "id": "9600",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Upgrade to a new .NET version - .NET",
+    "id": "9601",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "WinGet",
+    "id": "9602",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure the Windows Taskbar Pinned Apps with Policy Settings",
+    "id": "9603",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Create and Use Memory - Microsoft Foundry",
+    "id": "9604",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Storage Spaces Direct overview",
+    "id": "9605",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Cache in-memory in ASP.NET Core",
+    "id": "9606",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Server Memory Configuration Options - SQL Server",
+    "id": "9607",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Manage agents and app setup policies in Microsoft Teams - Microsoft Teams",
+    "id": "9608",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Storage Spaces Direct Hardware Requirements in Windows Server",
+    "id": "9609",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Pin Microsoft 365 Copilot Chat in the Microsoft 365 apps",
+    "id": "9610",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Deploy Storage Spaces Direct on Windows Server",
+    "id": "9611",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Pin Microsoft 365 Copilot and its companion apps to the Windows taskbar",
+    "id": "9612",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Develop Direct Lake semantic models - Microsoft Fabric",
+    "id": "9613",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Copying and Pinning - .NET Framework",
+    "id": "9614",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "CcPinRead function (ntifs.h) - Windows drivers",
+    "id": "9615",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "MemoryMarshal Class (System.Runtime.InteropServices)",
+    "id": "9616",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IPinnable.Pin(Int32) Method (System.Buffers)",
+    "id": "9617",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tutorial - Customize Microsoft Entra attribute mappings in Application Provisioning - Microsoft Entra ID",
+    "id": "9618",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Records - C# reference",
+    "id": "9619",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bing Maps Documentation - Bing Maps",
+    "id": "9620",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bulk import or export test cases - Azure Test Plans",
+    "id": "9621",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure Workday for automatic user provisioning with Microsoft Entra ID - Microsoft Entra ID",
+    "id": "9622",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Introduction to AI-powered information extraction concepts - Training",
+    "id": "9623",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Transport Layer Security (TLS) registry settings",
+    "id": "9624",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Structure types - C# reference",
+    "id": "9625",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Package Source Mapping",
+    "id": "9626",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tenant-to-tenant migrations - Power Platform",
+    "id": "9627",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Create an ArcGIS Map in Power BI - Power BI",
+    "id": "9628",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Mapping data flows - Azure Data Factory",
+    "id": "9629",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "C# structs - C#",
+    "id": "9630",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IStruct Interface (Java.Sql)",
+    "id": "9631",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tips and Tricks for maps (including Bing Maps integration) - Power BI",
+    "id": "9632",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Get started with Azure Maps Power BI visual - Microsoft Azure Maps",
+    "id": "9633",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Learn about Microsoft Purview Data Map",
+    "id": "9634",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "TypeManager.RegisterType(String, Type) Method (Android.Runtime)",
+    "id": "9635",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Import data from Excel and export data to CSV - Power Apps",
+    "id": "9636",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Attribute mapping in Microsoft Entra Cloud Sync - Microsoft Entra ID",
+    "id": "9637",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Advanced table mapping - EF Core",
+    "id": "9638",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MS-UNMP]: Header File Content",
+    "id": "9639",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Overview of Map Visualizations in Power BI - Power BI",
+    "id": "9640",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Fluent API - Configuring and Mapping Properties and Types - EF6",
+    "id": "9641",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Synchronize attributes to Microsoft Entra ID for mapping - Microsoft Entra ID",
+    "id": "9642",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "[MS-UNMP]: mapping",
+    "id": "9643",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DTS_EXTENSION_MAPPING_INFO Struct (Microsoft.SqlServer.Dts.Runtime.Wrapper.Sql2016)",
+    "id": "9644",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DTS_EXTENSION_MAPPING_INFO Struct (Microsoft.SqlServer.Dts.Runtime.Wrapper.Sql2017)",
+    "id": "9645",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DTS_EXTENSION_MAPPING_INFO Struct (Microsoft.SqlServer.Dts.Runtime.Wrapper.Sql2014)",
+    "id": "9646",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Mapping the tables and fields to synchronize - Business Central",
+    "id": "9647",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure developer documentation",
+    "id": "9648",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Key Vault documentation",
+    "id": "9649",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Active Directory B2C documentation",
+    "id": "9650",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft for Java Developers",
+    "id": "9651",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft identity platform documentation - Microsoft identity platform",
+    "id": "9652",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Introduction to Azure Service Bus Messaging - Azure Service Bus",
+    "id": "9653",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Overview of the Microsoft Authentication Library (MSAL) - Microsoft identity platform",
+    "id": "9654",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure for Java Developer Documentation - Java on Azure",
+    "id": "9655",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft Authentication Libraries (MSAL) documentation",
+    "id": "9656",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enable OpenTelemetry in Application Insights - Azure Monitor",
+    "id": "9657",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": ".NET for Android",
+    "id": "9658",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft 365 developer documentation - Microsoft 365 Developer",
+    "id": "9659",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Code samples for authentication and authorization - Microsoft identity platform",
+    "id": "9660",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install the Microsoft Build of OpenJDK",
+    "id": "9661",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Can't find project or library",
+    "id": "9662",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Authentication and authorization basics - Microsoft Graph",
+    "id": "9663",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Service Bus Queues, Topics, and Subscriptions - Azure Service Bus",
+    "id": "9664",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Learn about retention for SharePoint and OneDrive",
+    "id": "9665",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Excel Online (Business) - Connectors",
+    "id": "9666",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Linker Tools Error LNK1104",
+    "id": "9667",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install and use packages with CMake",
+    "id": "9668",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Automate your workflow with GitHub Actions Part 1 of 2 - Training",
+    "id": "9669",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install .NET for Android dependencies - .NET for Android",
+    "id": "9670",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Choose a Microsoft Graph authentication provider - Microsoft Graph",
+    "id": "9671",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tips for Java Developers - A tour of C#",
+    "id": "9672",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Working with files in Microsoft Graph - Microsoft Graph v1.0",
+    "id": "9673",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft C/C++ Documentation",
+    "id": "9674",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Build .NET applications with C# - Training",
+    "id": "9675",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft identity platform authentication libraries - Microsoft identity platform",
+    "id": "9676",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install libraries - Azure Databricks",
+    "id": "9677",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "LoadLibraryA function (libloaderapi.h) - Win32 apps",
+    "id": "9678",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "GetProcAddress function (libloaderapi.h) - Win32 apps",
+    "id": "9679",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DllMain entry point (Process.h) - Win32 apps",
+    "id": "9680",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamic-link library redirection - Win32 apps",
+    "id": "9681",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Operating System Version - Win32 apps",
+    "id": "9682",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JavaSystem.LoadLibrary(String) Method (Java.Lang)",
+    "id": "9683",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "LoadLibraryW function (libloaderapi.h) - Win32 apps",
+    "id": "9684",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamic-Link Library Security - Win32 apps",
+    "id": "9685",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "LoadLibrary and AfxLoadLibrary",
+    "id": "9686",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Using Hooks - Win32 apps",
+    "id": "9687",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "_LoadLibrary function - Win32 apps",
+    "id": "9688",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Using Resources - Win32 apps",
+    "id": "9689",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "SetDllDirectoryA function (winbase.h) - Win32 apps",
+    "id": "9690",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "FreeLibrary function (libloaderapi.h) - Win32 apps",
+    "id": "9691",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Searching for Assembly Files - Win32 apps",
+    "id": "9692",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Looking Up Text for Error Code Numbers - Win32 apps",
+    "id": "9693",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Loading a Win32 PE Resource Module - Win32 apps",
+    "id": "9694",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Decorated Symbol Names - Win32 apps",
+    "id": "9695",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "LoadLibrary function returns STATUS_DLL_NOT_FOUND error on impersonate thread in Windows - Windows Client",
+    "id": "9696",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Detect API set availability - Win32 apps",
+    "id": "9697",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Runtime.LoadLibrary(String) Method (Java.Lang)",
+    "id": "9698",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Security Considerations Text Services Framework - Win32 apps",
+    "id": "9699",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IsHungAppWindow function (winuser.h) - Win32 apps",
+    "id": "9700",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Run-Time linking to Wtsapi32.dll - Win32 apps",
+    "id": "9701",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "TelIsOsInProcessorMode function - Win32 apps",
+    "id": "9702",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Calling Internal APIs - Win32 apps",
+    "id": "9703",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "pSetupInstallCatalog function - Win32 apps",
+    "id": "9704",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IcfgNeedInetComponents function - Win32 apps",
+    "id": "9705",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "RtlIsNameLegalDOS8Dot3 function (winternl.h) - Win32 apps",
+    "id": "9706",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "TF_GetThreadMgr function (msctf.h) - Win32 apps",
+    "id": "9707",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Access Denied or You need permission errors in SharePoint Online and OneDrive - SharePoint",
+    "id": "9708",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot Access and XLS import issues in Power BI - Power BI",
+    "id": "9709",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "vcpkg overview",
+    "id": "9710",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install .NET for Android dependencies - .NET for Android",
+    "id": "9711",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Native interoperability - .NET",
+    "id": "9712",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Troubleshoot binary caching issues",
+    "id": "9713",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "IllegalFormatConversionException Constructor (Java.Util)",
+    "id": "9714",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Android ABI mismatch.  ADB0020 - Microsoft Q&A",
+    "id": "9715",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0x1 APC_INDEX_MISMATCH - Windows drivers",
+    "id": "9716",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Interop between C++/WinRT and the ABI - UWP applications",
+    "id": "9717",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Understanding Arm64EC ABI and assembly code",
+    "id": "9718",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0x17E MICROCODE_REVISION_MISMATCH - Windows drivers",
+    "id": "9719",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": ".NET for Android error/warning XA4301 - .NET for Android",
+    "id": "9720",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Build.CpuAbi2 Property (Android.OS)",
+    "id": "9721",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Overview of ARM64EC ABI conventions",
+    "id": "9722",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Error: alloc-dealloc-mismatch",
+    "id": "9723",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "BlueHat Security Briefing: Fall 2014 Defining and Enforcing Intent Semantics at ABI level - Sergey Bratus & Julian Bangert",
+    "id": "9724",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Build.CpuAbi Property (Android.OS)",
+    "id": "9725",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "C_ABI_PARAMETER - Windows App SDK",
+    "id": "9726",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Native interoperability ABI support - .NET",
+    "id": "9727",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Build.SupportedAbis Property (Android.OS)",
+    "id": "9728",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "C_ABI_PARAMETER - Windows App SDK",
+    "id": "9729",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "ABI_PARAMETER - Windows App SDK",
+    "id": "9730",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": ".NET for Android error XA0115 - .NET for Android",
+    "id": "9731",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "C_ABI_PARAMETER - Windows App SDK",
+    "id": "9732",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Direct3D API for the Windows App SDK - Windows App SDK",
+    "id": "9733",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "winrtdirect3d11 - Windows App SDK",
+    "id": "9734",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Build.Supported32BitAbis Property (Android.OS)",
+    "id": "9735",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "ABI_CONCAT - Windows App SDK",
+    "id": "9736",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "winrt::detach_abi function (C++/WinRT) - Windows UWP applications",
+    "id": "9737",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure developer documentation",
+    "id": "9738",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Data Analysis Expressions (DAX) Reference - DAX",
+    "id": "9739",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Power Query M function reference - PowerQuery M",
+    "id": "9740",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DAX function reference - DAX",
+    "id": "9741",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use Key Vault References as App Settings - Azure App Service",
+    "id": "9742",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "User-defined type not defined (VBA)",
+    "id": "9743",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Use a connection reference in a solution with Microsoft Dataverse - Power Apps",
+    "id": "9744",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Excel Visual Basic for Applications (VBA) reference",
+    "id": "9745",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Configure AKV references - Microsoft Fabric",
+    "id": "9746",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft Cybersecurity Reference Architectures (MCRA)",
+    "id": "9747",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.References.CreatedReference(JniObjectReference) Method (Java.Interop)",
+    "id": "9748",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Flow.ISubscription Interface (Java.Util.Concurrent)",
+    "id": "9749",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PathMeasure Constructor (Android.Graphics)",
+    "id": "9750",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.References Class (Java.Interop)",
+    "id": "9751",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Reference(IntPtr, JniHandleOwnership) Constructor (Java.Lang.Ref)",
+    "id": "9752",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "BaseObj(IntPtr, JniHandleOwnership) Constructor (Android.Renderscripts)",
+    "id": "9753",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "PackageInstaller(IntPtr, JniHandleOwnership) Constructor (Android.Content.PM)",
+    "id": "9754",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Type(IntPtr, JniHandleOwnership) Constructor (Android.Renderscripts)",
+    "id": "9755",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "ImageReader(IntPtr, JniHandleOwnership) Constructor (Android.Media)",
+    "id": "9756",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JavaCollection(IntPtr, JniHandleOwnership) Constructor (Android.Runtime)",
+    "id": "9757",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "FaceDetector.Face(IntPtr, JniHandleOwnership) Constructor (Android.Media)",
+    "id": "9758",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JsPromptResult(IntPtr, JniHandleOwnership) Constructor (Android.Webkit)",
+    "id": "9759",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DevicePolicyManager(IntPtr, JniHandleOwnership) Constructor (Android.App.Admin)",
+    "id": "9760",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "BackupDataInput(IntPtr, JniHandleOwnership) Constructor (Android.App.Backup)",
+    "id": "9761",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Touch(IntPtr, JniHandleOwnership) Constructor (Android.Text.Method)",
+    "id": "9762",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "SensorEvent(IntPtr, JniHandleOwnership) Constructor (Android.Hardware)",
+    "id": "9763",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "AllocationAdapter(IntPtr, JniHandleOwnership) Constructor (Android.Renderscripts)",
+    "id": "9764",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "UsbManager(IntPtr, JniHandleOwnership) Constructor (Android.Hardware.Usb)",
+    "id": "9765",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Movie(IntPtr, JniHandleOwnership) Constructor (Android.Graphics)",
+    "id": "9766",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "BackupDataInputStream(IntPtr, JniHandleOwnership) Constructor (Android.App.Backup)",
+    "id": "9767",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure developer documentation",
+    "id": "9768",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Windows developer tools",
+    "id": "9769",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Introduction to Semantic Kernel",
+    "id": "9770",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure App Service documentation - Azure App Service",
+    "id": "9771",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Speech Documentation - Tutorials, API Reference - Foundry Tools",
+    "id": "9772",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft for Java Developers",
+    "id": "9773",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Release Notes - JDBC Driver for SQL Server",
+    "id": "9774",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Microsoft Foundry Quickstart - Microsoft Foundry",
+    "id": "9775",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Enable OpenTelemetry in Application Insights - Azure Monitor",
+    "id": "9776",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Code samples for authentication and authorization - Microsoft identity platform",
+    "id": "9777",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Introduction to Azure Service Bus Messaging - Azure Service Bus",
+    "id": "9778",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure for Java Developer Documentation - Java on Azure",
+    "id": "9779",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": ".NET for Android",
+    "id": "9780",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Install the Microsoft Build of OpenJDK",
+    "id": "9781",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Azure Spring Apps",
+    "id": "9782",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Dynamic link library (DLL) - Windows Client",
+    "id": "9783",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Tips for Java Developers - A tour of C#",
+    "id": "9784",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Automate Java applications - Power Automate",
+    "id": "9785",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Avoiding DLL Hell: Introducing Application Metadata in the Microsoft .NET Framework",
+    "id": "9786",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java for Beginners",
+    "id": "9787",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Quickstart: Create a Java app on Azure App Service - Azure App Service",
+    "id": "9788",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Get started with Java on Azure - Training",
+    "id": "9789",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.GetAvailableInvocationPointers Method (Java.Interop)",
+    "id": "9790",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Quickstart: Upgrade a Java Project with GitHub Copilot Modernization",
+    "id": "9791",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Build Java apps with Microsoft Graph - Microsoft Graph",
+    "id": "9792",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Windows XP - Kernel Improvements Create a More Robust, Powerful, and Scalable OS",
+    "id": "9793",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Introduction to Java on Azure - Training",
+    "id": "9794",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Types.Varchar Field (Java.Sql)",
+    "id": "9795",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "About the Microsoft Build of OpenJDK",
+    "id": "9796",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "GitHub Copilot Modernization for Java Developers - Azure",
+    "id": "9797",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "How to Use Driver Verifier for Driver Testing - Windows drivers",
+    "id": "9798",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Deadlocks Guide - SQL Server",
+    "id": "9799",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Wait chain traversal - Win32 apps",
+    "id": "9800",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Asynchronous programming scenarios - C#",
+    "id": "9801",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.Monitors.MonitorEnter(JniObjectReference) Method (Java.Interop)",
+    "id": "9802",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.Monitors Class (Java.Interop)",
+    "id": "9803",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Analyze and Prevent Deadlocks - Azure SQL Database",
+    "id": "9804",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": ".NET Matters: Deadlock monitor",
+    "id": "9805",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Deadlock Detection - Windows drivers",
+    "id": "9806",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Debugging deadlock - .NET Core - .NET",
+    "id": "9807",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Avoiding And Detecting Deadlocks In .NET Apps with C# and C++",
+    "id": "9808",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Threading - Break Free of Code Deadlocks in Critical Sections Under Windows",
+    "id": "9809",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Process.StandardOutput Property (System.Diagnostics)",
+    "id": "9810",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Lock:Deadlock Event Class - SQL Server",
+    "id": "9811",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Locks Event Category - SQL Server",
+    "id": "9812",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "!deadlock (WinDbg) - Windows drivers",
+    "id": "9813",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Bug Check 0x1C5 IO_THREADPOOL_DEADLOCK_LIVEDUMP - Windows drivers",
+    "id": "9814",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Database Deadlock Lock Trace Telemetry - Business Central",
+    "id": "9815",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Example log table queries for AzureSQLDeadlocks - Azure Monitor",
+    "id": "9816",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Debugging a Deadlock - Windows drivers",
+    "id": "9817",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "ProcessStartInfo.RedirectStandardOutput Property (System.Diagnostics)",
+    "id": "9818",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Preventing Errors and Deadlocks While Using Spin Locks - Windows drivers",
+    "id": "9819",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "MSSQLSERVER_1205 - SQL Server",
+    "id": "9820",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Race conditions and deadlocks - Visual Basic",
+    "id": "9821",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Lock:Deadlock Chain Event Class - SQL Server",
+    "id": "9822",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.References.CreatedReference(JniObjectReference) Method (Java.Interop)",
+    "id": "9823",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Debugging Deadlocks - DRIVER_VERIFIER_DETECTED_VIOLATION (C4) 0x1001 - Windows drivers",
+    "id": "9824",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Deadlocks with read repeatable isolation level",
+    "id": "9825",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "AsyncReaderWriterLock.CaptureDiagnostics Property (Microsoft.VisualStudio.Threading)",
+    "id": "9826",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "DeadlockPriority Enum (Microsoft.SqlServer.Replication)",
+    "id": "9827",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.AttachCurrentThread(String, JniObjectReference) Method (Java.Interop)",
+    "id": "9828",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime Class (Java.Interop)",
+    "id": "9829",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Crash on .NET MAUI Android - JNI 'Deleted Global Reference' Error - Microsoft Q&A",
+    "id": "9830",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.References Class (Java.Interop)",
+    "id": "9831",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Xamarin.Android JNI ERROR accessed deleted Global 0x606a - Microsoft Q&A",
+    "id": "9832",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.JniObjectReferenceManager Class (Java.Interop)",
+    "id": "9833",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Maui for android async / await safety issue - Microsoft Q&A",
+    "id": "9834",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniObjectReference Struct (Java.Interop)",
+    "id": "9835",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.JniObjectReferenceManager.CreateGlobalReference Method (Java.Interop)",
+    "id": "9836",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniObjectReference.NewGlobalRef Method (Java.Interop)",
+    "id": "9837",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Thread Safety - Win32 apps",
+    "id": "9838",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Thread safety with the Azure SDK for .NET - .NET",
+    "id": "9839",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JVM Error: EXCEPTION_ACCESS_VIOLATION (0xc0000005) - Microsoft Q&A",
+    "id": "9840",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Thread-Safety Notes on API Functions (ODBC Driver for Oracle) - Open Database Connectivity (ODBC)",
+    "id": "9841",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.JniObjectReferenceManager.GlobalReferenceCount Property (Java.Interop)",
+    "id": "9842",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java.Util.Concurrent Namespace",
+    "id": "9843",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniObjectReference.NewWeakGlobalRef Method (Java.Interop)",
+    "id": "9844",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.GlobalReferenceCount Property (Java.Interop)",
+    "id": "9845",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Confused about signalr thread safety - Microsoft Q&A",
+    "id": "9846",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Thread Safety in the C++ Standard Library",
+    "id": "9847",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java.Interop Namespace",
+    "id": "9848",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Minecraft - Microsoft Q&A",
+    "id": "9849",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniRuntime.AttachCurrentThread(String, JniObjectReference) Method (Java.Interop)",
+    "id": "9850",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JNIEnv.NewGlobalRef(IntPtr) Method (Android.Runtime)",
+    "id": "9851",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JniEnvironment.LocalReferenceCount Property (Java.Interop)",
+    "id": "9852",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Thread-Safe collections - .NET",
+    "id": "9853",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Embedded content safety - Azure AI Content Safety - Azure AI services",
+    "id": "9854",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Known Limitations for Global Secure Access - Global Secure Access",
+    "id": "9855",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "JavaException.InvalidJniObjectReference Field (Java.Interop)",
+    "id": "9856",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Java.Util.Concurrent.Locks Namespace",
+    "id": "9857",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "Managing Thread References - Win32 apps",
+    "id": "9858",
+    "creationDate": "Unknown"
+  },
+  {
+    "title": "thread",
+    "id": "9859",
+    "creationDate": "Unknown"
+  }
+]

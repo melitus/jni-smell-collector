@@ -1,0 +1,12 @@
+forum_name,search_type,keywords,tags,filters,api_endpoint,justification
+Stack Overflow,hybrid,"JNI, Java Native Interface","java-native-interface, jni, jniwrapper, jna",score >= 0; body_length >= 100,https://api.stackexchange.com/2.3/questions,Hybrid approach ensures high recall by capturing both tagged and keyword-matched posts
+Github Issues,term-based,"JNI, native method, Java Native Interface",N/A,repository_language includes Java AND (C OR C++); is not a pull request; body_length >= 50,https://api.github.com/search/issues,Term-based search captures JNI-related issues across repositories
+Reddit,term-based,"JNI, native code, Java Native Interface",N/A,score >= 1,https://www.reddit.com/search.json,Captures informal developer discussions and pain points
+Hacker News,term-based,"JNI, Java Native Interface, native interop",N/A,points >= 5; num_comments >= 10,https://hn.algolia.com/api/v1/search,Captures high-level architectural discussions
+Llvm Discourse,term-based,"JNI, Java, native interop, FFI",N/A,body_length >= 100,https://discourse.llvm.org/search.json,Captures systems-level discussions relevant to JNI
+Apache Mailing Lists,term-based,"JNI, native, Java Native Interface",N/A,thread_length >= 2,https://lists.apache.org/api/stats.lua,Captures architectural decisions in major OSS projects
+Bugzilla,term-based,"JNI, native, Java",N/A,status != INVALID; status != DUPLICATE; severity >= normal,https://bugzilla.mozilla.org/rest/bug,Captures detailed technical defect reports
+Microsoft Qa,term-based,"JNI, Java Native Interface, interop",N/A,has >= 1 answer or comment,Microsoft Q&A API,Captures official vendor answers and acknowledged bugs
+Oracle Community,term-based,"JNI, Java Native Interface, native method",N/A,body_length >= 100,Manual scraping,Official source for Java platform clarifications
+Lobsters,term-based,"JNI, native interop, FFI",N/A,points >= 3; num_comments >= 5,https://lobste.rs/search.json,High signal-to-noise technical discussions
+Quora,term-based + manual expert-credential filtering,"JNI, Java Native Interface, JNA",N/A,Must discuss architectural trade-offs or library selection; Must contain substantive technical reasoning; Exclude career advice and beginner questions,Manual web browsing + export,Captures high-level architectural debates (JNI vs JNA vs Panama)

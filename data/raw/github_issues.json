@@ -1,0 +1,2712 @@
+[
+  {
+    "title": "Support configuration option --with-jni-libpath?",
+    "number": "5287",
+    "created_at": "2025-11-25"
+  },
+  {
+    "title": "Bump LWJGL3 to 3.4.1",
+    "number": "5288",
+    "created_at": "2026-06-08"
+  },
+  {
+    "title": "conscrypt_jni.so crash on version 2.5.3",
+    "number": "5289",
+    "created_at": "2024-12-05"
+  },
+  {
+    "title": "Valhalla runtime/valhalla/inlinetypes/InlineWithJni.java",
+    "number": "5290",
+    "created_at": "2026-05-29"
+  },
+  {
+    "title": "Missing library `librealm-jni.so`",
+    "number": "5291",
+    "created_at": "2023-03-31"
+  },
+  {
+    "title": "UnsatisfiedLinkError: Program Alignment Mismatch on Pixel 8 (16KB page size) with Conscrypt 2.5.3",
+    "number": "5292",
+    "created_at": "2025-10-31"
+  },
+  {
+    "title": "Enhanced FFM Downcall mechanism",
+    "number": "5293",
+    "created_at": "2026-04-01"
+  },
+  {
+    "title": "Clean up JNI exceptions",
+    "number": "5294",
+    "created_at": "2016-09-02"
+  },
+  {
+    "title": "Can you help Linux aarch64 build issue?",
+    "number": "5295",
+    "created_at": "2026-02-06"
+  },
+  {
+    "title": "Regression: JVM crash when resolving stale jmethodIDs via JVMTI on JDK 21+",
+    "number": "5296",
+    "created_at": "2026-02-26"
+  },
+  {
+    "title": "Add UTF encoding check to -Xcheck:jni",
+    "number": "5297",
+    "created_at": "2020-05-05"
+  },
+  {
+    "title": "Enable atomic free JNI for macOS builds",
+    "number": "5298",
+    "created_at": "2019-07-29"
+  },
+  {
+    "title": "Remove references to jitStackFrameFlags from Z direct JNI",
+    "number": "5299",
+    "created_at": "2023-07-05"
+  },
+  {
+    "title": "cmdLineTester_jep178_staticLinking_0 failed ",
+    "number": "5300",
+    "created_at": "2019-02-19"
+  },
+  {
+    "title": "JDK19 jni/nullCaller/NullCallerTest.java segfaults on plinux, mac",
+    "number": "5301",
+    "created_at": "2022-06-20"
+  },
+  {
+    "title": "JNI crash when logging out when running findAllAsync is running",
+    "number": "5302",
+    "created_at": "2020-07-24"
+  },
+  {
+    "title": "Could not find 'librealm-jni.so'. Looked for: [x86], but only found: [].",
+    "number": "5303",
+    "created_at": "2020-04-26"
+  },
+  {
+    "title": "sun.awt.X11.ColorData is causing a JVM crash, which may be related to JNI-related issues.",
+    "number": "5304",
+    "created_at": "2025-02-23"
+  },
+  {
+    "title": "Supported encrypted Realms across multiple processes",
+    "number": "5305",
+    "created_at": "2020-04-17"
+  },
+  {
+    "title": "ClassLoader/nativeLibrary/NativeLibraryTest.java re-enabled failing: should fail to load the native library by another class loader",
+    "number": "5306",
+    "created_at": "2022-01-24"
+  },
+  {
+    "title": "Box2D v3",
+    "number": "5307",
+    "created_at": "2026-05-23"
+  },
+  {
+    "title": "GWT build issue with Pixmap.createFromFrameBuffer",
+    "number": "5308",
+    "created_at": "2022-06-18"
+  },
+  {
+    "title": "No JVMTI event JVMTI_EVENT_EXCEPTION_CATCH generated, if exception caught in native code",
+    "number": "5309",
+    "created_at": "2019-05-16"
+  },
+  {
+    "title": "OpenJDK java/lang/ClassLoader/nativeLibrary/NativeLibraryTest Expected count = 1 but got 2",
+    "number": "5310",
+    "created_at": "2022-02-04"
+  },
+  {
+    "title": "[realm-core-13.23.0] Assertion failed: false",
+    "number": "5311",
+    "created_at": "2024-06-05"
+  },
+  {
+    "title": "Investigate and implement handling of unprototyped calls in libffi for z/OS",
+    "number": "5312",
+    "created_at": "2025-08-21"
+  },
+  {
+    "title": "AArch64 macOS: flushProcessWriteBuffers() not working as expected",
+    "number": "5313",
+    "created_at": "2022-04-07"
+  },
+  {
+    "title": "jdk11 OpenJDK MethodHandles failures",
+    "number": "5314",
+    "created_at": "2026-05-14"
+  },
+  {
+    "title": "Flaky test: errorHandler_useBackupSyncConfigurationForClientReset",
+    "number": "5315",
+    "created_at": "2020-09-17"
+  },
+  {
+    "title": "Calling RealmQuery.or() twice in a row causes a native crash",
+    "number": "5316",
+    "created_at": "2018-09-18"
+  },
+  {
+    "title": "Install Python 3 on all OpenJ9 build machines",
+    "number": "5317",
+    "created_at": "2019-08-30"
+  },
+  {
+    "title": "Add libcriu.so to the linux compile machines",
+    "number": "5318",
+    "created_at": "2021-06-02"
+  },
+  {
+    "title": "Reduce Criu docker image size",
+    "number": "5319",
+    "created_at": "2022-08-19"
+  },
+  {
+    "title": "jdk_foreign_0_FAILED - java/foreign/TestHandshake.java",
+    "number": "5320",
+    "created_at": "2021-07-19"
+  },
+  {
+    "title": "jdk_foreign_0_FAILED java/foreign/TestMemorySession.java Segmentation error vmState=0x00000000",
+    "number": "5321",
+    "created_at": "2023-09-07"
+  },
+  {
+    "title": "OpenJ9 0.59.0 FFI: ASSERTION FAILED in LayoutFFITypeHelpers.hpp when creating downcallHandle when the default language is Turkish",
+    "number": "5322",
+    "created_at": "2026-06-11"
+  },
+  {
+    "title": "jdk18 sanity.openjdk java/foreign/TestFunctionDescriptor.java UnsatisfiedLinkError InternalDowncallHandler.resolveRequiredFields",
+    "number": "5323",
+    "created_at": "2022-07-20"
+  },
+  {
+    "title": "AIX jdk-15.0.1+9_openj9-0.24.0-m1 OOM failure running java/foreign/TestSegments.java",
+    "number": "5324",
+    "created_at": "2020-12-09"
+  },
+  {
+    "title": "Support RealmResults as fields (query views)",
+    "number": "5325",
+    "created_at": "2014-11-25"
+  },
+  {
+    "title": "Cannot build JDK21 on macOS AArch64: error: invalid CFI advance_loc expression",
+    "number": "5326",
+    "created_at": "2026-05-18"
+  },
+  {
+    "title": "Allow updating of primary keys",
+    "number": "5327",
+    "created_at": "2016-10-07"
+  },
+  {
+    "title": "Internal JITServer test failures",
+    "number": "5328",
+    "created_at": "2022-02-17"
+  },
+  {
+    "title": "FFI/FFM : Unexpected behaviour when using Memory Segment for upcall/downcall",
+    "number": "5329",
+    "created_at": "2025-09-08"
+  },
+  {
+    "title": "Mac crash on osx1011-x86-2 in array copy test",
+    "number": "5330",
+    "created_at": "2020-06-03"
+  },
+  {
+    "title": "AIX JDK17 TestUpcall crash in jdk_foreign_0 (memoryCorruptionDetected)",
+    "number": "5331",
+    "created_at": "2025-08-13"
+  },
+  {
+    "title": "JEP 472: Prepare to Restrict the Use of JNI",
+    "number": "5332",
+    "created_at": "2024-06-11"
+  },
+  {
+    "title": "Delete code surrounded by opt_panama and Panama flags",
+    "number": "5333",
+    "created_at": "2020-11-24"
+  },
+  {
+    "title": "Panama: name conflict with IBM jextract and OpenJDK jextract",
+    "number": "5334",
+    "created_at": "2020-11-25"
+  },
+  {
+    "title": "JVM_LoadLibrary should handle .a files on AIX",
+    "number": "5335",
+    "created_at": "2024-04-18"
+  },
+  {
+    "title": "Orphaned child objects",
+    "number": "5336",
+    "created_at": "2015-12-23"
+  },
+  {
+    "title": "Sorting issues",
+    "number": "5337",
+    "created_at": "2014-10-06"
+  },
+  {
+    "title": "[FFI/Jtreg_JDK21] IllegalArgumentException detected in TestNested.java on AIX",
+    "number": "5338",
+    "created_at": "2023-10-16"
+  },
+  {
+    "title": "Cannot be @Required or @NotNull.",
+    "number": "5339",
+    "created_at": "2017-09-18"
+  },
+  {
+    "title": "[FFI/Jtreg_JDK22] TestNGException detected in TestLinker.java",
+    "number": "5340",
+    "created_at": "2023-11-21"
+  },
+  {
+    "title": "Support for Null values",
+    "number": "5341",
+    "created_at": "2014-10-15"
+  },
+  {
+    "title": "[FFI/Jtreg] Failure to get the symbol of strcat on AIX",
+    "number": "5342",
+    "created_at": "2022-11-30"
+  },
+  {
+    "title": "OpenJDK java/foreign/LibraryLookupTest crash vmState=0x0000000",
+    "number": "5343",
+    "created_at": "2023-06-05"
+  },
+  {
+    "title": "Implement the functionalities of Foreign Linker API",
+    "number": "5344",
+    "created_at": "2021-04-12"
+  },
+  {
+    "title": "sanity.openjdk jdk_foreign_0 java/foreign/TestMismatch.java Agent communication error: java.io.EOFException",
+    "number": "5345",
+    "created_at": "2021-01-21"
+  },
+  {
+    "title": "[FFI] Handling the captured exception or invalid values from the upcall method",
+    "number": "5346",
+    "created_at": "2023-02-22"
+  },
+  {
+    "title": "OpenJDK mac java/foreign/TestFunctionDescriptor NoSuchElementException: No value present",
+    "number": "5347",
+    "created_at": "2022-02-10"
+  },
+  {
+    "title": "OpenJDK jdk16 java/foreign/TestLibraryLookup.java expected [1] but found [0]",
+    "number": "5348",
+    "created_at": "2021-01-30"
+  },
+  {
+    "title": "JDK19: Test failures related to OpenJDK Thread and Loom ",
+    "number": "5349",
+    "created_at": "2022-05-31"
+  },
+  {
+    "title": "jdk25 openjdk java/foreign/TestBufferStackStress timeout",
+    "number": "5350",
+    "created_at": "2025-07-14"
+  },
+  {
+    "title": "OpenJDK compilation failed error: incompatible types: cannot infer type-variable(s)",
+    "number": "5351",
+    "created_at": "2022-03-04"
+  },
+  {
+    "title": "Allow updating of primary keys",
+    "number": "5352",
+    "created_at": "2016-10-07"
+  },
+  {
+    "title": "FFI/FFM : Unexpected behaviour when using Memory Segment for upcall/downcall",
+    "number": "5353",
+    "created_at": "2025-09-08"
+  },
+  {
+    "title": "Cannot build JDK21 on macOS AArch64: error: invalid CFI advance_loc expression",
+    "number": "5354",
+    "created_at": "2026-05-18"
+  },
+  {
+    "title": "JEP 472: Prepare to Restrict the Use of JNI",
+    "number": "5355",
+    "created_at": "2024-06-11"
+  },
+  {
+    "title": "Panama: name conflict with IBM jextract and OpenJDK jextract",
+    "number": "5356",
+    "created_at": "2020-11-25"
+  },
+  {
+    "title": "JEP 442: Foreign Function & Memory API (Third Preview)",
+    "number": "5357",
+    "created_at": "2023-03-17"
+  },
+  {
+    "title": "JEP 424: Foreign Function & Memory API (Preview)",
+    "number": "5358",
+    "created_at": "2022-05-10"
+  },
+  {
+    "title": "JEP 393 : ScopedMemoryAccess.closeScope0 Implementation",
+    "number": "5359",
+    "created_at": "2021-04-15"
+  },
+  {
+    "title": "JEP 389: Foreign Linker API (Incubator)",
+    "number": "5360",
+    "created_at": "2020-11-16"
+  },
+  {
+    "title": "JDK18 build breakage due to JDK-8275063: Implementation of Foreign Function & Memory API (Second incubator)",
+    "number": "5361",
+    "created_at": "2021-11-25"
+  },
+  {
+    "title": "jdk15 extended.functional cmdLineTester_modularityddrtests !dumpmodule --illegal-access=deny failure",
+    "number": "5362",
+    "created_at": "2021-01-22"
+  },
+  {
+    "title": "Incompatibility issue with Gradle configuration cache",
+    "number": "5363",
+    "created_at": "2021-02-05"
+  },
+  {
+    "title": "Improve JITServer/test compatibility with JITAAS",
+    "number": "5364",
+    "created_at": "2024-06-05"
+  },
+  {
+    "title": "Refactor classes to have standard layout type",
+    "number": "5365",
+    "created_at": "2023-10-23"
+  },
+  {
+    "title": "Require exact JIT build match for JITServer?",
+    "number": "5366",
+    "created_at": "2025-06-18"
+  },
+  {
+    "title": "jdk11 error on AIX 7.2 when using FTPSCLient to transfer a file",
+    "number": "5367",
+    "created_at": "2021-12-09"
+  },
+  {
+    "title": "Date type compatibility from Cocoa to Java",
+    "number": "5368",
+    "created_at": "2016-04-29"
+  },
+  {
+    "title": "clone() system call fails with EPERM when forking JVM on Ubuntu-based Kernel",
+    "number": "5369",
+    "created_at": "2025-08-05"
+  },
+  {
+    "title": "Grayscale png not properly loaded",
+    "number": "5370",
+    "created_at": "2016-04-18"
+  },
+  {
+    "title": "Crashes on some devices - arm64-v8a",
+    "number": "5371",
+    "created_at": "2018-11-18"
+  },
+  {
+    "title": "[FEATURE PROPOSAL W/ IMPLEMENTATION] Faster SpriteBatch: Texture Array with LRU replacement strategy.",
+    "number": "5372",
+    "created_at": "2020-02-06"
+  },
+  {
+    "title": "jdk_lang_j9_0 and jdk_lang_j9_1, Unexpected provider count. Expected: 13. Actual: 12",
+    "number": "5373",
+    "created_at": "2026-02-23"
+  },
+  {
+    "title": "MauveMultiThrdLoad_5m_1_FAILED Mauve[gnu.testlet.java.text.DecimalFormat.setNegativePrefix] NullPointerException: prefix must not be null",
+    "number": "5374",
+    "created_at": "2025-04-25"
+  },
+  {
+    "title": "7% AcmeAirEE8 throughput regression in 1P mode",
+    "number": "5375",
+    "created_at": "2024-08-07"
+  },
+  {
+    "title": "Crash when set the module in the RealmConfiguration",
+    "number": "5376",
+    "created_at": "2017-05-21"
+  },
+  {
+    "title": "Realm database not empty after clear all data on app.",
+    "number": "5377",
+    "created_at": "2017-02-28"
+  },
+  {
+    "title": "Realm is not compatible with Galaxy one running Android 4.4.2",
+    "number": "5378",
+    "created_at": "2016-06-26"
+  },
+  {
+    "title": "Kotlin @Required annotation not being detected?",
+    "number": "5379",
+    "created_at": "2015-10-23"
+  },
+  {
+    "title": "Full replacement for libGDX Particle Editor",
+    "number": "5380",
+    "created_at": "2023-11-22"
+  },
+  {
+    "title": "Document GSON serializer",
+    "number": "5381",
+    "created_at": "2015-05-15"
+  },
+  {
+    "title": "App Bundle: MissingLibraryException",
+    "number": "5382",
+    "created_at": "2018-05-28"
+  },
+  {
+    "title": "Crash cause by LWJGL: Unsupported JNI version",
+    "number": "5383",
+    "created_at": "2023-05-12"
+  },
+  {
+    "title": "Crash on startup",
+    "number": "5384",
+    "created_at": "2020-07-09"
+  },
+  {
+    "title": "[FFI/Jtreg_JDK21] IllegalArgumentException detected in TestNested.java on AIX",
+    "number": "5385",
+    "created_at": "2023-10-16"
+  },
+  {
+    "title": "JITServer: print incompatibility message when `-XX:+JITServerLogConnection` is specified",
+    "number": "5386",
+    "created_at": "2023-02-07"
+  },
+  {
+    "title": "J9 's JDK8 reports NoSuchMethodError, but the JDK11 is normal.",
+    "number": "5387",
+    "created_at": "2022-10-04"
+  },
+  {
+    "title": "Add simple docker based AOT test",
+    "number": "5388",
+    "created_at": "2022-08-17"
+  },
+  {
+    "title": "crash building xmac vmState=0x000501ff",
+    "number": "5389",
+    "created_at": "2022-12-01"
+  },
+  {
+    "title": "AIX Semeru 11.0.16.1 - OpenJ9 0.33.0 JNI call failure",
+    "number": "5390",
+    "created_at": "2022-09-15"
+  },
+  {
+    "title": "jdk18 mauve incompatibility HttpURLConnection.requestPropertiesTest",
+    "number": "5391",
+    "created_at": "2021-12-16"
+  },
+  {
+    "title": "Memory management is not correct when using cgroup v2",
+    "number": "5392",
+    "created_at": "2021-12-20"
+  },
+  {
+    "title": "Remove SSL library errors from getting printed to stderr",
+    "number": "5393",
+    "created_at": "2023-04-04"
+  },
+  {
+    "title": "Error occurred while compiling JDK 21 on Windows",
+    "number": "5394",
+    "created_at": "2025-08-14"
+  },
+  {
+    "title": "serviceability_jvmti_j9_0_FAILED Compilation failed",
+    "number": "5395",
+    "created_at": "2022-09-27"
+  },
+  {
+    "title": "testJitserverArguments Test Health Port Connection refused",
+    "number": "5396",
+    "created_at": "2024-03-26"
+  },
+  {
+    "title": "[JDK16/Aarch64] Assertion failure occurs frequently in GC during compilation",
+    "number": "5397",
+    "created_at": "2021-04-10"
+  },
+  {
+    "title": "Intermittent OOM while running AcmeAir monolithic benchmark with containers",
+    "number": "5398",
+    "created_at": "2019-07-28"
+  },
+  {
+    "title": "JDK8_x86-64_mac_cm compilation failure: [openj9.ddr-jar] Error 2",
+    "number": "5399",
+    "created_at": "2020-05-29"
+  },
+  {
+    "title": "Find a way of dealing with errors from findSharedData() in the JIT",
+    "number": "5400",
+    "created_at": "2021-03-22"
+  },
+  {
+    "title": "Repeated compilationAotCacheFullReloFailure  with JITServer",
+    "number": "5401",
+    "created_at": "2020-03-27"
+  },
+  {
+    "title": "The optimized values in debugging the cmake builds with the debug image",
+    "number": "5402",
+    "created_at": "2023-05-04"
+  },
+  {
+    "title": "JDK19 Loom : jdk_lang_1_FAILED Compilation failed - ContinuationScope cannot be converted to Option",
+    "number": "5403",
+    "created_at": "2022-06-01"
+  },
+  {
+    "title": "Allow multiple RealmModules of the same name",
+    "number": "5404",
+    "created_at": "2019-10-21"
+  },
+  {
+    "title": "Determine the asserts that fire under PROD_WITH_ASSUMES",
+    "number": "5405",
+    "created_at": "2022-06-21"
+  },
+  {
+    "title": "Document error?",
+    "number": "5406",
+    "created_at": "2021-02-02"
+  },
+  {
+    "title": "testJITServer_0 testServerUnreachableForAWhile The process is still alive after waiting for 30000ms",
+    "number": "5407",
+    "created_at": "2022-02-24"
+  },
+  {
+    "title": "gcc10 warnings in the JIT",
+    "number": "5408",
+    "created_at": "2022-04-05"
+  },
+  {
+    "title": "Explore supporting OMR JitBuilder API from OpenJ9 JIT",
+    "number": "5409",
+    "created_at": "2019-05-22"
+  },
+  {
+    "title": "Possible to query embedded realm objects directly",
+    "number": "5410",
+    "created_at": "2021-05-20"
+  },
+  {
+    "title": "Incremental build is not working",
+    "number": "5411",
+    "created_at": "2019-09-29"
+  },
+  {
+    "title": "Investigate liberty daytrader7 steady-state throughput gap between java8 and java11 ",
+    "number": "5412",
+    "created_at": "2020-04-06"
+  },
+  {
+    "title": "Enable ILValidator in OpenJ9",
+    "number": "5413",
+    "created_at": "2020-03-05"
+  },
+  {
+    "title": "openJcePlusTests_0 [path] bad path element no such file or directory error: warnings found and -Werror specified",
+    "number": "5414",
+    "created_at": "2026-02-20"
+  },
+  {
+    "title": "jdk_security3_0 Compilation failed cannot find symbol:   variable Utils",
+    "number": "5415",
+    "created_at": "2026-03-16"
+  },
+  {
+    "title": "Allow JITServer AOT cache to work without a shared class cache at the client",
+    "number": "5416",
+    "created_at": "2023-02-14"
+  },
+  {
+    "title": "Apache Lucene CI builds sometimes fail with OpenJ9 specific issues",
+    "number": "5417",
+    "created_at": "2023-11-04"
+  },
+  {
+    "title": "How can I avoid a hang on error during CRIU checkpoint?",
+    "number": "5418",
+    "created_at": "2024-06-13"
+  },
+  {
+    "title": "Porting OpenJ9 to RISC-V",
+    "number": "5419",
+    "created_at": "2019-03-11"
+  },
+  {
+    "title": "jdk_nio_0_FAILED java/nio/channels/DatagramChannel/Disconnect.java cannot find symbol InetAddress.ofLiteral()",
+    "number": "5420",
+    "created_at": "2024-09-04"
+  },
+  {
+    "title": "JTReg Test Fail: sun/nio/cs/FindDecoderBugs.java",
+    "number": "5421",
+    "created_at": "2020-03-26"
+  },
+  {
+    "title": "JEP 391 Investigate macOS AArch64 support",
+    "number": "5422",
+    "created_at": "2020-11-12"
+  },
+  {
+    "title": "Windows AMX memory corruption continues despite fix",
+    "number": "5423",
+    "created_at": "2026-06-15"
+  },
+  {
+    "title": "AIX 7.3: SIGSEGV in libc from OperatingSystemMXBean notification dispatcher (OpenJ9 0.59.0, Java 11.0.31)",
+    "number": "5424",
+    "created_at": "2026-05-21"
+  },
+  {
+    "title": "jdk/jfr/jmx/TestFlightRecorderMXBeanLeak.java fails with IOException: Not a valid Flight Recorder file",
+    "number": "5425",
+    "created_at": "2026-06-03"
+  },
+  {
+    "title": "Loom: Investigate solutions for <4gb memory limitations",
+    "number": "5426",
+    "created_at": "2022-06-01"
+  },
+  {
+    "title": "Apache Lucene CI builds sometimes fail with OpenJ9 specific issues",
+    "number": "5427",
+    "created_at": "2023-11-04"
+  },
+  {
+    "title": "testGuestOSMXBeanRemote runGuestOSMXBeanTest AssertionError: Invalid Guest Memory Usage statistics recieved",
+    "number": "5428",
+    "created_at": "2026-02-09"
+  },
+  {
+    "title": "Valhalla serviceability/jvmti/valhalla/VMObjectAllocValue/VMObjectAllocValueTest.java Exception",
+    "number": "5429",
+    "created_at": "2026-05-27"
+  },
+  {
+    "title": "Improve failure path for commit virtual memory for GC metadata structures.",
+    "number": "5430",
+    "created_at": "2025-05-23"
+  },
+  {
+    "title": "Improve JIT memory protection on AArch64 macOS",
+    "number": "5431",
+    "created_at": "2022-03-04"
+  },
+  {
+    "title": "Severe memory leak when setUseEngineSocketByDefault(true)",
+    "number": "5432",
+    "created_at": "2020-04-21"
+  },
+  {
+    "title": "Severe memory leak on failed connection",
+    "number": "5433",
+    "created_at": "2021-02-27"
+  },
+  {
+    "title": "Performance Issues Across Different JDK Versions in OpenJ9",
+    "number": "5434",
+    "created_at": "2025-03-19"
+  },
+  {
+    "title": "Review memory management in OpenSSL integration and fix leaks",
+    "number": "5435",
+    "created_at": "2023-03-14"
+  },
+  {
+    "title": "Periodic disclaim of JCL and misc memory",
+    "number": "5436",
+    "created_at": "2024-10-07"
+  },
+  {
+    "title": "Memory Corruption shortly after starting jenkins app",
+    "number": "5437",
+    "created_at": "2021-09-27"
+  },
+  {
+    "title": "Out of memory: Be able to open large files.",
+    "number": "5438",
+    "created_at": "2019-11-21"
+  },
+  {
+    "title": "cent9 ppc64le and aarch64 machines can't remove nonpersistent caches",
+    "number": "5439",
+    "created_at": "2026-01-30"
+  },
+  {
+    "title": "System dumps may not capture critical stack frame locals for a Java heap OutOfMemoryError",
+    "number": "5440",
+    "created_at": "2026-05-26"
+  },
+  {
+    "title": "Remove old transactional memory support in JIT Power codegen",
+    "number": "5441",
+    "created_at": "2021-08-13"
+  },
+  {
+    "title": "JDK24: VT: Crash in skynet test",
+    "number": "5442",
+    "created_at": "2025-08-01"
+  },
+  {
+    "title": "JIT crashing in what looks like an OOM condition",
+    "number": "5443",
+    "created_at": "2020-10-01"
+  },
+  {
+    "title": "Kubernetes cadvisor reduces value proposition of OpenJ9's Shared Class Cache",
+    "number": "5444",
+    "created_at": "2020-11-02"
+  },
+  {
+    "title": "Use cgroup limits to adjust internal parameters",
+    "number": "5445",
+    "created_at": "2017-09-26"
+  },
+  {
+    "title": "OpenJdk MemorySegmentGetUnsafe benchmark score",
+    "number": "5446",
+    "created_at": "2024-10-01"
+  },
+  {
+    "title": "Create an MBean to provide access to the last recorded thread/memory usage",
+    "number": "5447",
+    "created_at": "2021-08-18"
+  },
+  {
+    "title": "OpenJDK java/util/StringJoiner/StringJoinerTest OutOfMemoryError: Java heap space",
+    "number": "5448",
+    "created_at": "2024-01-08"
+  },
+  {
+    "title": "renaissance-naive-bayes_0 ClassNotFoundException: jdk.internal.ref.Cleaner",
+    "number": "5449",
+    "created_at": "2026-02-09"
+  },
+  {
+    "title": "win2012-x86-1 CreateProcess error=1455, The paging file is too small for this operation to complete",
+    "number": "5450",
+    "created_at": "2022-01-24"
+  },
+  {
+    "title": "Incorporating Restricted Transactional Memory (RTM) and Hardware Lock Elision (HLE) into J9 Locking ",
+    "number": "5451",
+    "created_at": "2018-07-26"
+  },
+  {
+    "title": "Container memory not detected properly when running in ECS Fargate Platform 1.4.0",
+    "number": "5452",
+    "created_at": "2021-02-18"
+  },
+  {
+    "title": "Thread.getState() performance issue with yielding pinned VirtualThread",
+    "number": "5453",
+    "created_at": "2025-07-28"
+  },
+  {
+    "title": "Performance Issues Across Different JDK Versions in OpenJ9",
+    "number": "5454",
+    "created_at": "2025-03-19"
+  },
+  {
+    "title": "VarHandle Performance",
+    "number": "5455",
+    "created_at": "2018-09-25"
+  },
+  {
+    "title": "CMake Performance regressions",
+    "number": "5456",
+    "created_at": "2019-12-30"
+  },
+  {
+    "title": "Bump LWJGL3 to 3.4.1",
+    "number": "5457",
+    "created_at": "2026-06-08"
+  },
+  {
+    "title": "Performance Regression in OpenJ9 0.56.0: JRuby StampedVariableAccessor Thrashing",
+    "number": "5458",
+    "created_at": "2025-12-04"
+  },
+  {
+    "title": "jsr292 performance investigation ",
+    "number": "5459",
+    "created_at": "2019-02-22"
+  },
+  {
+    "title": "Performance gap between JDK 11 and 17",
+    "number": "5460",
+    "created_at": "2022-06-13"
+  },
+  {
+    "title": "Apache Lucene CI builds sometimes fail with OpenJ9 specific issues",
+    "number": "5461",
+    "created_at": "2023-11-04"
+  },
+  {
+    "title": "Performance regression of StringBuilder.append on amd64",
+    "number": "5462",
+    "created_at": "2019-07-11"
+  },
+  {
+    "title": "Runtime compressed refs interpreter performance",
+    "number": "5463",
+    "created_at": "2020-03-16"
+  },
+  {
+    "title": "findAll() performance issue on RealmList queries with @Index'ed fields",
+    "number": "5464",
+    "created_at": "2019-08-29"
+  },
+  {
+    "title": "Enhanced FFM Downcall mechanism",
+    "number": "5465",
+    "created_at": "2026-04-01"
+  },
+  {
+    "title": "Slower performance than C2 on hot thread local access",
+    "number": "5466",
+    "created_at": "2019-11-05"
+  },
+  {
+    "title": "Box2D v3",
+    "number": "5467",
+    "created_at": "2026-05-23"
+  },
+  {
+    "title": "Does openj9-21.01 have performance defects in loops?",
+    "number": "5468",
+    "created_at": "2024-03-04"
+  },
+  {
+    "title": "Significant Performance Discrepancy Between OpenJ9 and Hotspot JVMs for Simple Java Loop",
+    "number": "5469",
+    "created_at": "2024-12-31"
+  },
+  {
+    "title": "JDK12: OpenJ9 Peak State Performance half that of Hotspot",
+    "number": "5470",
+    "created_at": "2019-04-11"
+  },
+  {
+    "title": "Performance gap of 3-layer nested loops compared to Hotspot",
+    "number": "5471",
+    "created_at": "2022-07-14"
+  },
+  {
+    "title": "JITServer client crashes when trying to collect performance metrics",
+    "number": "5472",
+    "created_at": "2020-06-04"
+  },
+  {
+    "title": "OpenJ9 Perf Results with OJDK MHs enabled",
+    "number": "5473",
+    "created_at": "2021-05-19"
+  },
+  {
+    "title": "[Performance] Is OpenJ9 slower than Hotspot in this specific case?",
+    "number": "5474",
+    "created_at": "2019-05-01"
+  },
+  {
+    "title": "Test CRIU functionality on OCP",
+    "number": "5475",
+    "created_at": "2021-04-20"
+  },
+  {
+    "title": " Liberty Daytrader7 startup performance gap between java8 and java11",
+    "number": "5476",
+    "created_at": "2020-10-27"
+  },
+  {
+    "title": "MethodHandles: revisit storing LambdaForm classes in the SCC",
+    "number": "5477",
+    "created_at": "2022-04-13"
+  },
+  {
+    "title": "Remove TR_ASSERT_FATAL, make TR_ASSERT fatal by default",
+    "number": "5478",
+    "created_at": "2021-05-20"
+  },
+  {
+    "title": "Smooth migration story:  mapping or supporting critical OpenJDK options ",
+    "number": "5479",
+    "created_at": "2019-02-28"
+  },
+  {
+    "title": "Could we provide an option to bypass the yieldCPU() call in spinOnFlatLock?",
+    "number": "5480",
+    "created_at": "2020-06-16"
+  },
+  {
+    "title": "Display CPU Governor information in javacore",
+    "number": "5481",
+    "created_at": "2018-09-12"
+  },
+  {
+    "title": "Slow application performance when -Xaggressive and/or -Xtune:virtualized JVM options are enabled",
+    "number": "5482",
+    "created_at": "2022-01-26"
+  },
+  {
+    "title": "OpenJDK sun/security/krb5/auto/ReplayCacheTestProc",
+    "number": "5483",
+    "created_at": "2025-04-14"
+  },
+  {
+    "title": "jdk_security1_0 FAILED java/security/Security/ConfigFileTest.java RuntimeException: OpenJCEPlusFIPS is not present in the java.security file.",
+    "number": "5484",
+    "created_at": "2024-12-09"
+  },
+  {
+    "title": "Update openssl to the latest security update",
+    "number": "5485",
+    "created_at": "2019-10-29"
+  },
+  {
+    "title": "Apache Lucene CI builds sometimes fail with OpenJ9 specific issues",
+    "number": "5486",
+    "created_at": "2023-11-04"
+  },
+  {
+    "title": "FIPS jdk_other_1 javax/xml/jaxp/XPath/8009579/XPathExceptionInitCause.java ProviderException: Failed to initialize OpenJCEPlusFIPS provider",
+    "number": "5487",
+    "created_at": "2025-05-30"
+  },
+  {
+    "title": "Exclude list for TEST_FLAG OpenJCEPlus",
+    "number": "5488",
+    "created_at": "2025-07-17"
+  },
+  {
+    "title": "jdk_security3_0 sun/security/util/AlgorithmConstraints/InvalidCryptoDisabledAlgos.java IllegalArgumentException: Invalid entry: *",
+    "number": "5489",
+    "created_at": "2026-02-24"
+  },
+  {
+    "title": "jdk_security1 java/security/SignedJar/spi-calendar-provider/TestSPISigned NoSuchFileException work/classes/3/java/security/SignedJar/spi-calendar-provider/TestSPISigned.d/../provider/.",
+    "number": "5490",
+    "created_at": "2025-10-31"
+  },
+  {
+    "title": "java/security/SecureRandom/NoSync hang",
+    "number": "5491",
+    "created_at": "2023-06-12"
+  },
+  {
+    "title": "JDK8 FIPS jdk_security1_0_FAILED keytool error: java.security.KeyStoreException: sun.security.pkcs11.wrapper.PKCS11Exception: CKR_ATTRIBUTE_VALUE_INVALID",
+    "number": "5492",
+    "created_at": "2023-04-03"
+  },
+  {
+    "title": "JDK17 Windows  jdk_security1_0_FAILED - java.security.ProviderException: java.security.KeyException: Access is denied",
+    "number": "5493",
+    "created_at": "2021-03-01"
+  },
+  {
+    "title": "security/infra/java/security/cert/CertPathValidator/certification/AmazonCA.java TEST FAILED: unexpected revocation date",
+    "number": "5494",
+    "created_at": "2022-04-07"
+  },
+  {
+    "title": "harmony testGolden javax.security.auth.callback.serialization.PasswordCallbackTest ComparisonFailure: null expected:<[abc]> but was:<[   ]>",
+    "number": "5495",
+    "created_at": "2024-10-04"
+  },
+  {
+    "title": "Documentation for CRIU Project",
+    "number": "5496",
+    "created_at": "2022-03-01"
+  },
+  {
+    "title": "sanity.openk jdk_security1_0 java.security.KeyException: Access is denied ",
+    "number": "5497",
+    "created_at": "2020-03-16"
+  },
+  {
+    "title": "ValueTypes: ClassCircularityError for OpenJDK test RecursiveValueClass",
+    "number": "5498",
+    "created_at": "2024-11-04"
+  },
+  {
+    "title": "OpenJDK jdk_security1 timeout in java.math.BigInteger doing RSAKeyPairGenerator.generateKeyPair",
+    "number": "5499",
+    "created_at": "2025-01-21"
+  },
+  {
+    "title": "jdk_security3_1 sun/security/pkcs12/PKCS12SameKeyId.java Agent timed out",
+    "number": "5500",
+    "created_at": "2026-01-30"
+  },
+  {
+    "title": "CryptoTests SecureRandomTests getSeedBytes() timeout",
+    "number": "5501",
+    "created_at": "2024-03-18"
+  },
+  {
+    "title": "jdk_security3_0_FAILED sun/security/util/Debug/DebugOptions.java StackOverflowError",
+    "number": "5502",
+    "created_at": "2024-08-07"
+  },
+  {
+    "title": "openJcePlusTests_0 InvalidKeyException: Point has small order &  j9mm.141 ASSERTION FAILED omr/gc/base/standard/Scavenger.cpp:1649: ((false))",
+    "number": "5503",
+    "created_at": "2025-01-21"
+  },
+  {
+    "title": "OpenJ9 vs HotSpot - Ignore allow and disallow options for java.security.manager System Property",
+    "number": "5504",
+    "created_at": "2025-10-01"
+  },
+  {
+    "title": "Re-enable openjdk test - jdk_bean ",
+    "number": "5505",
+    "created_at": "2024-11-07"
+  },
+  {
+    "title": "jdk_security4_0_FAILED sun/security/krb5/auto/HttpsCB.java Illegal instruction vmState=0x00040000",
+    "number": "5506",
+    "created_at": "2024-04-08"
+  },
+  {
+    "title": "jdk_security_infra_0_FAILED RuntimeException: TEST FAILED: unexpected status of EE certificate",
+    "number": "5507",
+    "created_at": "2023-06-07"
+  },
+  {
+    "title": "CryptoTests timeout in SeedGenerator reading /dev/random",
+    "number": "5508",
+    "created_at": "2023-02-14"
+  },
+  {
+    "title": "JCL_TEST_Java-Security Trace/BPT trap(coredump)",
+    "number": "5509",
+    "created_at": "2024-03-11"
+  },
+  {
+    "title": "CryptoTests SunMSCAPI failing on Windows due to Access is denied",
+    "number": "5510",
+    "created_at": "2023-02-13"
+  },
+  {
+    "title": "FIPS java/util/jar/JarFile/SignedJarPendingBlock.java SecurityException: System.exit() forbidden by JT Harness",
+    "number": "5511",
+    "created_at": "2023-12-05"
+  },
+  {
+    "title": "OpenSSL bundling is interfering with native libraries to use the OS installed version",
+    "number": "5512",
+    "created_at": "2025-09-02"
+  },
+  {
+    "title": "Z: Investigate vector API add operation.",
+    "number": "5513",
+    "created_at": "2026-05-15"
+  },
+  {
+    "title": "ArrayIndexOutOfBoundsException in thread \"Attach API teardown\"",
+    "number": "5514",
+    "created_at": "2025-11-05"
+  },
+  {
+    "title": "enhance  pixmap api",
+    "number": "5515",
+    "created_at": "2024-12-05"
+  },
+  {
+    "title": "Evaluate whether the addMethodsFromClassRecord SVM API needs VM Access",
+    "number": "5516",
+    "created_at": "2026-03-31"
+  },
+  {
+    "title": "Public API to configure TLS named groups at SSLContext or SSLSocket/SSLEngine level in Java < 20",
+    "number": "5517",
+    "created_at": "2026-05-29"
+  },
+  {
+    "title": "Vector API support",
+    "number": "5518",
+    "created_at": "2019-12-11"
+  },
+  {
+    "title": "Valhalla java/lang/invoke/VarHandles test failures",
+    "number": "5519",
+    "created_at": "2026-06-11"
+  },
+  {
+    "title": "AndroidGraphics.java use deprecated apis",
+    "number": "5520",
+    "created_at": "2023-01-16"
+  },
+  {
+    "title": "Policy for deprecating options / APIs",
+    "number": "5521",
+    "created_at": "2018-06-17"
+  },
+  {
+    "title": "Unify Android & iOS Realm API",
+    "number": "5522",
+    "created_at": "2017-01-06"
+  },
+  {
+    "title": "Typed Query API feature parity",
+    "number": "5523",
+    "created_at": "2020-05-07"
+  },
+  {
+    "title": "Expose custom_user_data API",
+    "number": "5524",
+    "created_at": "2021-08-17"
+  },
+  {
+    "title": "Valhalla valhalla/valuetypes/ValueClassPreviewTest.java",
+    "number": "5525",
+    "created_at": "2026-06-05"
+  },
+  {
+    "title": "cmdLineTester_jfr_0 VM API Test - approx 2mins timed out",
+    "number": "5526",
+    "created_at": "2026-01-26"
+  },
+  {
+    "title": "Cleanup/document JIT arraylet enablement API",
+    "number": "5527",
+    "created_at": "2024-04-01"
+  },
+  {
+    "title": "Clean up API for TR_EscapeAnalysis",
+    "number": "5528",
+    "created_at": "2019-06-05"
+  },
+  {
+    "title": "genLoadAddressConstantInSnippet Z API for profiled addresses",
+    "number": "5529",
+    "created_at": "2022-03-24"
+  },
+  {
+    "title": "TODO for JSR 292 MethodHandleNatives APIs",
+    "number": "5530",
+    "created_at": "2020-12-10"
+  },
+  {
+    "title": "Support Java 8 time API's",
+    "number": "5531",
+    "created_at": "2017-08-14"
+  },
+  {
+    "title": "Transformer-api breaks MoshiX generated adapters",
+    "number": "5532",
+    "created_at": "2023-04-05"
+  },
+  {
+    "title": "Add API for deleting synchronized Realms",
+    "number": "5533",
+    "created_at": "2019-12-10"
+  },
+  {
+    "title": "testOSMXBeanLocal_0 AssertionError: Error: getTotalSwapSpaceSize() API returned -1, test failed",
+    "number": "5534",
+    "created_at": "2025-09-19"
+  },
+  {
+    "title": "Segfault in vector API tests with JITServer",
+    "number": "5535",
+    "created_at": "2024-12-10"
+  },
+  {
+    "title": "Investigate perf impact of VirtualThread notifyJVMTI APIs",
+    "number": "5536",
+    "created_at": "2023-06-01"
+  },
+  {
+    "title": "Create exhaustive tests for PD shift api",
+    "number": "5537",
+    "created_at": "2023-03-13"
+  },
+  {
+    "title": "Test Attach API with security manager installed",
+    "number": "5538",
+    "created_at": "2018-06-19"
+  },
+  {
+    "title": "Merge Jsr292 and OpenJ9_Jsr_292_API",
+    "number": "5539",
+    "created_at": "2017-11-16"
+  },
+  {
+    "title": "Implement or refactor j9sock API for OSX",
+    "number": "5540",
+    "created_at": "2019-01-29"
+  },
+  {
+    "title": "Use socket API from portlib for JITaaS",
+    "number": "5541",
+    "created_at": "2019-06-14"
+  },
+  {
+    "title": "Tool support for catching breaking API changes",
+    "number": "5542",
+    "created_at": "2017-05-02"
+  },
+  {
+    "title": "AIX LangLoadTest_5m OutOfMemoryError \"native memory exhausted\"",
+    "number": "8801",
+    "created_at": "2026-06-04"
+  },
+  {
+    "title": "Severe memory leak when setUseEngineSocketByDefault(true)",
+    "number": "8802",
+    "created_at": "2020-04-21"
+  },
+  {
+    "title": "Severe memory leak on failed connection",
+    "number": "8803",
+    "created_at": "2021-02-27"
+  },
+  {
+    "title": "Regression: JVM crash when resolving stale jmethodIDs via JVMTI on JDK 21+",
+    "number": "8804",
+    "created_at": "2026-02-26"
+  },
+  {
+    "title": "Support Projections (incl. View Models and AutoValue)",
+    "number": "8805",
+    "created_at": "2017-10-15"
+  },
+  {
+    "title": "FileHandleResolver cannot get the corresponding png file of a `BitmapFont` file if it use an absolute path of `FileHandle` ",
+    "number": "8806",
+    "created_at": "2018-03-07"
+  },
+  {
+    "title": "Reduce HCR impact on the effectiveness of escape analysis",
+    "number": "8807",
+    "created_at": "2021-07-14"
+  },
+  {
+    "title": "Memory leak/OutOfMemoryError when using 11.0.23+9 IBM Semeru Runtime Certified Edition for z/OS",
+    "number": "8808",
+    "created_at": "2024-08-22"
+  },
+  {
+    "title": "Regression since 0.46. Unhandled exception - Type=Bus error vmState=0x000501ff",
+    "number": "8809",
+    "created_at": "2024-09-26"
+  },
+  {
+    "title": "RealmError",
+    "number": "8810",
+    "created_at": "2017-11-08"
+  },
+  {
+    "title": "Native abort in nativeGetSchemaVersion",
+    "number": "8811",
+    "created_at": "2019-07-17"
+  },
+  {
+    "title": "ThrowingException 4, std::bad_alloc",
+    "number": "8812",
+    "created_at": "2017-01-22"
+  },
+  {
+    "title": "Memory and file exceeds size issue",
+    "number": "8813",
+    "created_at": "2017-06-19"
+  },
+  {
+    "title": "Data Base crashe.",
+    "number": "8814",
+    "created_at": "2015-06-26"
+  },
+  {
+    "title": "OutOfMemoryError: std::bad_alloc in io_realm_internal_TableQuery.cpp line 1285",
+    "number": "8815",
+    "created_at": "2016-11-21"
+  },
+  {
+    "title": "Invalid argument `EINVAL` when opening Realm on Xiaomi Mi5's external storage",
+    "number": "8816",
+    "created_at": "2017-02-12"
+  },
+  {
+    "title": " Out of memory in io_realm_internal_SharedGroup.cpp",
+    "number": "8817",
+    "created_at": "2015-01-26"
+  },
+  {
+    "title": "The JVM process enters a dead state, the heap memory is exhausted, no report OOM Error, why?",
+    "number": "8818",
+    "created_at": "2021-11-25"
+  },
+  {
+    "title": "Bug in  com.android.org.conscrypt.NativeCrypto.EVP_PKEY_free",
+    "number": "8819",
+    "created_at": "2022-06-14"
+  },
+  {
+    "title": "Loom: JVMTI support",
+    "number": "8820",
+    "created_at": "2022-06-01"
+  },
+  {
+    "title": "Memory Leak when using IBM J11.0.14 Liberty L22.0.0.3 CICS 6.1 zOS 2.5",
+    "number": "8821",
+    "created_at": "2022-05-06"
+  },
+  {
+    "title": "CRIU Support: Add restore environment variables",
+    "number": "8822",
+    "created_at": "2021-09-21"
+  },
+  {
+    "title": "JVM crash when combining JNI/Native",
+    "number": "8823",
+    "created_at": "2020-07-09"
+  },
+  {
+    "title": "Native memory leak introduced between version 1.0.1 and 1.1.0 and remains in the latest release.",
+    "number": "8824",
+    "created_at": "2019-08-27"
+  },
+  {
+    "title": "Release 2.3.0 missing in Maven Central",
+    "number": "8825",
+    "created_at": "2019-10-30"
+  },
+  {
+    "title": "Performance problem of modded Minecraft",
+    "number": "8826",
+    "created_at": "2020-01-21"
+  },
+  {
+    "title": "OpenJ9 super-slow with libasan (address santizer) versus HotSpot",
+    "number": "8827",
+    "created_at": "2019-06-21"
+  },
+  {
+    "title": "Finish LWJGL 3 backend and request for testing",
+    "number": "8828",
+    "created_at": "2015-12-28"
+  },
+  {
+    "title": "JNI Crash",
+    "number": "8829",
+    "created_at": "2014-07-14"
+  },
+  {
+    "title": "threadMXBeanTestSuite1 -Xgcpolicy:metronome j9vm.227 ASSERTION FAILED at vm/jnicsup.cpp:1691: ((vmThread)->publicFlags & J9_PUBLIC_FLAGS_VM_ACCESS)",
+    "number": "8830",
+    "created_at": "2026-03-24"
+  },
+  {
+    "title": "Check if local/global references are properly released in JNI",
+    "number": "8831",
+    "created_at": "2016-06-16"
+  },
+  {
+    "title": "j9jni_deleteLocalRef assumes we have VM access but we may not have it if the compilation crashes",
+    "number": "8832",
+    "created_at": "2021-01-25"
+  },
+  {
+    "title": "Improve jitdump functionality",
+    "number": "8833",
+    "created_at": "2020-04-03"
+  },
+  {
+    "title": "Deleted Weak Global References are not validated by Xcheck:jni",
+    "number": "8834",
+    "created_at": "2020-08-27"
+  },
+  {
+    "title": "Severe memory leak when setUseEngineSocketByDefault(true)",
+    "number": "8835",
+    "created_at": "2020-04-21"
+  },
+  {
+    "title": "Cache MemberName data on initialization and resolution",
+    "number": "8836",
+    "created_at": "2024-06-24"
+  },
+  {
+    "title": "Feature request: add unique object ID to -Xtrace constructor output and make available in DTFJ",
+    "number": "8837",
+    "created_at": "2021-04-23"
+  },
+  {
+    "title": "LambdaLoadTest hang",
+    "number": "8838",
+    "created_at": "2020-09-17"
+  },
+  {
+    "title": "JTReg Test Failure: java/lang/ClassLoader/forNameLeak/ClassForNameLeak.java",
+    "number": "8839",
+    "created_at": "2019-09-18"
+  },
+  {
+    "title": "DTFJ: Finalized objects incorrectly tagged with HEAP_ROOT_FINALIZABLE_OBJ",
+    "number": "8840",
+    "created_at": "2019-09-16"
+  },
+  {
+    "title": "Too many open files in io_realm_internal_SharedGroup.cpp",
+    "number": "8841",
+    "created_at": "2016-08-23"
+  },
+  {
+    "title": "Realm Migration -Painful tasks upon non-uniform upgrade",
+    "number": "8842",
+    "created_at": "2018-03-16"
+  },
+  {
+    "title": "java.lang.IllegalStateException: Cannot use ImplicitTransaction after it or its parent has been closed.",
+    "number": "8843",
+    "created_at": "2015-01-08"
+  },
+  {
+    "title": "Memory and file exceeds size issue",
+    "number": "8844",
+    "created_at": "2017-06-19"
+  },
+  {
+    "title": "Large transaction on background thread",
+    "number": "8845",
+    "created_at": "2016-01-06"
+  },
+  {
+    "title": "The JVM process enters a dead state, the heap memory is exhausted, no report OOM Error, why?",
+    "number": "8846",
+    "created_at": "2021-11-25"
+  },
+  {
+    "title": "Loom: JVMTI support",
+    "number": "8847",
+    "created_at": "2022-06-01"
+  },
+  {
+    "title": "Memory Leak when using IBM J11.0.14 Liberty L22.0.0.3 CICS 6.1 zOS 2.5",
+    "number": "8848",
+    "created_at": "2022-05-06"
+  },
+  {
+    "title": "testRASAPI_0 failing on AIX",
+    "number": "8849",
+    "created_at": "2021-12-21"
+  },
+  {
+    "title": "Performance problem of modded Minecraft",
+    "number": "8850",
+    "created_at": "2020-01-21"
+  },
+  {
+    "title": "Potential footprint issue with the stackmap frames during runtime verification",
+    "number": "8851",
+    "created_at": "2018-01-26"
+  },
+  {
+    "title": "Dacapo sub-benchmark \"eclipse\" crashes when run with large load",
+    "number": "8852",
+    "created_at": "2019-10-14"
+  },
+  {
+    "title": "JDK20 jdk/incubator/concurrent/ScopedValue/StressStackOverflow.java StressStackOverflow$TestFailureException: Unexpected value for ScopedValue",
+    "number": "8853",
+    "created_at": "2023-03-20"
+  },
+  {
+    "title": "Porting OpenJ9 to RISC-V",
+    "number": "8854",
+    "created_at": "2019-03-11"
+  },
+  {
+    "title": "local reference table overflow when  using realm",
+    "number": "8855",
+    "created_at": "2017-05-17"
+  },
+  {
+    "title": "[Sync] JNI ERROR reference table overflow ",
+    "number": "8856",
+    "created_at": "2018-04-07"
+  },
+  {
+    "title": "App crashes with \"JNI ERROR (app bug): local reference table overflow (max=512)\"",
+    "number": "8857",
+    "created_at": "2020-11-23"
+  },
+  {
+    "title": "App crashes with \"JNI ERROR (app bug): local reference table overflow (max=512)\"",
+    "number": "8858",
+    "created_at": "2021-01-07"
+  },
+  {
+    "title": "[FFI/Jextract] Failure to load a complex archive file (.a) on AIX in the jextract generation",
+    "number": "8859",
+    "created_at": "2024-07-29"
+  },
+  {
+    "title": "UnsatisfiedLinkError: Program Alignment Mismatch on Pixel 8 (16KB page size) with Conscrypt 2.5.3",
+    "number": "8860",
+    "created_at": "2025-10-31"
+  },
+  {
+    "title": "cmdLineTester_GCCheck Test Failure java.lang.UnsatisfiedLinkError",
+    "number": "8861",
+    "created_at": "2025-06-18"
+  },
+  {
+    "title": "java.lang.UnsatisfiedLinkError due to System Language",
+    "number": "8862",
+    "created_at": "2023-02-16"
+  },
+  {
+    "title": "OpenSSL bundling is interfering with native libraries to use the OS installed version",
+    "number": "8863",
+    "created_at": "2025-09-02"
+  },
+  {
+    "title": "Fatal Exception: java.lang.UnsatisfiedLinkError - through out all Android version",
+    "number": "8864",
+    "created_at": "2020-07-07"
+  },
+  {
+    "title": "UnsatisfiedLinkError: dlopen failed: empty/missing DT_HASH/DT_GNU_HASH",
+    "number": "8865",
+    "created_at": "2024-06-03"
+  },
+  {
+    "title": "jdk18 sanity.openjdk java/foreign/TestFunctionDescriptor.java UnsatisfiedLinkError InternalDowncallHandler.resolveRequiredFields",
+    "number": "8866",
+    "created_at": "2022-07-20"
+  },
+  {
+    "title": "Add support to osx-aarch_64",
+    "number": "8867",
+    "created_at": "2021-08-30"
+  },
+  {
+    "title": "JDK16 java/foreign/TestNative.java - UnsatisfiedLinkError: jdk/internal/foreign/abi/ProgrammableInvoker.registerNatives()V",
+    "number": "8868",
+    "created_at": "2021-01-25"
+  },
+  {
+    "title": "Build instructions for aarch64",
+    "number": "8869",
+    "created_at": "2020-06-27"
+  },
+  {
+    "title": "jvm_compiler_0 test got 329 failures with openj9",
+    "number": "8870",
+    "created_at": "2020-10-26"
+  },
+  {
+    "title": "Sort out the extension for AIX on JDK15 in `System.mapLibraryName(userLibName)`",
+    "number": "8871",
+    "created_at": "2020-06-03"
+  },
+  {
+    "title": "No way to load manually compiled natives for pre-compiled jars.",
+    "number": "8872",
+    "created_at": "2022-09-08"
+  },
+  {
+    "title": "JTReg Test Failure: java/util/Arrays/TimSortStackSize2.java",
+    "number": "8873",
+    "created_at": "2019-09-16"
+  },
+  {
+    "title": "JFR Test Failure: TestJFRIntrinsic",
+    "number": "8874",
+    "created_at": "2026-04-14"
+  },
+  {
+    "title": "Run tests on Android",
+    "number": "8875",
+    "created_at": "2017-07-06"
+  },
+  {
+    "title": "Crashes not loading libgdx.so on certain devices",
+    "number": "8876",
+    "created_at": "2019-12-17"
+  },
+  {
+    "title": "Libgdx fails to load natives on Windows if username contains non-ascii characters",
+    "number": "8877",
+    "created_at": "2019-01-20"
+  },
+  {
+    "title": "testDDRExt_Callsites_0_FAILED Timeout: killed the sub-process",
+    "number": "8878",
+    "created_at": "2023-05-17"
+  },
+  {
+    "title": "Provide linux aarch64 support",
+    "number": "8879",
+    "created_at": "2022-02-21"
+  },
+  {
+    "title": "Native library suffix impact on the library loading in AIX",
+    "number": "8880",
+    "created_at": "2020-05-11"
+  },
+  {
+    "title": "JDK22 cmdLineTester_loadLibraryTests_0_FAILED",
+    "number": "8881",
+    "created_at": "2024-02-16"
+  },
+  {
+    "title": "Box2D not working on 1.10.1-SNAPSHOT with Linux",
+    "number": "8882",
+    "created_at": "2022-01-27"
+  },
+  {
+    "title": "JDK19 langtools_custom_0_FAILED Exception while calling user-specified class: requires.VMProps",
+    "number": "8883",
+    "created_at": "2022-06-08"
+  },
+  {
+    "title": "java/nio/channels/FileChannel/Transfer2GPlus.java - RuntimeException: Transfer too small",
+    "number": "8884",
+    "created_at": "2022-02-13"
+  },
+  {
+    "title": "Can we coordinate efforts to support Graal Native Image?",
+    "number": "8885",
+    "created_at": "2023-03-31"
+  },
+  {
+    "title": "Could not find 'librealm-jni.so'. Looked for: [x86], but only found: [].",
+    "number": "8886",
+    "created_at": "2020-04-26"
+  },
+  {
+    "title": "JFR Test Failure: TestJFRIntrinsic",
+    "number": "8887",
+    "created_at": "2026-04-14"
+  },
+  {
+    "title": "OpenJ9 JVM crash when loading native library in Linux",
+    "number": "8888",
+    "created_at": "2021-08-03"
+  },
+  {
+    "title": "Re-enable openjdk test - jdk_bean ",
+    "number": "8889",
+    "created_at": "2024-11-07"
+  },
+  {
+    "title": "SIGSEGV in walkStackFrames during GC scanSlots on amd64 (ASAN build)",
+    "number": "8890",
+    "created_at": "2026-03-16"
+  },
+  {
+    "title": "AIX 7.3: SIGSEGV in libc from OperatingSystemMXBean notification dispatcher (OpenJ9 0.59.0, Java 11.0.31)",
+    "number": "8891",
+    "created_at": "2026-05-21"
+  },
+  {
+    "title": "Crash : SIGSEGV /SEGV_MAPERR ",
+    "number": "8892",
+    "created_at": "2023-04-26"
+  },
+  {
+    "title": "OpenJ9 JDK8 SIGSEGV in libj9gc29.so with Balanced GC during GC worker stack root scanning",
+    "number": "8893",
+    "created_at": "2026-05-24"
+  },
+  {
+    "title": "Crash in Java_io_realm_internal_UncheckedRow_nativeGetString, StringData.size = 18446744073709551615",
+    "number": "8894",
+    "created_at": "2024-10-09"
+  },
+  {
+    "title": "jdk25 openjdk java/foreign/TestBufferStackStress timeout",
+    "number": "8895",
+    "created_at": "2025-07-14"
+  },
+  {
+    "title": "Bullet btBroadphasePair.getAlgorithm() causing JVM to crash",
+    "number": "8896",
+    "created_at": "2018-02-11"
+  },
+  {
+    "title": "Jprofiling calls on x86-32 are using the wrong linkage",
+    "number": "8897",
+    "created_at": "2019-09-09"
+  },
+  {
+    "title": "OpenJ9 JIT crash when compiling io/micrometer/core/instrument/Meter$Id.hashCode() on Linux",
+    "number": "8898",
+    "created_at": "2025-12-22"
+  },
+  {
+    "title": "Segmentation fault with TR_StressTrampolines enabled",
+    "number": "8899",
+    "created_at": "2020-11-27"
+  },
+  {
+    "title": "sun.awt.X11.ColorData is causing a JVM crash, which may be related to JNI-related issues.",
+    "number": "8900",
+    "created_at": "2025-02-23"
+  },
+  {
+    "title": "Calling RealmQuery.or() twice in a row causes a native crash",
+    "number": "8901",
+    "created_at": "2018-09-18"
+  },
+  {
+    "title": "clone() system call fails with EPERM when forking JVM on Ubuntu-based Kernel",
+    "number": "8902",
+    "created_at": "2025-08-05"
+  },
+  {
+    "title": "Experiment disabling method inlining in Core to have a useful native crashes",
+    "number": "8903",
+    "created_at": "2021-02-25"
+  },
+  {
+    "title": "Avoid segmentation faults when running with Huge Pages in containers",
+    "number": "8904",
+    "created_at": "2021-06-28"
+  },
+  {
+    "title": "JDK17 DaaLoadTest_daa1_special_5m_8_FAILED : Segmentation error vmState=0x000501ff - Method_being_compiled=net/openj9/test/decimals/TestDecimalData2.testConvertBigDecimalExceptions()V",
+    "number": "8905",
+    "created_at": "2021-08-30"
+  },
+  {
+    "title": "RealmList size() crashes occurring for many users since version 10.9.0",
+    "number": "8906",
+    "created_at": "2022-01-04"
+  },
+  {
+    "title": "[JIT] GPF in TR_J9EstimateCodeSize::realEstimateCodeSize via IAP / collectImplementorsCapped when compiling a Kotlin IR-visitor method (Semeru 25.0.3+9, OpenJ9 0.59.0)",
+    "number": "8907",
+    "created_at": "2026-05-29"
+  },
+  {
+    "title": "SEGV using new jcmd dump options",
+    "number": "8908",
+    "created_at": "2020-10-07"
+  },
+  {
+    "title": "Porting OpenJ9 to RISC-V",
+    "number": "8909",
+    "created_at": "2019-03-11"
+  },
+  {
+    "title": "Feature request: Add signal sender process information to javacore output",
+    "number": "8910",
+    "created_at": "2025-04-10"
+  },
+  {
+    "title": "SEGV_MAPERR crash by RealmFinalizing",
+    "number": "8911",
+    "created_at": "2023-10-23"
+  },
+  {
+    "title": "Flaky test: typedSetter_wrongUnderlyingTypeThrows(io.realm.DynamicRealmObjectTests)",
+    "number": "8912",
+    "created_at": "2021-06-11"
+  },
+  {
+    "title": "jdk_lang_0 java/lang/Thread/virtual/MiscMonitorTests.java#Xcomp-noTieredCompilation j9codertvm(j9ji.110 ASSERTION FAILED at runtime/codert_vm/jswalk.c:538: ((0 ))",
+    "number": "8913",
+    "created_at": "2025-06-12"
+  },
+  {
+    "title": "Calling FontScaler.getScaler(null) Causes Fatal JVM Crash",
+    "number": "8914",
+    "created_at": "2025-05-30"
+  },
+  {
+    "title": "jdk_lang_0 j9mm.479 ASSERTION FAILED at openj9/runtime/gc_glue_java/ScavengerDelegate.cpp:362: ((MM_StackSlotValidator(MM_StackSlotValidator::NOT_ON_HEAP, *slotPtr, stackLocation, walkState).validate(env)))",
+    "number": "8915",
+    "created_at": "2025-06-11"
+  },
+  {
+    "title": "Crash in walkStackFrames",
+    "number": "8916",
+    "created_at": "2025-05-08"
+  },
+  {
+    "title": "Crash in GC while running CancelTimerWithContention",
+    "number": "8917",
+    "created_at": "2025-03-18"
+  },
+  {
+    "title": "prunsrv.exe (Tomcat10.exe) killed when run on top of openj9 ",
+    "number": "8918",
+    "created_at": "2024-07-22"
+  },
+  {
+    "title": "SIGSEGV(SEGV_MAPERR) SIGSEGV(SEGV_ACCERR)",
+    "number": "8919",
+    "created_at": "2017-01-09"
+  },
+  {
+    "title": "A JIT crash about SIMD",
+    "number": "8920",
+    "created_at": "2025-02-13"
+  },
+  {
+    "title": "JVM Crash after upgrading from 21.0.10+7 to 25.0.3+9 (OpenLiberty Server)",
+    "number": "8921",
+    "created_at": "2026-06-16"
+  },
+  {
+    "title": "JVM Crash: OpenJ9 Segmentation Fault",
+    "number": "8922",
+    "created_at": "2026-01-23"
+  },
+  {
+    "title": "Regression: JVM crash when resolving stale jmethodIDs via JVMTI on JDK 21+",
+    "number": "8923",
+    "created_at": "2026-02-26"
+  },
+  {
+    "title": "JVM crash - Buffer overflow",
+    "number": "8924",
+    "created_at": "2020-12-22"
+  },
+  {
+    "title": "Arrays.copyOfRange method crashes the JVM",
+    "number": "8925",
+    "created_at": "2019-08-06"
+  },
+  {
+    "title": "JDK24: VT: Crash in skynet test",
+    "number": "8926",
+    "created_at": "2025-08-01"
+  },
+  {
+    "title": "JVM crash when using ASGCT (async-profiler)",
+    "number": "8927",
+    "created_at": "2022-08-30"
+  },
+  {
+    "title": "Bullet btBroadphasePair.getAlgorithm() causing JVM to crash",
+    "number": "8928",
+    "created_at": "2018-02-11"
+  },
+  {
+    "title": "AIX 7.3: SIGSEGV in libc from OperatingSystemMXBean notification dispatcher (OpenJ9 0.59.0, Java 11.0.31)",
+    "number": "8929",
+    "created_at": "2026-05-21"
+  },
+  {
+    "title": "Runtime crashes when attached to JNI-based profiler",
+    "number": "8930",
+    "created_at": "2025-07-30"
+  },
+  {
+    "title": "OpenJ9-8u432  crashes when loading awt_xawt library",
+    "number": "8931",
+    "created_at": "2025-12-02"
+  },
+  {
+    "title": "threadMXBeanTestSuite2 crash vmState=0x00000000 getInlinedMethod libj9jit29",
+    "number": "8932",
+    "created_at": "2026-06-13"
+  },
+  {
+    "title": "cmdLineTester_jfrEvents_0 runWorkload - approx 300 seconds Type=Segmentation error vmState=0x00020011",
+    "number": "8933",
+    "created_at": "2026-04-20"
+  },
+  {
+    "title": "MethodType mismatch of VarHandleGuards linker methods causes JVM crash",
+    "number": "8934",
+    "created_at": "2021-01-06"
+  },
+  {
+    "title": "OpenJ9 JVM crash when loading native library in Linux",
+    "number": "8935",
+    "created_at": "2021-08-03"
+  },
+  {
+    "title": "Segmentation Error or GPF - JVM crash - JNA User32GetMessage API",
+    "number": "8936",
+    "created_at": "2021-01-12"
+  },
+  {
+    "title": "j9shr29.dll crash creating shared cache with half-page aligned boundaries",
+    "number": "8937",
+    "created_at": "2025-10-09"
+  },
+  {
+    "title": "SPECjbb2015_6 crash -Xgc:concurrentScavenge",
+    "number": "8938",
+    "created_at": "2026-04-27"
+  },
+  {
+    "title": "SC_Softmx_Increase NullPointerException crash vmState=0x00000000",
+    "number": "8939",
+    "created_at": "2026-03-20"
+  },
+  {
+    "title": "MathLoadTest crash vmState=0x00000000",
+    "number": "8940",
+    "created_at": "2025-04-21"
+  },
+  {
+    "title": "JVM signal handler hangs trying to generate coredump while handling crash in malloc",
+    "number": "8941",
+    "created_at": "2025-03-28"
+  },
+  {
+    "title": "OpenJ9 0.59.0 FFI: ASSERTION FAILED in LayoutFFITypeHelpers.hpp when creating downcallHandle when the default language is Turkish",
+    "number": "8942",
+    "created_at": "2026-06-11"
+  },
+  {
+    "title": "testRASAPI_0 failure",
+    "number": "8943",
+    "created_at": "2026-06-15"
+  },
+  {
+    "title": "Crash plinux building tests vmState=0x00000000",
+    "number": "8944",
+    "created_at": "2021-11-11"
+  },
+  {
+    "title": "MathLoadTest_bigdecimal crash vmState=0x00000000",
+    "number": "8945",
+    "created_at": "2024-09-30"
+  },
+  {
+    "title": "JDK17 openj9 (semeru) crash when running on alpine 3.20.2",
+    "number": "8946",
+    "created_at": "2024-08-25"
+  },
+  {
+    "title": "JDK25 OpenJDK java/lang/invoke/MethodHandleProxies/BasicTest crash vmState=0x00000000 isModuleDefined hashTableFind moduleNameHashEqualFn",
+    "number": "8947",
+    "created_at": "2025-07-21"
+  },
+  {
+    "title": "Invalid Argument on EPoll.wait",
+    "number": "8948",
+    "created_at": "2026-05-18"
+  },
+  {
+    "title": "VM crash when jvmtiGetMethodName is called from VMDeath callback",
+    "number": "8949",
+    "created_at": "2022-09-02"
+  },
+  {
+    "title": "Fix crash in compiled method while building DDR",
+    "number": "8950",
+    "created_at": "2021-11-10"
+  },
+  {
+    "title": "Promotion job failed but the failure report not posted to Slack",
+    "number": "8951",
+    "created_at": "2019-07-24"
+  },
+  {
+    "title": "ARM build?",
+    "number": "8952",
+    "created_at": "2017-09-18"
+  },
+  {
+    "title": "Internal JITServer test failures",
+    "number": "8953",
+    "created_at": "2022-02-17"
+  },
+  {
+    "title": "Unspecified exception. Bad UTF-8 encoding",
+    "number": "8954",
+    "created_at": "2014-11-24"
+  },
+  {
+    "title": "Failure when converting to UTF-8 (WITH SAMPLE REPO)",
+    "number": "8955",
+    "created_at": "2020-09-03"
+  },
+  {
+    "title": "Realm Migration for Column type long not working",
+    "number": "8956",
+    "created_at": "2015-11-20"
+  },
+  {
+    "title": "Received an error in Jni: Failure when converting long string to UTF-16",
+    "number": "8957",
+    "created_at": "2016-03-11"
+  },
+  {
+    "title": "Document GSON serializer",
+    "number": "8958",
+    "created_at": "2015-05-15"
+  },
+  {
+    "title": "Help: I Want to change the encryptionKey without lossing any data.. the below code gives me IllegalStateException",
+    "number": "8959",
+    "created_at": "2015-10-01"
+  },
+  {
+    "title": "Exception doesn't give meaningful message",
+    "number": "8960",
+    "created_at": "2015-05-15"
+  },
+  {
+    "title": "TextureAtlas loader and encoding of .atlas files",
+    "number": "8961",
+    "created_at": "2023-05-28"
+  },
+  {
+    "title": "RealmError: Unrecoverable error. Failure when converting short string to UTF-16",
+    "number": "8962",
+    "created_at": "2016-03-17"
+  },
+  {
+    "title": "Native crash \"Failure when converting short string to UTF-16 error_code = 1\" ",
+    "number": "8963",
+    "created_at": "2015-09-01"
+  },
+  {
+    "title": "Sort() signal 11 on version 73",
+    "number": "8964",
+    "created_at": "2014-11-04"
+  },
+  {
+    "title": "TestJlmRemoteThreadAuth crash LT1 vmState=0x00000000",
+    "number": "8965",
+    "created_at": "2023-09-15"
+  },
+  {
+    "title": "Getting a weird behavior when saving a string",
+    "number": "8966",
+    "created_at": "2015-01-08"
+  },
+  {
+    "title": "jextract libraries with newer releases",
+    "number": "8967",
+    "created_at": "2021-06-22"
+  },
+  {
+    "title": "jdk19 Compiling method: java/lang/Thread.genThreadName() crash vmstate 0005FFFF",
+    "number": "8968",
+    "created_at": "2022-09-09"
+  },
+  {
+    "title": "OpenJDK test mismatch with USE_TESTENV_PROPERTIES enabled",
+    "number": "8969",
+    "created_at": "2022-01-19"
+  },
+  {
+    "title": "MauveMultiThreadLoadTest_special_16 String.ConsCharset got 65503 but expected 223",
+    "number": "8970",
+    "created_at": "2020-11-16"
+  },
+  {
+    "title": "jdk8 s390xLinux extended.openjdk: No such algorithm: AES/ECb/NoPadding or jdk.nativeCryptoTrace PropertyPermission ?",
+    "number": "8971",
+    "created_at": "2021-01-11"
+  },
+  {
+    "title": "worker-2 Cannot allocate memory",
+    "number": "8972",
+    "created_at": "2019-10-16"
+  },
+  {
+    "title": "Segmentation error on openj9-0.14.0 / JRE 1.8.0_212-b03 (x32) / Windows 7 - openssl MessageDigest",
+    "number": "8973",
+    "created_at": "2019-04-25"
+  },
+  {
+    "title": "JVM_EnqueueOperation() stubbed",
+    "number": "8974",
+    "created_at": "2018-10-25"
+  },
+  {
+    "title": "OpenJ9 Java 11 on Windows 10 won't start crashes with segmentation error",
+    "number": "8975",
+    "created_at": "2018-11-20"
+  },
+  {
+    "title": "Core dump results when trying to run \"hello, world\" program in NetBeans 9",
+    "number": "8976",
+    "created_at": "2018-08-16"
+  },
+  {
+    "title": "GWT: utf-8 characters at the end of the buffer can be corrupted by BufferedReader",
+    "number": "8977",
+    "created_at": "2015-08-13"
+  },
+  {
+    "title": "There's no secure way to get gdx-setup.jar except building from source",
+    "number": "8978",
+    "created_at": "2016-10-31"
+  },
+  {
+    "title": "Crash in Java_io_realm_internal_UncheckedRow_nativeGetString, StringData.size = 18446744073709551615",
+    "number": "8979",
+    "created_at": "2024-10-09"
+  },
+  {
+    "title": "JVM signal handler hangs trying to generate coredump while handling crash in malloc",
+    "number": "8980",
+    "created_at": "2025-03-28"
+  },
+  {
+    "title": " Add check for null as primary key to avoid: \"JNI DETECTED ERROR IN APPLICATION: GetStringChars received null jstring\"",
+    "number": "8981",
+    "created_at": "2015-02-27"
+  },
+  {
+    "title": "realm3.3.1 SIGBUS(BUS_ADRERR)",
+    "number": "8982",
+    "created_at": "2017-07-11"
+  },
+  {
+    "title": "App crashes with \"JNI ERROR (app bug): local reference table overflow (max=512)\"",
+    "number": "8983",
+    "created_at": "2020-11-23"
+  },
+  {
+    "title": "Native Realm Crashes on 4.2.0",
+    "number": "8984",
+    "created_at": "2018-05-16"
+  },
+  {
+    "title": "ArrayIndexOutOfBoundsException when insertOrUpdate",
+    "number": "8985",
+    "created_at": "2017-05-06"
+  },
+  {
+    "title": "Fatal signal 11 (SIGSEGV) from Java_io_realm_internal_UncheckedRow_nativeGetString",
+    "number": "8986",
+    "created_at": "2018-09-05"
+  },
+  {
+    "title": "OpenJDK mac java/foreign/TestFunctionDescriptor NoSuchElementException: No value present",
+    "number": "8987",
+    "created_at": "2022-02-10"
+  },
+  {
+    "title": "jdk15 build crash in JVM_DefineModule",
+    "number": "8988",
+    "created_at": "2020-04-20"
+  },
+  {
+    "title": "Calling hashClassTableAtString first to avoid verifying duplicate class names by verifyQualifiedName",
+    "number": "8989",
+    "created_at": "2020-07-08"
+  },
+  {
+    "title": "JVMTI event JVMTI_EVENT_EXCEPTION generated multiple times for the same exception",
+    "number": "8990",
+    "created_at": "2019-05-16"
+  },
+  {
+    "title": "JVM_EnqueueOperation() stubbed",
+    "number": "8991",
+    "created_at": "2018-10-25"
+  },
+  {
+    "title": "Image files are not displayed properly on SwingSet2 demo program",
+    "number": "8992",
+    "created_at": "2019-01-08"
+  },
+  {
+    "title": "Fatal signal 11 (SIGSEGV) from Java_io_realm_internal_UncheckedRow_nativeGetString",
+    "number": "8993",
+    "created_at": "2018-09-05"
+  },
+  {
+    "title": "Loom: JVMTI support",
+    "number": "8994",
+    "created_at": "2022-06-01"
+  },
+  {
+    "title": "AIX OOMs in extended.system SharedClasses MultiThread testing",
+    "number": "8995",
+    "created_at": "2020-03-12"
+  },
+  {
+    "title": "Internal JITServer test failures",
+    "number": "8996",
+    "created_at": "2022-02-17"
+  },
+  {
+    "title": "Crash in GC while running CancelTimerWithContention",
+    "number": "8997",
+    "created_at": "2025-03-18"
+  },
+  {
+    "title": "jdk24 java/foreign/largestub/TestLargeStub IllegalArgumentException array length is not legal for long[] or double[]",
+    "number": "8998",
+    "created_at": "2024-10-15"
+  },
+  {
+    "title": "HCRLateAttachWorkload_previewEnabled_1_FAILED - Segmentation error vmState=0x0002000f",
+    "number": "8999",
+    "created_at": "2021-09-13"
+  },
+  {
+    "title": "Realm 7.0.8 native crash - EncryptedFileMapping::get_local_index_of_address",
+    "number": "9000",
+    "created_at": "2020-10-05"
+  },
+  {
+    "title": "JEP 454: Foreign Function & Memory API (Finalized)",
+    "number": "9001",
+    "created_at": "2023-07-27"
+  },
+  {
+    "title": "Synced Realm crashes with \"Fatal signal 11 (SIGSEGV), code 1, fault addr 0xe0\" during the first launch",
+    "number": "9002",
+    "created_at": "2020-06-26"
+  },
+  {
+    "title": "Loom: DDR support",
+    "number": "9003",
+    "created_at": "2022-06-01"
+  },
+  {
+    "title": "OpenJDK java/math/BigInteger/BigIntegerTest - Misaligned stack-allocated object",
+    "number": "9004",
+    "created_at": "2023-07-06"
+  },
+  {
+    "title": "Design and Implementation of Foreign Linker API: Upcall",
+    "number": "9005",
+    "created_at": "2022-05-16"
+  },
+  {
+    "title": "Can not load Minecraft snapshot",
+    "number": "9006",
+    "created_at": "2020-08-09"
+  },
+  {
+    "title": "Support configuration option --with-jni-libpath?",
+    "number": "9007",
+    "created_at": "2025-11-25"
+  },
+  {
+    "title": "Avoid flooding temp dir with DLLs on Windows",
+    "number": "9008",
+    "created_at": "2020-12-01"
+  },
+  {
+    "title": "Add support to osx-aarch_64",
+    "number": "9009",
+    "created_at": "2021-08-30"
+  },
+  {
+    "title": "Build instructions for aarch64",
+    "number": "9010",
+    "created_at": "2020-06-27"
+  },
+  {
+    "title": "New Jep434Tests_testLinkerFfi_* tests failing against hotspot across all platforms",
+    "number": "9011",
+    "created_at": "2023-03-28"
+  },
+  {
+    "title": "Run tests on Android",
+    "number": "9012",
+    "created_at": "2017-07-06"
+  },
+  {
+    "title": "Remove usage of default directory for mixed refs builds",
+    "number": "9013",
+    "created_at": "2021-01-25"
+  },
+  {
+    "title": "java.lang.UnsatisfiedLinkError due to System Language",
+    "number": "9014",
+    "created_at": "2023-02-16"
+  },
+  {
+    "title": "Provide linux aarch64 support",
+    "number": "9015",
+    "created_at": "2022-02-21"
+  },
+  {
+    "title": "Not all properties returned by J9JavaVMHelper.getSystemProperties(J9JavaVMPointer)",
+    "number": "9016",
+    "created_at": "2020-10-02"
+  },
+  {
+    "title": "libpathTestRtf and libpathTestRtfChild hang on OSX [JDK8/JDK11]",
+    "number": "9017",
+    "created_at": "2018-11-21"
+  },
+  {
+    "title": "JDK22 cmdLineTester_loadLibraryTests_0_FAILED",
+    "number": "9018",
+    "created_at": "2024-02-16"
+  },
+  {
+    "title": "Native library suffix impact on the library loading in AIX",
+    "number": "9019",
+    "created_at": "2020-05-11"
+  },
+  {
+    "title": "Add support for Robolectric",
+    "number": "9020",
+    "created_at": "2015-02-24"
+  },
+  {
+    "title": "java.lang.IllegalArgumentException: committed value cannot be larger than the max value",
+    "number": "9021",
+    "created_at": "2023-07-11"
+  },
+  {
+    "title": "OpenJ9 JVM crash when loading native library in Linux",
+    "number": "9022",
+    "created_at": "2021-08-03"
+  },
+  {
+    "title": "AWTError: Can't connect to X11 window server using 'unix:0'",
+    "number": "9023",
+    "created_at": "2022-04-20"
+  },
+  {
+    "title": "Android unit tests with Conscrypt",
+    "number": "9024",
+    "created_at": "2019-03-27"
+  },
+  {
+    "title": "Internal JITServer test failures",
+    "number": "9025",
+    "created_at": "2022-02-17"
+  },
+  {
+    "title": "Conscrypt giving error on Linux environment",
+    "number": "9026",
+    "created_at": "2020-05-19"
+  },
+  {
+    "title": "Couldn't load the Realm JNI library 'realm_jni32.dll or realm_jni64.dll'. Please include the directory to the library in java.library.path.",
+    "number": "9027",
+    "created_at": "2016-09-09"
+  },
+  {
+    "title": "revisit disabled tests",
+    "number": "9028",
+    "created_at": "2020-10-16"
+  },
+  {
+    "title": "JVM_LoadLibrary should handle .a files on AIX",
+    "number": "9029",
+    "created_at": "2024-04-18"
+  },
+  {
+    "title": "ISSUE - Unit test Problem (librealm-jni.so)",
+    "number": "9030",
+    "created_at": "2016-11-16"
+  },
+  {
+    "title": "Jep442Tests_testLinkerFfi_DownCall and Jep442Tests_testLinkerFfi_UpCall fail against hotspot ",
+    "number": "9031",
+    "created_at": "2023-04-26"
+  },
+  {
+    "title": "Test code/infrastruture should use DYLD_LIBRARY_PATH on OSX JDK11",
+    "number": "9032",
+    "created_at": "2018-11-15"
+  },
+  {
+    "title": "Maven build errors - not able to find org.eclipse.openj9.criu",
+    "number": "9033",
+    "created_at": "2023-09-27"
+  },
+  {
+    "title": "Facing error on m1 machines, no conscrypt_openjdk_jni-osx-aarch_64 in java.library.path",
+    "number": "9034",
+    "created_at": "2022-08-06"
+  },
+  {
+    "title": "OpenJDK mac java/foreign/TestFunctionDescriptor NoSuchElementException: No value present",
+    "number": "9035",
+    "created_at": "2022-02-10"
+  },
+  {
+    "title": "jdk19 OpenJDK  java/lang/Thread/jni/AttachCurrentThread/AttachTest.java crash walkStackFrames",
+    "number": "9036",
+    "created_at": "2022-11-09"
+  },
+  {
+    "title": "OpenJ9-8u432  crashes when loading awt_xawt library",
+    "number": "9037",
+    "created_at": "2025-12-02"
+  },
+  {
+    "title": "SIGFPE not consumed by the JVM when trap is enabled",
+    "number": "9038",
+    "created_at": "2018-09-17"
+  },
+  {
+    "title": "Test SCC range checks",
+    "number": "9039",
+    "created_at": "2021-03-05"
+  },
+  {
+    "title": "JVM signal handler hangs trying to generate coredump while handling crash in malloc",
+    "number": "9040",
+    "created_at": "2025-03-28"
+  },
+  {
+    "title": "Sort out the extension for AIX on JDK15 in `System.mapLibraryName(userLibName)`",
+    "number": "9041",
+    "created_at": "2020-06-03"
+  },
+  {
+    "title": "OpenJ9 JVM crash when loading native library in Linux",
+    "number": "9042",
+    "created_at": "2021-08-03"
+  },
+  {
+    "title": "Native library suffix impact on the library loading in AIX",
+    "number": "9043",
+    "created_at": "2020-05-11"
+  },
+  {
+    "title": "mauve system tests hanging on osx",
+    "number": "9044",
+    "created_at": "2019-09-11"
+  },
+  {
+    "title": "FFI/FFM : Unexpected behaviour when using Memory Segment for upcall/downcall",
+    "number": "9045",
+    "created_at": "2025-09-08"
+  },
+  {
+    "title": "Porting OpenJ9 to RISC-V",
+    "number": "9046",
+    "created_at": "2019-03-11"
+  },
+  {
+    "title": "jdk24 java/foreign/TestRestricted AssertionError @Restricted annotation not found for methods System.loadLibrary, System.load",
+    "number": "9047",
+    "created_at": "2024-10-15"
+  },
+  {
+    "title": "jdk_nio_0_FAILED java/nio/file/attribute/BasicFileAttributeView/CreationTime.java#tmp UnsatisfiedLinkError: Native Library libCreationTimeHelper.so already loaded in another classloader",
+    "number": "9048",
+    "created_at": "2024-08-07"
+  },
+  {
+    "title": "IBM Java 8 cannot load a DLL that depends on a newer version of the Microsoft Visual C++ redistributable files than version `14.34.31931.0`.",
+    "number": "9049",
+    "created_at": "2024-09-05"
+  },
+  {
+    "title": "Conscrypt giving error on Linux environment",
+    "number": "9050",
+    "created_at": "2020-05-19"
+  },
+  {
+    "title": "JVM_LoadLibrary should handle .a files on AIX",
+    "number": "9051",
+    "created_at": "2024-04-18"
+  },
+  {
+    "title": "Conflict to JNI directory",
+    "number": "9052",
+    "created_at": "2016-09-28"
+  },
+  {
+    "title": "Native method not found: io.realm.internal.NativeObjectReference.nativeCleanUp",
+    "number": "9053",
+    "created_at": "2017-05-31"
+  },
+  {
+    "title": "java.lang.UnsatisfiedLinkError: Native method not found: io.realm.internal.UncheckedRow.nativeSetLink:(JJJ)V",
+    "number": "9054",
+    "created_at": "2017-08-29"
+  },
+  {
+    "title": "App Bundle: MissingLibraryException",
+    "number": "9055",
+    "created_at": "2018-05-28"
+  },
+  {
+    "title": "OpenSSL testing to confirm OpenSSL natives are being loaded",
+    "number": "9056",
+    "created_at": "2018-12-18"
+  },
+  {
+    "title": "[FFI/Jtreg_JDK21] AssertionError detected in TestTrivialUpcall.java",
+    "number": "9057",
+    "created_at": "2023-07-19"
+  },
+  {
+    "title": "Panama MemoryAccessAPI: Add jit intrinsic support for vectorizedMismatch",
+    "number": "9058",
+    "created_at": "2022-06-02"
+  },
+  {
+    "title": "AIX cannot load libfontmanager.so",
+    "number": "9059",
+    "created_at": "2022-09-30"
+  },
+  {
+    "title": "Non-compliance with JDK specification in implementing System.loadLibrary",
+    "number": "9060",
+    "created_at": "2022-04-07"
+  },
+  {
+    "title": "jdk19 OpenJDK  java/lang/Thread/jni/AttachCurrentThread/AttachTest.java crash walkStackFrames",
+    "number": "9061",
+    "created_at": "2022-11-09"
+  },
+  {
+    "title": "OpenJDK mac java/foreign/TestFunctionDescriptor NoSuchElementException: No value present",
+    "number": "9062",
+    "created_at": "2022-02-10"
+  },
+  {
+    "title": "Update signature of JVM_LoadLibrary() for jdk18+",
+    "number": "9063",
+    "created_at": "2021-11-01"
+  },
+  {
+    "title": "JEP 389: Foreign Linker API (Incubator)",
+    "number": "9064",
+    "created_at": "2020-11-16"
+  },
+  {
+    "title": "different error message (IBM and OpenJ9) when loading library j9unresolved with flag -XX:-LazySymbolResolution",
+    "number": "9065",
+    "created_at": "2020-10-15"
+  },
+  {
+    "title": "jdk15 build failure: ASSERTION FAILED ** at classsupport.c:1136",
+    "number": "9066",
+    "created_at": "2020-11-18"
+  },
+  {
+    "title": "UnsatisfiedLinkError: Program Alignment Mismatch on Pixel 8 (16KB page size) with Conscrypt 2.5.3",
+    "number": "9067",
+    "created_at": "2025-10-31"
+  },
+  {
+    "title": "gcc10 warnings in the JIT",
+    "number": "9068",
+    "created_at": "2022-04-05"
+  },
+  {
+    "title": "Mac crash on osx1011-x86-2 in array copy test",
+    "number": "9069",
+    "created_at": "2020-06-03"
+  },
+  {
+    "title": "Building OpenJ9 for e500v2 core equipped SoC",
+    "number": "9070",
+    "created_at": "2018-08-12"
+  },
+  {
+    "title": "serviceability_jvmti_j9_0 serviceability/jvmti/ObjectMonitorUsage/ObjectMonitorUsage.java timed out",
+    "number": "9071",
+    "created_at": "2025-05-15"
+  },
+  {
+    "title": "Some Android devices can not find the 'gdx' shared library and the app crashes on launch",
+    "number": "9072",
+    "created_at": "2024-08-30"
+  },
+  {
+    "title": "Conflict to JNI directory",
+    "number": "9073",
+    "created_at": "2016-09-28"
+  },
+  {
+    "title": "com.getkeepsafe.relinker.MissingLibraryException: lib/armeabi-v7a/librealm-jni.so",
+    "number": "9074",
+    "created_at": "2016-09-22"
+  },
+  {
+    "title": "UnsatisfiedLinkError: com.badlogic.gdx.physics.box2d.World.newWorld(FFZ)J",
+    "number": "9075",
+    "created_at": "2013-09-14"
+  },
+  {
+    "title": "CRIU: Blocking identity operations in single thread mode",
+    "number": "9076",
+    "created_at": "2022-02-23"
+  },
+  {
+    "title": "OpenJDK jni/AttachCurrentThread/AttachTest.java#id1 crash vmState=0x00000000",
+    "number": "9077",
+    "created_at": "2025-11-26"
+  },
+  {
+    "title": "OpenJDK java/lang/Thread/jni/AttachCurrentThread/AttachTest crash vmState=0x00000000",
+    "number": "9078",
+    "created_at": "2023-06-14"
+  },
+  {
+    "title": "OpenJDK java/lang/Thread/jni/AttachCurrentThread/AttachTest crash vmState=0x00000000",
+    "number": "9079",
+    "created_at": "2025-04-10"
+  },
+  {
+    "title": "[realm-core-12.3.0] Assertion failed: false",
+    "number": "9080",
+    "created_at": "2024-01-25"
+  },
+  {
+    "title": "[Jtreg/FFI] Disable FFI test suites in Jtreg test for JDK20",
+    "number": "9081",
+    "created_at": "2023-01-17"
+  },
+  {
+    "title": "jdk20 OpenjDK java/lang/Thread/jni/AttachCurrentThread/AttachTest NullPointerException Cannot invoke \"java.lang.invoke.MethodHandle.type()\" because \"target\" is null",
+    "number": "9082",
+    "created_at": "2023-02-02"
+  },
+  {
+    "title": "jdk19 OpenJDK  java/lang/Thread/jni/AttachCurrentThread/AttachTest.java crash walkStackFrames",
+    "number": "9083",
+    "created_at": "2022-11-09"
+  },
+  {
+    "title": "jdk19 openjdk java/lang/Thread/jni/AttachCurrentThread/AttachTest.java#id1 UnsatisfiedLinkError: jdk/internal/foreign/abi/UpcallLinker.registerNatives()V",
+    "number": "9084",
+    "created_at": "2022-06-30"
+  },
+  {
+    "title": "jdk19 openjdk java/foreign/SafeFunctionAccessTest.java crash vmState=0x00000000",
+    "number": "9085",
+    "created_at": "2023-01-25"
+  },
+  {
+    "title": "JTReg VM Failure: java/nio/charset/coders/BashStreams.java",
+    "number": "9086",
+    "created_at": "2020-02-25"
+  }
+]

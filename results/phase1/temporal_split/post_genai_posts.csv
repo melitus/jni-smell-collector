@@ -1,0 +1,757 @@
+forum,post_id,title,creation_date,era
+Stack Overflow,21,"How to solve Python-C-API error &quot;This is an issue with the package mentioned above, not pip.&qu",2023-02-01,Post-GenAI
+Stack Overflow,28,Issue with converting C pointers to numpy arrays in Python,2024-05-07,Post-GenAI
+Stack Overflow,34,Issue Running Python Application with Bazel - ImportError with NumPy C-Extensions,2024-06-06,Post-GenAI
+Stack Overflow,36,How would you properly use the Python/C API in a C shared library?,2023-04-20,Post-GenAI
+Stack Overflow,39,issue with returning Struct from C to Python using ctypes,2022-12-04,Post-GenAI
+Stack Overflow,43,Python C Extension: Linker says &#39;multiple definition of symbol&#39;,2023-01-25,Post-GenAI
+Stack Overflow,50,ImportError with Numpy using Python/C 3.12 API subinterpreters,2023-12-08,Post-GenAI
+Stack Overflow,58,Restarting the Python interpreter using Python C API,2024-05-07,Post-GenAI
+Stack Overflow,91,How to pass a string pointer-to-pointer from C to Python?,2022-12-09,Post-GenAI
+Stack Overflow,104,Python3: c-type segfault from multithreaded C shared library,2023-10-03,Post-GenAI
+Stack Overflow,119,Serial Port Communication Issue in C Code on Linux,2023-12-16,Post-GenAI
+Stack Overflow,123,Segfault on PyDict_New() and python &gt;= 3.10,2023-02-23,Post-GenAI
+Stack Overflow,125,Python extension written in Go ignores Ctrl+C,2023-05-18,Post-GenAI
+Stack Overflow,132,issue Letter Grades on python,2023-03-23,Post-GenAI
+Stack Overflow,137,Challenge of Translating Python Code to C: Implementing Luhn Algorithm for Checksum Calculation,2024-02-09,Post-GenAI
+Stack Overflow,142,Debugger for Python C extension using Jupyter notebooks,2024-09-25,Post-GenAI
+Stack Overflow,144,Accessing void pointer values after passing from python cffi to C,2023-12-23,Post-GenAI
+Stack Overflow,147,PKCS#7 Padding Issue with AES Encryption in C,2024-01-15,Post-GenAI
+Stack Overflow,163,Function call overhead in C DLL for Python,2024-02-02,Post-GenAI
+Stack Overflow,165,Segfault when running thread in C program after converting from Python,2024-04-22,Post-GenAI
+Stack Overflow,200,"Python wont run inside CMD, PS, or VS Code",2023-04-03,Post-GenAI
+Stack Overflow,208,Python exit asyncio/websockets process with Ctrl-C,2023-04-14,Post-GenAI
+Stack Overflow,228,very high level embedded Python in C / C++ application is not using Python from activated venv envir,2024-02-16,Post-GenAI
+Stack Overflow,232,How to bundle Python C extension libraries in an iOS app for App Store submission?,2023-07-19,Post-GenAI
+Stack Overflow,245,`Ctrl + C` not working in input() in python when a shared-library is loaded which uses a signal hand,2023-08-16,Post-GenAI
+Stack Overflow,258,R//C circuit in time domain in Python,2023-09-18,Post-GenAI
+Stack Overflow,263,Debug python coredump with python callstack,2023-04-11,Post-GenAI
+Stack Overflow,272,How to use PyArg_ParseTuple to get an unconverted PyObject,2023-01-23,Post-GenAI
+Stack Overflow,276,&quot;The system cannot find the path specified…..\AppData\Local\Programs\Python\Python313\python.ex,2025-03-23,Post-GenAI
+Stack Overflow,278,How to run a python UI test script on a remote windows machine from an ubuntu22.04 manager vm using ,2023-08-19,Post-GenAI
+Stack Overflow,285,After giving content root path to python from spark im getting this error,2023-09-09,Post-GenAI
+Stack Overflow,286,Python: Heaptypes with metaclasses,2024-05-22,Post-GenAI
+Stack Overflow,287,PyArg_ParseTuple causes segfault when passing pointer instead of address,2022-12-19,Post-GenAI
+Stack Overflow,291,Folder as python String wit \_,2023-03-08,Post-GenAI
+Stack Overflow,309,Issue with ‘reticulate’ Not Recognizing ‘numpy’ Installation in R,2024-04-08,Post-GenAI
+Stack Overflow,313,Is nvcc necessary for pytorch to use GPU,2023-10-05,Post-GenAI
+Stack Overflow,314,NPM Can&#39;t Find Python Correctly - Error &quot;python is not a valid npm option&quot;,2025-01-17,Post-GenAI
+Stack Overflow,322,How can I debug a python application,2023-01-28,Post-GenAI
+Stack Overflow,325,Strange behavior when running multiple parallel Python processes calling C DLL,2025-03-31,Post-GenAI
+Stack Overflow,343,Correct way to handle Ctrl-C in Python on Linux,2026-02-16,Post-GenAI
+Stack Overflow,344,Facing issue while importing MDTabs in KIvyMD[Python],2024-10-19,Post-GenAI
+Stack Overflow,347,"Anaconda, Jupyter Notebook and MissingIDFieldWarning",2023-03-03,Post-GenAI
+Stack Overflow,349,Issues running python using Intergrated Terminal in Visual Studio,2024-05-01,Post-GenAI
+Stack Overflow,358,OSError: exception: access violation reading 0x0000000000000000. Using .dll in python but I get an e,2023-05-15,Post-GenAI
+Stack Overflow,360,Detect SIGUSR1 in C code and print Hello World,2023-04-25,Post-GenAI
+Stack Overflow,375,Unable to import python module (.py file) from a C-Based Dynamic Link Library (DLL) called by JNI,2024-01-17,Post-GenAI
+Stack Overflow,380,&quot;C:\torch\lib\fbgemm.dll&quot; or one of its dependencies,2024-05-15,Post-GenAI
+Stack Overflow,387,How to Import .py file with third-party package(like numpy) from C?,2023-12-16,Post-GenAI
+Stack Overflow,390,Segmentation faults and memory leaks while calling GMP C functions from Python,2024-05-09,Post-GenAI
+Stack Overflow,391,"pip is configured with locations that require TLS/SSL, however the ssl module in Python is not avail",2023-08-29,Post-GenAI
+Stack Overflow,403,Access OpenSSL FIPS APIs from python ctypes not working,2023-03-30,Post-GenAI
+Stack Overflow,418,Error &quot;name &#39;clip&#39; is not defined&quot; when using CLIP with FastSam,2025-01-31,Post-GenAI
+Stack Overflow,422,Parameter Type Error in C based Python Package,2024-06-06,Post-GenAI
+Stack Overflow,423,python version 3.11.3 installation,2023-09-06,Post-GenAI
+Stack Overflow,442,Error when converting LaTeX-generated PDF to PNG using ImageMagick&#39;s convert command in Python,2023-10-28,Post-GenAI
+Stack Overflow,443,Error in running function from dll python(ctypes),2023-06-01,Post-GenAI
+Stack Overflow,475,Running Custom C over ssh with paramiko,2024-06-19,Post-GenAI
+Stack Overflow,496,Cython: Passing pointer created by Python wrapper class to C function,2023-02-27,Post-GenAI
+Stack Overflow,515,How do I force a CFFI-defined foreign library to use a specific version of a shared library?,2024-03-12,Post-GenAI
+Stack Overflow,516,Linking against GHC-WASM foreign library?,2025-01-25,Post-GenAI
+Stack Overflow,517,foreign non-C library,2023-01-13,Post-GenAI
+Stack Overflow,525,How can I load a foreign library using Guile Scheme?,2023-04-07,Post-GenAI
+Stack Overflow,531,PyInstaller can&#39;t run a program with a foreign library,2024-05-14,Post-GenAI
+Stack Overflow,539,Insert entity into DB with manually created foreign key in Persistent library (Haskell),2024-10-10,Post-GenAI
+Stack Overflow,555,"Porting JNA code to Foreign Function &amp; Memory API (FFM), fails for String[] returned from C libr",2023-02-01,Post-GenAI
+Stack Overflow,581,Does EFCore.BulkExtensions disable foreign key checks when SetOutputIdentity = false?,2025-01-15,Post-GenAI
+Stack Overflow,591,What is the correct way to obtain a String from a Foreign Function that returns a char pointer,2024-06-07,Post-GenAI
+Stack Overflow,616,Want to create Neo4j Nodes relationships using APOC and foreign key constraint auto,2023-02-28,Post-GenAI
+Stack Overflow,669,can I make a shared library available to my cabal application without installing it,2025-01-16,Post-GenAI
+Stack Overflow,713,OpenJDK 17 - JEP 412: Foreign Function &amp; Memory API (Incubator),2023-10-07,Post-GenAI
+Stack Overflow,714,Is there a suitable python library for doing stream processing with Kafka topics?,2023-01-21,Post-GenAI
+Stack Overflow,750,Converting Stata file version 69,2024-06-04,Post-GenAI
+Stack Overflow,782,Getting a &quot;NA/NaN/Inf in foreign function call&quot; error when attempting to implement KNN usi,2024-06-11,Post-GenAI
+Stack Overflow,784,HasConversion() and foreign key relationship with EF Core,2023-08-07,Post-GenAI
+Stack Overflow,806,Django - AppRegistryNotReady(&quot;Models aren&#39;t loaded yet.&quot;) using cities_light library,2022-11-30,Post-GenAI
+Stack Overflow,862,Django query for getting common Libraries between book list,2023-02-15,Post-GenAI
+Stack Overflow,863,How to get the number of observations per table for a library without using sashelp.vtable,2024-06-19,Post-GenAI
+Stack Overflow,886,Cent OS update to postgresql13-contrib-13.9 causes error postgres_fdw.so undefined symbol: get_rel_a,2023-03-06,Post-GenAI
+Stack Overflow,894,Reading .DBF files with deleted records in R,2023-08-25,Post-GenAI
+Stack Overflow,895,Efficient logical shift for bit arrays?,2025-02-24,Post-GenAI
+Stack Overflow,917,Why does ctypes also load standard C library functions and how could I prevent that?,2024-09-28,Post-GenAI
+Stack Overflow,931,Loading a library via CFFI under swank/slime,2023-02-05,Post-GenAI
+Stack Overflow,939,Loading external Native Libraries to the JVM at Runtime in Java 21,2024-12-27,Post-GenAI
+Stack Overflow,957,Using CMake from Bazel rules_foreign_cc is unable to download external packages,2023-12-29,Post-GenAI
+Stack Overflow,969,"In Django, how to make a join query with matching conditions in addition to the foreign key?",2022-12-02,Post-GenAI
+Stack Overflow,971,Unexpected behavior when using @JoinColumn for ONE-TO-MANY association [SpringBoot],2023-03-16,Post-GenAI
+Stack Overflow,974,10.4.24-MariaDB - Foreign key constraint is incorrectly formed,2023-01-11,Post-GenAI
+Stack Overflow,977,How do i import SFML in CLion into C/C++ on Linux?,2023-12-09,Post-GenAI
+Stack Overflow,979,python encoding result from API request,2023-10-17,Post-GenAI
+Stack Overflow,986,django.core.exceptions.ImproperlyConfigured: Could not find the GDAL library (when I try to run &quo,2023-02-07,Post-GenAI
+Stack Overflow,988,sequelize join up the tables,2023-01-02,Post-GenAI
+Stack Overflow,1013,How do you get the SBCL foreign function interface example from the SBCL User Manual to work?,2024-03-08,Post-GenAI
+Stack Overflow,1033,Project Panama: can&#39;t find function,2023-02-26,Post-GenAI
+Stack Overflow,1039,redirecting stdout to text or textfield in dart code,2023-02-23,Post-GenAI
+Stack Overflow,1051,How do I use SBCL sb-alien to create a Gtk4 window open it and have a simple callback that works?,2022-12-21,Post-GenAI
+Stack Overflow,1052,How to specify &quot;double *&quot; type in libffi?,2023-08-10,Post-GenAI
+Stack Overflow,1081,Apple Event object property hasAlarms returning incorrect boolean value,2022-12-21,Post-GenAI
+Stack Overflow,1084,How do I force a CFFI-defined foreign library to use a specific version of a shared library?,2024-03-12,Post-GenAI
+Stack Overflow,1085,How do inputs to UBL::SmoteClassif() influence vectors lengths passed to Fortran?,2023-02-07,Post-GenAI
+Stack Overflow,1086,How do I parse a Float from a String in Lean?,2026-02-25,Post-GenAI
+Stack Overflow,1087,How to use FEIG device for NFC scanning in flutter project? error LNK2019: unresolved external symbo,2025-03-20,Post-GenAI
+Stack Overflow,1109,How to add pydantic serialization/deserialization support for a foreign (third-party) class?,2023-04-18,Post-GenAI
+Stack Overflow,1110,Accessing WinRT .NET Framework types and methods from embedded Lua?,2023-02-17,Post-GenAI
+Stack Overflow,1124,How do I refer to a foreign key variable in JPQL using the @Query annotation in Spring Boot?,2023-09-21,Post-GenAI
+Stack Overflow,1144,Unexpected behavior of c_void pointer in Rust FFI to C,2024-02-01,Post-GenAI
+Stack Overflow,1147,Is it possible to use type in a function called from parent function in Typescript?,2023-01-02,Post-GenAI
+Stack Overflow,1154,FFI: how to pass pointers in C to C functions?,2023-08-15,Post-GenAI
+Stack Overflow,1158,"How to manage taskbar from JavaFX, via native code in Linux",2025-01-14,Post-GenAI
+Stack Overflow,1160,How can I create a generic Join() in C# LINQ,2022-12-22,Post-GenAI
+Stack Overflow,1164,Trouble Interfacing Errors Between C and Lua: Seeking Solutions,2023-12-27,Post-GenAI
+Stack Overflow,1170,Java OOP association SQL equivalent,2025-11-29,Post-GenAI
+Stack Overflow,1174,Combining Tables from different data sources in Tabular Model,2023-09-07,Post-GenAI
+Stack Overflow,1183,Remove the duplication of code which is exactly the same for two discrete types in F#,2023-12-11,Post-GenAI
+Stack Overflow,1200,Find foreign key references in EF Core,2022-12-05,Post-GenAI
+Stack Overflow,1201,How can I access to the monitor image data?,2023-02-02,Post-GenAI
+Stack Overflow,1219,Can i have generic member variables in c++?,2023-11-20,Post-GenAI
+Stack Overflow,1236,Inverse :belongs_to for successful :has_many yields nil,2024-08-01,Post-GenAI
+Stack Overflow,1244,_ctypes not install when trying to import pandas,2023-04-29,Post-GenAI
+Stack Overflow,1260,Python subprocess &amp; Poetry cutted/shortened stdout,2024-01-23,Post-GenAI
+Stack Overflow,1270,Multiprocessing and Socket: &quot;OSError: [Errno 98] Address already in use&quot;,2023-12-13,Post-GenAI
+Stack Overflow,1282,org.springframework.beans.factory.parsing.BeanDefinitionParsingException Error,2023-01-03,Post-GenAI
+Stack Overflow,1300,VSCode PolyGlot configuration of dotnet,2024-03-19,Post-GenAI
+Stack Overflow,1321,F# Debugger in VS Code Polyglot (Interactive) Notbook,2023-10-27,Post-GenAI
+Stack Overflow,1323,Implementing Authorization in Polyglot Architecture,2023-01-30,Post-GenAI
+Stack Overflow,1330,Share SQL result to Python with Polyglot Notebook extension in VScode,2025-03-19,Post-GenAI
+Stack Overflow,1333,Polyglot Dependencies Causes Trouble During Multi Stage Containerization (Python) - Docker,2024-01-26,Post-GenAI
+Stack Overflow,1336,How to use a manually installed .NET SDK in Polyglot Notebook,2023-04-05,Post-GenAI
+Stack Overflow,1340,Display Mermaid diagram from C# variable in Polyglot notebook,2023-04-20,Post-GenAI
+Stack Overflow,1347,"In Polyglot notebook, treat code output as markdown?",2024-01-07,Post-GenAI
+Stack Overflow,1349,How to get directory of the dib file in a Polyglot notebook?,2023-07-04,Post-GenAI
+Stack Overflow,1350,Polyglot Notebooks - reverse RETURN versus SHIFT-RETURN behavior?,2023-10-05,Post-GenAI
+Stack Overflow,1353,Azure Translation endpoint example code FAILS in VS Code Polyglot Notebook,2023-08-21,Post-GenAI
+Stack Overflow,1358,How to format code in Visual Studio Code Polyglot Notebook?,2024-01-01,Post-GenAI
+Stack Overflow,1362,How to correctly execute requests to the server in Polyglot Notebook js cells?,2023-05-22,Post-GenAI
+Stack Overflow,1364,Minimum Graal Polyglot example will not run,2023-11-02,Post-GenAI
+Stack Overflow,1365,Trying to set up Polyglot notebook to work with Python and R,2023-11-13,Post-GenAI
+Stack Overflow,1366,Passing classes and methods as Value with GraalVM Polyglot,2024-05-24,Post-GenAI
+Stack Overflow,1370,Operator overloading using Graalvm Polyglot with Scala and Python,2023-12-08,Post-GenAI
+Stack Overflow,1372,Can the Maven Versions Plugin work with the Polyglot plugin?,2024-08-22,Post-GenAI
+Stack Overflow,1380,How to add packages to Graalvm python polyglot?,2024-04-22,Post-GenAI
+Stack Overflow,1387,Do C# code generators work in polyglot notebooks?,2023-09-29,Post-GenAI
+Stack Overflow,1391,Quarkus build native with graalvm polyglot embed script language runtime error,2023-01-14,Post-GenAI
+Stack Overflow,1393,VS Code failing to create or load polyglot notebooks following .NET SDK reinstall,2023-09-14,Post-GenAI
+Stack Overflow,1398,Cannot access internal (polyglot) libraries from Graal native-image binary,2023-03-07,Post-GenAI
+Stack Overflow,1400,Using polyglot notebooks in Visual Studio Code how can you autoimport missing namespaces for .NET C#,2024-02-27,Post-GenAI
+Stack Overflow,1410,GraalVM polyglot not able to find installed language,2024-07-15,Post-GenAI
+Stack Overflow,1411,How do I allow for copying data to clipboard from .NET Interactive (Polyglot) Notebooks?,2022-12-11,Post-GenAI
+Stack Overflow,1432,"GraalVM: Polyglot applications: Java classes in C++ IDE (including documentation, debug support etc.",2024-03-27,Post-GenAI
+Stack Overflow,1451,How do I expose a library to the global window in Vitest?,2024-07-12,Post-GenAI
+Stack Overflow,1455,Use environment variable inside importmap - single-spa,2024-05-23,Post-GenAI
+Stack Overflow,1463,GraalVM - can you jar multiple languages together?,2023-02-20,Post-GenAI
+Stack Overflow,1465,GraalVM polyglot context and Jakarta CDI context: how access beans from scripts?,2023-10-03,Post-GenAI
+Stack Overflow,1477,GraalVM JS embedding with Uber Jar from Gradle,2024-07-17,Post-GenAI
+Stack Overflow,1480,Pyscript using classes in the Python source code,2023-10-04,Post-GenAI
+Stack Overflow,1490,GraalVM - Performance Issue A lot of time for invoke js method,2023-08-29,Post-GenAI
+Stack Overflow,1491,Extending (monkey patching) Java classes in Truffle Ruby,2023-06-27,Post-GenAI
+Stack Overflow,1493,"Polyglott notebooks: Metadata file &#39;nuget:Microsoft.DotNet.Interactive.Kql,*-*&#39; could not be",2023-05-16,Post-GenAI
+Stack Overflow,1499,How can I make an inline plot in Jupyter from F# interactive?,2023-12-02,Post-GenAI
+Stack Overflow,1507,Warning inside a preprocessor &quot;#if 0&quot; section,2024-02-08,Post-GenAI
+Stack Overflow,1511,Multi thread access exception - Karate 1.3.1,2023-05-18,Post-GenAI
+Stack Overflow,1512,How to make my Java classes visible for Python imports,2024-10-04,Post-GenAI
+Stack Overflow,1528,Is it possible to share an object from a Python application to a Java application in a GraalVM insta,2023-07-26,Post-GenAI
+Stack Overflow,1532,"Graal.js returns SafeInteger, causes !(result instanceof TruffleObject) assertion to fail in TestNG ",2025-04-24,Post-GenAI
+Stack Overflow,1572,Confused between gRPC and Rabbitmq for nodejs and python AI microservices,2026-06-02,Post-GenAI
+Stack Overflow,1583,AWS CDK Python Custom Construct Example,2023-02-08,Post-GenAI
+Stack Overflow,1584,Powershell access works but AzureCliCredential fails with &quot;Principal X is not authorized&quot;,2023-06-26,Post-GenAI
+Stack Overflow,1588,Why does a class definition in one cell not recognize another class&#39;s fields made in another cel,2024-07-15,Post-GenAI
+Stack Overflow,1602,PolyglotException: TypeError: instantiate on {Class} failed due to: Message not supported,2023-03-21,Post-GenAI
+Stack Overflow,1612,How to use jextract to work with MacOS Framework header files?,2023-11-12,Post-GenAI
+Stack Overflow,1626,Browsing files from a larger project while working on a specific repository,2025-05-21,Post-GenAI
+Stack Overflow,1634,Can SQL and Neo4j be used together in an Identity Microservice part of a .NET application,2023-05-17,Post-GenAI
+Stack Overflow,1675,Gems for rake DB,2022-12-21,Post-GenAI
+Stack Overflow,1734,How does one get the paths to affected projects in an NX monorepo?,2024-06-09,Post-GenAI
+Stack Overflow,1739,Not able to call Java class via Karate.&quot;org.graalvm.polyglot.PolyglotExcepti1on: TypeError: Acc,2023-04-17,Post-GenAI
+Stack Overflow,1742,create native-image and Truffle in graalvm,2023-12-12,Post-GenAI
+Stack Overflow,1749,What could cause requests sent from C# to trigger a firewall 403 response from Azure Application Gat,2025-08-08,Post-GenAI
+Stack Overflow,1752,uninitialized constant ActiveRecord::Railtie::ActiveRecord,2023-01-13,Post-GenAI
+Stack Overflow,1758,Win32: How to check if a HKL refers to a specific family of IMEs,2025-10-23,Post-GenAI
+Stack Overflow,1770,How to make `learnr` tutorials appear in a certain order?,2023-04-17,Post-GenAI
+Stack Overflow,1771,HelloWorld application using GraalVM not working in Eclipse,2023-06-22,Post-GenAI
+Stack Overflow,1794,Issues with functions in Octave programming language,2023-04-11,Post-GenAI
+Stack Overflow,1803,Debugging AST and Parser Issues in My Custom Programming Language,2025-01-19,Post-GenAI
+Stack Overflow,1836,Issue with Vector Mimicking Stack Behavior in R Programming Language,2023-10-06,Post-GenAI
+Stack Overflow,1849,How to implement mutual calling between different programming language by shared library?,2023-08-11,Post-GenAI
+Stack Overflow,1861,All Goroutines Are Asleep (The Go Programming Language),2022-12-27,Post-GenAI
+Stack Overflow,1864,for what purpose we use time module in scraping with BeautifulSoup libraries python,2023-03-12,Post-GenAI
+Stack Overflow,1865,How to tangle many files from neorg with correct syntax highlighting and without concurrency issues?,2025-12-29,Post-GenAI
+Stack Overflow,1871,Is sharing the same database between two programming languages possible?,2023-02-09,Post-GenAI
+Stack Overflow,1882,What is the best way to manage models when interoperating Rust with other languages?,2023-03-17,Post-GenAI
+Stack Overflow,1919,Strings.Join() behaviour on Okta expression language,2025-06-17,Post-GenAI
+Stack Overflow,1931,3rd-party tool for analysis converts its report to the Generic Issues format in sonarcloud,2023-10-25,Post-GenAI
+Stack Overflow,1938,How to improve multilingual speech recognition for programming terms?,2024-12-24,Post-GenAI
+Stack Overflow,1954,MariaDB C++/Connector: Try to build the project but instead it does not detect my mariadbcpp library,2023-01-15,Post-GenAI
+Stack Overflow,1960,CJK full-width characters as Python names: how does Python deal with it and is it common in other pr,2023-04-19,Post-GenAI
+Stack Overflow,1961,What are best practices for update dependencies in Python with Poetry?,2023-09-30,Post-GenAI
+Stack Overflow,1968,Why memset performance is different for stack and heap memory?,2024-05-10,Post-GenAI
+Stack Overflow,1970,How do I have a trait as a owned field of a struct?,2023-02-18,Post-GenAI
+Stack Overflow,1996,"C# TCP, Socket connection dropping",2023-09-12,Post-GenAI
+Stack Overflow,1999,Customise C++ Language Mode (VSCode),2023-05-09,Post-GenAI
+Stack Overflow,2033,Nothing Happening When Entering Input and Pressing Enter C# on VSCode,2023-06-26,Post-GenAI
+Stack Overflow,2048,Why is phantom data not auto inferred?,2024-03-26,Post-GenAI
+Stack Overflow,2053,Neovim JavaScript config,2024-11-15,Post-GenAI
+Stack Overflow,2054,Can&#39;t find a usable init.tcl in the following directories This probably means that Tcl wasn&#39;,2023-08-08,Post-GenAI
+Stack Overflow,2079,MS spark utilities - file move error using msspark.fs.mv,2023-01-24,Post-GenAI
+Stack Overflow,2089,"Docker-CE (rootless) fails for DDEV, Ubuntu 24.04.2 LTS",2025-02-25,Post-GenAI
+Stack Overflow,2102,Issues with OpenTelemetry Integration in .NET 8 Azure Function App,2025-04-22,Post-GenAI
+Stack Overflow,2104,How setup Neovim for Haxe programming language (LSP and Treesitter),2025-10-23,Post-GenAI
+Stack Overflow,2108,Looking for a way to optimize my Javascript code,2024-08-20,Post-GenAI
+Stack Overflow,2120,I want to access an array element without a ConstantInt LLVM,2023-07-31,Post-GenAI
+Stack Overflow,2131,Optimizing GridDB for high load scenarios - Dealing with overload issues,2023-10-23,Post-GenAI
+Stack Overflow,2138,Error messages showed up during open a input file with pwgui software,2024-10-11,Post-GenAI
+Stack Overflow,2140,How can I print ASCII characters from 128 to 255?,2023-07-25,Post-GenAI
+Stack Overflow,2167,How does one add &lt;graphics.h&gt; into GCC on a Windows computer for C?,2022-12-22,Post-GenAI
+Stack Overflow,2179,How to create a .NET Core app where user input is store in a file in json format through middleware,2023-09-28,Post-GenAI
+Stack Overflow,2196,MIPS 2x2 Matrix Multiplication Code Logical Error,2023-05-09,Post-GenAI
+Stack Overflow,2203,what&#39;s the problem of passing parameters to void function in c?,2024-06-13,Post-GenAI
+Stack Overflow,2222,What language or imports should I use instead of turtle for more precise drawing?,2026-05-11,Post-GenAI
+Stack Overflow,2243,Error - &quot;cannot infer type for parameter &#39;rowType&#39;&quot; when using the find function w,2023-10-27,Post-GenAI
+Stack Overflow,2251,Multiple problems with ANTLR visitor processing,2024-10-30,Post-GenAI
+Stack Overflow,2269,Issue with onIncomingCall PJSIP Function,2023-10-17,Post-GenAI
+Stack Overflow,2273,How to build Catboost C Evaluation Library API?,2022-12-30,Post-GenAI
+Stack Overflow,2275,"Structured LLM router misclassifies SAP BASIS Trainer job description, generating invalid coding tas",2026-06-17,Post-GenAI
+Stack Overflow,2307,Incompatibility between graph NLP and leaflet,2023-09-28,Post-GenAI
+Stack Overflow,2308,"numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 fro",2024-06-17,Post-GenAI
+Stack Overflow,2309,import gensim binary incompatibility,2025-04-25,Post-GenAI
+Stack Overflow,2316,Type incompatibility warning with ToggleGroup component,2024-06-18,Post-GenAI
+Stack Overflow,2336,ionic/firebase package dependencies incompatibility,2024-11-24,Post-GenAI
+Stack Overflow,2345,Is this package incompatibility a bug in the requierements?,2023-08-02,Post-GenAI
+Stack Overflow,2373,incompatibility between node 18.17.1 and npm 9.6.7,2023-08-23,Post-GenAI
+Stack Overflow,2382,ReferenceError with lottie-react on Next.js 13 - SSR Incompatibility?,2023-12-06,Post-GenAI
+Stack Overflow,2383,Why is pyright issuing a type incompatibility error here?,2024-05-18,Post-GenAI
+Stack Overflow,2386,How to test for backward incompatibility in a distributed system?,2023-03-13,Post-GenAI
+Stack Overflow,2393,Generic incompatibility boundary issue in Arrays.sort method,2023-12-14,Post-GenAI
+Stack Overflow,2399,Incompatibility between time.sleep() and pysimplegui.Output()?,2023-04-29,Post-GenAI
+Stack Overflow,2404,sonar failed: An API incompatibility was encountered while executing org.sonarsource.scanner.maven:s,2025-11-19,Post-GenAI
+Stack Overflow,2407,Why does using a conditional type fix the type incompatibility error?,2024-05-23,Post-GenAI
+Stack Overflow,2408,cuDNN version incompatibility,2023-01-31,Post-GenAI
+Stack Overflow,2418,Why am I getting incompatibility of protobuf while install grpcio-tools?,2022-12-09,Post-GenAI
+Stack Overflow,2428,error in flutter due to lack of programs or incompatibility,2023-06-06,Post-GenAI
+Stack Overflow,2449,Incompatibility with Implementing cbc solver in Python 3.11?,2023-08-09,Post-GenAI
+Stack Overflow,2465,Incompatibility problem with my .tflite model into react-native expo app,2023-09-19,Post-GenAI
+Stack Overflow,2466,AWS Java SDK V2 and aws-secretsmanager-jdbc incompatibility?,2023-11-14,Post-GenAI
+Stack Overflow,2468,Compilation Error Due to Incompatibility Between Prettier v3 and @vue/eslint-config-prettier v7.x,2023-09-22,Post-GenAI
+Stack Overflow,2473,What for incompatibility between babel-proposal-decorators and typescript-decorator?,2022-12-07,Post-GenAI
+Stack Overflow,2475,"Version incompatibility between Spacy, Cuda, Pytorch and Python",2024-03-04,Post-GenAI
+Stack Overflow,2481,Upgrading to Debezium Postgres Connector v2.0.1 causing schema incompatibility issues,2023-07-18,Post-GenAI
+Stack Overflow,2484,Conda CUDA12 incompatibility,2024-05-15,Post-GenAI
+Stack Overflow,2494,Binary incompatibility with Numpy,2026-02-26,Post-GenAI
+Stack Overflow,2495,Error Converting Angular 10 to 14: Type Incompatibility in patchValue Method,2024-05-27,Post-GenAI
+Stack Overflow,2501,Incompatibility of two C++ libraries,2023-07-19,Post-GenAI
+Stack Overflow,2515,Type incompatibility issue when registering @fastify/multipart in a NestJS application with Fastify,2024-11-21,Post-GenAI
+Stack Overflow,2536,Tesnorflow model.fit shape incompatibility,2023-03-01,Post-GenAI
+Stack Overflow,2543,Type Incompatibility Issue with Pydantic Model Inheritance and List of Subclasses,2024-04-25,Post-GenAI
+Stack Overflow,2545,How can I resolve Fibers incompatibility with Node.js 16+ in my Angular project using Meteor?,2025-03-20,Post-GenAI
+Stack Overflow,2556,Numpy incompatibility with cx_freeze,2023-06-15,Post-GenAI
+Stack Overflow,2572,Which C specifiers may cause ABI incompatibility between the caller and callee?,2023-09-20,Post-GenAI
+Stack Overflow,2577,tensorflow incompatibility with python,2024-11-28,Post-GenAI
+Stack Overflow,2586,GA4 and UA reason for incompatibility of metrics and dimensions data analyzation and ML,2023-03-06,Post-GenAI
+Stack Overflow,2590,An API incompatibility was encountered while executing org.sonarsource.scanner.maven:sonar-maven-plu,2023-03-27,Post-GenAI
+Stack Overflow,2607,"numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 fro",2024-07-18,Post-GenAI
+Stack Overflow,2641,String incompatibility issues c++,2023-01-03,Post-GenAI
+Stack Overflow,2646,"numpy.dtype size changed, may indicate binary incompatibility",2024-07-07,Post-GenAI
+Stack Overflow,2661,Incompatibility between openai and fastapi,2024-05-29,Post-GenAI
+Stack Overflow,2678,How to fix matplotib incompatibility,2023-01-07,Post-GenAI
+Stack Overflow,2685,Incompatibility between functools.partial and scipy,2023-02-16,Post-GenAI
+Stack Overflow,2692,Pymongo and Beanie Incompatibility issues,2025-07-01,Post-GenAI
+Stack Overflow,2701,boost serialization incompatibility between 1.74 and 1.83 with multi index container,2024-03-03,Post-GenAI
+Stack Overflow,2705,How to understand GLIBC incompatibility?,2025-04-03,Post-GenAI
+Stack Overflow,2735,go-redis v8 XAutoClaim incompatible with Redis server v7+,2023-12-08,Post-GenAI
+Stack Overflow,2738,What is the problem of incompatibility of library versions and how monorepo-style solve it?,2023-01-11,Post-GenAI
+Stack Overflow,2746,Incompatibility of Network D3 and LDAvis,2025-02-01,Post-GenAI
+Stack Overflow,2757,Pinia issue of incompatibility with Nuxt 3,2022-12-25,Post-GenAI
+Stack Overflow,2792,Compilation error after upgrading to JDK 21 - &quot;NoSuchFieldError: JCImport does not have member ,2023-09-25,Post-GenAI
+Stack Overflow,2833,Enable compiler compilation errors in Visual Studio when using #if Debug... #else,2023-03-21,Post-GenAI
+Stack Overflow,2852,cov-build compilation errors with golang 1.19,2023-01-09,Post-GenAI
+Stack Overflow,2868,Compilation errors with Scala imports,2023-03-11,Post-GenAI
+Stack Overflow,2888,Compilation errors on GitHub workflow during tsc while no errors locally,2024-03-22,Post-GenAI
+Stack Overflow,2893,"sampler2D in compute shaders, compilation errors",2023-10-19,Post-GenAI
+Stack Overflow,2920,Warning: procedure created with compilation errors in terminal,2023-09-20,Post-GenAI
+Stack Overflow,2927,P5 catch shader compilation errors,2023-02-26,Post-GenAI
+Stack Overflow,2934,Android Studio layout resource file &quot;Compilation errors&quot; but without the related informati,2025-06-08,Post-GenAI
+Stack Overflow,2941,Wormhole Solidity SDK - CCTPSender compilation errors,2025-07-03,Post-GenAI
+Stack Overflow,2963,How to handle template related compilation errors,2024-03-06,Post-GenAI
+Stack Overflow,3008,Xcode: Unit tests compilation errors not shown,2023-11-28,Post-GenAI
+Stack Overflow,3033,How to get rid of compilation errors in SQL?,2022-11-30,Post-GenAI
+Stack Overflow,3067,Write an Openrewrite java recipe test ignoring compilation errors,2023-04-13,Post-GenAI
+Stack Overflow,3069,compilation errors when using make when installing gcc,2023-12-06,Post-GenAI
+Stack Overflow,3089,Why does declaring the same function both with and without parameters not cause compilation errors?,2023-05-03,Post-GenAI
+Stack Overflow,3090,Compilation and linking errors using std::stacktrace,2024-04-27,Post-GenAI
+Stack Overflow,3091,ASP.NET Core 7 Razor compilation errors in intermediate file,2023-03-05,Post-GenAI
+Stack Overflow,3112,Executing Tests in IntelliJ IDEA with Project Compilation Errors: Seeking Solutions,2024-12-10,Post-GenAI
+Stack Overflow,3117,Maven: Get Compilation error case in surefire-reports,2023-01-31,Post-GenAI
+Stack Overflow,3138,static_assert cause compilation errors while included in c file with linux GNU compilation,2023-03-10,Post-GenAI
+Stack Overflow,3174,C# long compilation errors when using generics,2024-06-19,Post-GenAI
+Stack Overflow,3175,"In Rust, Why does integer overflow sometimes cause compilation error or runtime error?",2023-04-05,Post-GenAI
+Stack Overflow,3177,"Java 11 required, but not found. Might have compilation errors",2023-07-18,Post-GenAI
+Stack Overflow,3183,gRPC 1.47.4 vs2017 compilation errors,2024-06-21,Post-GenAI
+Stack Overflow,3189,Oracle SQL script - Package created with compilation errors,2023-02-20,Post-GenAI
+Stack Overflow,3202,C++23 Dangling Reference Compilation Error,2023-12-16,Post-GenAI
+Stack Overflow,3236,Dbt datediff - dict object compilation errors,2023-02-22,Post-GenAI
+Stack Overflow,3237,Compilation Errors with @SpringBootTest test configuration,2025-01-23,Post-GenAI
+Stack Overflow,3252,Rust &quot;use of borrowed....&quot; compilation error,2023-09-15,Post-GenAI
+Stack Overflow,3325,writing large netcdf files without memory issues,2023-03-10,Post-GenAI
+Stack Overflow,3338,PowerShell sqlite3 memory issues,2023-04-27,Post-GenAI
+Stack Overflow,3379,Avoid loops and memory issues in PySpark,2023-01-20,Post-GenAI
+Stack Overflow,3389,Azure MySql server out of memory issues,2023-05-22,Post-GenAI
+Stack Overflow,3397,memory issues updating attributes with woocommerce rest api,2022-12-20,Post-GenAI
+Stack Overflow,3420,Memory Issues and weird output on GCM-Decryption,2023-09-28,Post-GenAI
+Stack Overflow,3490,Angular CDK Virtual Scroll causing memory issues,2024-02-03,Post-GenAI
+Stack Overflow,3502,Writing Csv using Pandas causing memory issue,2025-02-19,Post-GenAI
+Stack Overflow,3504,locust Memory Issue,2023-03-10,Post-GenAI
+Stack Overflow,3515,Memory issues Scanning Large Amounts of Files with SonarQube,2024-07-19,Post-GenAI
+Stack Overflow,3531,Memory issues in kafka,2024-10-02,Post-GenAI
+Stack Overflow,3546,Memory issues sorting larger than memory file with polars,2024-10-04,Post-GenAI
+Stack Overflow,3564,Managing large datasets in Python without running into memory issues,2023-12-27,Post-GenAI
+Stack Overflow,3579,Debugging seeming memory issues in Python,2024-02-05,Post-GenAI
+Stack Overflow,3601,Memory Issue with KMM on iOS,2024-06-13,Post-GenAI
+Stack Overflow,3621,How to overcome memory issue when plotting raster in Python,2023-04-10,Post-GenAI
+Stack Overflow,3622,Identifying and Resolving Memory Issues with Dompdf in Symfony Application,2023-12-05,Post-GenAI
+Stack Overflow,3630,Memory issues with Polars streaming when computing outer products on large dataset&quot;,2025-02-13,Post-GenAI
+Stack Overflow,3634,Nuxt 3 to 4 migration : will it fix memory issues?,2025-09-24,Post-GenAI
+Stack Overflow,3712,PHP: memory issues while looping thousand of items,2023-05-24,Post-GenAI
+Stack Overflow,3717,SpringWebflux Log4j2 Memory Issue,2024-09-18,Post-GenAI
+Stack Overflow,3748,Running into vImage_Buffer related peak memory issues. When does vImage_Buffer.free() actually free ,2024-01-20,Post-GenAI
+Stack Overflow,3775,pandas memory issue when apply list to groupby,2025-05-02,Post-GenAI
+Stack Overflow,3840,Draggable Marker on HARP - Performance Issues,2024-05-14,Post-GenAI
+Stack Overflow,3855,Performance issues using CONNECT BY NOCYCLE PRIOR,2024-05-09,Post-GenAI
+Stack Overflow,3867,Jetpack Compose LazyColumn Performance Issue,2022-12-19,Post-GenAI
+Stack Overflow,3870,CloudSQL postgres performance issues,2023-10-27,Post-GenAI
+Stack Overflow,3880,TextField inside a ModalBottomSheet performance issues,2024-11-05,Post-GenAI
+Stack Overflow,3908,Calling objectWillChange.send() produce performance issues,2023-11-05,Post-GenAI
+Stack Overflow,3930,Performance issues with classic .NET site,2025-03-12,Post-GenAI
+Stack Overflow,3947,SwiftUI&#39;s Computed properties and performance issues,2024-01-04,Post-GenAI
+Stack Overflow,3953,Eigen: How to Fix Memory Performance Issues,2023-07-18,Post-GenAI
+Stack Overflow,3972,Google Pagespeed Insights not detailing performance issues,2024-05-10,Post-GenAI
+Stack Overflow,3997,API call in React is leading to performance issues,2023-08-23,Post-GenAI
+Stack Overflow,4007,Heroku Django performance issues - Request Queuing,2024-09-03,Post-GenAI
+Stack Overflow,4009,Canvas rendering performance issue,2023-02-10,Post-GenAI
+Stack Overflow,4040,Performance issue with JPA dashboards,2023-10-08,Post-GenAI
+Stack Overflow,4053,Unity Whiteboard Feature Performance Issues on Interactive Flat Panels,2024-08-02,Post-GenAI
+Stack Overflow,4058,Why am I experiencing performance issues with DoTween?,2024-01-04,Post-GenAI
+Stack Overflow,4068,Performance Issues with UITextView and TextKit 2 in Large Text Documents,2023-05-05,Post-GenAI
+Stack Overflow,4073,How to debug PL/SQL procedure performance issues in OceanBase,2025-05-28,Post-GenAI
+Stack Overflow,4107,Duplicate Message using useOptimistic and Performance Issues in Chat Feature,2024-01-07,Post-GenAI
+Stack Overflow,4122,React Markdown and MathJax with typing effect causing performance issues,2025-02-13,Post-GenAI
+Stack Overflow,4141,Visual Studio Code (VSCode) experiencing severe performance issues,2024-02-29,Post-GenAI
+Stack Overflow,4170,Mysql performance issues,2025-08-29,Post-GenAI
+Stack Overflow,4189,Flutter Tinder like app performance issues,2024-02-26,Post-GenAI
+Stack Overflow,4222,AWS Glue/Spark performance issue,2025-08-24,Post-GenAI
+Stack Overflow,4231,Performance issues with SwiftUI/SwiftData when using larger datasets,2024-12-19,Post-GenAI
+Stack Overflow,4253,Kafka Performance Issue,2025-05-05,Post-GenAI
+Stack Overflow,4269,Rendering 3D-models with Astro suffers from performance issues,2023-05-04,Post-GenAI
+Stack Overflow,4276,Performance Issues with Multiple UserControls in a TableLayoutPanel in WinForms,2024-09-26,Post-GenAI
+Stack Overflow,4310,How to query the Search Console API for security issues?,2024-02-01,Post-GenAI
+Stack Overflow,4324,security issues analysis via mvn dependency-check:check and better report,2023-03-30,Post-GenAI
+Stack Overflow,4368,Upgrading python3-pip for security issues,2024-07-22,Post-GenAI
+Stack Overflow,4375,Security issues of process table in xv6,2023-11-09,Post-GenAI
+Stack Overflow,4396,How do I create sample security issues on Docker?,2022-12-02,Post-GenAI
+Stack Overflow,4418,Supabase RPC: SQL Injection and other security issues,2024-06-30,Post-GenAI
+Stack Overflow,4461,Spring Cloud security issues,2023-05-04,Post-GenAI
+Stack Overflow,4467,Will upcasting classes affect the method call? Why? Security issues?,2023-03-22,Post-GenAI
+Stack Overflow,4486,Getting security issues saying WebViews Allowing Access to Local Resources for Android in react nati,2025-01-13,Post-GenAI
+Stack Overflow,4489,Is allowing global CORS in my case security issue,2023-01-29,Post-GenAI
+Stack Overflow,4559,SpringBoot App Stopped Working - Security Issues,2023-03-10,Post-GenAI
+Stack Overflow,4583,Is there a security issue with the following code?,2024-01-21,Post-GenAI
+Stack Overflow,4588,Row level security issues on insert,2023-01-24,Post-GenAI
+Stack Overflow,4626,OIDC - Dummy Redirect URL a security issue?,2024-03-26,Post-GenAI
+Stack Overflow,4632,Google API client security issues?,2023-04-20,Post-GenAI
+Stack Overflow,4682,MOBSF android security issue,2023-06-24,Post-GenAI
+Stack Overflow,4683,Spring Boot Security - Issues with Logout Redirect,2023-04-02,Post-GenAI
+Stack Overflow,4695,Why can some people not reproduce this Python security issue?,2022-12-03,Post-GenAI
+Stack Overflow,4711,SonarQube security hotspot issue for regex,2023-06-12,Post-GenAI
+Stack Overflow,4734,Upgrading from logback 1.2.3 to 1.4.14 to clear security issues. Where to find documentation related,2024-01-18,Post-GenAI
+Stack Overflow,4735,Does adding a user without a password to a Docker container pose a security issue?,2023-11-28,Post-GenAI
+Stack Overflow,4881,ITMS-91053: Missing API declaration - Privacy,2024-03-14,Post-GenAI
+Stack Overflow,5054,"OpenAI API error 429: &quot;You exceeded your current quota, please check your plan and billing deta",2023-03-31,Post-GenAI
+GitHub Issues,5287,Support configuration option --with-jni-libpath?,2025-11-25,Post-GenAI
+GitHub Issues,5288,Bump LWJGL3 to 3.4.1,2026-06-08,Post-GenAI
+GitHub Issues,5289,conscrypt_jni.so crash on version 2.5.3,2024-12-05,Post-GenAI
+GitHub Issues,5290,Valhalla runtime/valhalla/inlinetypes/InlineWithJni.java,2026-05-29,Post-GenAI
+GitHub Issues,5291,Missing library `librealm-jni.so`,2023-03-31,Post-GenAI
+GitHub Issues,5292,UnsatisfiedLinkError: Program Alignment Mismatch on Pixel 8 (16KB page size) with Conscrypt 2.5.3,2025-10-31,Post-GenAI
+GitHub Issues,5293,Enhanced FFM Downcall mechanism,2026-04-01,Post-GenAI
+GitHub Issues,5295,Can you help Linux aarch64 build issue?,2026-02-06,Post-GenAI
+GitHub Issues,5296,Regression: JVM crash when resolving stale jmethodIDs via JVMTI on JDK 21+,2026-02-26,Post-GenAI
+GitHub Issues,5299,Remove references to jitStackFrameFlags from Z direct JNI,2023-07-05,Post-GenAI
+GitHub Issues,5304,"sun.awt.X11.ColorData is causing a JVM crash, which may be related to JNI-related issues.",2025-02-23,Post-GenAI
+GitHub Issues,5307,Box2D v3,2026-05-23,Post-GenAI
+GitHub Issues,5311,[realm-core-13.23.0] Assertion failed: false,2024-06-05,Post-GenAI
+GitHub Issues,5312,Investigate and implement handling of unprototyped calls in libffi for z/OS,2025-08-21,Post-GenAI
+GitHub Issues,5314,jdk11 OpenJDK MethodHandles failures,2026-05-14,Post-GenAI
+GitHub Issues,5321,jdk_foreign_0_FAILED java/foreign/TestMemorySession.java Segmentation error vmState=0x00000000,2023-09-07,Post-GenAI
+GitHub Issues,5322,OpenJ9 0.59.0 FFI: ASSERTION FAILED in LayoutFFITypeHelpers.hpp when creating downcallHandle when th,2026-06-11,Post-GenAI
+GitHub Issues,5326,Cannot build JDK21 on macOS AArch64: error: invalid CFI advance_loc expression,2026-05-18,Post-GenAI
+GitHub Issues,5329,FFI/FFM : Unexpected behaviour when using Memory Segment for upcall/downcall,2025-09-08,Post-GenAI
+GitHub Issues,5331,AIX JDK17 TestUpcall crash in jdk_foreign_0 (memoryCorruptionDetected),2025-08-13,Post-GenAI
+GitHub Issues,5332,JEP 472: Prepare to Restrict the Use of JNI,2024-06-11,Post-GenAI
+GitHub Issues,5335,JVM_LoadLibrary should handle .a files on AIX,2024-04-18,Post-GenAI
+GitHub Issues,5338,[FFI/Jtreg_JDK21] IllegalArgumentException detected in TestNested.java on AIX,2023-10-16,Post-GenAI
+GitHub Issues,5340,[FFI/Jtreg_JDK22] TestNGException detected in TestLinker.java,2023-11-21,Post-GenAI
+GitHub Issues,5342,[FFI/Jtreg] Failure to get the symbol of strcat on AIX,2022-11-30,Post-GenAI
+GitHub Issues,5343,OpenJDK java/foreign/LibraryLookupTest crash vmState=0x0000000,2023-06-05,Post-GenAI
+GitHub Issues,5346,[FFI] Handling the captured exception or invalid values from the upcall method,2023-02-22,Post-GenAI
+GitHub Issues,5350,jdk25 openjdk java/foreign/TestBufferStackStress timeout,2025-07-14,Post-GenAI
+GitHub Issues,5353,FFI/FFM : Unexpected behaviour when using Memory Segment for upcall/downcall,2025-09-08,Post-GenAI
+GitHub Issues,5354,Cannot build JDK21 on macOS AArch64: error: invalid CFI advance_loc expression,2026-05-18,Post-GenAI
+GitHub Issues,5355,JEP 472: Prepare to Restrict the Use of JNI,2024-06-11,Post-GenAI
+GitHub Issues,5357,JEP 442: Foreign Function & Memory API (Third Preview),2023-03-17,Post-GenAI
+GitHub Issues,5364,Improve JITServer/test compatibility with JITAAS,2024-06-05,Post-GenAI
+GitHub Issues,5365,Refactor classes to have standard layout type,2023-10-23,Post-GenAI
+GitHub Issues,5366,Require exact JIT build match for JITServer?,2025-06-18,Post-GenAI
+GitHub Issues,5369,clone() system call fails with EPERM when forking JVM on Ubuntu-based Kernel,2025-08-05,Post-GenAI
+GitHub Issues,5373,"jdk_lang_j9_0 and jdk_lang_j9_1, Unexpected provider count. Expected: 13. Actual: 12",2026-02-23,Post-GenAI
+GitHub Issues,5374,MauveMultiThrdLoad_5m_1_FAILED Mauve[gnu.testlet.java.text.DecimalFormat.setNegativePrefix] NullPoin,2025-04-25,Post-GenAI
+GitHub Issues,5375,7% AcmeAirEE8 throughput regression in 1P mode,2024-08-07,Post-GenAI
+GitHub Issues,5380,Full replacement for libGDX Particle Editor,2023-11-22,Post-GenAI
+GitHub Issues,5383,Crash cause by LWJGL: Unsupported JNI version,2023-05-12,Post-GenAI
+GitHub Issues,5385,[FFI/Jtreg_JDK21] IllegalArgumentException detected in TestNested.java on AIX,2023-10-16,Post-GenAI
+GitHub Issues,5386,JITServer: print incompatibility message when `-XX:+JITServerLogConnection` is specified,2023-02-07,Post-GenAI
+GitHub Issues,5389,crash building xmac vmState=0x000501ff,2022-12-01,Post-GenAI
+GitHub Issues,5393,Remove SSL library errors from getting printed to stderr,2023-04-04,Post-GenAI
+GitHub Issues,5394,Error occurred while compiling JDK 21 on Windows,2025-08-14,Post-GenAI
+GitHub Issues,5396,testJitserverArguments Test Health Port Connection refused,2024-03-26,Post-GenAI
+GitHub Issues,5402,The optimized values in debugging the cmake builds with the debug image,2023-05-04,Post-GenAI
+GitHub Issues,5414,openJcePlusTests_0 [path] bad path element no such file or directory error: warnings found and -Werr,2026-02-20,Post-GenAI
+GitHub Issues,5415,jdk_security3_0 Compilation failed cannot find symbol:   variable Utils,2026-03-16,Post-GenAI
+GitHub Issues,5416,Allow JITServer AOT cache to work without a shared class cache at the client,2023-02-14,Post-GenAI
+GitHub Issues,5417,Apache Lucene CI builds sometimes fail with OpenJ9 specific issues,2023-11-04,Post-GenAI
+GitHub Issues,5418,How can I avoid a hang on error during CRIU checkpoint?,2024-06-13,Post-GenAI
+GitHub Issues,5420,jdk_nio_0_FAILED java/nio/channels/DatagramChannel/Disconnect.java cannot find symbol InetAddress.of,2024-09-04,Post-GenAI
+GitHub Issues,5423,Windows AMX memory corruption continues despite fix,2026-06-15,Post-GenAI
+GitHub Issues,5424,"AIX 7.3: SIGSEGV in libc from OperatingSystemMXBean notification dispatcher (OpenJ9 0.59.0, Java 11.",2026-05-21,Post-GenAI
+GitHub Issues,5425,jdk/jfr/jmx/TestFlightRecorderMXBeanLeak.java fails with IOException: Not a valid Flight Recorder fi,2026-06-03,Post-GenAI
+GitHub Issues,5427,Apache Lucene CI builds sometimes fail with OpenJ9 specific issues,2023-11-04,Post-GenAI
+GitHub Issues,5428,testGuestOSMXBeanRemote runGuestOSMXBeanTest AssertionError: Invalid Guest Memory Usage statistics r,2026-02-09,Post-GenAI
+GitHub Issues,5429,Valhalla serviceability/jvmti/valhalla/VMObjectAllocValue/VMObjectAllocValueTest.java Exception,2026-05-27,Post-GenAI
+GitHub Issues,5430,Improve failure path for commit virtual memory for GC metadata structures.,2025-05-23,Post-GenAI
+GitHub Issues,5434,Performance Issues Across Different JDK Versions in OpenJ9,2025-03-19,Post-GenAI
+GitHub Issues,5435,Review memory management in OpenSSL integration and fix leaks,2023-03-14,Post-GenAI
+GitHub Issues,5436,Periodic disclaim of JCL and misc memory,2024-10-07,Post-GenAI
+GitHub Issues,5439,cent9 ppc64le and aarch64 machines can't remove nonpersistent caches,2026-01-30,Post-GenAI
+GitHub Issues,5440,System dumps may not capture critical stack frame locals for a Java heap OutOfMemoryError,2026-05-26,Post-GenAI
+GitHub Issues,5442,JDK24: VT: Crash in skynet test,2025-08-01,Post-GenAI
+GitHub Issues,5446,OpenJdk MemorySegmentGetUnsafe benchmark score,2024-10-01,Post-GenAI
+GitHub Issues,5448,OpenJDK java/util/StringJoiner/StringJoinerTest OutOfMemoryError: Java heap space,2024-01-08,Post-GenAI
+GitHub Issues,5449,renaissance-naive-bayes_0 ClassNotFoundException: jdk.internal.ref.Cleaner,2026-02-09,Post-GenAI
+GitHub Issues,5453,Thread.getState() performance issue with yielding pinned VirtualThread,2025-07-28,Post-GenAI
+GitHub Issues,5454,Performance Issues Across Different JDK Versions in OpenJ9,2025-03-19,Post-GenAI
+GitHub Issues,5457,Bump LWJGL3 to 3.4.1,2026-06-08,Post-GenAI
+GitHub Issues,5458,Performance Regression in OpenJ9 0.56.0: JRuby StampedVariableAccessor Thrashing,2025-12-04,Post-GenAI
+GitHub Issues,5461,Apache Lucene CI builds sometimes fail with OpenJ9 specific issues,2023-11-04,Post-GenAI
+GitHub Issues,5465,Enhanced FFM Downcall mechanism,2026-04-01,Post-GenAI
+GitHub Issues,5467,Box2D v3,2026-05-23,Post-GenAI
+GitHub Issues,5468,Does openj9-21.01 have performance defects in loops?,2024-03-04,Post-GenAI
+GitHub Issues,5469,Significant Performance Discrepancy Between OpenJ9 and Hotspot JVMs for Simple Java Loop,2024-12-31,Post-GenAI
+GitHub Issues,5483,OpenJDK sun/security/krb5/auto/ReplayCacheTestProc,2025-04-14,Post-GenAI
+GitHub Issues,5484,jdk_security1_0 FAILED java/security/Security/ConfigFileTest.java RuntimeException: OpenJCEPlusFIPS ,2024-12-09,Post-GenAI
+GitHub Issues,5486,Apache Lucene CI builds sometimes fail with OpenJ9 specific issues,2023-11-04,Post-GenAI
+GitHub Issues,5487,FIPS jdk_other_1 javax/xml/jaxp/XPath/8009579/XPathExceptionInitCause.java ProviderException: Failed,2025-05-30,Post-GenAI
+GitHub Issues,5488,Exclude list for TEST_FLAG OpenJCEPlus,2025-07-17,Post-GenAI
+GitHub Issues,5489,jdk_security3_0 sun/security/util/AlgorithmConstraints/InvalidCryptoDisabledAlgos.java IllegalArgume,2026-02-24,Post-GenAI
+GitHub Issues,5490,jdk_security1 java/security/SignedJar/spi-calendar-provider/TestSPISigned NoSuchFileException work/c,2025-10-31,Post-GenAI
+GitHub Issues,5491,java/security/SecureRandom/NoSync hang,2023-06-12,Post-GenAI
+GitHub Issues,5492,JDK8 FIPS jdk_security1_0_FAILED keytool error: java.security.KeyStoreException: sun.security.pkcs11,2023-04-03,Post-GenAI
+GitHub Issues,5495,harmony testGolden javax.security.auth.callback.serialization.PasswordCallbackTest ComparisonFailure,2024-10-04,Post-GenAI
+GitHub Issues,5498,ValueTypes: ClassCircularityError for OpenJDK test RecursiveValueClass,2024-11-04,Post-GenAI
+GitHub Issues,5499,OpenJDK jdk_security1 timeout in java.math.BigInteger doing RSAKeyPairGenerator.generateKeyPair,2025-01-21,Post-GenAI
+GitHub Issues,5500,jdk_security3_1 sun/security/pkcs12/PKCS12SameKeyId.java Agent timed out,2026-01-30,Post-GenAI
+GitHub Issues,5501,CryptoTests SecureRandomTests getSeedBytes() timeout,2024-03-18,Post-GenAI
+GitHub Issues,5502,jdk_security3_0_FAILED sun/security/util/Debug/DebugOptions.java StackOverflowError,2024-08-07,Post-GenAI
+GitHub Issues,5503,openJcePlusTests_0 InvalidKeyException: Point has small order &  j9mm.141 ASSERTION FAILED omr/gc/ba,2025-01-21,Post-GenAI
+GitHub Issues,5504,OpenJ9 vs HotSpot - Ignore allow and disallow options for java.security.manager System Property,2025-10-01,Post-GenAI
+GitHub Issues,5505,Re-enable openjdk test - jdk_bean ,2024-11-07,Post-GenAI
+GitHub Issues,5506,jdk_security4_0_FAILED sun/security/krb5/auto/HttpsCB.java Illegal instruction vmState=0x00040000,2024-04-08,Post-GenAI
+GitHub Issues,5507,jdk_security_infra_0_FAILED RuntimeException: TEST FAILED: unexpected status of EE certificate,2023-06-07,Post-GenAI
+GitHub Issues,5508,CryptoTests timeout in SeedGenerator reading /dev/random,2023-02-14,Post-GenAI
+GitHub Issues,5509,JCL_TEST_Java-Security Trace/BPT trap(coredump),2024-03-11,Post-GenAI
+GitHub Issues,5510,CryptoTests SunMSCAPI failing on Windows due to Access is denied,2023-02-13,Post-GenAI
+GitHub Issues,5511,FIPS java/util/jar/JarFile/SignedJarPendingBlock.java SecurityException: System.exit() forbidden by ,2023-12-05,Post-GenAI
+GitHub Issues,5512,OpenSSL bundling is interfering with native libraries to use the OS installed version,2025-09-02,Post-GenAI
+GitHub Issues,5513,Z: Investigate vector API add operation.,2026-05-15,Post-GenAI
+GitHub Issues,5514,"ArrayIndexOutOfBoundsException in thread ""Attach API teardown""",2025-11-05,Post-GenAI
+GitHub Issues,5515,enhance  pixmap api,2024-12-05,Post-GenAI
+GitHub Issues,5516,Evaluate whether the addMethodsFromClassRecord SVM API needs VM Access,2026-03-31,Post-GenAI
+GitHub Issues,5517,Public API to configure TLS named groups at SSLContext or SSLSocket/SSLEngine level in Java < 20,2026-05-29,Post-GenAI
+GitHub Issues,5519,Valhalla java/lang/invoke/VarHandles test failures,2026-06-11,Post-GenAI
+GitHub Issues,5520,AndroidGraphics.java use deprecated apis,2023-01-16,Post-GenAI
+GitHub Issues,5525,Valhalla valhalla/valuetypes/ValueClassPreviewTest.java,2026-06-05,Post-GenAI
+GitHub Issues,5526,cmdLineTester_jfr_0 VM API Test - approx 2mins timed out,2026-01-26,Post-GenAI
+GitHub Issues,5527,Cleanup/document JIT arraylet enablement API,2024-04-01,Post-GenAI
+GitHub Issues,5532,Transformer-api breaks MoshiX generated adapters,2023-04-05,Post-GenAI
+GitHub Issues,5534,"testOSMXBeanLocal_0 AssertionError: Error: getTotalSwapSpaceSize() API returned -1, test failed",2025-09-19,Post-GenAI
+GitHub Issues,5535,Segfault in vector API tests with JITServer,2024-12-10,Post-GenAI
+GitHub Issues,5536,Investigate perf impact of VirtualThread notifyJVMTI APIs,2023-06-01,Post-GenAI
+GitHub Issues,5537,Create exhaustive tests for PD shift api,2023-03-13,Post-GenAI
+Bugzilla,5689,Bug 1810674: Memory issues with Thunderbird,2023-01-17,Post-GenAI
+Bugzilla,5690,Bug 1891878: I believe that Mozilla Firefox has memory leak issues.,2024-04-16,Post-GenAI
+Bugzilla,5691,Bug 1923426: [meta] Investigate Possible Memory Usage Issues Affecting Performance,2024-10-08,Post-GenAI
+Bugzilla,5692,Bug 1937414: Memory issues with youtube being open for long periods of time,2024-12-15,Post-GenAI
+Bugzilla,5693,Bug 1967668: [meta] DevTools out of memory issues leading to toolbox crash,2025-05-21,Post-GenAI
+Bugzilla,5694,Bug 1999303: Crashes a few moments after starting due to Javascriptcand Memory issues,2025-11-10,Post-GenAI
+Bugzilla,5695,Bug 2015334: numerous memory management issues in macOS touchbar support,2026-02-08,Post-GenAI
+Bugzilla,5696,Bug 2029398: memory management issues in update driver,2026-04-05,Post-GenAI
+Stack Overflow,42,How to call runOnUiThread in Android JNI C++,2023-11-13,Post-GenAI
+Stack Overflow,44,How to free C++ instance in JNI?,2023-10-31,Post-GenAI
+Stack Overflow,50,JNI callback to Java,2023-04-28,Post-GenAI
+Stack Overflow,109,Invoke jar from C++ using JNI,2024-03-18,Post-GenAI
+Stack Overflow,137,uprobe symbol adress mapping offset,2025-03-01,Post-GenAI
+Stack Overflow,147,"Why my Java class methods are not being called from the native code? JNI, NDK/SDK",2023-08-17,Post-GenAI
+Stack Overflow,155,TagLib reading slows down after ~1600 items,2025-12-30,Post-GenAI
+Stack Overflow,176,Getting all classes and all methods in a class via JNI,2023-08-09,Post-GenAI
+Stack Overflow,208,Call CallVoidMethod multiple time cause crash,2024-09-24,Post-GenAI
+Stack Overflow,227,Android Native Activity cannot FindClass from external AAR library,2024-09-04,Post-GenAI
+Stack Overflow,234,Iterate through the ZipFile$ZipEntryIterator list using c++/JNI in Android,2024-09-30,Post-GenAI
+Stack Overflow,235,Unable to set timestamp on Android MediaCodec Image object from native c++ code,2024-09-04,Post-GenAI
+Stack Overflow,253,GoLang (server) + CPP global reference JNI calling multiple times/multiple methods,2023-05-12,Post-GenAI
+Stack Overflow,274,FFmpeg player backporting to Android 2.1 - one more problem,2024-04-13,Post-GenAI
+Stack Overflow,280,fmod crashes in Android java_object == null,2025-01-06,Post-GenAI
+Stack Overflow,283,How can I ensure ImageSource is not disposed,2024-02-26,Post-GenAI
+Stack Overflow,297,JNI NoClassDefFoundError while executing method in injected jar,2023-11-12,Post-GenAI
+Stack Overflow,307,Java to C++ JNI DLL error - java.lang.UnsatisfiedLinkError: ... Can&#39;t find dependent libraries,2025-08-18,Post-GenAI
+Stack Overflow,315,Programmatically get weak global reference table count,2023-04-05,Post-GenAI
+Stack Overflow,326,Python: memory leak with memory_profiler,2023-05-24,Post-GenAI
+Stack Overflow,344,Tracing the references for a specific object in Python (memory leak),2023-10-29,Post-GenAI
+Stack Overflow,349,How to get immutable data types to reduce the potential for race conditions w/out relying on an exte,2023-03-18,Post-GenAI
+Stack Overflow,351,AutofillService Memory leak reported by LeakCanary,2025-05-11,Post-GenAI
+Stack Overflow,355,How to deal uniformly with a factory returning unique_ptr and a getter returning a reference to glob,2023-02-02,Post-GenAI
+Stack Overflow,361,java static list causes memory leak,2023-10-02,Post-GenAI
+Stack Overflow,366,Unable to release memory bytes buffer,2023-02-17,Post-GenAI
+Stack Overflow,372,QLabel Memory Leak on Thread,2024-03-14,Post-GenAI
+Stack Overflow,393,Memory leak WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper in InputMethodService onDestr,2025-03-13,Post-GenAI
+Stack Overflow,397,How to prevent ClassLoader leaks when using ClassValue?,2023-03-03,Post-GenAI
+Stack Overflow,408,Memory leak in aioboto3 (aiohttp) after upgrading to Python 3.13,2025-10-09,Post-GenAI
+Stack Overflow,425,How to track unreleased COM interfaces in a Visual Studio C++ project?,2023-05-20,Post-GenAI
+Stack Overflow,434,How to unsubcribe the event in a main view model that subscribe event of secondary view model?,2023-08-19,Post-GenAI
+Stack Overflow,469,Where should I create an instance of Service() if I can&#39;t place it on ViewModel?,2023-05-08,Post-GenAI
+Stack Overflow,482,Mule 4.5 throwing ORA-01000: maximum open cursors exceeded,2024-09-03,Post-GenAI
+Stack Overflow,490,Callback in JAX fori_loop,2022-12-05,Post-GenAI
+Stack Overflow,497,Dll unloading causing loading application major performance drop,2025-03-08,Post-GenAI
+Stack Overflow,499,Tomcat High CPU usage and OutOfMemory issue,2023-09-14,Post-GenAI
+Stack Overflow,508,Returning a distribution object from a jittable function,2023-03-07,Post-GenAI
+Stack Overflow,527,I don&#39;t know how to solve &quot;local reference table overflow&quot; error in android JNI,2024-03-18,Post-GenAI
+Stack Overflow,568,Why does pyodbc sometimes yield a SQL &quot;Arithmetic overflow error&quot; related to nvarchar when,2023-02-03,Post-GenAI
+Stack Overflow,578,Why xlwings custom scripts fails with queries and connections in excel file?,2025-09-12,Post-GenAI
+Stack Overflow,590,Programmatically generate IDML to be processed by InDesign Server- Performance considerations and qu,2023-11-26,Post-GenAI
+Stack Overflow,614,Data doesn&#39;t persist after reloading?,2024-04-16,Post-GenAI
+Stack Overflow,702,UnsatisfiedLinkError when trying to use Vosk for a Java Maven Project,2025-07-02,Post-GenAI
+Stack Overflow,706,Geotools OGR plugin - UnsatisfiedLinkError (ogrjni or gdalalljni),2025-02-04,Post-GenAI
+Stack Overflow,768,UnsatisfiedLinkError when using aar-file in Expo project,2023-02-15,Post-GenAI
+Stack Overflow,839,UnsatisfiedLinkError when consuming prebuilt shared library in Android project with Cmake,2023-06-14,Post-GenAI
+Stack Overflow,918,UnsatisfiedLinkError: no pytorch_jni in java.library.path,2023-03-29,Post-GenAI
+Stack Overflow,924,TDLib UnsatisfiedLinkError (no tdjni in java.library.path),2023-06-02,Post-GenAI
+Stack Overflow,949,UnsatisfiedLinkError while trying to use org.opencv.dnn.Dnn.readNetFromCaffe_0,2023-01-15,Post-GenAI
+Stack Overflow,952,"YAJULEE (Yet Another Java UnsatisfiedLinkError Exception), even though the library exists and is in ",2023-07-15,Post-GenAI
+Stack Overflow,957,UnsatisfiedLinkError: Can&#39;t load library,2023-07-29,Post-GenAI
+Stack Overflow,975,Android Studio strange UnsatisfiedLinkError,2024-03-02,Post-GenAI
+Stack Overflow,982,UnsatisfiedLinkError with JNA on Windows x64 only,2024-11-15,Post-GenAI
+Stack Overflow,1039,Why is JODConverter trowing an UnsatisfiedLinkError?,2024-02-06,Post-GenAI
+Stack Overflow,1060,JNI UnsatisfiedLinkError when using native function,2023-05-18,Post-GenAI
+Stack Overflow,1138,Kafka Jvm out of memory,2023-03-30,Post-GenAI
+Stack Overflow,1158,Is modified UTF-8 handling in JNI::NewStringUTF changed in recent Android versions?,2024-01-12,Post-GenAI
+Stack Overflow,1159,JNI DETECTED ERROR IN APPLICATION: input is not valid Modified UTF-8: illegal start byte 0x80,2024-05-16,Post-GenAI
+Stack Overflow,1201,How can utf-8 input be received in a window procedure?,2023-06-21,Post-GenAI
+Stack Overflow,1204,Modify the output of this script so that it is read as BOM-less UTF-8,2024-02-06,Post-GenAI
+Stack Overflow,1227,How input UTF-8 characters in MingW64?,2023-04-19,Post-GenAI
+Stack Overflow,1238,How to reverse UTF-8 encoding in a byte array?,2023-11-14,Post-GenAI
+Stack Overflow,1255,JNI DETECTED ERROR IN APPLICATION: input is not valid Modified UTF-8: illegal continuation byte 0xa,2023-02-08,Post-GenAI
+Stack Overflow,1268,Html form set content type in requset header for charset utf-8,2024-01-25,Post-GenAI
+Stack Overflow,1269,Convert universal character name to UTF-8 in C,2024-02-20,Post-GenAI
+Stack Overflow,1272,Google cloud storage bad encoding of UTF-8 files,2023-11-22,Post-GenAI
+Stack Overflow,1276,Implementing UTF-8 compatible C Standard Library functions on Windows (pre-Win10),2025-06-29,Post-GenAI
+Stack Overflow,1318,What&#39;s the maximum number of code points for a UTF-8 encoded displayed character?,2023-10-04,Post-GenAI
+Stack Overflow,1335,pdftk generated pdf does not render correct utf-8,2024-03-21,Post-GenAI
+Stack Overflow,1343,thymeleaf UTF8 xml bug?,2022-12-06,Post-GenAI
+Stack Overflow,1344,Passing .NET string to UTF-8 char pointer and size C function,2023-04-03,Post-GenAI
+Stack Overflow,1349,Does Python always use UTF-8 when reading from or writing to a file? (Open function with only file a,2023-09-18,Post-GenAI
+Stack Overflow,1357,Selenium ChromeDriver.get() does not correctly add special characters UTF 8 decoding Java,2023-08-01,Post-GenAI
+Stack Overflow,1372,HttpMediaTypeNotSupportedException - Content-Type &#39;application/json;charset=UTF-8&#39; is not su,2025-05-12,Post-GenAI
+Stack Overflow,1392,Converting Special Characters in UTF-8 file to cp1252 file in Python,2023-09-12,Post-GenAI
+Stack Overflow,1396,UTF-8 Sender name in Amazon SES / Simple email service,2022-12-13,Post-GenAI
+Stack Overflow,1415,Git - print files mixed in different encoding,2023-09-07,Post-GenAI
+Stack Overflow,1430,NetBeans Doesn&#39;t Display Chinese Content,2023-02-15,Post-GenAI
+Stack Overflow,1437,pcase not recognising string matches,2023-08-18,Post-GenAI
+Stack Overflow,1482,How to find strings in a variable?,2025-01-27,Post-GenAI
+Stack Overflow,1485,"Received POST request error, how to handle？",2024-05-26,Post-GenAI
+Stack Overflow,1510,why do environment variables have String type instead of string slice in Rust?,2023-12-18,Post-GenAI
+Stack Overflow,1527,Python: Convert &quot;string&quot; without any conversion to binary,2023-05-23,Post-GenAI
+Stack Overflow,1536,Why is my code returning an &quot;ascii codec&quot; error when I&#39;m trying to use utf-8?,2023-10-12,Post-GenAI
+Stack Overflow,1608,Problem after migrating from .NET 6 to .NET 8: Queue message is automatically converted to byte[] in,2025-02-28,Post-GenAI
+Stack Overflow,1634,Django &#209; problem? ValueError: source code string cannot contain null bytes,2024-04-27,Post-GenAI
+Stack Overflow,1678,"Should we explicitly cast cpp datatypes (int, float etc) to jni datatypes (jint, jfloat etc) when pa",2023-08-14,Post-GenAI
+Stack Overflow,1725,How to run a console program that using JNI bridge which is packed in an Android APK package?,2023-04-20,Post-GenAI
+Stack Overflow,1733,Use Kotlin/Native prebuilt shared library from an Android application using JNI,2023-09-05,Post-GenAI
+Stack Overflow,1764,Why there is permission denied error in App Specific folders on external storage from Android API 33,2024-04-03,Post-GenAI
+Stack Overflow,1766,Android App Development: SELinux blocks permission to read file,2023-03-25,Post-GenAI
+Stack Overflow,1777,How to safely share String between JNI thread and native thread,2023-05-07,Post-GenAI
+Stack Overflow,1793,JNI Issue: Passing Java Runnable Object to JNI in Custom Gluon Attach Plugin,2024-12-14,Post-GenAI
+Stack Overflow,1811,Video is not compressed with ffmpeg,2024-10-08,Post-GenAI
+Stack Overflow,1854,VP9 video black screen after merging (stream copy),2026-04-23,Post-GenAI
+Stack Overflow,1857,JNI OpenSSL RSA Decryption not working properly,2023-08-03,Post-GenAI
+Stack Overflow,1860,Android Java Jni c++ Memory leaks,2023-04-06,Post-GenAI
+Stack Overflow,1890,R embedded in java (JNI) : C stack usage 134897775268 is too close to the limit / Fatal error: unabl,2024-02-22,Post-GenAI
+Stack Overflow,1896,How to use AAudio (or other C++ layer tools recommended?) to play wav files in my android app?,2024-12-22,Post-GenAI
+Stack Overflow,1907,How to call native functions in Compose Multiplatform application for MacOS?,2024-11-17,Post-GenAI
+Stack Overflow,1913,AFL++ (time out or crash),2023-11-15,Post-GenAI
+Stack Overflow,1924,Calling JNI_CreateJavaVM just hangs,2023-11-19,Post-GenAI
+Stack Overflow,1931,fmod crashes in Android java_object == null,2025-01-06,Post-GenAI
+Stack Overflow,1938,JNI - Call java method with a Functional Interface parameter from cpp,2024-03-15,Post-GenAI
+Stack Overflow,1957,FFmpeg:A General error in an external library occurred when using FFmpeg6.1&#39;s avcodec_send_frame,2024-01-03,Post-GenAI
+Stack Overflow,1981,JNI is not working correctly in flutter:ffi,2025-08-09,Post-GenAI
+Stack Overflow,1985,Java to C++ JNI DLL error - java.lang.UnsatisfiedLinkError: ... Can&#39;t find dependent libraries,2025-08-18,Post-GenAI
+Stack Overflow,1998,"Fatal signal 11 (SIGSEGV), after second JNI String call to Java method",2022-12-19,Post-GenAI
+Stack Overflow,2003,Android C++ NativeActivity compiles but doesn&#39;t work,2025-03-21,Post-GenAI
+Stack Overflow,2017,How to return an array of unknown size from a JNI C function to Java in Android?,2023-07-05,Post-GenAI
+Stack Overflow,2028,Android C to Java SWIG unable to compile: incompatible types: byte cannot be converted to SWIGTYPE_p,2025-03-04,Post-GenAI
+Stack Overflow,2045,How do I download a blob from a table to a file on the user&#39;s local computer using a stored proc,2024-03-06,Post-GenAI
+Stack Overflow,2054,GPUDirect RDMA out of range pin address by Quadro p620,2022-12-18,Post-GenAI
+Stack Overflow,2061,How do I avoid memory being swapped in Rust?,2025-07-30,Post-GenAI
+Stack Overflow,2066,When does non-blocking H2D copy from pinned memory in pytorch require synchronization?,2025-08-31,Post-GenAI
+Stack Overflow,2067,Embedded Linux Uart to be used as RS485,2025-10-06,Post-GenAI
+Stack Overflow,2071,Data Not Refreshed in Physical Memory After fork() and copyDataToBuffer Calls,2025-04-16,Post-GenAI
+Stack Overflow,2092,&quot;busybox devmem &lt;address&gt;&quot; returns 0xffffffff for all addresses on Nvidia Jetson Ori,2023-06-17,Post-GenAI
+Stack Overflow,2095,Question about Peripheral Timing Generator (PTG) Module on dsPIC33CK256MP508,2023-01-30,Post-GenAI
+Stack Overflow,2128,Running the Zephyr CANopennode example project on alternate boards,2025-07-09,Post-GenAI
+Stack Overflow,2229,std::bad_alloc thrown on call to System.LoadLibrary,2023-02-06,Post-GenAI
+Stack Overflow,2231,Why Android NDK&#39;s System.loadLibrary tries to load a SONAME,2023-02-27,Post-GenAI
+Stack Overflow,2238,Is there a way to ensure System.loadLibrary loads dependent DLLs from the same directory as the prim,2024-12-19,Post-GenAI
+Stack Overflow,2319,Native Library working correctly for install-time module but doesn&#39;t work as expected for on-dem,2023-08-08,Post-GenAI
+Stack Overflow,2377,Java OpenCv to Maven,2024-12-25,Post-GenAI
+Stack Overflow,2401,Link OpenCV library to a Scala project,2024-03-02,Post-GenAI
+Stack Overflow,2447,I want to upgrade turbo jpeg version from 1.5.0 to 2.1.0,2025-07-11,Post-GenAI
+Stack Overflow,2454,How to list all threads of the host OS from within a Java VM?,2024-10-07,Post-GenAI
+Stack Overflow,2458,How to use JNI in Quarkus?,2024-04-02,Post-GenAI
+Stack Overflow,2470,Can&#39;t load this .dll (machine code=0x686) on a AMD 64-bit platform,2023-03-01,Post-GenAI
+Stack Overflow,2480,Graalvm + spring 3 running on kubernetes. Unable to load a &#39;.so&#39; file via System.load(),2023-09-05,Post-GenAI
+Stack Overflow,2495,Can I load libraries compiled with aarch64 in x86_64 Android emulator?,2022-12-08,Post-GenAI
+Stack Overflow,2522,Compiling Ada library for Android (JNI),2023-04-20,Post-GenAI
+Stack Overflow,2527,AWS lambda support Java AWT,2024-07-15,Post-GenAI
+Stack Overflow,2533,opencv python imutils.grab_contours and sorted methods are not available in java/scala api my scala ,2024-01-16,Post-GenAI
+Stack Overflow,2546,How do I debug a JNI dll using Visual Studio C++ debugger?,2024-08-22,Post-GenAI
+Stack Overflow,2552,AWS Kinesis Video Streams Producer JNI times out (StatusCode: 0xf) in Ubuntu container running gRPC ,2025-09-29,Post-GenAI
+Stack Overflow,2566,Fatal Exception: java.lang.UnsatisfiedLinkError dlopen failed: library &quot;libavutil.so&quot; not ,2024-02-05,Post-GenAI
+Stack Overflow,2573,Android NDK app (native lib .so) loads on the hardware but it can&#39;t be found on the emulator,2023-03-29,Post-GenAI
+Stack Overflow,2612,How to avoid DiskReadViolations in StrictMode when loading native library asynchronously,2024-02-23,Post-GenAI
+Stack Overflow,2635,c++ using JNI: AttachCurrentThread returns -1,2024-08-23,Post-GenAI
+Stack Overflow,2639,Is it safe to do pthread_join on a thread that has been attached to JVM using JNI&#39;s AttachCurren,2023-08-24,Post-GenAI
+Stack Overflow,2643,Memory leak in JNI with AttachCurrentThread() and DetachCurrentThread(),2025-11-27,Post-GenAI
+Stack Overflow,2698,Pros/Cons of attaching all the native cpp threads(of a Thread Pool) to JVM on creation using JNI and,2023-09-01,Post-GenAI
+Stack Overflow,2714,Using Java classes from native activity android,2023-05-17,Post-GenAI
+Stack Overflow,2755,Android Native Activity cannot FindClass from external AAR library,2024-09-04,Post-GenAI
+Stack Overflow,2772,Impact on ART due to process termination from exception,2024-12-25,Post-GenAI
+Stack Overflow,2780,How to use JNI without having to add jvm.dll location into Environment Variables Path,2023-10-16,Post-GenAI
+Stack Overflow,2787,DllMain is not called after injection,2024-04-14,Post-GenAI
+Stack Overflow,2805,JNI callback to Java,2023-04-28,Post-GenAI
+Stack Overflow,2835,Android: Exception when calling a static java method from cpp thread,2022-12-28,Post-GenAI
+Stack Overflow,2852,How to call runOnUiThread in Android JNI C++,2023-11-13,Post-GenAI
+Stack Overflow,2857,"Why my Java class methods are not being called from the native code? JNI, NDK/SDK",2023-08-17,Post-GenAI
+Stack Overflow,2913,attempts to catch native jni crash/SIGSEGV in java are failing,2023-01-20,Post-GenAI
+Stack Overflow,2921,"Fatal signal 11 (SIGSEGV), after second JNI String call to Java method",2022-12-19,Post-GenAI
+Stack Overflow,2925,JNI CallStaticObjectMethod is causing crash with Java 21,2024-07-22,Post-GenAI
+Stack Overflow,2948,Why SIGSEGV behaves differently from other Exception codes in Android?,2024-04-09,Post-GenAI
+GitHub Issues,2954,"AIX LangLoadTest_5m OutOfMemoryError ""native memory exhausted""",2026-06-04,Post-GenAI
+GitHub Issues,2957,Regression: JVM crash when resolving stale jmethodIDs via JVMTI on JDK 21+,2026-02-26,Post-GenAI
+GitHub Issues,2961,Memory leak/OutOfMemoryError when using 11.0.23+9 IBM Semeru Runtime Certified Edition for z/OS,2024-08-22,Post-GenAI
+GitHub Issues,2962,Regression since 0.46. Unhandled exception - Type=Bus error vmState=0x000501ff,2024-09-26,Post-GenAI
+GitHub Issues,2983,threadMXBeanTestSuite1 -Xgcpolicy:metronome j9vm.227 ASSERTION FAILED at vm/jnicsup.cpp:1691: ((vmTh,2026-03-24,Post-GenAI
+GitHub Issues,2989,Cache MemberName data on initialization and resolution,2024-06-24,Post-GenAI
+GitHub Issues,3006,JDK20 jdk/incubator/concurrent/ScopedValue/StressStackOverflow.java StressStackOverflow$TestFailureE,2023-03-20,Post-GenAI
+GitHub Issues,3012,[FFI/Jextract] Failure to load a complex archive file (.a) on AIX in the jextract generation,2024-07-29,Post-GenAI
+GitHub Issues,3013,UnsatisfiedLinkError: Program Alignment Mismatch on Pixel 8 (16KB page size) with Conscrypt 2.5.3,2025-10-31,Post-GenAI
+GitHub Issues,3014,cmdLineTester_GCCheck Test Failure java.lang.UnsatisfiedLinkError,2025-06-18,Post-GenAI
+GitHub Issues,3015,java.lang.UnsatisfiedLinkError due to System Language,2023-02-16,Post-GenAI
+GitHub Issues,3016,OpenSSL bundling is interfering with native libraries to use the OS installed version,2025-09-02,Post-GenAI
+GitHub Issues,3018,UnsatisfiedLinkError: dlopen failed: empty/missing DT_HASH/DT_GNU_HASH,2024-06-03,Post-GenAI
+GitHub Issues,3027,JFR Test Failure: TestJFRIntrinsic,2026-04-14,Post-GenAI
+GitHub Issues,3031,testDDRExt_Callsites_0_FAILED Timeout: killed the sub-process,2023-05-17,Post-GenAI
+GitHub Issues,3034,JDK22 cmdLineTester_loadLibraryTests_0_FAILED,2024-02-16,Post-GenAI
+GitHub Issues,3038,Can we coordinate efforts to support Graal Native Image?,2023-03-31,Post-GenAI
+GitHub Issues,3040,JFR Test Failure: TestJFRIntrinsic,2026-04-14,Post-GenAI
+GitHub Issues,3042,Re-enable openjdk test - jdk_bean ,2024-11-07,Post-GenAI
+GitHub Issues,3043,SIGSEGV in walkStackFrames during GC scanSlots on amd64 (ASAN build),2026-03-16,Post-GenAI
+GitHub Issues,3044,"AIX 7.3: SIGSEGV in libc from OperatingSystemMXBean notification dispatcher (OpenJ9 0.59.0, Java 11.",2026-05-21,Post-GenAI
+GitHub Issues,3045,Crash : SIGSEGV /SEGV_MAPERR ,2023-04-26,Post-GenAI
+GitHub Issues,3046,OpenJ9 JDK8 SIGSEGV in libj9gc29.so with Balanced GC during GC worker stack root scanning,2026-05-24,Post-GenAI
+GitHub Issues,3047,"Crash in Java_io_realm_internal_UncheckedRow_nativeGetString, StringData.size = 18446744073709551615",2024-10-09,Post-GenAI
+GitHub Issues,3048,jdk25 openjdk java/foreign/TestBufferStackStress timeout,2025-07-14,Post-GenAI
+GitHub Issues,3051,OpenJ9 JIT crash when compiling io/micrometer/core/instrument/Meter$Id.hashCode() on Linux,2025-12-22,Post-GenAI
+GitHub Issues,3053,"sun.awt.X11.ColorData is causing a JVM crash, which may be related to JNI-related issues.",2025-02-23,Post-GenAI
+GitHub Issues,3055,clone() system call fails with EPERM when forking JVM on Ubuntu-based Kernel,2025-08-05,Post-GenAI
+GitHub Issues,3060,[JIT] GPF in TR_J9EstimateCodeSize::realEstimateCodeSize via IAP / collectImplementorsCapped when co,2026-05-29,Post-GenAI
+GitHub Issues,3063,Feature request: Add signal sender process information to javacore output,2025-04-10,Post-GenAI
+GitHub Issues,3064,SEGV_MAPERR crash by RealmFinalizing,2023-10-23,Post-GenAI
+GitHub Issues,3066,jdk_lang_0 java/lang/Thread/virtual/MiscMonitorTests.java#Xcomp-noTieredCompilation j9codertvm(j9ji.,2025-06-12,Post-GenAI
+GitHub Issues,3067,Calling FontScaler.getScaler(null) Causes Fatal JVM Crash,2025-05-30,Post-GenAI
+GitHub Issues,3068,jdk_lang_0 j9mm.479 ASSERTION FAILED at openj9/runtime/gc_glue_java/ScavengerDelegate.cpp:362: ((MM_,2025-06-11,Post-GenAI
+GitHub Issues,3069,Crash in walkStackFrames,2025-05-08,Post-GenAI
+GitHub Issues,3070,Crash in GC while running CancelTimerWithContention,2025-03-18,Post-GenAI
+GitHub Issues,3071,prunsrv.exe (Tomcat10.exe) killed when run on top of openj9 ,2024-07-22,Post-GenAI
+GitHub Issues,3073,A JIT crash about SIMD,2025-02-13,Post-GenAI
+GitHub Issues,3074,JVM Crash after upgrading from 21.0.10+7 to 25.0.3+9 (OpenLiberty Server),2026-06-16,Post-GenAI
+GitHub Issues,3075,JVM Crash: OpenJ9 Segmentation Fault,2026-01-23,Post-GenAI
+GitHub Issues,3076,Regression: JVM crash when resolving stale jmethodIDs via JVMTI on JDK 21+,2026-02-26,Post-GenAI
+GitHub Issues,3079,JDK24: VT: Crash in skynet test,2025-08-01,Post-GenAI
+GitHub Issues,3082,"AIX 7.3: SIGSEGV in libc from OperatingSystemMXBean notification dispatcher (OpenJ9 0.59.0, Java 11.",2026-05-21,Post-GenAI
+GitHub Issues,3083,Runtime crashes when attached to JNI-based profiler,2025-07-30,Post-GenAI
+GitHub Issues,3084,OpenJ9-8u432  crashes when loading awt_xawt library,2025-12-02,Post-GenAI
+GitHub Issues,3085,threadMXBeanTestSuite2 crash vmState=0x00000000 getInlinedMethod libj9jit29,2026-06-13,Post-GenAI
+GitHub Issues,3086,cmdLineTester_jfrEvents_0 runWorkload - approx 300 seconds Type=Segmentation error vmState=0x0002001,2026-04-20,Post-GenAI
+GitHub Issues,3090,j9shr29.dll crash creating shared cache with half-page aligned boundaries,2025-10-09,Post-GenAI
+GitHub Issues,3091,SPECjbb2015_6 crash -Xgc:concurrentScavenge,2026-04-27,Post-GenAI
+GitHub Issues,3092,SC_Softmx_Increase NullPointerException crash vmState=0x00000000,2026-03-20,Post-GenAI
+GitHub Issues,3093,MathLoadTest crash vmState=0x00000000,2025-04-21,Post-GenAI
+GitHub Issues,3094,JVM signal handler hangs trying to generate coredump while handling crash in malloc,2025-03-28,Post-GenAI
+GitHub Issues,3095,OpenJ9 0.59.0 FFI: ASSERTION FAILED in LayoutFFITypeHelpers.hpp when creating downcallHandle when th,2026-06-11,Post-GenAI
+GitHub Issues,3096,testRASAPI_0 failure,2026-06-15,Post-GenAI
+GitHub Issues,3098,MathLoadTest_bigdecimal crash vmState=0x00000000,2024-09-30,Post-GenAI
+GitHub Issues,3099,JDK17 openj9 (semeru) crash when running on alpine 3.20.2,2024-08-25,Post-GenAI
+GitHub Issues,3100,JDK25 OpenJDK java/lang/invoke/MethodHandleProxies/BasicTest crash vmState=0x00000000 isModuleDefine,2025-07-21,Post-GenAI
+GitHub Issues,3101,Invalid Argument on EPoll.wait,2026-05-18,Post-GenAI
+GitHub Issues,3114,TextureAtlas loader and encoding of .atlas files,2023-05-28,Post-GenAI
+GitHub Issues,3118,TestJlmRemoteThreadAuth crash LT1 vmState=0x00000000,2023-09-15,Post-GenAI
+GitHub Issues,3132,"Crash in Java_io_realm_internal_UncheckedRow_nativeGetString, StringData.size = 18446744073709551615",2024-10-09,Post-GenAI
+GitHub Issues,3133,JVM signal handler hangs trying to generate coredump while handling crash in malloc,2025-03-28,Post-GenAI
+GitHub Issues,3150,Crash in GC while running CancelTimerWithContention,2025-03-18,Post-GenAI
+GitHub Issues,3151,jdk24 java/foreign/largestub/TestLargeStub IllegalArgumentException array length is not legal for lo,2024-10-15,Post-GenAI
+GitHub Issues,3154,JEP 454: Foreign Function & Memory API (Finalized),2023-07-27,Post-GenAI
+GitHub Issues,3157,OpenJDK java/math/BigInteger/BigIntegerTest - Misaligned stack-allocated object,2023-07-06,Post-GenAI
+GitHub Issues,3160,Support configuration option --with-jni-libpath?,2025-11-25,Post-GenAI
+GitHub Issues,3164,New Jep434Tests_testLinkerFfi_* tests failing against hotspot across all platforms,2023-03-28,Post-GenAI
+GitHub Issues,3167,java.lang.UnsatisfiedLinkError due to System Language,2023-02-16,Post-GenAI
+GitHub Issues,3171,JDK22 cmdLineTester_loadLibraryTests_0_FAILED,2024-02-16,Post-GenAI
+GitHub Issues,3174,java.lang.IllegalArgumentException: committed value cannot be larger than the max value,2023-07-11,Post-GenAI
+GitHub Issues,3182,JVM_LoadLibrary should handle .a files on AIX,2024-04-18,Post-GenAI
+GitHub Issues,3184,Jep442Tests_testLinkerFfi_DownCall and Jep442Tests_testLinkerFfi_UpCall fail against hotspot ,2023-04-26,Post-GenAI
+GitHub Issues,3186,Maven build errors - not able to find org.eclipse.openj9.criu,2023-09-27,Post-GenAI
+GitHub Issues,3190,OpenJ9-8u432  crashes when loading awt_xawt library,2025-12-02,Post-GenAI
+GitHub Issues,3193,JVM signal handler hangs trying to generate coredump while handling crash in malloc,2025-03-28,Post-GenAI
+GitHub Issues,3198,FFI/FFM : Unexpected behaviour when using Memory Segment for upcall/downcall,2025-09-08,Post-GenAI
+GitHub Issues,3200,jdk24 java/foreign/TestRestricted AssertionError @Restricted annotation not found for methods System,2024-10-15,Post-GenAI
+GitHub Issues,3201,jdk_nio_0_FAILED java/nio/file/attribute/BasicFileAttributeView/CreationTime.java#tmp UnsatisfiedLin,2024-08-07,Post-GenAI
+GitHub Issues,3202,IBM Java 8 cannot load a DLL that depends on a newer version of the Microsoft Visual C++ redistribut,2024-09-05,Post-GenAI
+GitHub Issues,3204,JVM_LoadLibrary should handle .a files on AIX,2024-04-18,Post-GenAI
+GitHub Issues,3210,[FFI/Jtreg_JDK21] AssertionError detected in TestTrivialUpcall.java,2023-07-19,Post-GenAI
+GitHub Issues,3220,UnsatisfiedLinkError: Program Alignment Mismatch on Pixel 8 (16KB page size) with Conscrypt 2.5.3,2025-10-31,Post-GenAI
+GitHub Issues,3224,serviceability_jvmti_j9_0 serviceability/jvmti/ObjectMonitorUsage/ObjectMonitorUsage.java timed out,2025-05-15,Post-GenAI
+GitHub Issues,3225,Some Android devices can not find the 'gdx' shared library and the app crashes on launch,2024-08-30,Post-GenAI
+GitHub Issues,3230,OpenJDK jni/AttachCurrentThread/AttachTest.java#id1 crash vmState=0x00000000,2025-11-26,Post-GenAI
+GitHub Issues,3231,OpenJDK java/lang/Thread/jni/AttachCurrentThread/AttachTest crash vmState=0x00000000,2023-06-14,Post-GenAI
+GitHub Issues,3232,OpenJDK java/lang/Thread/jni/AttachCurrentThread/AttachTest crash vmState=0x00000000,2025-04-10,Post-GenAI
+GitHub Issues,3233,[realm-core-12.3.0] Assertion failed: false,2024-01-25,Post-GenAI
+GitHub Issues,3234,[Jtreg/FFI] Disable FFI test suites in Jtreg test for JDK20,2023-01-17,Post-GenAI
+GitHub Issues,3235,jdk20 OpenjDK java/lang/Thread/jni/AttachCurrentThread/AttachTest NullPointerException Cannot invoke,2023-02-02,Post-GenAI
+GitHub Issues,3238,jdk19 openjdk java/foreign/SafeFunctionAccessTest.java crash vmState=0x00000000,2023-01-25,Post-GenAI
+Bugzilla,3293,Bug 1807232: Crash: Java.lang.UnsatisfiedLinkError: No implementation found for boolean org.mozilla.,2022-12-23,Post-GenAI
+Bugzilla,3294,Bug 1821587: Crash in [@ java.lang.UnsatisfiedLinkError: at com.sun.jna.Native.loadNativeDispatchLib,2023-03-10,Post-GenAI
+Bugzilla,3352,Bug 1891726: Thread names are overridden by JavaVM::AttachCurrentThread,2024-04-16,Post-GenAI

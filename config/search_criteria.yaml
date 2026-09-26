@@ -1,0 +1,163 @@
+# Search Criteria Documentation
+# This file documents the exact search strategy used for each forum.
+
+forums:
+  stack_overflow:
+    search_type: "hybrid"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+    tags:
+      - "java-native-interface"
+      - "jni"
+      - "jniwrapper"
+      - "jna"
+    filters:
+      - "score >= 0"
+      - "body_length >= 100"
+    api_endpoint: "https://api.stackexchange.com/2.3/questions"
+    justification: "Hybrid approach ensures high recall by capturing both tagged and keyword-matched posts"
+
+  github_issues:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native method"
+      - "Java Native Interface"
+    filters:
+      - "repository_language includes Java AND (C OR C++)"
+      - "is not a pull request"
+      - "body_length >= 50"
+    api_endpoint: "https://api.github.com/search/issues"
+    justification: "Term-based search captures JNI-related issues across repositories"
+
+  reddit:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native code"
+      - "Java Native Interface"
+    subreddits:
+      - "java"
+      - "androiddev"
+      - "programming"
+    filters:
+      - "score >= 1"
+    api_endpoint: "https://www.reddit.com/search.json"
+    justification: "Captures informal developer discussions and pain points"
+
+  hacker_news:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "native interop"
+    filters:
+      - "points >= 5"
+      - "num_comments >= 10"
+    api_endpoint: "https://hn.algolia.com/api/v1/search"
+    justification: "Captures high-level architectural discussions"
+
+  llvm_discourse:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java"
+      - "native interop"
+      - "FFI"
+    categories:
+      - "Development"
+      - "Users"
+      - "LLVM"
+    filters:
+      - "body_length >= 100"
+    api_endpoint: "https://discourse.llvm.org/search.json"
+    justification: "Captures systems-level discussions relevant to JNI"
+
+  apache_mailing_lists:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native"
+      - "Java Native Interface"
+    projects:
+      - "hadoop"
+      - "spark"
+      - "kafka"
+      - "flink"
+    filters:
+      - "thread_length >= 2"
+    api_endpoint: "https://lists.apache.org/api/stats.lua"
+    justification: "Captures architectural decisions in major OSS projects"
+
+  bugzilla:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native"
+      - "Java"
+    components:
+      - "Core"
+      - "DOM"
+      - "JavaScript Engine"
+    filters:
+      - "status != INVALID"
+      - "status != DUPLICATE"
+      - "severity >= normal"
+    api_endpoint: "https://bugzilla.mozilla.org/rest/bug"
+    justification: "Captures detailed technical defect reports"
+
+  microsoft_qa:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "interop"
+    categories:
+      - "Java"
+      - "Android"
+      - "Cross-platform"
+    filters:
+      - "has >= 1 answer or comment"
+    api_endpoint: "Microsoft Q&A API"
+    justification: "Captures official vendor answers and acknowledged bugs"
+
+  oracle_community:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "native method"
+    forums:
+      - "Java SE"
+      - "Java Development"
+      - "Android"
+    filters:
+      - "body_length >= 100"
+    api_endpoint: "Manual scraping"
+    justification: "Official source for Java platform clarifications"
+
+  lobsters:
+    search_type: "term-based"
+    keywords:
+      - "JNI"
+      - "native interop"
+      - "FFI"
+    filters:
+      - "points >= 3"
+      - "num_comments >= 5"
+    api_endpoint: "https://lobste.rs/search.json"
+    justification: "High signal-to-noise technical discussions"
+
+  quora:
+    search_type: "term-based + manual expert-credential filtering"
+    keywords:
+      - "JNI"
+      - "Java Native Interface"
+      - "JNA"
+    filters:
+      - "Must discuss architectural trade-offs or library selection"
+      - "Must contain substantive technical reasoning"
+      - "Exclude career advice and beginner questions"
+    api_endpoint: "Manual web browsing + export"
+    justification: "Captures high-level architectural debates (JNI vs JNA vs Panama)"
