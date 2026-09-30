@@ -1,12 +1,12 @@
 keyword
-API
+compilation errors
 javah
 JNI error
 jstring to const char
 JNI tools
 UnsatisfiedLinkError
 JNIEnv
-java.library.path
+System.loadLibrary
 JNI native memory
 JNI performance
 JNI Android
@@ -18,18 +18,18 @@ GetMethodID
 JNI threading
 JNI issue
 JNI problem
-call C from Java
+JVM crash
 JNI callback
-JavaVM
-System.loadLibrary
 JNI crash
-SWIG Java
-SIGSEGV java
-call C++ from Java
-call native code from Java
 Java native integration
 JNI bug
 JNI native method
 JNI_OnLoad
 undefined reference JNI
+java.library.path
 JNI integration
+call C from Java
+JNI fatal error
+JavaVM
+JNI library load
+JNI library not found

@@ -1,7 +1,7 @@
 ======================================================================
 KEYWORD SELECTION REPORT - APACHE
 ======================================================================
-Generated: 2026-09-30 19:38:37
+Generated: 2026-09-30 20:39:29
 Data source: Stack Overflow corpus (20,710 posts)
 Total categories: 18
 Selected keywords: 20
@@ -28,8 +28,8 @@ SELECTED KEYWORDS:
 ----------------------------------------------------------------------
 
 BASELINE:
-  • API
-    Rank: 1, Freq: 1,414, IG: 0.6972 bits, Score: 710.6
+  • compilation errors
+    Rank: 1, Freq: 300, IG: 0.1515 bits, Score: 154.41
     SelReason: Top IG keyword in 'baseline' (category guarantee)
 
 CORE_JNI:
@@ -42,9 +42,6 @@ CORE_JNI:
   • JNI problem
     Rank: 3, Freq: 535, IG: 0.5252 bits, Score: 535.31
     SelReason: High IG selection (rank 3 in 'core_jni')
-  • call C from Java
-    Rank: 4, Freq: 523, IG: 0.5136 bits, Score: 523.44
-    SelReason: High IG selection (rank 4 in 'core_jni')
 
 REFERENCE_MGMT:
   • DeleteLocalRef
@@ -75,10 +72,13 @@ ERROR_HANDLING:
   • UnsatisfiedLinkError
     Rank: 1, Freq: 1,297, IG: 0.6365 bits, Score: 648.73
     SelReason: Top IG keyword in 'error_handling' (category guarantee)
+  • JVM crash
+    Rank: 2, Freq: 516, IG: 0.5065 bits, Score: 516.29
+    SelReason: High IG selection (rank 2 in 'error_handling')
 
 LIBRARY_LOADING:
-  • java.library.path
-    Rank: 1, Freq: 589, IG: 0.5783 bits, Score: 589.44
+  • System.loadLibrary
+    Rank: 1, Freq: 858, IG: 0.4212 bits, Score: 429.29
     SelReason: Top IG keyword in 'library_loading' (category guarantee)
 
 PERFORMANCE:
@@ -93,7 +93,7 @@ SECURITY:
 
 COMPILATION:
   • javah
-    Rank: 1, Freq: 354, IG: 0.3476 bits, Score: 354.27
+    Rank: 1, Freq: 354, IG: 0.1739 bits, Score: 177.27
     SelReason: Top IG keyword in 'compilation' (category guarantee)
 
 PLATFORM:

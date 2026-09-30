@@ -90,7 +90,26 @@ def calculate_keyword_effectiveness(df: pd.DataFrame) -> pd.DataFrame:
         avg_score = all_matches['score'].mean() if len(all_matches) > 0 else 0
         
         # Calculate uniqueness (how specific to JNI vs general programming)
-        jni_specificity = 1.0 if any(term in keyword_lower for term in ['jni', 'java', 'jstring', 'jbyte']) else 0.5
+        # Nuanced specificity scoring:
+        # 1.0 = clearly JNI-specific (contains JNI/Java/JNI-specific terms)
+        # 0.7 = JNI-adjacent (contains "API" with Java/JNI context)
+        # 0.5 = general programming (no JNI indicators)
+        # 0.3 = general API (purely general API terms)
+        keyword_lower = keyword.lower()
+
+        if any(term in keyword_lower for term in ['jni', 'java native', 'jni_', 'jvm', 'jstring', 'jbyte']):
+            jni_specificity = 1.0  # Clearly JNI-specific
+        elif 'api' in keyword_lower:
+            # Check if API is in JNI context
+            jni_context_terms = ['jni api', 'java api', 'jnienv', 'jnienv',
+                               'jni function', 'jni error', 'jni leak',
+                               'global reference', 'local reference']
+            if any(term in keyword_lower for term in jni_context_terms):
+                jni_specificity = 0.7  # API in JNI context
+            else:
+                jni_specificity = 0.3  # General API, not JNI-specific
+        else:
+            jni_specificity = 0.5  # General programming term
         
         # Calculate effectiveness score
         effectiveness_score = (frequency * jni_specificity) + (avg_score * 0.1)
@@ -211,6 +230,35 @@ def select_keywords_offline(
             )
             top_kw = category_kws[0]
 
+            # Skip overly general terms that don't indicate JNI design smells
+            # e.g., "API" appears in general programming posts too
+            is_general = (
+                top_kw['keyword'].lower() == 'api' 
+                or 'api ' in top_kw['keyword'].lower().strip()
+            ) and not any(
+                term in top_kw['keyword'].lower() 
+                for term in ['jni', 'java native', 'jnienv', 'jvm', 'jstring', 'jbyte']
+            )
+            
+            if is_general:
+                # Find the next best keyword in this category that's not already selected
+                # and not overly general
+                found_alternative = False
+                for alt_kw in category_kws[1:]:
+                    alt_general = (
+                        alt_kw['keyword'].lower() == 'api'
+                        or 'api ' in alt_kw['keyword'].lower().strip()
+                    ) and not any(
+                        term in alt_kw['keyword'].lower() 
+                        for term in ['jni', 'java native', 'jnienv', 'jvm', 'jstring', 'jbyte']
+                    )
+                    if not alt_general and alt_kw['keyword'] not in selected_set:
+                        top_kw = alt_kw
+                        found_alternative = True
+                        break
+                if not found_alternative:
+                    continue  # Skip this category for now (Phase 4 will try)
+
             if top_kw['keyword'] not in selected_set:
                 selected.append(top_kw['keyword'])
                 selected_set.add(top_kw['keyword'])
@@ -259,31 +307,75 @@ def select_keywords_offline(
             if kw['ig'] < 0.1:  # Low IG threshold for exceeding category limit
                 should_select = False
 
-        # Rule 2: Platform-specific deduplication and filtering
+        # Rule 2: Filter overly general API terms across ALL platforms
+        # "API" alone is too general - not a JNI design smell indicator
+        # Only keep JNI-specific API terms
+        if keyword.lower() == 'api' or keyword.lower() == 'api ' or keyword.lower().startswith('api ') and not any(
+            term in keyword.lower() for term in ['jni', 'java native', 'jnienv', 'jvm', 'jstring', 'jbyte']
+        ):
+            should_select = False
+
+        # Rule 3: Platform-specific deduplication and filtering (GENUINELY DIFFERENT per forum)
         if should_select:
             if platform == "apache":
-                # Avoid duplicate Android-related terms unless high IG
+                # APACHE MAILING LISTS: Implementation-focused, long technical discussions
+                # Prioritize: API specifics, build/linking, Android/mobile, memory pinning
+                # Deduplicate: Android platform terms, avoid overly academic/theoretical terms
                 if "Android" in keyword and category_counts.get("platform", 0) > 0:
-                    if kw['ig'] < 0.15:  # Require higher IG for duplicates
+                    if kw['ig'] < 0.15:
                         should_select = False
-
-            elif platform in ("reddit", "hackernews", "lobsters"):
-                # Limit very technical/JVM-specific terms for discussion forums
-                jvm_specific = any(term in keyword.lower()
-                                 for term in ['jvm', 'hs_err', 'safepoint', 'jvmti'])
-                if jvm_specific and platform != "stackoverflow":
-                    # Only allow if we have few JVM-specific terms already
-                    jvm_count = sum(1 for s in selected
-                                  if any(t in s.lower()
-                                       for t in ['jvm', 'hs_err', 'safepoint', 'jvmti']))
-                    if jvm_count >= 2 and kw['ig'] < 0.2:
+                # Deprioritize purely academic/theoretical terms (rare in mailing lists)
+                academic_terms = ['design pattern', 'anti-pattern', 'code smell', 'technical debt', 'refactoring']
+                if any(term in keyword.lower() for term in academic_terms):
+                    if kw['ig'] < 0.25:
                         should_select = False
+                # Prioritize implementation terms: build, linking, loading, memory
+                impl_bonus = any(term in keyword.lower()
+                               for term in ['build', 'link', 'load', 'pin', 'attach', 'native method', 'jstring', 'utf'])
 
-                # Avoid overly generic terms unless they're high IG
-                generic_terms = ['issue', 'problem', 'error', 'bug', 'performance']
+            elif platform == "reddit":
+                # REDDIT: Discussion forum, developers asking/answering questions
+                # Prioritize: problem-oriented terms, error messages, practical issues
+                # Allow: generic problem terms, debugging terms, "how-to" vocabulary
+                # Deprioritize: overly academic/theoretical terms
+                academic_terms = ['design pattern', 'anti-pattern', 'code smell', 'technical debt', 'refactoring', 'best practice']
+                if any(term in keyword.lower() for term in academic_terms):
+                    if kw['ig'] < 0.2:
+                        should_select = False
+                # Prioritize practical/debugging terms
+                problem_bonus = any(term in keyword.lower()
+                                  for term in ['leak', 'crash', 'error', 'exception', 'deadlock', 'overflow', 'segfault', 'unsatisfied', 'slow', 'memory', 'thread'])
+
+            elif platform == "hackernews":
+                # HACKER NEWS: Link titles only, very concise, high signal-to-noise
+                # Prioritize: HIGH-SIGNAL, SPECIFIC technical terms that appear in titles
+                # Avoid: generic problem terms (too vague for titles), academic terms
+                # Strongly prefer: specific API names, crash types, well-known JNI terms
+                generic_terms = ['issue', 'problem', 'error', 'bug', 'performance', 'issue', 'problematic']
                 if any(term in keyword.lower() for term in generic_terms):
-                    if kw['ig'] < 0.1:  # Require higher IG for generic terms
+                    if kw['ig'] < 0.3:  # Much higher threshold for generic terms
                         should_select = False
+                # Academic/theoretical terms very unlikely in HN titles
+                academic_terms = ['design pattern', 'anti-pattern', 'code smell', 'technical debt', 'refactoring', 'best practice', 'maintenance', 'legacy']
+                if any(term in keyword.lower() for term in academic_terms):
+                    if kw['ig'] < 0.4:  # Very high threshold
+                        should_select = False
+                # Strongly prefer specific technical terms that appear in article titles
+                title_friendly = any(term in keyword.lower()
+                                   for term in ['jni', 'unsatisfiedlinkerror', 'segv', 'hs_err', 'global reference', 'local reference',
+                                               'deletelocalref', 'system.loadlibrary', 'jni_env', 'javah', 'jni_onload', 'android', 'panama'])
+
+            elif platform == "lobsters":
+                # LOBSTERS: Professional bookmarking, technical audience, moderate-length posts
+                # Prioritize: Implementation techniques, tooling, practical engineering
+                # Avoid: beginner questions, purely theoretical discussions
+                beginner_terms = ['how to', 'tutorial', 'beginner', 'getting started', 'basic', 'simple']
+                if any(term in keyword.lower() for term in beginner_terms):
+                    if kw['ig'] < 0.2:
+                        should_select = False
+                # Prioritize engineering-focused terms
+                eng_bonus = any(term in keyword.lower()
+                              for term in ['tool', 'debug', 'trace', 'profile', 'optimize', 'benchmark', 'pattern', 'library', 'wrapper', 'framework'])
 
         if should_select and keyword not in selected_set:
             selected.append(keyword)

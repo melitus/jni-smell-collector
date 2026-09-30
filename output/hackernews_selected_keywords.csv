@@ -1,12 +1,12 @@
 keyword
-API
+compilation errors
 javah
 JNI error
 jstring to const char
 JNI tools
 UnsatisfiedLinkError
 JNIEnv
-java.library.path
+System.loadLibrary
 JNI native memory
 JNI performance
 JNI Android

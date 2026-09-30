@@ -1,0 +1,1902 @@
+phase,forum,keyword,title,link,snippet,score,creation_date,project,list,thread_id,author,collected_at
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,"[jira] [Resolved] (HADOOP-17584) s3a magic committer may commit
+ more data",https://lists.apache.org/thread/<JIRA.13364096.1615543649000.102349.1677253920063@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HADOOP-17584?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Steve Loughran resolved HADOOP-17584.
+-------------------------------------
+    Fix Version/s: 3.3.5
+       Resolution: Fixed
+
+> s3a magic committer may commit more data
+> ----------------------------------------
+>
+>                 Key: HADOOP-17584
+>                 URL",0,2023-02-24,hadoop,common-dev@hadoop.apache.org,<JIRA.13364096.1615543649000.102349.1677253920063@Atlassian.JIRA>,"""Steve Loughran (Jira)"" <jira@apache.org>",2026-09-30T21:00:26.582171
+APACHE_LISTS_REMINING,Apache Lists,System.loadLibrary,"[jira] [Created] (HADOOP-18982) Fix doc about loading native
+ libraries",https://lists.apache.org/thread/<JIRA.13558549.1700390923000.237265.1700390940266@Atlassian.JIRA>,"Shuyan Zhang created HADOOP-18982:
+-------------------------------------
+
+             Summary: Fix doc about loading native libraries
+                 Key: HADOOP-18982
+                 URL: https://issues.apache.org/jira/browse/HADOOP-18982
+             Project: Hadoop Common
+          Issue Type: Bug
+            Reporter: Shuyan Zhang
+
+
+When we want load a native library libmyexample.so, the ri",0,2023-11-19,hadoop,common-dev@hadoop.apache.org,<JIRA.13558549.1700390923000.237265.1700390940266@Atlassian.JIRA>,"""Shuyan Zhang (Jira)"" <jira@apache.org>",2026-09-30T21:00:45.963929
+APACHE_LISTS_REMINING,Apache Lists,System.loadLibrary,"[jira] [Resolved] (HADOOP-18982) Fix doc about loading native
+ libraries",https://lists.apache.org/thread/<JIRA.13558549.1700390923000.43724.1701869160036@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HADOOP-18982?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Xiaoqiao He resolved HADOOP-18982.
+----------------------------------
+    Fix Version/s: 3.4.0
+     Hadoop Flags: Reviewed
+       Resolution: Fixed
+
+> Fix doc about loading native libraries
+> --------------------------------------
+>
+>                 Key: HADOOP-18982
+>  ",0,2023-12-06,hadoop,common-dev@hadoop.apache.org,<JIRA.13558549.1700390923000.43724.1701869160036@Atlassian.JIRA>,"""Xiaoqiao He (Jira)"" <jira@apache.org>",2026-09-30T21:00:48.792184
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<bdcc3f77-6a78-45f6-9ac3-a64c86748478@oss.nttdata.com>,"+1 (binding)
+
+Thanks for the great work, Shilun Fan.
+
++ verified checksums and signatures of src and site tarballs.
++ built from source tarball with native profile enabled on Rocky Linux 8
+   and Ubuntu 22.04 (x86_64).
++ deployed pseudo cluster with and without kerberos enabled.
+   + ran some example jobs on encryption zone.
+   + ran some simple query against httpfs.
++ built site documentation and",0,2024-03-09,hadoop,common-dev@hadoop.apache.org,<bdcc3f77-6a78-45f6-9ac3-a64c86748478@oss.nttdata.com>,Masatake Iwasaki <iwasakims@oss.nttdata.com>,2026-09-30T21:00:56.162743
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAL7CpJyKPctnE8CBCpHs5f3fJDgd21vtvvm9FgnOH=XSs0c1SA@mail.gmail.com>,"followup: overnight work happy too.
+
+one interesting pain point is that on a raspberry pi 64 os checknative
+complains that libcrypto is missing
+
+> bin/hadoop checknative
+
+2024-03-12 11:50:24,359 INFO bzip2.Bzip2Factory: Successfully loaded &
+initialized native-bzip2 library system-native
+2024-03-12 11:50:24,363 INFO zlib.ZlibFactory: Successfully loaded &
+initialized native-zlib library
+2024-03-12",0,2024-03-12,hadoop,common-dev@hadoop.apache.org,<CAL7CpJyKPctnE8CBCpHs5f3fJDgd21vtvvm9FgnOH=XSs0c1SA@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:00:56.162758
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAAGq2guEqhKz+En1FqwDrh_P8jN402URDioS6YfRFr0AAtb2tw@mail.gmail.com>,">  Counter should be with yourself vote, where the current summary
+is 5 +1 binding and 1 +1 non-binding. Let's re-count when deadline.
+
+Just on the process: The release manager needs to ""explicitly"" vote like
+any other before counting their own vote, there has been a lot of
+discussions around that at multiple places & the official apache doc has
+been updated as well [1], the last paragraph reads:
+",0,2024-03-14,hadoop,common-dev@hadoop.apache.org,<CAAGq2guEqhKz+En1FqwDrh_P8jN402URDioS6YfRFr0AAtb2tw@mail.gmail.com>,Ayush Saxena <ayushtkn@gmail.com>,2026-09-30T21:00:56.162761
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAF3AjaxdfWsdGM-sp75Qu2UkhWhCu=bW5PEZ7dYvmDFZ9Kh_4A@mail.gmail.com>,"Thanks Ayush for highlighting this information. Absolutely true, we should
+count RM's vote when explicit +1 here.
+
+Best Regards,
+- He Xiaoqiao
+
+On Thu, Mar 14, 2024 at 3:55 AM Ayush Saxena <ayushtkn@gmail.com> wrote:
+
+> >  Counter should be with yourself vote, where the current summary
+> is 5 +1 binding and 1 +1 non-binding. Let's re-count when deadline.
+>
+> Just on the process: The release manage",0,2024-03-14,hadoop,common-dev@hadoop.apache.org,<CAF3AjaxdfWsdGM-sp75Qu2UkhWhCu=bW5PEZ7dYvmDFZ9Kh_4A@mail.gmail.com>,Xiaoqiao He <hexiaoqiao@apache.org>,2026-09-30T21:00:56.162763
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAFF2GdnM=M=Zb_31OQMeLK2n+JgOzvg2kCXA7_MyJj_vK0h+Kw@mail.gmail.com>,"+1 (binding).
+
+Thanks for the great work, Shilun Fan.
+
+* Verified signatures and checksums
+* Successfully built from source with native code
+* Deployed a distributed cluster (on K8s)
+* Successfully ran some Erasure Coding operations with ISA-L codec
+* Successfully ran some HDFS RBF operations
+
+Regards,
+- Takanobu Asanuma
+
+2024年3月14日(木) 15:19 Xiaoqiao He <hexiaoqiao@apache.org>:
+
+> Thanks Ayush for",0,2024-03-14,hadoop,common-dev@hadoop.apache.org,<CAFF2GdnM=M=Zb_31OQMeLK2n+JgOzvg2kCXA7_MyJj_vK0h+Kw@mail.gmail.com>,Takanobu Asanuma <tasanuma@apache.org>,2026-09-30T21:00:56.162765
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),"https://lists.apache.org/thread/
+ <pony-1824c8a7-946a-4de4-8d7e-bd6e43951c93-common-dev@hadoop.apache.org>","+1
+
+I tested with Apache ORC repo.
+
+Thank you for the new release.
+
+Dongjoon.
+
+(PS. My previous vote went to yarn-dev@ for some reasons, too)
+
+On 2024/03/14 08:40:29 Takanobu Asanuma wrote:
+> +1 (binding).
+> 
+> Thanks for the great work, Shilun Fan.
+> 
+> * Verified signatures and checksums
+> * Successfully built from source with native code
+> * Deployed a distributed cluster (on K8s)
+> * Successfu",0,2024-03-14,hadoop,common-dev@hadoop.apache.org,"
+ <pony-1824c8a7-946a-4de4-8d7e-bd6e43951c93-common-dev@hadoop.apache.org>",Dongjoon Hyun <dongjoon@apache.org>,2026-09-30T21:00:56.162767
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAE9v2k6sMC+rrwCYQhGJGD8s1_hh-V0dr9uYfwkVh5AyfVLjZA@mail.gmail.com>,"+1 (binding).
+
+* Verified the signature and checksum of all tarballs.
+* Built from the source tarball on macOS 10.14 and OpenJDK 8.
+* Execute basic HDFS/YARN commands and run the WordCount MapReduce job.
+* Check the Yarn federation page and basic functionalities.
+* Read the basic help documentation.
+
+Best Regards,
+Shilun Fan.
+
+On Thu, Mar 14, 2024 at 4:40 PM Takanobu Asanuma <tasanuma@apache.org>
+",0,2024-03-15,hadoop,common-dev@hadoop.apache.org,<CAE9v2k6sMC+rrwCYQhGJGD8s1_hh-V0dr9uYfwkVh5AyfVLjZA@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:00:56.162770
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAE9v2k4iR4t167Q0HMz028w2=kZ-A+yAGfVt7RygBwXhvokhgw@mail.gmail.com>,"Hi folks,
+
+The voting for hadoop-3.4.0-RC3 has ended, and we have received a total of
+8 affirmative votes, with 6 binding and 2 non-binding.
+
+In the order of the voting timeline:
+
+binding (+6)
+
+Masatake Iwasaki
+Xiaoqiao He
+Mukund Madhav Thakur
+Steve Loughran
+Takanobu Asanuma
+Shilun Fan
+
+non-binding(+2)
+
+Suhail, Ahmar
+Dongjoon Hyun
+
+Thank you very much for helping with the review and validation!
+
+W",0,2024-03-16,hadoop,common-dev@hadoop.apache.org,<CAE9v2k4iR4t167Q0HMz028w2=kZ-A+yAGfVt7RygBwXhvokhgw@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:00:56.162772
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Apache Hadoop qbt Report: trunk+JDK8 on Linux/x86_64,https://lists.apache.org/thread/<747509065.650.1724705155299@ci-hadoop2-ec2-va.apache.org>,"For more details, see https://ci-hadoop.apache.org/job/hadoop-qbt-trunk-java8-linux-x86_64/1681/
+
+[Aug 25, 2024, 8:47:05 AM] (github) HDFS-16084. Fix getJNIEnv crash due to incorrect state set to tls var (#6969). Contributed by Kevin Cai.
+[Aug 25, 2024, 9:51:14 AM] (github) HDFS-17573. Allow turn on both FSImage parallelization and compression (#6929). Contributed by Sung Dong Kim.
+
+
+
+
+-1 overall
+",0,2024-08-26,hadoop,common-dev@hadoop.apache.org,<747509065.650.1724705155299@ci-hadoop2-ec2-va.apache.org>,Apache Jenkins Server <jenkins@builds.apache.org>,2026-09-30T21:01:06.980891
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Apache Hadoop qbt Report: trunk+JDK11 on Linux/x86_64,https://lists.apache.org/thread/<1220328862.670.1724791670860@ci-hadoop2-ec2-va.apache.org>,"For more details, see https://ci-hadoop.apache.org/job/hadoop-qbt-trunk-java11-linux-x86_64/729/
+
+[Aug 25, 2024, 8:47:05 AM] (github) HDFS-16084. Fix getJNIEnv crash due to incorrect state set to tls var (#6969). Contributed by Kevin Cai.
+[Aug 25, 2024, 9:51:14 AM] (github) HDFS-17573. Allow turn on both FSImage parallelization and compression (#6929). Contributed by Sung Dong Kim.
+",0,2024-08-27,hadoop,common-dev@hadoop.apache.org,<1220328862.670.1724791670860@ci-hadoop2-ec2-va.apache.org>,Apache Jenkins Server <jenkins@builds.apache.org>,2026-09-30T21:01:06.980914
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAL7CpJyvUTh6A0QgiRB8OugKhWhsYH8__MAK98VR1JfHhiKi4A@mail.gmail.com>,"ok, we will have to consider that a -1
+
+Interestingly we haven't seen that on any of our internal QE, maybe none of
+the requests weren't overlapping.
+
+I was just looking towards an =0 because of
+
+https://issues.apache.org/jira/browse/HADOOP-19295
+
+*Unlike the v1 sdk, PUT/POST of data now shares the same timeout as all
+other requests, and on a slow network connection requests time out.
+Furthermore,",0,2024-09-30,hadoop,common-dev@hadoop.apache.org,<CAL7CpJyvUTh6A0QgiRB8OugKhWhsYH8__MAK98VR1JfHhiKi4A@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:01:08.981022
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAEjZ5vS1LMLOsS1cjpDYghf8UeLKH540-OOQg1oAwPBMkTwM6A@mail.gmail.com>,"Thanks @Dongjoon Hyun <dongjoon.hyun@gmail.com> for trying out the RC and
+finding out this bug. This has to be fixed.
+It would be great if others can give the RC a try such that we know of any
+issues earlier.
+
+Thanks
+Mukund
+
+On Tue, Oct 1, 2024 at 2:21 AM Steve Loughran <stevel@cloudera.com.invalid>
+wrote:
+
+> ok, we will have to consider that a -1
+>
+> Interestingly we haven't seen that on any of o",0,2024-10-01,hadoop,common-dev@hadoop.apache.org,<CAEjZ5vS1LMLOsS1cjpDYghf8UeLKH540-OOQg1oAwPBMkTwM6A@mail.gmail.com>,Mukund Madhav Thakur <mthakur@cloudera.com.INVALID>,2026-09-30T21:01:11.163947
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CADiq6=y=r2qy=sEiP7wC56XNxbLe_P6Ufr6MzQr-NsaepGkoBw@mail.gmail.com>,"Hi I'm late to the party, but I'd like to build and test this release with
+Ozone and HBase.
+
+On Tue, Oct 1, 2024 at 2:12 AM Mukund Madhav Thakur
+<mthakur@cloudera.com.invalid> wrote:
+
+> Thanks @Dongjoon Hyun <dongjoon.hyun@gmail.com> for trying out the RC and
+> finding out this bug. This has to be fixed.
+> It would be great if others can give the RC a try such that we know of any
+> issues earlier.",0,2024-10-01,hadoop,common-dev@hadoop.apache.org,<CADiq6=y=r2qy=sEiP7wC56XNxbLe_P6Ufr6MzQr-NsaepGkoBw@mail.gmail.com>,Wei-Chiu Chuang <weichiu@apache.org>,2026-09-30T21:01:11.163958
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAL7CpJxXNeJmB8uT5fR27Ev66NDHyDf3V4TsX8F5yr5U8fpeKQ@mail.gmail.com>,"Please do!
+
+On Tue, 1 Oct 2024 at 20:54, Wei-Chiu Chuang <weichiu@apache.org> wrote:
+
+> Hi I'm late to the party, but I'd like to build and test this release with
+> Ozone and HBase.
+>
+> On Tue, Oct 1, 2024 at 2:12 AM Mukund Madhav Thakur
+> <mthakur@cloudera.com.invalid> wrote:
+>
+> > Thanks @Dongjoon Hyun <dongjoon.hyun@gmail.com> for trying out the RC
+> and
+> > finding out this bug. This has to be",0,2024-10-02,hadoop,common-dev@hadoop.apache.org,<CAL7CpJxXNeJmB8uT5fR27Ev66NDHyDf3V4TsX8F5yr5U8fpeKQ@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:01:11.163961
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CADiq6=w+z4t0ibSnZrCHoDdMdF_prTf7u5BLwembnfEYhkATTw@mail.gmail.com>,"HBase project is adding support for Hadoop 3.4.0, and I had to add a few
+changes on top of that to let HBase shading to pass (license issues due to
+transitive dependencies and so on). Those are quite common when updating to
+a new Hadoop version.
+
+But apart from that it builds and unit tests passed
+https://github.com/apache/hbase/pull/6331 there was one failure but it
+passes locally for me.
+One mor",0,2024-10-02,hadoop,common-dev@hadoop.apache.org,<CADiq6=w+z4t0ibSnZrCHoDdMdF_prTf7u5BLwembnfEYhkATTw@mail.gmail.com>,Wei-Chiu Chuang <weichiu@apache.org>,2026-09-30T21:01:11.163963
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAL7CpJzVtD-f9MhhLQByXLo9+NTMjdE-XjEq7tsjG1fLxHrXKg@mail.gmail.com>,"you using the hadoop thirdparty jar? there is a 1.3.0 release out
+
+On Wed, 2 Oct 2024 at 17:01, Wei-Chiu Chuang <weichiu@apache.org> wrote:
+
+> HBase project is adding support for Hadoop 3.4.0, and I had to add a few
+> changes on top of that to let HBase shading to pass (license issues due to
+> transitive dependencies and so on). Those are quite common when updating to
+> a new Hadoop version.
+>
+> B",0,2024-10-02,hadoop,common-dev@hadoop.apache.org,<CAL7CpJzVtD-f9MhhLQByXLo9+NTMjdE-XjEq7tsjG1fLxHrXKg@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:01:11.163965
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAE9v2k5oXteA+yKL3fPcg65rLWCYGSgDQhyT1d_dFXt-7Hk7+Q@mail.gmail.com>,"I hope the following information will be helpful.
+
+>From the perspective of compilation, Hadoop on JDK17 currently doesn’t face
+many obstacles.
+
+The code on the trunk branch can already be compiled directly on JDK17.
+
+I will verify the situation for hadoop-3.4.1 and then provide feedback.
+
+If we want to fully support Hadoop on JDK17, there is still a lot of work
+to be done. In the next quarter, I ",0,2024-10-03,hadoop,common-dev@hadoop.apache.org,<CAE9v2k5oXteA+yKL3fPcg65rLWCYGSgDQhyT1d_dFXt-7Hk7+Q@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:01:11.163967
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CADiq6=zi9x1UpzCLbad1985TnkRThS7QmEYCOw7i1WsC3k_w_w@mail.gmail.com>,"TL;DR I think the 3.4.1 RC2 is okay from an Ozone's perspective. Most of
+the issues were introduced in 3.4.0 and not too terrible.
+I am planning to introduce Hadoop 3.4.0 for Ozone 2.0 so incompatibilities
+are acceptable.
+
+Thanks for the tips.
+
+Yes I had to bump the hadoop-thirdparty version as well. Maybe it's because
+Ozone uses Hadoop RPC directly so it has direct dependency on
+hadoop-thirdparty",0,2024-10-02,hadoop,common-dev@hadoop.apache.org,<CADiq6=zi9x1UpzCLbad1985TnkRThS7QmEYCOw7i1WsC3k_w_w@mail.gmail.com>,Wei-Chiu Chuang <weichiu@apache.org>,2026-09-30T21:01:11.163969
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CADiq6=yZzc+UNmqovk9wjjV2P+dKLZg77nHfJFokXz4Wft9Fbw@mail.gmail.com>,"Hey the 3.4.1 tarball is a whopping 929MB! The corresponding docker image
+is over 1.1GB. Not that long ago, 3.2.3 was less than 500MB 2 years ago.
+3.3.6 was less than 700MB a year ago.
+That AWS SDK v2 jar itself is more than 500MB.
+
+One issue I found with Ozone is protobuf classpath.
+
+this test is failing
+https://github.com/jojochuang/ozone/actions/runs/11187465927/job/31105329742
+because
+
+hdfs df",0,2024-10-04,hadoop,common-dev@hadoop.apache.org,<CADiq6=yZzc+UNmqovk9wjjV2P+dKLZg77nHfJFokXz4Wft9Fbw@mail.gmail.com>,Wei-Chiu Chuang <weichiu@apache.org>,2026-09-30T21:01:11.163971
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAL7CpJyBT8S4nK96P2uScPO-0=0gPQZZOcJc7nd2EFmzZcUhag@mail.gmail.com>,"This is a real problem with that aWS SDK, but it is that or field support
+calls forever.
+
+Let me see if I can revisit my idea of having the release support project
+produce a ""lean"" edition where we delete that bundle.jar
+
+On Sat, 5 Oct 2024 at 01:58, Wei-Chiu Chuang <weichiu@apache.org> wrote:
+
+> Hey the 3.4.1 tarball is a whopping 929MB! The corresponding docker image
+> is over 1.1GB. Not that lo",0,2024-10-08,hadoop,common-dev@hadoop.apache.org,<CAL7CpJyBT8S4nK96P2uScPO-0=0gPQZZOcJc7nd2EFmzZcUhag@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:01:11.163973
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAL7CpJw=6oNS6Lkx-wKrojrpJ7R59EwV3aH4NEecbgrRtNriYw@mail.gmail.com>,"On Sat, 5 Oct 2024 at 01:58, Wei-Chiu Chuang <weichiu@apache.org> wrote:
+
+> Hey the 3.4.1 tarball is a whopping 929MB! The corresponding docker image
+> is over 1.1GB. Not that long ago, 3.2.3 was less than 500MB 2 years ago.
+> 3.3.6 was less than 700MB a year ago.
+> That AWS SDK v2 jar itself is more than 500MB.
+>
+
+for you: jhttps://issues.apache.org/jira/browse/HADOOP-19083
+
+we now rip apart the ",0,2024-10-08,hadoop,common-dev@hadoop.apache.org,<CAL7CpJw=6oNS6Lkx-wKrojrpJ7R59EwV3aH4NEecbgrRtNriYw@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:01:11.163975
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC2,https://lists.apache.org/thread/<CAEjZ5vRupqXd1pDb4EDhiz-xm2W3WNipvY05GJBnQHy+nBR=zQ@mail.gmail.com>,"FYI - I created the RC3 a few days ago. So abandoning RC2. Hopefully we
+won't find any issues there.
+
+Thanks
+Mukund
+
+On Tue, Oct 8, 2024 at 11:46 PM Steve Loughran <stevel@cloudera.com.invalid>
+wrote:
+
+> On Sat, 5 Oct 2024 at 01:58, Wei-Chiu Chuang <weichiu@apache.org> wrote:
+>
+> > Hey the 3.4.1 tarball is a whopping 929MB! The corresponding docker image
+> > is over 1.1GB. Not that long ago, 3.2.3",0,2024-10-15,hadoop,common-dev@hadoop.apache.org,<CAEjZ5vRupqXd1pDb4EDhiz-xm2W3WNipvY05GJBnQHy+nBR=zQ@mail.gmail.com>,Mukund Madhav Thakur <mthakur@cloudera.com.INVALID>,2026-09-30T21:01:11.163977
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.1 RC3,https://lists.apache.org/thread/<CAL7CpJxiR4DQ9KXzFy5pdO+mdvVVOJqfX0fAyKXiZ0+cmbJUfQ@mail.gmail.com>,"+1 binding
+
+
+*Testing:*
+
+*mac arm64:*
+ the hadoop-release-support validation workflow including building spark,
+cloudstore, key validation etc. All good, except for gcs, which was
+complaining about hadoop-client stuff. I'm not worrying about that as it is
+a fussy little library. I did verify that the hadoop-client jars were big.
+Maybe we should add another module in the release support project to ",0,2024-10-15,hadoop,common-dev@hadoop.apache.org,<CAL7CpJxiR4DQ9KXzFy5pdO+mdvVVOJqfX0fAyKXiZ0+cmbJUfQ@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:01:11.163979
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,[jira] [Created] (HADOOP-19616) Add bswap support for RISC-V,https://lists.apache.org/thread/<JIRA.13623120.1752217496000.313163.1752217500032@Atlassian.JIRA>,"Lei Wen created HADOOP-19616:
+--------------------------------
+
+             Summary: Add bswap support for RISC-V
+                 Key: HADOOP-19616
+                 URL: https://issues.apache.org/jira/browse/HADOOP-19616
+             Project: Hadoop Common
+          Issue Type: Improvement
+          Components: native
+    Affects Versions: 3.4.1, 3.3.0
+            Reporter: Lei Wen
+
+
+*Problem*
+
+",0,2025-07-11,hadoop,common-dev@hadoop.apache.org,<JIRA.13623120.1752217496000.313163.1752217500032@Atlassian.JIRA>,"""Lei Wen (Jira)"" <jira@apache.org>",2026-09-30T21:01:32.489097
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,[jira] [Resolved] (HADOOP-19616) Add bswap support for RISC-V,https://lists.apache.org/thread/<JIRA.13623120.1752217496000.5109.1753256880068@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HADOOP-19616?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Ayush Saxena resolved HADOOP-19616.
+-----------------------------------
+    Fix Version/s: 3.5.0
+     Hadoop Flags: Reviewed
+       Resolution: Fixed
+
+> Add bswap support for RISC-V
+> ----------------------------
+>
+>                 Key: HADOOP-19616
+>                 URL",0,2025-07-23,hadoop,common-dev@hadoop.apache.org,<JIRA.13623120.1752217496000.5109.1753256880068@Atlassian.JIRA>,"""Ayush Saxena (Jira)"" <jira@apache.org>",2026-09-30T21:01:32.489110
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,"[jira] [Created] (HADOOP-19872) Build failure with OpenSSL 3
+ (UBI10) in native code due to removed ENGINE API",https://lists.apache.org/thread/<JIRA.13649053.1777023024000.168428.1777023060014@Atlassian.JIRA>,"rami created HADOOP-19872:
+-----------------------------
+
+             Summary: Build failure with OpenSSL 3 (UBI10) in native code due to removed ENGINE API
+                 Key: HADOOP-19872
+                 URL: https://issues.apache.org/jira/browse/HADOOP-19872
+             Project: Hadoop Common
+          Issue Type: Bug
+          Components: common, native
+    Affects Versions: 3.4.2
+       ",0,2026-04-24,hadoop,common-dev@hadoop.apache.org,<JIRA.13649053.1777023024000.168428.1777023060014@Atlassian.JIRA>,"""rami (Jira)"" <jira@apache.org>",2026-09-30T21:01:54.643888
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,"[jira] [Resolved] (HADOOP-19872) Build failure with OpenSSL 3
+ (UBI10) in native code due to removed ENGINE API",https://lists.apache.org/thread/<JIRA.13649053.1777023024000.168473.1777025160071@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HADOOP-19872?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Steve Loughran resolved HADOOP-19872.
+-------------------------------------
+    Resolution: Duplicate
+
+fixed in later releases. please upgrade.
+
+> Build failure with OpenSSL 3 (UBI10) in native code due to removed ENGINE API
+> ---------------------------------------------",0,2026-04-24,hadoop,common-dev@hadoop.apache.org,<JIRA.13649053.1777023024000.168473.1777025160071@Atlassian.JIRA>,"""Steve Loughran (Jira)"" <jira@apache.org>",2026-09-30T21:01:54.643903
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,"[jira] [Reopened] (HADOOP-19872) Build failure with OpenSSL 3
+ (UBI10) in native code due to removed ENGINE API",https://lists.apache.org/thread/<JIRA.13649053.1777023024000.171773.1777283580332@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HADOOP-19872?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Steve Loughran reopened HADOOP-19872:
+-------------------------------------
+
+> Build failure with OpenSSL 3 (UBI10) in native code due to removed ENGINE API
+> -----------------------------------------------------------------------------
+>
+>                 Key: HADOOP-198",0,2026-04-27,hadoop,common-dev@hadoop.apache.org,<JIRA.13649053.1777023024000.171773.1777283580332@Atlassian.JIRA>,"""Steve Loughran (Jira)"" <jira@apache.org>",2026-09-30T21:01:54.643905
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Fix for SEGV during java app shutfdown (HDFS-13585),https://lists.apache.org/thread/<CALogGJNLNVYjygMiQkJGkDCh1JKD7LjyViCrywQ47XX-UZhYWA@mail.gmail.com>,"Hi,
+
+I'm new here.  I'm wondering if folks will accept a contribution to fix
+https://issues.apache.org/jira/browse/HDFS-13585 ?
+
+I can repro the issue by creating a Java application that calls
+hdfsConnectNewInstance:
+https://gist.github.com/emancebo/e413b0f53e4005c80cbf410fdb4c9cb9
+
+The crash occurs in hdfsThreadDestructor.  It seems that any of the calls
+on the JNIEnv can cause a crash.  I think ",0,2023-07-01,hadoop,hdfs-dev@hadoop.apache.org,<CALogGJNLNVYjygMiQkJGkDCh1JKD7LjyViCrywQ47XX-UZhYWA@mail.gmail.com>,Ed Mancebo <edmancebo@gmail.com>,2026-09-30T21:06:58.082383
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Re: Fix for SEGV during java app shutfdown (HDFS-13585),https://lists.apache.org/thread/<CAF3Ajay+cYLRnRbY-UL9+viQL=zvBL2nhpDr2HJbfqFQGh3g+g@mail.gmail.com>,"Thanks Ed for your feedback.
+I think it is better to comment on JIRA HDFS-13585 directly. And feel free
+to
+submit PR there if interested and there will be some reviewers coming soon.
+Please let me know if you will have any questions.
+Thanks again.
+
+Best Regards,
+- He Xiaoqiao
+
+On Sun, Jul 2, 2023 at 2:07 PM Ed Mancebo <edmancebo@gmail.com> wrote:
+
+> Hi,
+>
+> I'm new here.  I'm wondering if folks wi",0,2023-07-02,hadoop,hdfs-dev@hadoop.apache.org,<CAF3Ajay+cYLRnRbY-UL9+viQL=zvBL2nhpDr2HJbfqFQGh3g+g@mail.gmail.com>,Xiaoqiao He <hexiaoqiao@apache.org>,2026-09-30T21:06:58.082394
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Re: Fix for SEGV during java app shutfdown (HDFS-13585),https://lists.apache.org/thread/<CAN95ov-i=kd3AY_GDDzCPVWm2FJ=UHbnRKigHgL9YwGqAS2Hqg@mail.gmail.com>,"Hi Ed,
+
+Once you create the PR against the trunk branch, the CI would
+run the tests. However, this is currently only for Linux. We've
+recently setup a CI for Windows that runs daily on the trunk branch -
+https://ci-hadoop.apache.org/view/Hadoop/job/hadoop-qbt-trunk-java8-win10-x86_64/
+
+We're still in the process of setting it up to run for every PR that
+gets raised (called the precommit CI). In th",0,2023-07-02,hadoop,hdfs-dev@hadoop.apache.org,<CAN95ov-i=kd3AY_GDDzCPVWm2FJ=UHbnRKigHgL9YwGqAS2Hqg@mail.gmail.com>,Gautham Banasandra <gaurava@apache.org>,2026-09-30T21:06:58.082396
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Re: Fix for SEGV during java app shutfdown (HDFS-13585),https://lists.apache.org/thread/<CALogGJMwch-_YFPEb++1gEGADxQkKw-MRbsToxzzMUYUF+jA3Q@mail.gmail.com>,"Thanks He Xiaoqiao and Gautham.  I'll move the discussion to jira and make
+sure we run Windows CI
+
+On Sun, Jul 2, 2023 at 1:12 AM Gautham Banasandra <gaurava@apache.org>
+wrote:
+
+> Hi Ed,
+>
+> Once you create the PR against the trunk branch, the CI would
+> run the tests. However, this is currently only for Linux. We've
+> recently setup a CI for Windows that runs daily on the trunk branch -
+>
+> https",0,2023-07-02,hadoop,hdfs-dev@hadoop.apache.org,<CALogGJMwch-_YFPEb++1gEGADxQkKw-MRbsToxzzMUYUF+jA3Q@mail.gmail.com>,Ed Mancebo <edmancebo@gmail.com>,2026-09-30T21:06:58.082398
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<bdcc3f77-6a78-45f6-9ac3-a64c86748478@oss.nttdata.com>,"+1 (binding)
+
+Thanks for the great work, Shilun Fan.
+
++ verified checksums and signatures of src and site tarballs.
++ built from source tarball with native profile enabled on Rocky Linux 8
+   and Ubuntu 22.04 (x86_64).
++ deployed pseudo cluster with and without kerberos enabled.
+   + ran some example jobs on encryption zone.
+   + ran some simple query against httpfs.
++ built site documentation and",0,2024-03-09,hadoop,hdfs-dev@hadoop.apache.org,<bdcc3f77-6a78-45f6-9ac3-a64c86748478@oss.nttdata.com>,Masatake Iwasaki <iwasakims@oss.nttdata.com>,2026-09-30T21:07:16.269238
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAL7CpJyKPctnE8CBCpHs5f3fJDgd21vtvvm9FgnOH=XSs0c1SA@mail.gmail.com>,"followup: overnight work happy too.
+
+one interesting pain point is that on a raspberry pi 64 os checknative
+complains that libcrypto is missing
+
+> bin/hadoop checknative
+
+2024-03-12 11:50:24,359 INFO bzip2.Bzip2Factory: Successfully loaded &
+initialized native-bzip2 library system-native
+2024-03-12 11:50:24,363 INFO zlib.ZlibFactory: Successfully loaded &
+initialized native-zlib library
+2024-03-12",0,2024-03-12,hadoop,hdfs-dev@hadoop.apache.org,<CAL7CpJyKPctnE8CBCpHs5f3fJDgd21vtvvm9FgnOH=XSs0c1SA@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:07:16.269253
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAAGq2guEqhKz+En1FqwDrh_P8jN402URDioS6YfRFr0AAtb2tw@mail.gmail.com>,">  Counter should be with yourself vote, where the current summary
+is 5 +1 binding and 1 +1 non-binding. Let's re-count when deadline.
+
+Just on the process: The release manager needs to ""explicitly"" vote like
+any other before counting their own vote, there has been a lot of
+discussions around that at multiple places & the official apache doc has
+been updated as well [1], the last paragraph reads:
+",0,2024-03-14,hadoop,hdfs-dev@hadoop.apache.org,<CAAGq2guEqhKz+En1FqwDrh_P8jN402URDioS6YfRFr0AAtb2tw@mail.gmail.com>,Ayush Saxena <ayushtkn@gmail.com>,2026-09-30T21:07:16.269255
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAF3AjaxdfWsdGM-sp75Qu2UkhWhCu=bW5PEZ7dYvmDFZ9Kh_4A@mail.gmail.com>,"Thanks Ayush for highlighting this information. Absolutely true, we should
+count RM's vote when explicit +1 here.
+
+Best Regards,
+- He Xiaoqiao
+
+On Thu, Mar 14, 2024 at 3:55 AM Ayush Saxena <ayushtkn@gmail.com> wrote:
+
+> >  Counter should be with yourself vote, where the current summary
+> is 5 +1 binding and 1 +1 non-binding. Let's re-count when deadline.
+>
+> Just on the process: The release manage",0,2024-03-14,hadoop,hdfs-dev@hadoop.apache.org,<CAF3AjaxdfWsdGM-sp75Qu2UkhWhCu=bW5PEZ7dYvmDFZ9Kh_4A@mail.gmail.com>,Xiaoqiao He <hexiaoqiao@apache.org>,2026-09-30T21:07:16.269257
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAFF2GdnM=M=Zb_31OQMeLK2n+JgOzvg2kCXA7_MyJj_vK0h+Kw@mail.gmail.com>,"+1 (binding).
+
+Thanks for the great work, Shilun Fan.
+
+* Verified signatures and checksums
+* Successfully built from source with native code
+* Deployed a distributed cluster (on K8s)
+* Successfully ran some Erasure Coding operations with ISA-L codec
+* Successfully ran some HDFS RBF operations
+
+Regards,
+- Takanobu Asanuma
+
+2024年3月14日(木) 15:19 Xiaoqiao He <hexiaoqiao@apache.org>:
+
+> Thanks Ayush for",0,2024-03-14,hadoop,hdfs-dev@hadoop.apache.org,<CAFF2GdnM=M=Zb_31OQMeLK2n+JgOzvg2kCXA7_MyJj_vK0h+Kw@mail.gmail.com>,Takanobu Asanuma <tasanuma@apache.org>,2026-09-30T21:07:16.269259
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAE9v2k6sMC+rrwCYQhGJGD8s1_hh-V0dr9uYfwkVh5AyfVLjZA@mail.gmail.com>,"+1 (binding).
+
+* Verified the signature and checksum of all tarballs.
+* Built from the source tarball on macOS 10.14 and OpenJDK 8.
+* Execute basic HDFS/YARN commands and run the WordCount MapReduce job.
+* Check the Yarn federation page and basic functionalities.
+* Read the basic help documentation.
+
+Best Regards,
+Shilun Fan.
+
+On Thu, Mar 14, 2024 at 4:40 PM Takanobu Asanuma <tasanuma@apache.org>
+",0,2024-03-15,hadoop,hdfs-dev@hadoop.apache.org,<CAE9v2k6sMC+rrwCYQhGJGD8s1_hh-V0dr9uYfwkVh5AyfVLjZA@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:07:16.269261
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAE9v2k4iR4t167Q0HMz028w2=kZ-A+yAGfVt7RygBwXhvokhgw@mail.gmail.com>,"Hi folks,
+
+The voting for hadoop-3.4.0-RC3 has ended, and we have received a total of
+8 affirmative votes, with 6 binding and 2 non-binding.
+
+In the order of the voting timeline:
+
+binding (+6)
+
+Masatake Iwasaki
+Xiaoqiao He
+Mukund Madhav Thakur
+Steve Loughran
+Takanobu Asanuma
+Shilun Fan
+
+non-binding(+2)
+
+Suhail, Ahmar
+Dongjoon Hyun
+
+Thank you very much for helping with the review and validation!
+
+W",0,2024-03-16,hadoop,hdfs-dev@hadoop.apache.org,<CAE9v2k4iR4t167Q0HMz028w2=kZ-A+yAGfVt7RygBwXhvokhgw@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:07:16.269263
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,"[jira] [Resolved] (HDFS-16084) getJNIEnv() returns invalid pointer
+ when called twice after getGlobalJNIEnv() failed",https://lists.apache.org/thread/<JIRA.13384974.1624294740000.13019.1724575800058@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HDFS-16084?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Xiaoqiao He resolved HDFS-16084.
+--------------------------------
+    Fix Version/s: 3.5.0
+     Hadoop Flags: Reviewed
+       Resolution: Fixed
+
+> getJNIEnv() returns invalid pointer when called twice after getGlobalJNIEnv() failed
+> ----------------------------------------",0,2024-08-25,hadoop,hdfs-dev@hadoop.apache.org,<JIRA.13384974.1624294740000.13019.1724575800058@Atlassian.JIRA>,"""Xiaoqiao He (Jira)"" <jira@apache.org>",2026-09-30T21:07:27.328160
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Apache Hadoop qbt Report: trunk+JDK8 on Linux/x86_64,https://lists.apache.org/thread/<747509065.650.1724705155299@ci-hadoop2-ec2-va.apache.org>,"For more details, see https://ci-hadoop.apache.org/job/hadoop-qbt-trunk-java8-linux-x86_64/1681/
+
+[Aug 25, 2024, 8:47:05 AM] (github) HDFS-16084. Fix getJNIEnv crash due to incorrect state set to tls var (#6969). Contributed by Kevin Cai.
+[Aug 25, 2024, 9:51:14 AM] (github) HDFS-17573. Allow turn on both FSImage parallelization and compression (#6929). Contributed by Sung Dong Kim.
+
+
+
+
+-1 overall
+",0,2024-08-26,hadoop,hdfs-dev@hadoop.apache.org,<747509065.650.1724705155299@ci-hadoop2-ec2-va.apache.org>,Apache Jenkins Server <jenkins@builds.apache.org>,2026-09-30T21:07:27.328169
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Apache Hadoop qbt Report: trunk+JDK11 on Linux/x86_64,https://lists.apache.org/thread/<1220328862.670.1724791670860@ci-hadoop2-ec2-va.apache.org>,"For more details, see https://ci-hadoop.apache.org/job/hadoop-qbt-trunk-java11-linux-x86_64/729/
+
+[Aug 25, 2024, 8:47:05 AM] (github) HDFS-16084. Fix getJNIEnv crash due to incorrect state set to tls var (#6969). Contributed by Kevin Cai.
+[Aug 25, 2024, 9:51:14 AM] (github) HDFS-17573. Allow turn on both FSImage parallelization and compression (#6929). Contributed by Sung Dong Kim.
+",0,2024-08-27,hadoop,hdfs-dev@hadoop.apache.org,<1220328862.670.1724791670860@ci-hadoop2-ec2-va.apache.org>,Apache Jenkins Server <jenkins@builds.apache.org>,2026-09-30T21:07:27.328171
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Resolved] (HDFS-17704) TestDecommission and
+ TestDecommissionWithBackoffMonitor often run timeout.",https://lists.apache.org/thread/<JIRA.13603623.1735877626000.103617.1737697860056@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HDFS-17704?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Xiaoqiao He resolved HDFS-17704.
+--------------------------------
+    Fix Version/s: 3.5.0
+     Hadoop Flags: Reviewed
+       Resolution: Fixed
+
+> TestDecommission and TestDecommissionWithBackoffMonitor often run timeout.
+> --------------------------------------------------",0,2025-01-24,hadoop,hdfs-dev@hadoop.apache.org,<JIRA.13603623.1735877626000.103617.1737697860056@Atlassian.JIRA>,"""Xiaoqiao He (Jira)"" <jira@apache.org>",2026-09-30T21:07:37.968906
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,"[jira] [Resolved] (HDFS-16021) heap-use-after-free in
+ hdfsThreadDestructor",https://lists.apache.org/thread/<JIRA.13377645.1620658702000.71498.1789431900041@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/HDFS-16021?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Akira Ajisaka resolved HDFS-16021.
+----------------------------------
+    Resolution: Fixed
+
+> heap-use-after-free in hdfsThreadDestructor
+> -------------------------------------------
+>
+>                 Key: HDFS-16021
+>                 URL: https://issues.apache.org/jira",0,2026-09-15,hadoop,hdfs-dev@hadoop.apache.org,<JIRA.13377645.1620658702000.71498.1789431900041@Atlassian.JIRA>,"""Akira Ajisaka (Jira)"" <jira@apache.org>",2026-09-30T21:08:29.064960
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<bdcc3f77-6a78-45f6-9ac3-a64c86748478@oss.nttdata.com>,"+1 (binding)
+
+Thanks for the great work, Shilun Fan.
+
++ verified checksums and signatures of src and site tarballs.
++ built from source tarball with native profile enabled on Rocky Linux 8
+   and Ubuntu 22.04 (x86_64).
++ deployed pseudo cluster with and without kerberos enabled.
+   + ran some example jobs on encryption zone.
+   + ran some simple query against httpfs.
++ built site documentation and",0,2024-03-09,hadoop,mapreduce-dev@hadoop.apache.org,<bdcc3f77-6a78-45f6-9ac3-a64c86748478@oss.nttdata.com>,Masatake Iwasaki <iwasakims@oss.nttdata.com>,2026-09-30T21:13:01.995942
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAL7CpJyKPctnE8CBCpHs5f3fJDgd21vtvvm9FgnOH=XSs0c1SA@mail.gmail.com>,"followup: overnight work happy too.
+
+one interesting pain point is that on a raspberry pi 64 os checknative
+complains that libcrypto is missing
+
+> bin/hadoop checknative
+
+2024-03-12 11:50:24,359 INFO bzip2.Bzip2Factory: Successfully loaded &
+initialized native-bzip2 library system-native
+2024-03-12 11:50:24,363 INFO zlib.ZlibFactory: Successfully loaded &
+initialized native-zlib library
+2024-03-12",0,2024-03-12,hadoop,mapreduce-dev@hadoop.apache.org,<CAL7CpJyKPctnE8CBCpHs5f3fJDgd21vtvvm9FgnOH=XSs0c1SA@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:13:01.995970
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAAGq2guEqhKz+En1FqwDrh_P8jN402URDioS6YfRFr0AAtb2tw@mail.gmail.com>,">  Counter should be with yourself vote, where the current summary
+is 5 +1 binding and 1 +1 non-binding. Let's re-count when deadline.
+
+Just on the process: The release manager needs to ""explicitly"" vote like
+any other before counting their own vote, there has been a lot of
+discussions around that at multiple places & the official apache doc has
+been updated as well [1], the last paragraph reads:
+",0,2024-03-14,hadoop,mapreduce-dev@hadoop.apache.org,<CAAGq2guEqhKz+En1FqwDrh_P8jN402URDioS6YfRFr0AAtb2tw@mail.gmail.com>,Ayush Saxena <ayushtkn@gmail.com>,2026-09-30T21:13:01.995972
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAF3AjaxdfWsdGM-sp75Qu2UkhWhCu=bW5PEZ7dYvmDFZ9Kh_4A@mail.gmail.com>,"Thanks Ayush for highlighting this information. Absolutely true, we should
+count RM's vote when explicit +1 here.
+
+Best Regards,
+- He Xiaoqiao
+
+On Thu, Mar 14, 2024 at 3:55 AM Ayush Saxena <ayushtkn@gmail.com> wrote:
+
+> >  Counter should be with yourself vote, where the current summary
+> is 5 +1 binding and 1 +1 non-binding. Let's re-count when deadline.
+>
+> Just on the process: The release manage",0,2024-03-14,hadoop,mapreduce-dev@hadoop.apache.org,<CAF3AjaxdfWsdGM-sp75Qu2UkhWhCu=bW5PEZ7dYvmDFZ9Kh_4A@mail.gmail.com>,Xiaoqiao He <hexiaoqiao@apache.org>,2026-09-30T21:13:01.995974
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAFF2GdnM=M=Zb_31OQMeLK2n+JgOzvg2kCXA7_MyJj_vK0h+Kw@mail.gmail.com>,"+1 (binding).
+
+Thanks for the great work, Shilun Fan.
+
+* Verified signatures and checksums
+* Successfully built from source with native code
+* Deployed a distributed cluster (on K8s)
+* Successfully ran some Erasure Coding operations with ISA-L codec
+* Successfully ran some HDFS RBF operations
+
+Regards,
+- Takanobu Asanuma
+
+2024年3月14日(木) 15:19 Xiaoqiao He <hexiaoqiao@apache.org>:
+
+> Thanks Ayush for",0,2024-03-14,hadoop,mapreduce-dev@hadoop.apache.org,<CAFF2GdnM=M=Zb_31OQMeLK2n+JgOzvg2kCXA7_MyJj_vK0h+Kw@mail.gmail.com>,Takanobu Asanuma <tasanuma@apache.org>,2026-09-30T21:13:01.995976
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAE9v2k6sMC+rrwCYQhGJGD8s1_hh-V0dr9uYfwkVh5AyfVLjZA@mail.gmail.com>,"+1 (binding).
+
+* Verified the signature and checksum of all tarballs.
+* Built from the source tarball on macOS 10.14 and OpenJDK 8.
+* Execute basic HDFS/YARN commands and run the WordCount MapReduce job.
+* Check the Yarn federation page and basic functionalities.
+* Read the basic help documentation.
+
+Best Regards,
+Shilun Fan.
+
+On Thu, Mar 14, 2024 at 4:40 PM Takanobu Asanuma <tasanuma@apache.org>
+",0,2024-03-15,hadoop,mapreduce-dev@hadoop.apache.org,<CAE9v2k6sMC+rrwCYQhGJGD8s1_hh-V0dr9uYfwkVh5AyfVLjZA@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:13:01.995978
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: [VOTE] Release Apache Hadoop 3.4.0 (RC3),https://lists.apache.org/thread/<CAE9v2k4iR4t167Q0HMz028w2=kZ-A+yAGfVt7RygBwXhvokhgw@mail.gmail.com>,"Hi folks,
+
+The voting for hadoop-3.4.0-RC3 has ended, and we have received a total of
+8 affirmative votes, with 6 binding and 2 non-binding.
+
+In the order of the voting timeline:
+
+binding (+6)
+
+Masatake Iwasaki
+Xiaoqiao He
+Mukund Madhav Thakur
+Steve Loughran
+Takanobu Asanuma
+Shilun Fan
+
+non-binding(+2)
+
+Suhail, Ahmar
+Dongjoon Hyun
+
+Thank you very much for helping with the review and validation!
+
+W",0,2024-03-16,hadoop,mapreduce-dev@hadoop.apache.org,<CAE9v2k4iR4t167Q0HMz028w2=kZ-A+yAGfVt7RygBwXhvokhgw@mail.gmail.com>,slfan1989 <slfan1989@apache.org>,2026-09-30T21:13:01.995980
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Apache Hadoop qbt Report: trunk+JDK8 on Linux/x86_64,https://lists.apache.org/thread/<747509065.650.1724705155299@ci-hadoop2-ec2-va.apache.org>,"For more details, see https://ci-hadoop.apache.org/job/hadoop-qbt-trunk-java8-linux-x86_64/1681/
+
+[Aug 25, 2024, 8:47:05 AM] (github) HDFS-16084. Fix getJNIEnv crash due to incorrect state set to tls var (#6969). Contributed by Kevin Cai.
+[Aug 25, 2024, 9:51:14 AM] (github) HDFS-17573. Allow turn on both FSImage parallelization and compression (#6929). Contributed by Sung Dong Kim.
+
+
+
+
+-1 overall
+",0,2024-08-26,hadoop,mapreduce-dev@hadoop.apache.org,<747509065.650.1724705155299@ci-hadoop2-ec2-va.apache.org>,Apache Jenkins Server <jenkins@builds.apache.org>,2026-09-30T21:13:11.859658
+APACHE_LISTS_REMINING,Apache Lists,JNIEnv,Apache Hadoop qbt Report: trunk+JDK11 on Linux/x86_64,https://lists.apache.org/thread/<1220328862.670.1724791670860@ci-hadoop2-ec2-va.apache.org>,"For more details, see https://ci-hadoop.apache.org/job/hadoop-qbt-trunk-java11-linux-x86_64/729/
+
+[Aug 25, 2024, 8:47:05 AM] (github) HDFS-16084. Fix getJNIEnv crash due to incorrect state set to tls var (#6969). Contributed by Kevin Cai.
+[Aug 25, 2024, 9:51:14 AM] (github) HDFS-17573. Allow turn on both FSImage parallelization and compression (#6929). Contributed by Sung Dong Kim.
+",0,2024-08-27,hadoop,mapreduce-dev@hadoop.apache.org,<1220328862.670.1724791670860@ci-hadoop2-ec2-va.apache.org>,Apache Jenkins Server <jenkins@builds.apache.org>,2026-09-30T21:13:11.859677
+APACHE_LISTS_REMINING,Apache Lists,JNA,maven build failing in spark sql w/BouncyCastleProvider CNFE,https://lists.apache.org/thread/<CAL7CpJx=o8H3UzSa5ZEV1MeNXNBNkjSR8LskiYOD9O120f9hvg@mail.gmail.com>," trying to build spark master w/ hadoop trunk and the maven sbt plugin is
+failing. This doesn't happen with the 3.3.5 RC0;
+
+I note that the only mention of this anywhere was me in march.
+
+clearly something in hadoop trunk has changed in a way which is
+incompatible.
+
+Has anyone else tried such a build/seen this problem? any suggestions of a
+fix?
+
+Created SPARK-41392 to cover this...
+
+[INFO]
+-------",0,2022-12-05,spark,dev@spark.apache.org,<CAL7CpJx=o8H3UzSa5ZEV1MeNXNBNkjSR8LskiYOD9O120f9hvg@mail.gmail.com>,Steve Loughran <stevel@cloudera.com.INVALID>,2026-09-30T21:21:29.313443
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: maven build failing in spark sql w/BouncyCastleProvider CNFE,https://lists.apache.org/thread/<CAMFhwAYjtt2Wh7Z=wYevS=3QhD8anP7QeYYqdUddOw0sh0R+cQ@mail.gmail.com>,"Steve, does the lower version of scala plugin work for you? If that solves,
+we could temporary downgrade for now.
+
+On Mon, 5 Dec 2022 at 22:23, Steve Loughran <stevel@cloudera.com.invalid>
+wrote:
+
+>  trying to build spark master w/ hadoop trunk and the maven sbt plugin is
+> failing. This doesn't happen with the 3.3.5 RC0;
+>
+> I note that the only mention of this anywhere was me in march.
+>
+> clear",0,2022-12-06,spark,dev@spark.apache.org,<CAMFhwAYjtt2Wh7Z=wYevS=3QhD8anP7QeYYqdUddOw0sh0R+cQ@mail.gmail.com>,Hyukjin Kwon <gurwls223@gmail.com>,2026-09-30T21:21:29.313483
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: maven build failing in spark sql w/BouncyCastleProvider CNFE,https://lists.apache.org/thread/<60E5570C-3A4A-4D5C-A20B-0BC3A4351428@baidu.com>,"Steve, did compile failed happen when mvn build Spark master with hadoop 3.4.0-SNAPSHOT?
+
+发件人: Hyukjin Kwon <gurwls223@gmail.com>
+日期: 2022年12月6日 星期二 10:27
+抄送: Apache Spark Dev <dev@spark.apache.org>
+主题: Re: maven build failing in spark sql w/BouncyCastleProvider CNFE
+
+Steve, does the lower version of scala plugin work for you? If that solves, we could temporary downgrade for now.
+
+On Mon,",0,2022-12-06,spark,dev@spark.apache.org,<60E5570C-3A4A-4D5C-A20B-0BC3A4351428@baidu.com>,"""Yang,Jie(INF)"" <yangjie01@baidu.com>",2026-09-30T21:21:29.313490
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [VOTE] Release Apache Spark 3.4.0 (RC5),https://lists.apache.org/thread/<1537741D-0629-4853-BAFB-6818B56819BE@baidu.com>,"I suggest placing the fix of SPARK-39696 in the next RC, which is an issue that will be triggered after Scala 2.13.7.
+
+
+1.       https://issues.apache.org/jira/browse/SPARK-39696
+
+2.       https://github.com/apache/spark/pull/40663
+
+
+Yang Jie
+
+
+发件人: John Zhuge <jzhuge@apache.org>
+日期: 2023年4月6日 星期四 13:59
+收件人: Anton Okolnychyi <aokolnychyi@apache.org>
+抄送: ""dev@spark.apache.org"" <dev@sp",0,2023-04-06,spark,dev@spark.apache.org,<1537741D-0629-4853-BAFB-6818B56819BE@baidu.com>,yangjie01 <yangjie01@baidu.com>,2026-09-30T21:21:44.407075
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [VOTE] Release Apache Spark 3.4.0 (RC5),https://lists.apache.org/thread/<CALAUJQ-WmeMCA-Pt3e4+GD8XLrp7qFtuz_qC+Ru0mUYXdvbHXA@mail.gmail.com>,"Thanks all. I am cutting v3.4.0-rc6 now considering all blockers have been
+resolved.
+
+On Thu, Apr 6, 2023 at 1:07 AM yangjie01 <yangjie01@baidu.com> wrote:
+
+> I suggest placing the fix of SPARK-39696 in the next RC, which is an issue
+> that will be triggered after Scala 2.13.7.
+>
+>
+>
+> 1.       https://issues.apache.org/jira/browse/SPARK-39696
+>
+> 2.       https://github.com/apache/spark/pull/4066",0,2023-04-06,spark,dev@spark.apache.org,<CALAUJQ-WmeMCA-Pt3e4+GD8XLrp7qFtuz_qC+Ru0mUYXdvbHXA@mail.gmail.com>,Xinrong Meng <xinrong.apache@gmail.com>,2026-09-30T21:21:44.407092
+APACHE_LISTS_REMINING,Apache Lists,JNA,"Fwd: 📅 Wednesday: Join 6 Members at ""Ofir Press | Complementing Scale: Novel Guidance Methods for Improving LMs""",https://lists.apache.org/thread/<CAJ3fcbC42mqtM9HsvBVdesQoso-qrDgVwNA=gpRJYH1dirymbw@mail.gmail.com>,"They recently combined Apache Spark and  AI meeting in London.
+
+An online session worth attending for some?
+
+HTH
+
+Mich
+
+   view my Linkedin profile
+<https://www.linkedin.com/in/mich-talebzadeh-ph-d-5205b2/>
+
+
+ https://en.everybodywiki.com/Mich_Talebzadeh
+
+
+
+*Disclaimer:* Use it at your own risk. Any and all responsibility for any
+loss, damage or destruction of data or any other property which may ",0,2023-08-24,spark,dev@spark.apache.org,<CAJ3fcbC42mqtM9HsvBVdesQoso-qrDgVwNA=gpRJYH1dirymbw@mail.gmail.com>,Mich Talebzadeh <mich.talebzadeh@gmail.com>,2026-09-30T21:22:24.698969
+APACHE_LISTS_REMINING,Apache Lists,JNA,"Re: [VOTE] Updating documentation hosted for EOL and maintenance
+ releases",https://lists.apache.org/thread/<CB9B397B-B378-4A0E-895F-C5B7F1A05720@baidu.com>,"+1
+
+发件人: Yikun Jiang <yikunkero@gmail.com>
+日期: 2023年9月26日 星期二 18:06
+收件人: dev <dev@spark.apache.org>
+抄送: Hyukjin Kwon <gurwls223@apache.org>, Ruifeng Zheng <ruifengz@apache.org>
+主题: Re: [VOTE] Updating documentation hosted for EOL and maintenance releases
+
++1, I believe it is a wise choice to update the EOL policy of the document based on the real demands of community users.
+
+Regards,
+Yi",0,2023-09-26,spark,dev@spark.apache.org,<CB9B397B-B378-4A0E-895F-C5B7F1A05720@baidu.com>,yangjie01 <yangjie01@baidu.com.INVALID>,2026-09-30T21:22:43.384338
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [VOTE] Updating documentation hosted for EOL and maintenance releases,https://lists.apache.org/thread/<CABfDjEDxtWd_Jjegx83OozVM9doggNn8oR=vm-15D7a7DYX+vA@mail.gmail.com>,"+1
+
+On Tue, Sep 26, 2023 at 10:39 AM yangjie01 <yangjie01@baidu.com.invalid>
+wrote:
+
+> +1
+>
+>
+>
+> *发件人**: *Yikun Jiang <yikunkero@gmail.com>
+> *日期**: *2023年9月26日 星期二 18:06
+> *收件人**: *dev <dev@spark.apache.org>
+> *抄送**: *Hyukjin Kwon <gurwls223@apache.org>, Ruifeng Zheng <
+> ruifengz@apache.org>
+> *主题**: *Re: [VOTE] Updating documentation hosted for EOL and maintenance
+> releases
+>
+>
+>
+> +1, I beli",0,2023-09-26,spark,dev@spark.apache.org,<CABfDjEDxtWd_Jjegx83OozVM9doggNn8oR=vm-15D7a7DYX+vA@mail.gmail.com>,Herman van Hovell <herman@databricks.com.INVALID>,2026-09-30T21:22:43.384367
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [VOTE] Updating documentation hosted for EOL and maintenance releases,https://lists.apache.org/thread/<CALZ+4C7Z9EN79ZtEqho6OzZ3NgUc5FPW=LUDe5TDK9G7QXfQew@mail.gmail.com>,"+1
+
+A disposição | At your disposal
+
+Michel Miotto Barbosa
+https://www.linkedin.com/in/michelmiottobarbosa/
+mmiottobarbosa@gmail.com
++55 11 984 342 347
+
+
+
+
+On Tue, Sep 26, 2023 at 11:44 AM Herman van Hovell
+<herman@databricks.com.invalid> wrote:
+
+> +1
+>
+> On Tue, Sep 26, 2023 at 10:39 AM yangjie01 <yangjie01@baidu.com.invalid>
+> wrote:
+>
+>> +1
+>>
+>>
+>>
+>> *发件人**: *Yikun Jiang <yikunkero@gmail.com>",0,2023-09-26,spark,dev@spark.apache.org,<CALZ+4C7Z9EN79ZtEqho6OzZ3NgUc5FPW=LUDe5TDK9G7QXfQew@mail.gmail.com>,Michel Miotto Barbosa <mmiottobarbosa@gmail.com>,2026-09-30T21:22:43.384370
+APACHE_LISTS_REMINING,Apache Lists,JNA,"Re: [VOTE] Updating documentation hosted for EOL and maintenance
+ releases",https://lists.apache.org/thread/<b1e930b0-77cf-4371-91f6-4dff512788c1@gmail.com>,"+1
+
+Best regards,
+Maciej Szymkiewicz
+
+Web:https://zero323.net
+PGP: A30CEF0C31A501EC
+
+On 9/26/23 17:12, Michel Miotto Barbosa wrote:
+> +1
+>
+> A disposição | At your disposal
+>
+> Michel Miotto Barbosa
+> https://www.linkedin.com/in/michelmiottobarbosa/
+> mmiottobarbosa@gmail.com
+> +55 11 984 342 347
+>
+>
+>
+>
+> On Tue, Sep 26, 2023 at 11:44 AM Herman van Hovell 
+> <herman@databric",0,2023-09-26,spark,dev@spark.apache.org,<b1e930b0-77cf-4371-91f6-4dff512788c1@gmail.com>,Maciej <mszymkiewicz@gmail.com>,2026-09-30T21:22:43.384372
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [VOTE] Updating documentation hosted for EOL and maintenance releases,https://lists.apache.org/thread/<CABjYQ3_dUVPgKVtqK4y3DbeHY5kBT5tpURcrskg_B0UEp4KM_Q@mail.gmail.com>,"+1
+
+On Tue, Sep 26, 2023 at 10:52 Maciej <mszymkiewicz@gmail.com> wrote:
+
+> +1
+>
+> Best regards,
+> Maciej Szymkiewicz
+>
+> Web: https://zero323.net
+> PGP: A30CEF0C31A501EC
+>
+> On 9/26/23 17:12, Michel Miotto Barbosa wrote:
+>
+> +1
+>
+> A disposição | At your disposal
+>
+> Michel Miotto Barbosa
+> https://www.linkedin.com/in/michelmiottobarbosa/
+> mmiottobarbosa@gmail.com
+> +55 11 984 342 347
+>
+>
+>
+>
+> ",0,2023-09-26,spark,dev@spark.apache.org,<CABjYQ3_dUVPgKVtqK4y3DbeHY5kBT5tpURcrskg_B0UEp4KM_Q@mail.gmail.com>,Denny Lee <denny.g.lee@gmail.com>,2026-09-30T21:22:43.384374
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [VOTE] Updating documentation hosted for EOL and maintenance releases,https://lists.apache.org/thread/<CA+oJM0atWNuExs9gYeBrViQZ6F=9sXKyBegQ7LE7VZ8tgweyww@mail.gmail.com>,"+1
+
+Denny Lee <denny.g.lee@gmail.com> 于2023年9月26日周二 12:07写道：
+
+> +1
+>
+> On Tue, Sep 26, 2023 at 10:52 Maciej <mszymkiewicz@gmail.com> wrote:
+>
+>> +1
+>>
+>> Best regards,
+>> Maciej Szymkiewicz
+>>
+>> Web: https://zero323.net
+>> PGP: A30CEF0C31A501EC
+>>
+>> On 9/26/23 17:12, Michel Miotto Barbosa wrote:
+>>
+>> +1
+>>
+>> A disposição | At your disposal
+>>
+>> Michel Miotto Barbosa
+>> https://www.linkedin.co",0,2023-09-26,spark,dev@spark.apache.org,<CA+oJM0atWNuExs9gYeBrViQZ6F=9sXKyBegQ7LE7VZ8tgweyww@mail.gmail.com>,Yuanjian Li <xyliyuanjian@gmail.com>,2026-09-30T21:22:43.384376
+APACHE_LISTS_REMINING,Apache Lists,JNA,Request for Guidance on Optimizing Apache Spark for ARM with SVE,"https://lists.apache.org/thread/
+ <OSAPR01MB502600C7EC0EF79AAC5E65AA9E632@OSAPR01MB5026.jpnprd01.prod.outlook.com>","Hello Spark Community,
+
+I am currently looking to optimize Apache Spark for ARM architecture by leveraging Scalable Vector Extensions (SVE). I am aware of Gluten and OAP which help optimize Spark performance externally, but the goal is to contribute directly to the Spark repository, and I’m seeking advice on the following aspects:
+
+1. AVX Optimization Efforts: I am interested in understanding any ",0,2024-09-19,spark,dev@spark.apache.org,"
+ <OSAPR01MB502600C7EC0EF79AAC5E65AA9E632@OSAPR01MB5026.jpnprd01.prod.outlook.com>","""Ajeya.BS@fujitsu.com.INVALID"" <Ajeya.BS@fujitsu.com.INVALID>",2026-09-30T21:23:15.578183
+APACHE_LISTS_REMINING,Apache Lists,JNA,"Fwd: Help: Configure `secrets.CODECOV_TOKEN` for Github Spark repo to
+ ensure successful daily scheduling of workflow `build_coverage.yml`",https://lists.apache.org/thread/<CAB80WO-M39BcGOYeWjQCJtxRvhtcq3SEROocgWXBaMXMuCaM0w@mail.gmail.com>,"Hi, all,
+
+As described in the email, I would like to add a configuration item
+*`secrets.CODECOV_TOKEN` *in *Apache Spark Settings*.
+The problem now is that I don't have the permission to *see this tab
+settings*, and I don't know who has the permission to see this tab.
+*Can anyone tell me how to do it? Or tell who has this permission?*
+
+[image: image.png]
+
+Thanks!
+
+
+---------- Forwarded message ---",0,2025-01-08,spark,dev@spark.apache.org,<CAB80WO-M39BcGOYeWjQCJtxRvhtcq3SEROocgWXBaMXMuCaM0w@mail.gmail.com>,Pan Bingkun <panbingkun@apache.org>,2026-09-30T21:24:25.918713
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: confirm unsubscribe from dev@spark.apache.org,https://lists.apache.org/thread/<c1c97497-e587-44cb-866f-c5d5e4ce9e56@hrmnjt.dev>,"unsubscribe
+
+On 25/01/2026 16:58, dev-help@spark.apache.org wrote:
+> Hi! This is the ezmlm program. I'm managing the
+> dev@spark.apache.org mailing list.
+>
+> To confirm that you would like
+>
+>     harman@hrmnjt.dev
+>
+> removed from the dev mailing list, please send a short reply
+> to this address:
+>
+>     dev-uc.1769345896.licjnakppmlamdclnepl-harman=hrmnjt.dev@spark.apache.org
+>
+> Usually, this h",0,2026-01-25,spark,dev@spark.apache.org,<c1c97497-e587-44cb-866f-c5d5e4ce9e56@hrmnjt.dev>,Harmanjeet Singh Nagi <harman@hrmnjt.dev>,2026-09-30T21:24:59.874856
+APACHE_LISTS_REMINING,Apache Lists,JNA,"Fwd: 📅 Wednesday: Join 6 Members at ""Ofir Press | Complementing Scale: Novel Guidance Methods for Improving LMs""",https://lists.apache.org/thread/<CAJ3fcbC42mqtM9HsvBVdesQoso-qrDgVwNA=gpRJYH1dirymbw@mail.gmail.com>,"They recently combined Apache Spark and  AI meeting in London.
+
+An online session worth attending for some?
+
+HTH
+
+Mich
+
+   view my Linkedin profile
+<https://www.linkedin.com/in/mich-talebzadeh-ph-d-5205b2/>
+
+
+ https://en.everybodywiki.com/Mich_Talebzadeh
+
+
+
+*Disclaimer:* Use it at your own risk. Any and all responsibility for any
+loss, damage or destruction of data or any other property which may ",0,2023-08-24,spark,user@spark.apache.org,<CAJ3fcbC42mqtM9HsvBVdesQoso-qrDgVwNA=gpRJYH1dirymbw@mail.gmail.com>,Mich Talebzadeh <mich.talebzadeh@gmail.com>,2026-09-30T21:45:17.816971
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Can not complete the read csv task,"https://lists.apache.org/thread/
+ <SEYPR06MB5256B70E059E1F502A1CA4E9BCD3A@SEYPR06MB5256.apcprd06.prod.outlook.com>","Dear friends,
+
+I'm trying to get a fresh start with Spark. I tried to read few CSV files in a folder, but the task got stuck and not completed as shown in the copied content from the terminal.
+
+Can someone help to understand what is going wrong?
+
+Versions;
+java version ""11.0.16"" 2022-07-19 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.16+11-LTS-199)
+Java HotSpot(TM) 64-Bit Server VM 18.9 (b",0,2023-10-12,spark,user@spark.apache.org,"
+ <SEYPR06MB5256B70E059E1F502A1CA4E9BCD3A@SEYPR06MB5256.apcprd06.prod.outlook.com>",Kelum Perera <kelum0823@hotmail.com>,2026-09-30T21:45:29.553429
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Fw: Can not complete the read csv task,"https://lists.apache.org/thread/
+ <SEYPR06MB5256D1495291B7FB79CC5027BCD2A@SEYPR06MB5256.apcprd06.prod.outlook.com>","
+________________________________
+From: Kelum Perera <kelum0823@hotmail.com>
+Sent: Thursday, October 12, 2023 11:40 AM
+To: user@spark.apache.org <user@spark.apache.org>; Kelum Perera <kelum0823@hotmail.com>; Kelum Gmail <kelum0823@gmail.com>
+Subject: Can not complete the read csv task
+
+Dear friends,
+
+I'm trying to get a fresh start with Spark. I tried to read few CSV files in a folder, but the tas",0,2023-10-13,spark,user@spark.apache.org,"
+ <SEYPR06MB5256D1495291B7FB79CC5027BCD2A@SEYPR06MB5256.apcprd06.prod.outlook.com>",Kelum Perera <kelum0823@hotmail.com>,2026-09-30T21:45:29.553439
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Fwd: Fw: Can not complete the read csv task,https://lists.apache.org/thread/<CAJ+cJrKi+a_pQCkTPRKLX0GK=hsgJvtA4f9092PXYp5JxaEs_w@mail.gmail.com>,"Dear group members,
+
+I'm trying to get a fresh start with Spark, but came a cross following
+issue;
+
+I tried to read few CSV files from a folder, but the task got stuck and
+didn't complete. ( copied content from the terminal.)
+
+Can someone help to understand what is going wrong?
+
+Versions;
+java version ""11.0.16"" 2022-07-19 LTS
+Java(TM) SE Runtime Environment 18.9 (build 11.0.16+11-LTS-199)
+Java Hot",0,2023-10-13,spark,user@spark.apache.org,<CAJ+cJrKi+a_pQCkTPRKLX0GK=hsgJvtA4f9092PXYp5JxaEs_w@mail.gmail.com>,KP Youtuber <kelumbackup@gmail.com>,2026-09-30T21:45:29.553441
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Re: Can not complete the read csv task,https://lists.apache.org/thread/<CAEgmiqC3kYRbopO68OXOXbUJfKLHH1C347Gn3hkunaJz3v=CcQ@mail.gmail.com>,"This command only defines a new DataFrame, in order to see some results you
+need to do something like merged_spark_data.show() on a new line.
+
+Regarding the error I think it's typical error that you get when you run
+Spark on Windows OS. You can suppress it using Winutils tool (Google it or
+ChatGPT it to see how).
+
+On Thu, 12 Oct 2023, 11:58 Kelum Perera, <kelum0823@hotmail.com> wrote:
+
+> Dear frie",0,2023-10-14,spark,user@spark.apache.org,<CAEgmiqC3kYRbopO68OXOXbUJfKLHH1C347Gn3hkunaJz3v=CcQ@mail.gmail.com>,Khalid Mammadov <khalidmammadov9@gmail.com>,2026-09-30T21:45:29.553443
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"Re: [DISCUSS] Possible workaround for Hadoop ZStandardDecompressor
+ errors triggered by small ZSTD files?",https://lists.apache.org/thread/<CAFgOEN6+FjZ_VS+1N_rcWsjEyn0s8U4PqPXt2G91tPE7HTyKMw@mail.gmail.com>,"Hi,
+
+thx for your response.
+
+According to the following documentation, it seems that CDP 7.1.9 uses
+Hadoop 3.1.1:
+
+https://docs.cloudera.com/cdp-private-cloud-base/7.1.9/runtime-release-notes/topics/rt-pvc-runtime-component-versions-719sp1-chf12.html
+
+
+I used the command below to extract and install the native libraries in our
+environment. However, when running with Hadoop 3.1.1 I encountered the
+",0,2025-12-05,spark,user@spark.apache.org,<CAFgOEN6+FjZ_VS+1N_rcWsjEyn0s8U4PqPXt2G91tPE7HTyKMw@mail.gmail.com>,FengYu Cao <camper.xlii@gmail.com>,2026-09-30T21:52:09.258539
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"Re: [DISCUSS] Possible workaround for Hadoop ZStandardDecompressor
+ errors triggered by small ZSTD files?",https://lists.apache.org/thread/<CAGUyL8haO7GnYVK_Oc7WEorrCVznst7Yzz7RRzN6OpCckALD-w@mail.gmail.com>,"That's why I use sbt dependencies to execute the test with more recent
+versions. I checked the jvm was using the right classes with
+-verbose:class, so ...
+
+El vie, 5 dic 2025, 8:39, FengYu Cao <camper.xlii@gmail.com> escribió:
+
+> Hi,
+>
+> thx for your response.
+>
+> According to the following documentation, it seems that CDP 7.1.9 uses
+> Hadoop 3.1.1:
+>
+>
+> https://docs.cloudera.com/cdp-private-clou",0,2025-12-05,spark,user@spark.apache.org,<CAGUyL8haO7GnYVK_Oc7WEorrCVznst7Yzz7RRzN6OpCckALD-w@mail.gmail.com>,Ángel Álvarez Pascua  <angel.alvarez.pascua@gmail.com>,2026-09-30T21:52:09.258670
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,[jira] [Reopened] (KAFKA-8622) Snappy Compression Not Working,https://lists.apache.org/thread/<JIRA.13242710.1562061843000.102949.1677268980539@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-8622?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Matthias J. Sax reopened KAFKA-8622:
+------------------------------------
+
+> Snappy Compression Not Working
+> ------------------------------
+>
+>                 Key: KAFKA-8622
+>                 URL: https://issues.apache.org/jira/browse/KAFKA-8622
+>             Project: Ka",0,2023-02-24,kafka,dev@kafka.apache.org,<JIRA.13242710.1562061843000.102949.1677268980539@Atlassian.JIRA>,"""Matthias J. Sax (Jira)"" <jira@apache.org>",2026-09-30T22:04:15.370777
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,[jira] [Resolved] (KAFKA-8622) Snappy Compression Not Working,https://lists.apache.org/thread/<JIRA.13242710.1562061843000.102954.1677268980549@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-8622?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Matthias J. Sax resolved KAFKA-8622.
+------------------------------------
+    Resolution: Fixed
+
+> Snappy Compression Not Working
+> ------------------------------
+>
+>                 Key: KAFKA-8622
+>                 URL: https://issues.apache.org/jira/browse/KAFKA-8622
+>  ",0,2023-02-24,kafka,dev@kafka.apache.org,<JIRA.13242710.1562061843000.102954.1677268980549@Atlassian.JIRA>,"""Matthias J. Sax (Jira)"" <jira@apache.org>",2026-09-30T22:04:15.370792
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,[DISCUSS] Should we continue to merge without a green build? No!,https://lists.apache.org/thread/<CAHn4u3scqBeMknSabiN1OtuhPSGWPb-JUoJ+jFfpRjQKAj+jCg@mail.gmail.com>,"Hi all,
+
+The state of our CI worries me a lot. Just this week, we merged two PRs
+with compilation errors and one PR introducing persistent failures. This
+really hurts the quality and the velocity of the project and it basically
+defeats the purpose of having a CI because we tend to ignore it nowadays.
+
+Should we continue to merge without a green build? No! We should not so I
+propose to prevent merg",0,2023-11-11,kafka,dev@kafka.apache.org,<CAHn4u3scqBeMknSabiN1OtuhPSGWPb-JUoJ+jFfpRjQKAj+jCg@mail.gmail.com>,David Jacot <djacot@confluent.io.INVALID>,2026-09-30T22:04:59.292612
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Should we continue to merge without a green build? No!,https://lists.apache.org/thread/<CACsfnZ2KSjZZHwC+h0fBdSqMygGV76qR1QVFYAKoyuWrWXO68g@mail.gmail.com>,"Hi David,
+
+Thanks for bringing this point and also for creating the revert PRs. I
+think there has been an effort in the community to fix a lot of flakey
+tests(like around MirrorMaker). I also agree that we shouldn't merge PRs
+without green builds and look to ignore flaky tests. For example, I did a
+quick search for some of the common (and sometimes longstanding flakey
+tests) and this is a brief li",0,2023-11-11,kafka,dev@kafka.apache.org,<CACsfnZ2KSjZZHwC+h0fBdSqMygGV76qR1QVFYAKoyuWrWXO68g@mail.gmail.com>,Sagar <sagarmeansocean@gmail.com>,2026-09-30T22:04:59.292631
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Should we continue to merge without a green build? No!,https://lists.apache.org/thread/<CAD5tkZa2GFuSSGk_Cyc4dHg5sbGM+8zoMeb9GcrWcDX-HUNRoA@mail.gmail.com>,"Hi David,
+
+I would be fine with:
+1. Only allowing merges if the build is green
+2. Disabling all flaky tests that aren't fixed within a week. That is, if a
+test is flaky for more than a week, it should be automatically disabled (it
+doesn't add any value since it gets ignored).
+
+We need both to make this work, if you just do step 1, then we will be
+stuck with no ability to merge anything.
+
+Ismael
+
+
+",0,2023-11-11,kafka,dev@kafka.apache.org,<CAD5tkZa2GFuSSGk_Cyc4dHg5sbGM+8zoMeb9GcrWcDX-HUNRoA@mail.gmail.com>,Ismael Juma <me@ismaeljuma.com>,2026-09-30T22:04:59.292635
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Should we continue to merge without a green build? No!,https://lists.apache.org/thread/<CAD5tkZYGH6v7F78e+ZJnsJ9m8VKt_Kbk2e1wx0rf4tXV-28qhA@mail.gmail.com>,"One more thing:
+
+3. If test flakiness is introduced by a recent PR, it's appropriate to
+revert said PR vs disabling the flaky tests.
+
+Ismael
+
+On Sat, Nov 11, 2023, 8:45 AM Ismael Juma <me@ismaeljuma.com> wrote:
+
+> Hi David,
+>
+> I would be fine with:
+> 1. Only allowing merges if the build is green
+> 2. Disabling all flaky tests that aren't fixed within a week. That is, if
+> a test is flaky for more",0,2023-11-11,kafka,dev@kafka.apache.org,<CAD5tkZYGH6v7F78e+ZJnsJ9m8VKt_Kbk2e1wx0rf4tXV-28qhA@mail.gmail.com>,Ismael Juma <me@ismaeljuma.com>,2026-09-30T22:04:59.292638
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Should we continue to merge without a green build? No!,https://lists.apache.org/thread/<fc729e13-846d-4bb2-93b3-5c5545ceab76@app.fastmail.com>,"Thanks, all,
+
+This proposal sounds good to me.
+
+We could try to just disable the current flaky tests as a one-time step and configure GitHub only to merge green builds as a bulwark against the future.
+
+By definition, flaky tests may not fail during the buggy PR build itself, but they should make themselves known soon afterwards, in the nightly and subsequent PRs. As long as committers are empowere",0,2023-11-11,kafka,dev@kafka.apache.org,<fc729e13-846d-4bb2-93b3-5c5545ceab76@app.fastmail.com>,"""John Roesler"" <vvcephei@apache.org>",2026-09-30T22:04:59.292642
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,"[jira] [Created] (KAFKA-15875) Snapshot class is package protected
+ but returned in public methods",https://lists.apache.org/thread/<JIRA.13558995.1700643362000.7147.1700643420003@Atlassian.JIRA>,"Josep Prat created KAFKA-15875:
+----------------------------------
+
+             Summary: Snapshot class is package protected but returned in public methods
+                 Key: KAFKA-15875
+                 URL: https://issues.apache.org/jira/browse/KAFKA-15875
+             Project: Kafka
+          Issue Type: Task
+    Affects Versions: 3.6.0
+            Reporter: Josep Prat
+            Assignee:",0,2023-11-22,kafka,dev@kafka.apache.org,<JIRA.13558995.1700643362000.7147.1700643420003@Atlassian.JIRA>,"""Josep Prat (Jira)"" <jira@apache.org>",2026-09-30T22:04:59.292648
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,"Re: [DISCUSS] KIP-1026: Handling producer snapshot when upgrading
+ from < v2.8.0 for Tiered Storage",https://lists.apache.org/thread/<CAA=itPDdk7M6xwCRdSHYPkPCD6BY158xmbgF=VQ8F_TL2w86MQ@mail.gmail.com>,"Hi Arpit,
+
+Thanks for the clarification. Replying here without updating the KIP
+is fine for now.
+
+I disagree with your evaluation of the backwards compatibility. If you
+change the return type of a method, that breaks both source and binary
+compatibility.
+After upgrading, plugin implementations using this method would face
+compilation errors. Implementations that were compiled against the old
+inter",0,2024-03-14,kafka,dev@kafka.apache.org,<CAA=itPDdk7M6xwCRdSHYPkPCD6BY158xmbgF=VQ8F_TL2w86MQ@mail.gmail.com>,Greg Harris <greg.harris@aiven.io.INVALID>,2026-09-30T22:05:17.941438
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,"Re: [DISCUSS] KIP-1026: Handling producer snapshot when upgrading
+ from < v2.8.0 for Tiered Storage",https://lists.apache.org/thread/<CALkmrLSxTMEUKRKtWe1KEaVhF-U5+uf+wHTQPond+sj+n-JS=g@mail.gmail.com>,"Hi Arpit,
+
+Thanks for the KIP!
+
+I agree with Greg that we should make it clear about backward Compatibility.
+Since you don't have permission to edit the KIP, you could think about it
+and write in the email thread directly.
+
+Questions:
+1. Could you explain what will happen if one partition created after v2.8,
+which should upload the producer snapshot file, but somehow it didn't
+upload this file to ",0,2024-03-15,kafka,dev@kafka.apache.org,<CALkmrLSxTMEUKRKtWe1KEaVhF-U5+uf+wHTQPond+sj+n-JS=g@mail.gmail.com>,Luke Chen <showuon@gmail.com>,2026-09-30T22:05:17.941454
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,"Re: [DISCUSS] KIP-1026: Handling producer snapshot when upgrading
+ from < v2.8.0 for Tiered Storage",https://lists.apache.org/thread/<CADLRvwhKJz9QP8Zoi65OFuE5sPpk4_JNcgLyQ5+k8-vyv0L+Xg@mail.gmail.com>,"Hi Arpit,
+
+Thanks for the KIP!
+
+There is an open ticket [1] to generate the empty producer snapshot for
+segments which lacks one.
+Tiered storage is supported from IBP 2.8-IV1 which mandates that all the
+segments should have
+the producer snapshots. If we make the producer snapshot optional, then we
+have to handle all
+the edge cases as Luke mentioned.
+
+Shall we propose to generate the empty producer",0,2024-03-15,kafka,dev@kafka.apache.org,<CADLRvwhKJz9QP8Zoi65OFuE5sPpk4_JNcgLyQ5+k8-vyv0L+Xg@mail.gmail.com>,Kamal Chandraprakash <kamal.chandraprakash@gmail.com>,2026-09-30T22:05:17.941457
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,"Re: [DISCUSS] KIP-1026: Handling producer snapshot when upgrading
+ from < v2.8.0 for Tiered Storage",https://lists.apache.org/thread/<CACg5Bju3t9mu+SR7zxq0bMhVrwPNUSQ2gOELEME9ep9Abp3ggg@mail.gmail.com>,"Hi All,
+I was looking at one of the plugin implementation
+<https://github.com/Aiven-Open/tiered-storage-for-apache-kafka/blob/c8484843dbd146d3c6ff1fe955e790335bb10db6/core/src/main/java/io/aiven/kafka/tieredstorage/RemoteStorageManager.java#L292>s
+and Indeed it is expected to encounter a compilation error
+[image: Screenshot 2024-03-15 at 2.55.49 PM.png]
+
+To overcome the backward compatibility issu",0,2024-03-15,kafka,dev@kafka.apache.org,<CACg5Bju3t9mu+SR7zxq0bMhVrwPNUSQ2gOELEME9ep9Abp3ggg@mail.gmail.com>,Arpit Goyal <goyal.arpit.91@gmail.com>,2026-09-30T22:05:17.941459
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Created] (KAFKA-16991) Flaky Test
+ org.apache.kafka.streams.integration.PurgeRepartitionTopicIntegrationTest.shouldRestoreState",https://lists.apache.org/thread/<JIRA.13583077.1718728534000.62883.1718728560012@Atlassian.JIRA>,"Matthias J. Sax created KAFKA-16991:
+---------------------------------------
+
+             Summary: Flaky Test org.apache.kafka.streams.integration.PurgeRepartitionTopicIntegrationTest.shouldRestoreState
+                 Key: KAFKA-16991
+                 URL: https://issues.apache.org/jira/browse/KAFKA-16991
+             Project: Kafka
+          Issue Type: Test
+          Components: streams, unit",0,2024-06-18,kafka,dev@kafka.apache.org,<JIRA.13583077.1718728534000.62883.1718728560012@Atlassian.JIRA>,"""Matthias J. Sax (Jira)"" <jira@apache.org>",2026-09-30T22:05:34.964604
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Created] (KAFKA-16994) Flaky Test
+ SlidingWindowedKStreamIntegrationTest.shouldRestoreAfterJoinRestart",https://lists.apache.org/thread/<JIRA.13583081.1718730366000.62969.1718730420016@Atlassian.JIRA>,"Matthias J. Sax created KAFKA-16994:
+---------------------------------------
+
+             Summary: Flaky Test SlidingWindowedKStreamIntegrationTest.shouldRestoreAfterJoinRestart
+                 Key: KAFKA-16994
+                 URL: https://issues.apache.org/jira/browse/KAFKA-16994
+             Project: Kafka
+          Issue Type: Test
+            Reporter: Matthias J. Sax
+         Attachments: ",0,2024-06-18,kafka,dev@kafka.apache.org,<JIRA.13583081.1718730366000.62969.1718730420016@Atlassian.JIRA>,"""Matthias J. Sax (Jira)"" <jira@apache.org>",2026-09-30T22:05:34.964637
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Created] (KAFKA-17020) After enabling tiered storage,
+ occasional residual logs are left in the replica",https://lists.apache.org/thread/<JIRA.13583503.1719036426000.70134.1719036480014@Atlassian.JIRA>,"Jianbin Chen created KAFKA-17020:
+------------------------------------
+
+             Summary: After enabling tiered storage, occasional residual logs are left in the replica
+                 Key: KAFKA-17020
+                 URL: https://issues.apache.org/jira/browse/KAFKA-17020
+             Project: Kafka
+          Issue Type: Wish
+    Affects Versions: 3.7.0
+            Reporter: Jianbin Chen
+
+
+",0,2024-06-22,kafka,dev@kafka.apache.org,<JIRA.13583503.1719036426000.70134.1719036480014@Atlassian.JIRA>,"""Jianbin Chen (Jira)"" <jira@apache.org>",2026-09-30T22:05:34.964640
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Resolved] (KAFKA-16991) Flaky Test
+ org.apache.kafka.streams.integration.PurgeRepartitionTopicIntegrationTest.shouldRestoreState",https://lists.apache.org/thread/<JIRA.13583077.1718728534000.87228.1720016940053@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-16991?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Bill Bejeck resolved KAFKA-16991.
+---------------------------------
+    Resolution: Fixed
+
+> Flaky Test org.apache.kafka.streams.integration.PurgeRepartitionTopicIntegrationTest.shouldRestoreState
+> --------------------------------------------------------------------------",0,2024-07-03,kafka,dev@kafka.apache.org,<JIRA.13583077.1718728534000.87228.1720016940053@Atlassian.JIRA>,"""Bill Bejeck (Jira)"" <jira@apache.org>",2026-09-30T22:05:40.654270
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,"[jira] [Resolved] (KAFKA-8680) kafka use all of memory and jvm
+ crash when performance test",https://lists.apache.org/thread/<JIRA.13245707.1563438728000.109989.1720841040046@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-8680?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+zhangzhisheng resolved KAFKA-8680.
+----------------------------------
+      Assignee: zhangzhisheng
+    Resolution: Not A Bug
+
+> kafka use all of memory and jvm crash when performance test
+> -----------------------------------------------------------
+>
+>                 Key",0,2024-07-13,kafka,dev@kafka.apache.org,<JIRA.13245707.1563438728000.109989.1720841040046@Atlassian.JIRA>,"""zhangzhisheng (Jira)"" <jira@apache.org>",2026-09-30T22:05:40.654287
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"[jira] [Created] (KAFKA-17227) Apache Kafka 3.8.0 /tmp exec
+ permission",https://lists.apache.org/thread/<JIRA.13587438.1722430299000.142503.1722430320009@Atlassian.JIRA>,"Francisco Martinez created KAFKA-17227:
+------------------------------------------
+
+             Summary: Apache Kafka 3.8.0 /tmp exec permission
+                 Key: KAFKA-17227
+                 URL: https://issues.apache.org/jira/browse/KAFKA-17227
+             Project: Kafka
+          Issue Type: Bug
+    Affects Versions: 3.8.0
+            Reporter: Francisco Martinez
+         Attachments: kaf",0,2024-07-31,kafka,dev@kafka.apache.org,<JIRA.13587438.1722430299000.142503.1722430320009@Atlassian.JIRA>,"""Francisco Martinez (Jira)"" <jira@apache.org>",2026-09-30T22:05:40.654290
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Resolved] (KAFKA-17308) Topic Replication failure :: Config
+ properties exclude should be backwards compatible.",https://lists.apache.org/thread/<JIRA.13588468.1723294514000.163446.1723370340256@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-17308?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Arnab Dutta resolved KAFKA-17308.
+---------------------------------
+    Resolution: Fixed
+
+Only Eclipse compiler shows this compiler error.
+
+Eclipse has a problem with correctly inferring generic types and Eclipse compiler is not able to infer the type String for the colle",0,2024-08-11,kafka,dev@kafka.apache.org,<JIRA.13588468.1723294514000.163446.1723370340256@Atlassian.JIRA>,"""Arnab Dutta (Jira)"" <jira@apache.org>",2026-09-30T22:05:46.295209
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Changing which commit we build in PRs,https://lists.apache.org/thread/<CA+0Ze6rENQkp21kpzM8KJ1etKeEjmgyQrjGip5LVAg397sSEMQ@mail.gmail.com>,"Thanks for raising the correctness aspect, José. We currently have a
+compromise solution since PRs are not required to be up-to-date with trunk
+before merging. Basically, as long as a PR does not have conflicts and has
+passing tests, it can be merged. That's the situation today. We rely on the
+trunk builds to retroactively inform us about problems.
+
+The merge queue is probably the solution to your",0,2025-01-17,kafka,dev@kafka.apache.org,<CA+0Ze6rENQkp21kpzM8KJ1etKeEjmgyQrjGip5LVAg397sSEMQ@mail.gmail.com>,David Arthur <mumrah@gmail.com>,2026-09-30T22:06:12.923825
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Changing which commit we build in PRs,https://lists.apache.org/thread/<CAAGWar6meZi-g8TkSPdr8UUiF4ck2hTvfJydMK-wsO=Z==bvbQ@mail.gmail.com>,"David, just to make sure I understand, are you saying this will help with
+the actual test runtime, or only the compile time of the build? Just
+wondering because I've personally never found the compile times to be a
+roadblock, since the test times are so long. If this change only speeds up
+compiling then it's hardly going to be noticeable imho
+
+-Sophie
+
+On Fri, Jan 17, 2025 at 5:16 PM David Arthur ",0,2025-01-22,kafka,dev@kafka.apache.org,<CAAGWar6meZi-g8TkSPdr8UUiF4ck2hTvfJydMK-wsO=Z==bvbQ@mail.gmail.com>,Sophie Blee-Goldman <sophie@responsive.dev>,2026-09-30T22:06:12.923858
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Changing which commit we build in PRs,https://lists.apache.org/thread/<CA+0Ze6pOSDYQfqO_y6T948_Akm3FEF4DqXUH4uhNZJhnJ29HJA@mail.gmail.com>,"This change will help with test time since it will increase cache hits for
+the Gradle test tasks. For example, if your PR only changes streams code
+you should ideally not see other modules get re-tested (unless they are
+downstream dependencies of :streams).
+
+I've learned from ASF Infra that merge queues will be available soon. In
+light of this, I'm going to expand this proposal into a KIP that inc",0,2025-01-22,kafka,dev@kafka.apache.org,<CA+0Ze6pOSDYQfqO_y6T948_Akm3FEF4DqXUH4uhNZJhnJ29HJA@mail.gmail.com>,David Arthur <mumrah@gmail.com>,2026-09-30T22:06:12.923860
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Changing which commit we build in PRs,https://lists.apache.org/thread/<CAAGWar6O0049_F27knKQMwKMxxs3c_hq=BHfRnaszMj_uVmAVg@mail.gmail.com>,">
+> This change will help with test time since it will increase cache hits for
+> the Gradle test tasks. For example, if your PR only changes streams code
+> you should ideally not see other modules get re-tested (unless they are
+> downstream dependencies of :streams).
+
+
+Ok thanks for clarifying. But in that case (sorry in advance if this is a
+dumb question) I'm not understanding why the trunk-merge",0,2025-01-22,kafka,dev@kafka.apache.org,<CAAGWar6O0049_F27knKQMwKMxxs3c_hq=BHfRnaszMj_uVmAVg@mail.gmail.com>,Sophie Blee-Goldman <sophie@responsive.dev>,2026-09-30T22:06:12.923863
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Changing which commit we build in PRs,https://lists.apache.org/thread/<CA+0Ze6rzE0du=g1iz+fAoDZiRn_nmLJPJYJui5oZsL5+Hq2gQg@mail.gmail.com>,"It's a good question, Sophie. The answer is not entirely obvious.
+
+The build cache basically just loads the latest cache produced by the trunk
+builds. However, there are un-built commits on trunk quite frequently.
+These are commits which are being built by the current CI run, or are
+waiting for the next CI run to kick off. We only run a single trunk build
+at once, so having un-built commits on tru",0,2025-01-22,kafka,dev@kafka.apache.org,<CA+0Ze6rzE0du=g1iz+fAoDZiRn_nmLJPJYJui5oZsL5+Hq2gQg@mail.gmail.com>,David Arthur <mumrah@gmail.com>,2026-09-30T22:06:12.923865
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Changing which commit we build in PRs,https://lists.apache.org/thread/<CAAGWar6UwsOgFp1mHVJ_F5eQZe55LQiyQP8t5S7N3Vkjap3ayw@mail.gmail.com>,"Thanks for taking the time to explain David! That makes sense
+
+I also saw your KIP about using the merge queue so it sounds like we have a
+plan here
+
+On Wed, Jan 22, 2025 at 6:07 PM David Arthur <mumrah@gmail.com> wrote:
+
+> It's a good question, Sophie. The answer is not entirely obvious.
+>
+> The build cache basically just loads the latest cache produced by the trunk
+> builds. However, there are u",0,2025-01-23,kafka,dev@kafka.apache.org,<CAAGWar6UwsOgFp1mHVJ_F5eQZe55LQiyQP8t5S7N3Vkjap3ayw@mail.gmail.com>,Sophie Blee-Goldman <sophie@responsive.dev>,2026-09-30T22:06:12.923867
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Reopened] (KAFKA-17182) Consumer fetch sessions are evicted
+ too quickly with AsyncKafkaConsumer",https://lists.apache.org/thread/<JIRA.13586579.1721681306000.118463.1738362660044@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-17182?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Lianet Magrans reopened KAFKA-17182:
+------------------------------------
+
+Reopening to investigated reported issues. Reverted in trunk and 4.0 in the meantime
+
+> Consumer fetch sessions are evicted too quickly with AsyncKafkaConsumer
+> ------------------------------------",0,2025-01-31,kafka,dev@kafka.apache.org,<JIRA.13586579.1721681306000.118463.1738362660044@Atlassian.JIRA>,"""Lianet Magrans (Jira)"" <jira@apache.org>",2026-09-30T22:06:12.923870
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<364b80ff-574e-4b79-ad16-c52014be7079@apache.org>,"Hi,
+
+Thanks for all the updates and all the discussions regarding this KIP!
+
+IMO, the KIP does not precisely enough explain the rationale behind the 
+proposed upgrade path. That makes the KIP hard to understand. I believe 
+the KIP should be a bit more explicit about the reasons. That does not 
+mean we need to include all details in the user-facing recommendation in 
+the docs. But the details are r",0,2025-02-27,kafka,dev@kafka.apache.org,<364b80ff-574e-4b79-ad16-c52014be7079@apache.org>,Bruno Cadonna <cadonna@apache.org>,2026-09-30T22:06:17.262858
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<35a5e97b-0973-486e-8de3-a91a5c35ad93@apache.org>,"Thanks all. I am happy that we are making progress to close this out.
+
+As mentioned in my (long) email last Friday, I also think that the KIP 
+makes a lot of implicit assumptions, and it might benefit from begin 
+more explicit, even explaining things that are ""set in stone"" already, 
+and the KIP does not change them (like API deprecation timelines and 
+guarantees). But as Bruno said, it would help",0,2025-02-27,kafka,dev@kafka.apache.org,<35a5e97b-0973-486e-8de3-a91a5c35ad93@apache.org>,"""Matthias J. Sax"" <mjsax@apache.org>",2026-09-30T22:06:17.262874
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<CAD5tkZYf-ZgdhcxKGh_K-4YAr5JN-j-0u7WGttc6Peb1wNxoKg@mail.gmail.com>,"Hi Matthias,
+
+Two quick comments:
+
+1. Yes, please help edit the KIP directly. It's easy enough to revert if
+Kuan disagrees.
+2. Regarding client upgrades, the test in
+https://github.com/apache/kafka/pull/18193/files is an example of test that
+only starts from 2.1 (since we did not merge #18193).
+
+Ismael
+
+On Thu, Feb 27, 2025 at 11:36 PM Matthias J. Sax <mjsax@apache.org> wrote:
+
+> Thanks all. I am ",0,2025-02-28,kafka,dev@kafka.apache.org,<CAD5tkZYf-ZgdhcxKGh_K-4YAr5JN-j-0u7WGttc6Peb1wNxoKg@mail.gmail.com>,Ismael Juma <me@ismaeljuma.com>,2026-09-30T22:06:17.262876
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<pony-aee21b52-949c-497c-a85d-04b13332406e-dev@kafka.apache.org>,"Hi Matthias,
+
+Feel free to edit the KIP directly – I'm totally fine with it. Thanks a lot!
+
+Best,
+Kuan-Po Tseng
+
+On 2025/02/28 07:35:10 ""Matthias J. Sax"" wrote:
+> Thanks all. I am happy that we are making progress to close this out.
+> 
+> As mentioned in my (long) email last Friday, I also think that the KIP 
+> makes a lot of implicit assumptions, and it might benefit from begin 
+> more explicit, e",0,2025-02-28,kafka,dev@kafka.apache.org,<pony-aee21b52-949c-497c-a85d-04b13332406e-dev@kafka.apache.org>,Kuan Po Tseng <brandboat@apache.org>,2026-09-30T22:06:17.262878
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<0b98878f-38f0-4e4d-a677-cdf0b9bf6a27@apache.org>,"Thanks for pointing me to test Ismael. Glad to see I just missed it, and 
+that we indeed have a test for it.
+
+
+>> Feel free to edit the KIP directly – I'm totally fine with it. Thanks a lot!
+
+Thanks Kuan-Po!
+
+I did update the wiki page and added more details. I did follow Bruno's 
+suggestion, to be a little bit more elaborate, as the KIP page is mainly 
+for Kafka maintainers. -- We might want to d",0,2025-02-28,kafka,dev@kafka.apache.org,<0b98878f-38f0-4e4d-a677-cdf0b9bf6a27@apache.org>,"""Matthias J. Sax"" <mjsax@apache.org>",2026-09-30T22:06:17.262880
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<pony-2dc2cb4a-1fe5-409e-8b12-4e732775f08e-dev@kafka.apache.org>,"hi Matthias
+
+thanks for your updates. it looks great and readable.
+
+Regarding API compatibility, we state ""we only provide API backward compatibility for version 3.7, 3.8, and 3.9"" However, within Connect APIs, we have removed a public API that was deprecated by 3.7 [0][1]. 
+
+Since this KIP will likely include Connect APIs, it's important to discuss this now. We could: 1) add extra descriptions to",0,2025-03-01,kafka,dev@kafka.apache.org,<pony-2dc2cb4a-1fe5-409e-8b12-4e732775f08e-dev@kafka.apache.org>,Chia-Ping Tsai <chia7712@apache.org>,2026-09-30T22:06:21.659354
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<CAD5tkZbeCBUP8etZTtGmgk0_of01HooNHnncYoyvUXF6gXt7DQ@mail.gmail.com>,"Hi Chia-Ping,
+
+Is this Connect removal the only one that did not meet the stated
+requirement?
+
+We do indeed aim not to remove APIs deprecated within the last 12 months
+before the next major release, but I'm not sure how strictly this is
+followed (since it's not enforced).
+
+If this Connect case is the only one that deviates from that rule, I would
+recommended reverting it. But if there are many mor",0,2025-03-01,kafka,dev@kafka.apache.org,<CAD5tkZbeCBUP8etZTtGmgk0_of01HooNHnncYoyvUXF6gXt7DQ@mail.gmail.com>,Ismael Juma <me@ismaeljuma.com>,2026-09-30T22:06:21.659370
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<CAD5tkZY9cLDRkvxse5uS+Wbw7D9epKN0ChKm4X8hOBk1J0RztA@mail.gmail.com>,"One more thing, 3.7 was released in Feb 2024 and hence it will be more than
+12 months by the time 4.0 is released. Technically, it would be ok to
+remove APIs deprecated in 3.7.
+
+Ismael
+
+On Sat, Mar 1, 2025, 8:34 AM Ismael Juma <me@ismaeljuma.com> wrote:
+
+> Hi Chia-Ping,
+>
+> Is this Connect removal the only one that did not meet the stated
+> requirement?
+>
+> We do indeed aim not to remove APIs depr",0,2025-03-01,kafka,dev@kafka.apache.org,<CAD5tkZY9cLDRkvxse5uS+Wbw7D9epKN0ChKm4X8hOBk1J0RztA@mail.gmail.com>,Ismael Juma <me@ismaeljuma.com>,2026-09-30T22:06:21.659372
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<a0114b5d-1e7b-4fd6-9472-4ee4560597ba@apache.org>,"Don't have a strong opinion about the Connect case.
+
+I guess the question is: why was it removed? Oversight (ie, accidentally 
+too early) or deliberately? Also, what is the impact if we keep the API 
+and revert the removal?
+
+IMHO, the 3-releases-rule can have exceptions, if there are good reason 
+for it. I just don't have enough context about the change to judge.
+
+
+
+>> One more thing, 3.7 was rele",0,2025-03-01,kafka,dev@kafka.apache.org,<a0114b5d-1e7b-4fd6-9472-4ee4560597ba@apache.org>,"""Matthias J. Sax"" <mjsax@apache.org>",2026-09-30T22:06:21.659375
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<CAELjCs+SoUAfYhXedMrtt8o=NG15TSgxOd+m9pzHDXL7YpPwSQ@mail.gmail.com>,"hi
+
+> If this Connect case is the only one that deviates from that rule, I would
+recommended reverting it. But if there are many more cases, we may need to
+look into them in more detail.
+
+I briefly checked the commit history, and this is the only one that needs
+to be highlighted. Fortunately, it is easy to revert.
+
+> why was it removed? Oversight (ie, accidentally
+too early) or deliberately?
+
+deli",0,2025-03-02,kafka,dev@kafka.apache.org,<CAELjCs+SoUAfYhXedMrtt8o=NG15TSgxOd+m9pzHDXL7YpPwSQ@mail.gmail.com>,Chia-Ping Tsai <chia7712@gmail.com>,2026-09-30T22:06:21.659377
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<bc78b0ec-9356-4500-98f7-22e6e0c6bc6d@apache.org>,">> deliberately.
+
+For this case, what was the reason that the 3-prior-release rule was 
+ignored?
+
+
+-Matthias
+
+On 3/1/25 11:29 PM, Chia-Ping Tsai wrote:
+> hi
+> 
+>> If this Connect case is the only one that deviates from that rule, I would
+> recommended reverting it. But if there are many more cases, we may need to
+> look into them in more detail.
+> 
+> I briefly checked the commit history, and this ",0,2025-03-02,kafka,dev@kafka.apache.org,<bc78b0ec-9356-4500-98f7-22e6e0c6bc6d@apache.org>,"""Matthias J. Sax"" <mjsax@apache.org>",2026-09-30T22:06:21.659379
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<CAELjCsJb379XhFfSouHs1cfJPA-6cDH0Y13aLx7VvB3Wzs9GsQ@mail.gmail.com>,"> For this case, what was the reason that the 3-prior-release rule was
+ignored?
+
+According to KIP-970 (
+https://cwiki.apache.org/confluence/display/KAFKA/KIP-970%3A+Deprecate+and+remove+Connect%27s+redundant+task+configurations+endpoint),
+it seems the main reason to avoid ""a bit of a maintenance burden to have
+two different endpoints for the same purpose"".
+
+Best,
+Chia-Ping
+
+
+Matthias J. Sax <mjsax",0,2025-03-03,kafka,dev@kafka.apache.org,<CAELjCsJb379XhFfSouHs1cfJPA-6cDH0Y13aLx7VvB3Wzs9GsQ@mail.gmail.com>,Chia-Ping Tsai <chia7712@gmail.com>,2026-09-30T22:06:21.659381
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<pony-b3329bcc-b069-4692-aba5-0aad34ddd632-dev@kafka.apache.org>,"hi Matthias,
+
+I apologize, I used the wrong word in my previous response. The PR ""deliberately"" removed the public API, but it was an ""oversight"" that we weren't aware of the ""3 prior releases"" rule.[0]
+
+To simplify the upgrade path, I suggest reverting this change in 4.x and creating a ticket to track its removal in 5.0..
+
+[0] https://github.com/apache/kafka/pull/17412#issuecomment-2693221650
+
+Be",0,2025-03-03,kafka,dev@kafka.apache.org,<pony-b3329bcc-b069-4692-aba5-0aad34ddd632-dev@kafka.apache.org>,Chia-Ping Tsai <chia7712@apache.org>,2026-09-30T22:06:21.659383
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] KIP-1124: Providing a clear Kafka Client upgrade path,https://lists.apache.org/thread/<CAD5tkZaygAC2cC_=Nu0nt=JzMmF17PgQ+dnX60xZt-MhgZMFXQ@mail.gmail.com>,"Hmm, where is this 3 release rule documented? I don't recall it being
+agreed as a project wide rule before. Do you have a reference?
+
+Ismael
+
+On Sat, Mar 1, 2025, 2:32 PM Matthias J. Sax <mjsax@apache.org> wrote:
+
+> Don't have a strong opinion about the Connect case.
+>
+> I guess the question is: why was it removed? Oversight (ie, accidentally
+> too early) or deliberately? Also, what is the impact ",0,2025-03-02,kafka,dev@kafka.apache.org,<CAD5tkZaygAC2cC_=Nu0nt=JzMmF17PgQ+dnX60xZt-MhgZMFXQ@mail.gmail.com>,Ismael Juma <me@ismaeljuma.com>,2026-09-30T22:06:21.659385
+APACHE_LISTS_REMINING,Apache Lists,JNA,[jira] [Created] (KAFKA-19728) Disk space is not being freed,https://lists.apache.org/thread/<JIRA.13629528.1758507851000.94404.1758507900008@Atlassian.JIRA>,"Jianbin Chen created KAFKA-19728:
+------------------------------------
+
+             Summary: Disk space is not being freed
+                 Key: KAFKA-19728
+                 URL: https://issues.apache.org/jira/browse/KAFKA-19728
+             Project: Kafka
+          Issue Type: Wish
+    Affects Versions: 3.9.1
+            Reporter: Jianbin Chen
+
+
+I found that the remoteFetch thread is holding the",0,2025-09-22,kafka,dev@kafka.apache.org,<JIRA.13629528.1758507851000.94404.1758507900008@Atlassian.JIRA>,"""Jianbin Chen (Jira)"" <jira@apache.org>",2026-09-30T22:06:45.496971
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,"Re: [EXT] Re: [DISCUSS] KIP-1225: Add Optional TTL Support to Kafka
+ Streams State Stores",https://lists.apache.org/thread/<AMBPR09MB8155C70878EC72C93A50859184E0A@AMBPR09MB8155.eurprd09.prod.outlook.com>,"I agree, sole point summarizes to very basic point that KStreams is pure Java, so it can call a JNI bridge to access native RocksDB  compaction filter and shiping the native JNI code inside streams would be possible but very tricky and will surely add cross platform build complexity, extra maintenance, and risks JVM crashes if there are bugs.
+
+Best,
+Ankur
+________________________________
+From",0,2025-10-07,kafka,dev@kafka.apache.org,<AMBPR09MB8155C70878EC72C93A50859184E0A@AMBPR09MB8155.eurprd09.prod.outlook.com>,Ankur Sinha <ankur.sinha@michelin.com>,2026-09-30T22:06:49.892663
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,[jira] [Created] (KAFKA-20935) Kafka: lz4-java ( CVE-2026-59949 ),https://lists.apache.org/thread/<JIRA.13661899.1786705857000.6762.1786705860009@Atlassian.JIRA>,"Krishna Chidrawar created KAFKA-20935:
+-----------------------------------------
+
+             Summary: Kafka: lz4-java ( CVE-2026-59949 ) 
+                 Key: KAFKA-20935
+                 URL: https://issues.apache.org/jira/browse/KAFKA-20935
+             Project: Kafka
+          Issue Type: Bug
+            Reporter: Krishna Chidrawar
+
+
+*Aqua Description :* ### Summary
+
+Insufficient validation ",0,2026-08-14,kafka,dev@kafka.apache.org,<JIRA.13661899.1786705857000.6762.1786705860009@Atlassian.JIRA>,"""Krishna Chidrawar (Jira)"" <jira@apache.org>",2026-09-30T22:07:31.067842
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,[jira] [Resolved] (KAFKA-20935) Kafka: lz4-java ( CVE-2026-59949 ),https://lists.apache.org/thread/<JIRA.13661899.1786705857000.6778.1786706400048@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-20935?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Mickael Maison resolved KAFKA-20935.
+------------------------------------
+    Resolution: Duplicate
+
+CVE-2026-59949 is fixed in lz-java 1.11.1: https://github.com/advisories/GHSA-xx22-p4ch-683r
+
+> Kafka: lz4-java ( CVE-2026-59949 ) 
+> -----------------------------------
+>
+",0,2026-08-14,kafka,dev@kafka.apache.org,<JIRA.13661899.1786705857000.6778.1786706400048@Atlassian.JIRA>,"""Mickael Maison (Jira)"" <jira@apache.org>",2026-09-30T22:07:31.067859
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Created] (KAFKA-21040) Upgrade testcontainers to 2.x so
+ ClientAssertionKeycloakIntegrationTest can run against Docker 29+",https://lists.apache.org/thread/<JIRA.13665114.1788624554000.51458.1788624600016@Atlassian.JIRA>,"Chia-Ping Tsai created KAFKA-21040:
+--------------------------------------
+
+             Summary: Upgrade testcontainers to 2.x so ClientAssertionKeycloakIntegrationTest can run against Docker 29+
+                 Key: KAFKA-21040
+                 URL: https://issues.apache.org/jira/browse/KAFKA-21040
+             Project: Kafka
+          Issue Type: Improvement
+            Reporter: Chia-Ping Tsa",0,2026-09-05,kafka,dev@kafka.apache.org,<JIRA.13665114.1788624554000.51458.1788624600016@Atlassian.JIRA>,"""Chia-Ping Tsai (Jira)"" <jira@apache.org>",2026-09-30T22:07:34.289140
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Resolved] (KAFKA-21040) Upgrade testcontainers to 2.x so
+ ClientAssertionKeycloakIntegrationTest can run against Docker 29+",https://lists.apache.org/thread/<JIRA.13665114.1788624554000.53763.1788782340051@Atlassian.JIRA>,"
+     [ https://issues.apache.org/jira/browse/KAFKA-21040?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel ]
+
+Chia-Ping Tsai resolved KAFKA-21040.
+------------------------------------
+    Fix Version/s: 4.5.0
+       Resolution: Fixed
+
+> Upgrade testcontainers to 2.x so ClientAssertionKeycloakIntegrationTest can run against Docker 29+
+> ---------------------------------------------",0,2026-09-07,kafka,dev@kafka.apache.org,<JIRA.13665114.1788624554000.53763.1788782340051@Atlassian.JIRA>,"""Chia-Ping Tsai (Jira)"" <jira@apache.org>",2026-09-30T22:07:34.289154
+APACHE_LISTS_REMINING,Apache Lists,JNA,RE: Apache Kafka EOL policy,"https://lists.apache.org/thread/
+ <BYAPR07MB60069EC44C66EFABFFDEE522E0AA9@BYAPR07MB6006.namprd07.prod.outlook.com>","Thanks a lot Josep. This cleared all our doubts.
+
+Thanks
+Gautham
+
+-----Original Message-----
+From: Josep Prat <josep.prat@aiven.io.INVALID> 
+Sent: Tuesday, February 21, 2023 2:24 PM
+To: Users <users@kafka.apache.org>
+Subject: Re: Apache Kafka EOL policy
+
+Hi Gautham,
+
+""The last 3 releases are covered and one can upgrade to the latest version from the last previous 3"" means that you should be able t",0,2023-02-22,kafka,users@kafka.apache.org,"
+ <BYAPR07MB60069EC44C66EFABFFDEE522E0AA9@BYAPR07MB6006.namprd07.prod.outlook.com>","""Jayanna, Gautham"" <gautham.jayanna@siemens.com>",2026-09-30T22:12:42.358663
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: Does the kafka controller protocol have a fallback?,https://lists.apache.org/thread/<CAE-90A8Bo1E7r4M9NRZDpH-Cf5wMayB8iy7U9OMm+6qWcp8jHw@mail.gmail.com>,"Just following up, I realized I forgot to add some information.
+
+This is using kafka 3.5.1,
+
+I am in the process of setting up a kafka cluster which is configured to
+> use KRaft.  There is a set of three controller nodes and a set of six
+> brokers.  Both the controllers and the brokers are configured to use mTLS
+> (Mutual TLS).  So the part of the controller config looks like:
+>
+> listeners=CONTRO",0,2024-04-22,kafka,users@kafka.apache.org,<CAE-90A8Bo1E7r4M9NRZDpH-Cf5wMayB8iy7U9OMm+6qWcp8jHw@mail.gmail.com>,Dima Brodsky <ddbrodsky@gmail.com>,2026-09-30T22:13:13.457897
+APACHE_LISTS_REMINING,Apache Lists,"UnsatisfiedLinkError, System.loadLibrary","[jira] [Created] (FLINK-30232) shading of netty epoll shared
+ library does not account for ARM64 platform",https://lists.apache.org/thread/<JIRA.13506892.1669673106000.150426.1669673160010@Atlassian.JIRA>,"Chris Thomson created FLINK-30232:
+-------------------------------------
+
+             Summary: shading of netty epoll shared library does not account for ARM64 platform
+                 Key: FLINK-30232
+                 URL: https://issues.apache.org/jira/browse/FLINK-30232
+             Project: Flink
+          Issue Type: Bug
+          Components: BuildSystem / Shaded
+    Affects Versions: 1.15.",0,2022-11-28,flink,dev@flink.apache.org,<JIRA.13506892.1669673106000.150426.1669673160010@Atlassian.JIRA>,"""Chris Thomson (Jira)"" <jira@apache.org>",2026-09-30T22:23:14.885649
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"[jira] [Created] (FLINK-30498) frocksdb throw an
+ UnsatisfiedLinkError",https://lists.apache.org/thread/<JIRA.13515356.1671791573000.234112.1671791580015@Atlassian.JIRA>,"tanjialiang created FLINK-30498:
+-----------------------------------
+
+             Summary: frocksdb throw an UnsatisfiedLinkError
+                 Key: FLINK-30498
+                 URL: https://issues.apache.org/jira/browse/FLINK-30498
+             Project: Flink
+          Issue Type: Bug
+          Components: Runtime / State Backends
+    Affects Versions: 1.14.6
+            Reporter: tanjialiang",0,2022-12-23,flink,dev@flink.apache.org,<JIRA.13515356.1671791573000.234112.1671791580015@Atlassian.JIRA>,"""tanjialiang (Jira)"" <jira@apache.org>",2026-09-30T22:23:19.122335
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,[jira] [Created] (FLINK-31307) RocksDB：java.lang.UnsatisfiedLinkError,https://lists.apache.org/thread/<JIRA.13526931.1677810641000.121184.1677810660010@Atlassian.JIRA>,"Wujunzhe created FLINK-31307:
+--------------------------------
+
+             Summary: RocksDB：java.lang.UnsatisfiedLinkError
+                 Key: FLINK-31307
+                 URL: https://issues.apache.org/jira/browse/FLINK-31307
+             Project: Flink
+          Issue Type: Bug
+    Affects Versions: 1.14.5
+            Reporter: Wujunzhe
+         Attachments: image-2023-03-03-10-27-04-810.png",0,2023-03-03,flink,dev@flink.apache.org,<JIRA.13526931.1677810641000.121184.1677810660010@Atlassian.JIRA>,"""Wujunzhe (Jira)"" <jira@apache.org>",2026-09-30T22:23:35.691558
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Scala Compilation Errors with Flink code in IntelliJ. Builds fine with Maven command line.,https://lists.apache.org/thread/<-RhW7M9hb5kjEis8ijNMqzUB6PU3Qb2gqoD4e2M9ekjc0HCxL2IxKzrYUXrSeRF_47NjCeTbpk3bR-sqchF3riuwKZcB7FXAl_aIWwrXDKI=@proton.me>,"I clone the Flink git repository, master branch, I configure a Java 8 JDK, and I can build the flink project successfully with:
+
+mvn clean package -DskipTests
+
+However, when I load the project into IntelliJ, and try to compile the project and run the Scala tests in the IDE I get a lot of compilation errors with the existing Scala code like:
+
+./flink/flink-scala/src/test/scala/org/apache/flink/api/",0,2023-05-11,flink,dev@flink.apache.org,<-RhW7M9hb5kjEis8ijNMqzUB6PU3Qb2gqoD4e2M9ekjc0HCxL2IxKzrYUXrSeRF_47NjCeTbpk3bR-sqchF3riuwKZcB7FXAl_aIWwrXDKI=@proton.me>,Brandon Wright <BrandonWright4@proton.me.INVALID>,2026-09-30T22:23:44.830981
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,"Re:Scala Compilation Errors with Flink code in IntelliJ. Builds
+ fine with Maven command line.",https://lists.apache.org/thread/<85f5547.6e86.1880e27ce73.Coremail.liuwenclever@163.com>,"
+
+
+Hi Brandon Wright,
+
+
+    I think you could try the following actions in IntelliJ IDE:
+First, execute the command ""mvn clean install  -Dfast -DskipTests=true -Dscala-2.12"" in terminal.
+Second, in ""File -> Invalidate Caches"", select all options and restart the IDE.
+        Finally, click ""maven reload"" in the maven plugin, and wait until the reloading process is finished.
+   If it not work after ",0,2023-05-12,flink,dev@flink.apache.org,<85f5547.6e86.1880e27ce73.Coremail.liuwenclever@163.com>,"""Wencong Liu"" <liuwenclever@163.com>",2026-09-30T22:23:44.831013
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re:Scala Compilation Errors with Flink code in IntelliJ. Builds fine with Maven command line.,https://lists.apache.org/thread/<md6Wm4IQ0QSEzx1m2N1OLykcjNjgFA49orRnBegsAvMsSn_oMSBkgxVDgOc-dfWLMUJMz_K6jH09BJ2Jo1CbFS5slY1Uao_ntUZtPjcfPkA=@proton.me>,"Thank you so much Wencong Liu, that fixed it!!!
+
+
+
+
+Sent with Proton Mail secure email.
+
+------- Original Message -------
+On Thursday, May 11th, 2023 at 11:11 PM, Wencong Liu <liuwenclever@163.com> wrote:
+
+
+> 
+> 
+> Hi Brandon Wright,
+> 
+> 
+> I think you could try the following actions in IntelliJ IDE:
+> First, execute the command ""mvn clean install -Dfast -DskipTests=true -Dscala-2.12"" in terminal",0,2023-05-12,flink,dev@flink.apache.org,<md6Wm4IQ0QSEzx1m2N1OLykcjNjgFA49orRnBegsAvMsSn_oMSBkgxVDgOc-dfWLMUJMz_K6jH09BJ2Jo1CbFS5slY1Uao_ntUZtPjcfPkA=@proton.me>,Brandon Wright <BrandonWright4@proton.me.INVALID>,2026-09-30T22:23:44.831017
+APACHE_LISTS_REMINING,Apache Lists,javah,Re: [DISCUSS] FLIP-316: Introduce SQL Driver,https://lists.apache.org/thread/<4F7E46C2-D10D-497C-AB43-DE2C6C697DD7@gmail.com>,"Hi Ferenc,
+
+Sorry for my late reply. 
+
+> Is any active work happening on this FLIP? As far as I see there
+> are blockers that needs to happen first to implement regarding
+> artifact distribution.
+
+You’re right. There’s a block in K8s application mode, but none in
+YARN application. I’m doing a POC on YARN application mode
+before starting a vote thread.
+
+I’ve been busy lately, but the FLIP is active",0,2023-12-11,flink,dev@flink.apache.org,<4F7E46C2-D10D-497C-AB43-DE2C6C697DD7@gmail.com>,Paul Lam <paullin3280@gmail.com>,2026-09-30T22:24:20.600698
+APACHE_LISTS_REMINING,Apache Lists,javah,Re: [DISCUSS] FLIP-316: Introduce SQL Driver,https://lists.apache.org/thread/<CAKADb_PvB2hMUpw7QOKTG3Co-aRwD67AvxDeYkm5Q_fdF6H-HA@mail.gmail.com>,"Thanks, Paul.
+
+Ferenc and I have been looking into unblocking the Kubernetes path via an
+updated implementation for FLINK-28915 to ship the jars conveniently there.
+You can expect an updated PR there next week. Looking forward to your
+findings in the YARN POC.
+
+On Mon, Dec 11, 2023 at 4:01 AM Paul Lam <paullin3280@gmail.com> wrote:
+
+> Hi Ferenc,
+>
+> Sorry for my late reply.
+>
+> > Is any active wor",0,2024-01-05,flink,dev@flink.apache.org,<CAKADb_PvB2hMUpw7QOKTG3Co-aRwD67AvxDeYkm5Q_fdF6H-HA@mail.gmail.com>,Márton Balassi  <balassi.marton@gmail.com>,2026-09-30T22:24:25.969418
+APACHE_LISTS_REMINING,Apache Lists,"UnsatisfiedLinkError, System.loadLibrary","[jira] [Created] (FLINK-34092) NettyEpollITCase#testNettyEpoll on
+ arrch64 running fail",https://lists.apache.org/thread/<JIRA.13564724.1705322135000.140208.1705322160067@Atlassian.JIRA>,"baihailiang created FLINK-34092:
+-----------------------------------
+
+             Summary: NettyEpollITCase#testNettyEpoll on arrch64 running fail
+                 Key: FLINK-34092
+                 URL: https://issues.apache.org/jira/browse/FLINK-34092
+             Project: Flink
+          Issue Type: Bug
+          Components: Tests
+    Affects Versions: 1.16.2
+            Reporter: baihailiang
+
+",0,2024-01-15,flink,dev@flink.apache.org,<JIRA.13564724.1705322135000.140208.1705322160067@Atlassian.JIRA>,"""baihailiang (Jira)"" <jira@apache.org>",2026-09-30T22:24:25.969437
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"[jira] [Created] (FLINK-35212) PyFlink thread mode process just can
+ run once in standalonesession mode",https://lists.apache.org/thread/<JIRA.13576854.1713842923000.32807.1713842940221@Atlassian.JIRA>,"Wei Yuan created FLINK-35212:
+--------------------------------
+
+             Summary: PyFlink thread mode process just can run once in standalonesession mode
+                 Key: FLINK-35212
+                 URL: https://issues.apache.org/jira/browse/FLINK-35212
+             Project: Flink
+          Issue Type: Bug
+          Components: API / Python
+         Environment: Python 3.10.14
+
+PyFlink==",0,2024-04-23,flink,dev@flink.apache.org,<JIRA.13576854.1713842923000.32807.1713842940221@Atlassian.JIRA>,"""Wei Yuan (Jira)"" <jira@apache.org>",2026-09-30T22:24:42.123001
+APACHE_LISTS_REMINING,Apache Lists,JNA,[jira] [Created] (FLINK-35572) flink db2 cdc default value error,https://lists.apache.org/thread/<JIRA.13582357.1718175488000.49990.1718175540014@Atlassian.JIRA>,"junxin  lai created FLINK-35572:
+-----------------------------------
+
+             Summary: flink db2 cdc default value error 
+                 Key: FLINK-35572
+                 URL: https://issues.apache.org/jira/browse/FLINK-35572
+             Project: Flink
+          Issue Type: Bug
+          Components: Flink CDC
+    Affects Versions: cdc-3.1.0
+            Reporter: junxin  lai
+
+
+I am using fl",0,2024-06-12,flink,dev@flink.apache.org,<JIRA.13582357.1718175488000.49990.1718175540014@Atlassian.JIRA>,"""junxin  lai (Jira)"" <jira@apache.org>",2026-09-30T22:24:50.952027
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Created] (FLINK-35657) Flink UI not support show float
+ metric value",https://lists.apache.org/thread/<JIRA.13583269.1718868939000.65929.1718868960010@Atlassian.JIRA>,"Can Luo created FLINK-35657:
+-------------------------------
+
+             Summary: Flink UI not support show float metric value
+                 Key: FLINK-35657
+                 URL: https://issues.apache.org/jira/browse/FLINK-35657
+             Project: Flink
+          Issue Type: Bug
+          Components: Runtime / Web Frontend
+            Reporter: Can Luo
+
+
+Flink ui show float metric value a",0,2024-06-20,flink,dev@flink.apache.org,<JIRA.13583269.1718868939000.65929.1718868960010@Atlassian.JIRA>,"""Can Luo (Jira)"" <jira@apache.org>",2026-09-30T22:24:50.952042
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [EXTERNAL] - Re: Discussion on Vertica-Flink Connector,"https://lists.apache.org/thread/
+ <YQBPR01MB10478838E9CB66013841C13B7D9AA2@YQBPR01MB10478.CANPRD01.PROD.OUTLOOK.COM>","Hello Yanquan,
+
+Flink-connector-jdbc can also be used for connecting to Vertica with Flink.
+
+For added functionalities, we have created a Vertica specific connector. This connector will support all the Vertica functionalities.
+
+
+Vikas Garg
+General Engineering  |  General Engineering
+
+Mobile: (+91) 9811716552
+LinkedIn:       https://www.linkedin.com/company/opentext
+Twitter:        https://twitter.",0,2024-07-24,flink,dev@flink.apache.org,"
+ <YQBPR01MB10478838E9CB66013841C13B7D9AA2@YQBPR01MB10478.CANPRD01.PROD.OUTLOOK.COM>",Vikas Garg <vgarg@opentext.com.INVALID>,2026-09-30T22:24:54.118533
+APACHE_LISTS_REMINING,Apache Lists,javah,Re: [DISCUSS] FLIP-316: Introduce SQL Driver,https://lists.apache.org/thread/<CAOc3vAOAc30sdhEDH_TKRsGi_xJDYSNMWHrdD=JddStWEb1RVw@mail.gmail.com>,"Hi Paul Lam,
+
+Is this FLIP still active? I am not able to find the vote for this FLIP and
+any corresponding JIRA or Github PR with POC. Can you please share more on
+the current status of this FLIP? Thanks!
+
+Regards
+Venkata krishnan
+
+
+On Fri, Jan 5, 2024 at 2:40 AM Márton Balassi <balassi.marton@gmail.com>
+wrote:
+
+> Thanks, Paul.
+>
+> Ferenc and I have been looking into unblocking the Kubernetes pat",0,2025-04-02,flink,dev@flink.apache.org,<CAOc3vAOAc30sdhEDH_TKRsGi_xJDYSNMWHrdD=JddStWEb1RVw@mail.gmail.com>,Venkatakrishnan Sowrirajan <vsowrira@asu.edu>,2026-09-30T22:25:26.090925
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"[jira] [Created] (FLINK-37727) java.lang.UnsatisfiedLinkError error
+ on pemja.core.PythonInterpreter$MainInterpreter.initialize()",https://lists.apache.org/thread/<JIRA.13616339.1745566145000.109428.1745566200019@Atlassian.JIRA>,"Shuyi Chen created FLINK-37727:
+----------------------------------
+
+             Summary: java.lang.UnsatisfiedLinkError error on pemja.core.PythonInterpreter$MainInterpreter.initialize()
+                 Key: FLINK-37727
+                 URL: https://issues.apache.org/jira/browse/FLINK-37727
+             Project: Flink
+          Issue Type: Bug
+          Components: API / Python
+    Affects Versi",0,2025-04-25,flink,dev@flink.apache.org,<JIRA.13616339.1745566145000.109428.1745566200019@Atlassian.JIRA>,"""Shuyi Chen (Jira)"" <jira@apache.org>",2026-09-30T22:25:26.090955
+APACHE_LISTS_REMINING,Apache Lists,JNA,"[jira] [Created] (FLINK-37873) 【Hbase-connector】Enable buffer flush, specify a non-existent table when writing data to hbase, the Flink task displays successful",https://lists.apache.org/thread/<JIRA.13619612.1748574352000.163728.1748574360013@Atlassian.JIRA>,"Xin Chen created FLINK-37873:
+--------------------------------
+
+             Summary: 【Hbase-connector】Enable buffer flush, specify a non-existent table when writing data to hbase, the Flink task displays successful
+                 Key: FLINK-37873
+                 URL: https://issues.apache.org/jira/browse/FLINK-37873
+             Project: Flink
+          Issue Type: Bug
+            Reporter: Xi",0,2025-05-30,flink,dev@flink.apache.org,<JIRA.13619612.1748574352000.163728.1748574360013@Atlassian.JIRA>,"""Xin Chen (Jira)"" <jira@apache.org>",2026-09-30T22:25:29.326355
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,"[jira] [Created] (FLINK-37948)
+ ChangelogDelegateEmbeddedRocksDBStateBackendTest causes JVM crash in azure
+ ci pipeline",https://lists.apache.org/thread/<JIRA.13620741.1749721761000.208903.1749721800051@Atlassian.JIRA>,"dalongliu created FLINK-37948:
+---------------------------------
+
+             Summary: ChangelogDelegateEmbeddedRocksDBStateBackendTest causes JVM crash in azure ci pipeline
+                 Key: FLINK-37948
+                 URL: https://issues.apache.org/jira/browse/FLINK-37948
+             Project: Flink
+          Issue Type: Bug
+          Components: Runtime / State Backends
+    Affects Versio",0,2025-06-12,flink,dev@flink.apache.org,<JIRA.13620741.1749721761000.208903.1749721800051@Atlassian.JIRA>,"""dalongliu (Jira)"" <jira@apache.org>",2026-09-30T22:25:32.196495
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,"[jira] [Created] (FLINK-38500) PyFlink jobs using the thread mode
+ cannot run consecutively on a session cluster on MacOS",https://lists.apache.org/thread/<JIRA.13631294.1760172534000.127026.1760172540242@Atlassian.JIRA>,"Biao Geng created FLINK-38500:
+---------------------------------
+
+             Summary: PyFlink jobs using the thread mode cannot run consecutively on a session cluster on MacOS
+                 Key: FLINK-38500
+                 URL: https://issues.apache.org/jira/browse/FLINK-38500
+             Project: Flink
+          Issue Type: Bug
+          Components: API / Python
+    Affects Versions: 1.20.",0,2025-10-11,flink,dev@flink.apache.org,<JIRA.13631294.1760172534000.127026.1760172540242@Atlassian.JIRA>,"""Biao Geng (Jira)"" <jira@apache.org>",2026-09-30T22:25:45.482303
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,Re: [DISCUSS] FLIP-572: Introduce Flink-Kafka Transactions Management Tool,https://lists.apache.org/thread/<CAP8nE0r0v8WDK00Yc9PLRBFHUfKxzKYsvbntcqyoDkiW0ueFdg@mail.gmail.com>,"Hi Hongshun Wang,
+thanks for your interest in this topic!
+
+> To mitigate this, I suggest embedding transaction abort logic directly into the sink's shutdown path
+
+Flink already has abort logic in the shutdown path, but it is not
+enough to prevent lingering transactions in the scenarios described in
+the FLIP, when the Flink process terminates unexpectedly. E.g., when
+the JVM crashes or is OS-OOM-ki",0,2026-03-31,flink,dev@flink.apache.org,<CAP8nE0r0v8WDK00Yc9PLRBFHUfKxzKYsvbntcqyoDkiW0ueFdg@mail.gmail.com>,Aleksandr Savonin <savonitar@gmail.com>,2026-09-30T22:26:00.690809
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,Re: [DISCUSS] FLIP-572: Introduce Flink-Kafka Transactions Management Tool,https://lists.apache.org/thread/<CAP7x5nA1BiYv9XPRbLQYWdjFmJ8rO8v1xhFp4o1rEJjVcj5eMA@mail.gmail.com>,"Hi Aleksandr,
+>  it is not enough to prevent lingering transactions in the scenarios
+described in the FLIP,
+
+This is why `transactionNamingStrategy = POOLING` is introduced which lists
+pending transactions by
+`org.apache.kafka.clients.admin.Admin#listTransactions`.
+
+> when the Flink process terminates unexpectedly. E.g., when the JVM
+crashes or is OS-OOM-killed, no shutdown hook runs and no cleanu",0,2026-04-08,flink,dev@flink.apache.org,<CAP7x5nA1BiYv9XPRbLQYWdjFmJ8rO8v1xhFp4o1rEJjVcj5eMA@mail.gmail.com>,Hongshun Wang <loserwang1024@gmail.com>,2026-09-30T22:26:04.138525
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,Re: [DISCUSS] FLIP-572: Introduce Flink-Kafka Transactions Management Tool,https://lists.apache.org/thread/<CAP8nE0qnhvjvp-+gnasU1vgwCCkQ8i-XGVXqurN5=cYKtdLVfA@mail.gmail.com>,"Hi Hongshun,
+
+> This is why `transactionNamingStrategy = POOLING` is introduced which lists pending transactions by `org.apache.kafka.clients.admin.Admin#listTransactions`.
+
+> When the job restarts, the cleanup will be operated again.
+
+I agree that both POOLING and the existing recovery path handle
+cleanup when the job restarts. However, this tool is specifically for
+when the job does NOT restart,",0,2026-04-10,flink,dev@flink.apache.org,<CAP8nE0qnhvjvp-+gnasU1vgwCCkQ8i-XGVXqurN5=cYKtdLVfA@mail.gmail.com>,Aleksandr Savonin <savonitar@gmail.com>,2026-09-30T22:26:04.138542
+APACHE_LISTS_REMINING,Apache Lists,compilation errors,Re: [DISCUSS] Adding Apache Hive 4.x support to flink-connector-hive,https://lists.apache.org/thread/<58CF5424-7F27-4848-88E2-1797B5AEA025@amazon.com>,"Hi all,
+
+Following up on this thread. I've done some preliminary analysis and wanted to share findings, and also offer to take on FLINK-37094.
+
+Flink 2.0 compatibility (FLINK-37094)
+--------------------------------------
+
+I compiled the external connector against Flink 2.0.0 and cataloged all the breakages. There are ~100 compilation errors across 13 files, falling into these categories:
+",0,2026-04-10,flink,dev@flink.apache.org,<58CF5424-7F27-4848-88E2-1797B5AEA025@amazon.com>,"""Lalwani, Jayesh"" <jlalwani@amazon.com>",2026-09-30T22:26:04.138544
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,[DISCUSS] Release Flink 1.20.5,https://lists.apache.org/thread/<F6E6DD68-18BD-4646-AD9D-85C2DB2F33E9@gmail.com>,"Hi all,
+
+I would like to discuss creating a new 1.20 patch release (1.20.5). The
+last 1.20 release (1.20.4) is about a month old, and since then, 5 tickets
+have been closed [1], including one critical fix:
+
+- FLINK-39534 [2]: Bump pemja to 0.5.7, which fixes JVM crashes during
+  asynchronous cross-language (Python↔Java) calls in PyFlink.
+
+Other changes since 1.20.4:
+
+- FLINK-39714: Add AGENTS.md a",0,2026-05-25,flink,dev@flink.apache.org,<F6E6DD68-18BD-4646-AD9D-85C2DB2F33E9@gmail.com>,Yunfeng Zhou <flink.zhouyunfeng@gmail.com>,2026-09-30T22:26:08.078763
+APACHE_LISTS_REMINING,Apache Lists,JVM crash,Re: [DISCUSS] Release Flink 1.20.5,https://lists.apache.org/thread/<CAHsnkPvq4CKO26gGGV7uo7r2Zi=Fu1-kc2vLZQbLEncK0a+vAw@mail.gmail.com>,"Thanks for driving this, Yunfeng.
+
+FLINK-39534 is a blocker issue for the upcoming flink-agents 0.3 release,
+for which the feature freeze is planned for May 31. I'd love to see this
+bugfix released before we ship the 0.3 release.
+
+Best,
+
+Xintong
+
+
+
+On Mon, May 25, 2026 at 5:28 PM Yunfeng Zhou <flink.zhouyunfeng@gmail.com>
+wrote:
+
+> Hi all,
+>
+> I would like to discuss creating a new 1.20 patch rele",0,2026-05-26,flink,dev@flink.apache.org,<CAHsnkPvq4CKO26gGGV7uo7r2Zi=Fu1-kc2vLZQbLEncK0a+vAw@mail.gmail.com>,Xintong Song <tonysong820@gmail.com>,2026-09-30T22:26:08.078779
+APACHE_LISTS_REMINING,Apache Lists,JNA,Re: [EXTERNAL] Re: Flink 1.15.3 Docker image,"https://lists.apache.org/thread/
+ <PAXPR06MB8094D9DAC13C88BC2BE51305E2159@PAXPR06MB8094.eurprd06.prod.outlook.com>","That’s great, thanks Márton!
+
+--
+Ben Roberts
+
+From: Márton Balassi <balassi.marton@gmail.com>
+Date: Tuesday, 29 November 2022 at 18:55
+To: Roberts, Ben (Senior Developer) <benjamin.roberts@sky.uk>
+Cc: user@flink.apache.org <user@flink.apache.org>
+Subject: [EXTERNAL] Re: Flink 1.15.3 Docker image
+Done, please let me know if you see anything unexpected.
+
+On Tue, Nov 29, 2022 at 7:07 PM Márton Balass",0,2022-11-30,flink,user@flink.apache.org,"
+ <PAXPR06MB8094D9DAC13C88BC2BE51305E2159@PAXPR06MB8094.eurprd06.prod.outlook.com>","""Roberts, Ben (Senior Developer) via user"" <user@flink.apache.org>",2026-09-30T22:55:35.225646
+APACHE_LISTS_REMINING,Apache Lists,JNA,RE: confirm subscribe to user@flink.apache.org,"https://lists.apache.org/thread/
+ <BN8PR06MB5777BB9E253F04AF429A6F6F87CEA@BN8PR06MB5777.namprd06.prod.outlook.com>","Hello Team, 
+
+I am beginner to Apache Flink and developing Flink Java Application where I have requirement to consume events form kafkaSource and do some processing then Sink to MongoDb and from same MongoDB source/Fetch the same collection and display in console fetch data, how can I create this flow, as I can source and sink but when I call env.execute it start the flink job and stuck with the",0,2023-10-09,flink,user@flink.apache.org,"
+ <BN8PR06MB5777BB9E253F04AF429A6F6F87CEA@BN8PR06MB5777.namprd06.prod.outlook.com>","""Kumari, Anita"" <Anita.Kumari@insight.com>",2026-09-30T22:58:11.345859
+APACHE_LISTS_REMINING,Apache Lists,UnsatisfiedLinkError,Fwd: Flink application with statsd failing transiently,https://lists.apache.org/thread/<CADA+XdpLO+6D2C43079HLCBSEK0nwA=CpLN3UM6SngDV4CdNfA@mail.gmail.com>,"We are using ""com.datadoghq"" % ""java-dogstatsd-client"" % ""4.2.0"", as SBT
+dependency for our Flink application. Suddenly during HPA rescaling or any
+general redeployment we are seeing the following jnr related error from
+StatsDClientBuilder
+
+Flink version: 1.18 DatadogClient: 3.33.0
+
+java.lang.UnsatisfiedLinkError: could not load FFI provider
+jnr.ffi.provider.jffi.Provider
+    at jnr.ffi.provider.I",0,2024-11-24,flink,user@flink.apache.org,<CADA+XdpLO+6D2C43079HLCBSEK0nwA=CpLN3UM6SngDV4CdNfA@mail.gmail.com>,Shubham Badkur <shubhambadkur12@gmail.com>,2026-09-30T22:59:03.069928
