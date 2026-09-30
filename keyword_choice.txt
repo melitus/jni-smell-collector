@@ -1,0 +1,19 @@
+3.2 Search Strategy and Keyword Formulation
+To identify forum discussions related to JNI design smells, we employed a systematic keyword formulation strategy to ensure high recall and precision, mitigating threats to construct validity (Zhang et al., 2011). Our keyword list was constructed through a three-phase iterative process:
+Phase 1: Seed Keyword Extraction. We first derived a baseline set of "seed keywords" directly from our proposed JNI Design Smell Catalog. This ensured our search was grounded in established theoretical concepts (e.g., Local Reference Table Overflow, Global Reference Hoarding).
+Phase 2: Developer Vernacular Expansion. Prior research indicates a significant lexical gap between formal software engineering taxonomies and the colloquial language developers use on crowdsourced platforms like Stack Overflow (Barua et al., 2014). To address this, we expanded our seed keywords using developer-friendly synonyms, error codes, and specific API method names (e.g., expanding Global Reference Hoarding to include "global reference table overflow" and "NewGlobalRef").
+Phase 3: Iterative Pilot Refinement. Following established guidelines for mining software repositories (Kitchenham & Charters, 2007), we conducted iterative pilot searches. Keywords that yielded excessive false positives (e.g., generic terms like "API") were constrained using client-side tag filtering to ensure JNI context. Conversely, academic terms that yielded zero results (e.g., "JNI MonitorEnter deadlock") were retained in the search string to ensure theoretical saturation, while their colloquial equivalents (e.g., "JNI synchronization deadlock") were added to capture the actual forum discussions.
+This process resulted in a final, comprehensive taxonomy of 184 keywords, categorized across 17 functional domains (e.g., Memory Management, Threading, Data Type Conversion), ensuring comprehensive coverage of the JNI ecosystem.
+4. How to Defend the "0-Result" Keywords to Your Professor
+Your professor might ask: "If 'Global Reference Hoarding' and 'JNI MonitorEnter deadlock' return 0 results, why are they in the list? Isn't that a waste of API calls?"
+Your Scientific Defense:
+"Including the 0-result academic terms is actually a methodological strength, not a weakness. In qualitative research and systematic mapping, this is known as ensuring Theoretical Saturation.
+If we only searched for terms that we knew would return results, we would introduce Selection Bias—we would only find the design smells that developers already know how to articulate. By including the formal academic terms from our catalog, we prove that we comprehensively searched for the theoretical concepts.
+The fact that 'Global Reference Hoarding' returns 0 results, but 'global reference table overflow' returns 500 results, is a significant empirical finding in itself. It proves the 'Lexical Gap' (Barua et al., 2014)—demonstrating that developers experience this exact design smell, but they describe it using symptom-based language rather than formal architectural terminology. This finding directly justifies why automated LLM classification (which understands context, not just keywords) is necessary for Phase 2 of our research."
+
+-Keep 261 keywords for these reasons:
+Recall is critical for research - Missing relevant posts weakens your dataset
+Processing time is acceptable - 25-35 minutes is reasonable
+Client-side filtering ensures quality - Only JNI-relevant posts are kept
+Deduplication handles overlap - Same posts aren't counted twice
+Documentation value - You can report "we searched 261 keywords" in your methodology

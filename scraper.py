@@ -44,7 +44,7 @@ class RealSmellCollector:
                 }
                 
                 if any(term in clean_keyword.lower() for term in ['jni', 'java', 'jvm', 'native', 'c++', 'android']):
-                    params["tagged"] = "jni;java"
+                    params["tagged"] = "java-native-interface;jni;jniwrapper;jna" 
                 
                 resp = self.session.get(url, params=params, timeout=15)
                 
