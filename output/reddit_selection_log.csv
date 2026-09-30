@@ -1,0 +1,35 @@
+platform,category,keyword,rank,frequency,post_count,avg_score,effectiveness_score,information_gain,jni_specificity,selection_reason,selected_at
+reddit,baseline,API,1,1414,121,36.04,710.6,0.6972,0.5,Top IG keyword in 'baseline' (category guarantee),2026-09-30T19:38:37.570391
+reddit,compilation,javah,1,354,229,2.71,354.27,0.3476,1.0,Top IG keyword in 'compilation' (category guarantee),2026-09-30T19:38:37.570423
+reddit,core_jni,JNI error,1,613,461,1.71,613.17,0.6016,1.0,Top IG keyword in 'core_jni' (category guarantee),2026-09-30T19:38:37.570440
+reddit,core_jni,JNI issue,2,578,578,2.72,578.27,0.5674,1.0,High IG selection (rank 2 in 'core_jni'),2026-09-30T19:38:37.570764
+reddit,core_jni,JNI problem,3,535,535,3.08,535.31,0.5252,1.0,High IG selection (rank 3 in 'core_jni'),2026-09-30T19:38:37.570786
+reddit,core_jni,call C from Java,4,523,522,4.35,523.44,0.5136,1.0,High IG selection (rank 4 in 'core_jni'),2026-09-30T19:38:37.570806
+reddit,core_jni,JNI callback,5,456,442,1.66,456.17,0.4476,1.0,High IG selection (rank 5 in 'core_jni'),2026-09-30T19:38:37.570822
+reddit,core_jni,JNI crash,6,422,406,3.15,422.31,0.4143,1.0,High IG selection (rank 6 in 'core_jni'),2026-09-30T19:38:37.570871
+reddit,core_jni,call C++ from Java,7,396,391,4.96,396.5,0.389,1.0,High IG selection (rank 7 in 'core_jni'),2026-09-30T19:38:37.570918
+reddit,core_jni,call native code from Java,8,377,374,3.48,377.35,0.3702,1.0,High IG selection (rank 8 in 'core_jni'),2026-09-30T19:38:37.570934
+reddit,core_jni,Java native integration,9,374,374,4.18,374.42,0.3674,1.0,High IG selection (rank 9 in 'core_jni'),2026-09-30T19:38:37.570950
+reddit,core_jni,JNI bug,10,363,362,2.37,363.24,0.3564,1.0,High IG selection (rank 10 in 'core_jni'),2026-09-30T19:38:37.570965
+reddit,core_jni,JNI native method,11,349,343,3.08,349.31,0.3427,1.0,High IG selection (rank 11 in 'core_jni'),2026-09-30T19:38:37.570982
+reddit,core_jni,JNI integration,12,274,272,3.22,274.32,0.2691,1.0,High IG selection (rank 12 in 'core_jni'),2026-09-30T19:38:37.571032
+reddit,data_conversion,jstring to const char,1,209,208,2.02,209.2,0.2053,1.0,Top IG keyword in 'data_conversion' (category guarantee),2026-09-30T19:38:37.570454
+reddit,debugging,JNI tools,1,105,105,3.5,105.35,0.1034,1.0,Top IG keyword in 'debugging' (category guarantee),2026-09-30T19:38:37.570468
+reddit,error_handling,UnsatisfiedLinkError,1,1297,483,2.27,648.73,0.6365,0.5,Top IG keyword in 'error_handling' (category guarantee),2026-09-30T19:38:37.570494
+reddit,error_handling,SIGSEGV java,2,397,397,2.45,397.25,0.3898,1.0,High IG selection (rank 2 in 'error_handling'),2026-09-30T19:38:37.570902
+reddit,jni_functions,JNIEnv,1,1019,160,2.3,1019.23,1.0,1.0,Top IG keyword in 'jni_functions' (category guarantee),2026-09-30T19:38:37.570511
+reddit,jni_functions,JavaVM,2,452,189,2.08,452.21,0.4437,1.0,High IG selection (rank 2 in 'jni_functions'),2026-09-30T19:38:37.570838
+reddit,jni_functions,JNI_OnLoad,3,345,251,1.67,345.17,0.3387,1.0,High IG selection (rank 3 in 'jni_functions'),2026-09-30T19:38:37.570998
+reddit,library_loading,java.library.path,1,589,408,4.37,589.44,0.5783,1.0,Top IG keyword in 'library_loading' (category guarantee),2026-09-30T19:38:37.570539
+reddit,library_loading,System.loadLibrary,2,858,459,2.95,429.29,0.4212,0.5,High IG selection (rank 2 in 'library_loading'),2026-09-30T19:38:37.570854
+reddit,library_loading,undefined reference JNI,3,333,332,1.84,333.18,0.3269,1.0,High IG selection (rank 3 in 'library_loading'),2026-09-30T19:38:37.571016
+reddit,memory,JNI native memory,1,152,152,3.53,152.35,0.1495,1.0,Top IG keyword in 'memory' (category guarantee),2026-09-30T19:38:37.570554
+reddit,performance,JNI performance,1,181,179,4.07,181.41,0.178,1.0,Top IG keyword in 'performance' (category guarantee),2026-09-30T19:38:37.570568
+reddit,platform,JNI Android,1,140,95,6.77,140.68,0.138,1.0,Top IG keyword in 'platform' (category guarantee),2026-09-30T19:38:37.570584
+reddit,reference_mgmt,DeleteLocalRef,1,186,174,1.86,93.19,0.0914,0.5,Top IG keyword in 'reference_mgmt' (category guarantee),2026-09-30T19:38:37.570597
+reddit,related_tech,JNA,1,830,547,1.95,415.2,0.4074,0.5,Top IG keyword in 'related_tech' (category guarantee),2026-09-30T19:38:37.570612
+reddit,related_tech,SWIG Java,2,401,397,1.92,401.19,0.3936,1.0,High IG selection (rank 2 in 'related_tech'),2026-09-30T19:38:37.570887
+reddit,resource_mgmt,JNI socket,1,77,77,3.74,77.37,0.0759,1.0,Top IG keyword in 'resource_mgmt' (category guarantee),2026-09-30T19:38:37.570625
+reddit,security,JNI security,1,123,123,1.5,123.15,0.1208,1.0,Top IG keyword in 'security' (category guarantee),2026-09-30T19:38:37.570639
+reddit,struct_mapping,GetMethodID,1,284,166,1.97,142.2,0.1395,0.5,Top IG keyword in 'struct_mapping' (category guarantee),2026-09-30T19:38:37.570654
+reddit,threading,JNI threading,1,228,228,2.64,228.26,0.224,1.0,Top IG keyword in 'threading' (category guarantee),2026-09-30T19:38:37.570670

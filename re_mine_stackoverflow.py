@@ -17,8 +17,8 @@ import os
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Import centralized keywords
-from config import OPTIMIZED_KEYWORDS
+# Import keywords from categories.py (261 categorized keywords)
+from categories import get_all_keywords
 
 API_BASE = "https://api.stackexchange.com/2.3"
 SITE = "stackoverflow"
@@ -41,7 +41,7 @@ JNI_RELATED_TAGS = {
     "project-panama",
     "swig",
 }
-KEYWORDS = OPTIMIZED_KEYWORDS
+KEYWORDS = get_all_keywords()
 
 MAX_PAGES = 6  # Max pages per keyword (100 results/page = 600 max per keyword)
 PAGE_SIZE = 100

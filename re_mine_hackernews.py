@@ -10,17 +10,16 @@ from datetime import datetime
 from pathlib import Path
 import os
 
-# Configuration
+# Import centralized keywords
+from keyword_selection import load_selected_keywords
+
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Import centralized keywords
-from config import OPTIMIZED_KEYWORDS
-
 API_BASE = "https://hn.algolia.com/api/v1"
 
-# Keywords (imported from config.py)
-KEYWORDS = OPTIMIZED_KEYWORDS
+# Keywords for Hacker News loaded from scientific selection
+KEYWORDS = load_selected_keywords("hackernews")
 
 # Tags for HN search (structural tags)
 TAGS = ["story", "comment"]

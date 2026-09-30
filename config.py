@@ -438,5 +438,84 @@ OPTIMIZED_KEYWORDS = [
     "JNI comparison",
 ]
 
+REDDIT_REDUCED_KEYWORDS = [
+    # CATEGORY 0: BASELINE (1 keyword - control group)
+    "foreign function interface",
+    
+    # CATEGORY 1: CORE JNI (2 keywords - broad coverage)
+    "JNI",  # Covers: JNI issue, JNI problem, JNI error, JNI crash, etc.
+    "Java native integration",  # Covers: call C from Java, JNI interop, etc.
+    
+    # CATEGORY 2: REFERENCE MANAGEMENT (2 keywords - most common issues)
+    "global reference",  # Covers: hoarding, leak, overflow
+    "DeleteLocalRef",  # Covers: local reference management
+    
+    # CATEGORY 3: MEMORY ISSUES (1 keyword - broad term)
+    "JNI memory leak",  # Covers: corruption, management, allocation, etc.
+    
+    # CATEGORY 4: THREADING (1 keyword - common topic)
+    "JNI threading",  # Covers: deadlock, synchronization, race condition
+    
+    # CATEGORY 5: DATA CONVERSION (1 keyword - technical)
+    "jstring to const char",  # Covers: string conversion, type conversion
+    
+    # CATEGORY 7: ERROR HANDLING (2 keywords - specific errors)
+    "UnsatisfiedLinkError",  # Most common JNI error
+    "SIGSEGV java",  # Crash-related
+    
+    # CATEGORY 8: LIBRARY LOADING (1 keyword - common issue)
+    "System.loadLibrary",  # Covers: library load, path issues
+    
+    # CATEGORY 9: PERFORMANCE (1 keyword - common concern)
+    "JNI performance",  # Covers: overhead, optimization, bottleneck
+    
+    # CATEGORY 17: RELATED TECHNOLOGIES (2 keywords - modern context)
+    "JNA",  # Alternative to JNI
+    "Project Panama",  # Future replacement
+]
+
+APACHE_REDUCED_KEYWORDS = [
+    # CATEGORY 0: BASELINE (1 keyword)
+    "foreign function interface",
+    
+    # CATEGORY 1: CORE JNI (2 keywords)
+    "JNI",
+    "native method",
+    
+    # CATEGORY 2: REFERENCE MANAGEMENT (3 keywords - expert level)
+    "global reference",
+    "local reference",
+    "DeleteLocalRef",
+    
+    # CATEGORY 3: MEMORY ISSUES (2 keywords)
+    "JNI memory",  # Broader than "JNI memory leak"
+    "memory pinning",  # Specific to Apache projects
+    
+    # CATEGORY 4: THREADING (2 keywords)
+    "AttachCurrentThread",  # Common in Apache projects
+    "JNI thread",
+    
+    # CATEGORY 5: DATA CONVERSION (1 keyword)
+    "GetStringUTFChars",  # Common in data processing projects
+    
+    # CATEGORY 7: ERROR HANDLING (2 keywords)
+    "UnsatisfiedLinkError",
+    "JVM crash",
+    
+    # CATEGORY 8: LIBRARY LOADING (1 keyword)
+    "System.loadLibrary",
+    
+    # CATEGORY 12: PLATFORM (1 keyword)
+    "JNI Android",  # Relevant to Apache mobile projects
+    
+    # CATEGORY 15: JNI FUNCTIONS (1 keyword)
+    "JNIEnv",  # Fundamental API
+    
+    # CATEGORY 17: RELATED TECHNOLOGIES (2 keywords)
+    "JNA",
+    "Project Panama",
+]
+# Total: 18 keywords
+
 # Tags for Stack Overflow search (same as scraper.py default behavior)
 STACKOVERFLOW_TAGS = "java-native-interface;Java Native Interface;jni;JNI;jniwrapper;jna;FFI;native interop" 

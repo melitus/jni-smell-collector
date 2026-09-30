@@ -1,0 +1,175 @@
+======================================================================
+KEYWORD SELECTION REPORT - REDDIT
+======================================================================
+Generated: 2026-09-30 19:38:37
+Data source: Stack Overflow corpus (20,710 posts)
+Total categories: 18
+Selected keywords: 34
+
+METHODOLOGY:
+----------------------------------------------------------------------
+1. Data Source: Existing Stack Overflow corpus (20,710 posts)
+2. Metrics calculated for each keyword:
+   - frequency: Posts matching keyword in title/snippet
+   - post_count: Posts directly associated with keyword
+   - avg_score: Average score of matching posts
+   - effectiveness_score: frequency × specificity + avg_score × 0.1
+3. Ranking metric: Normalized effectiveness_score (proxy for discriminative power)
+   - Pseudo-IG = effectiveness_score / max(effectiveness_score) ∈ [0, 1]
+   - Higher = more relevant for JNI design smell detection
+4. Category-aware stratified selection:
+   - Phase 1: Guarantee 1 keyword per category (all 17 smells covered)
+   - Phase 2: Fill remaining slots by highest normalized effectiveness_score
+   - Phase 3: Platform-specific deduplication and filtering
+5. Threshold: Minimum pseudo-IG = 0.05, min frequency = 1 post
+6. Selection size: max 34 keywords (knee-point optimized)
+
+SELECTED KEYWORDS:
+----------------------------------------------------------------------
+
+BASELINE:
+  • API
+    Rank: 1, Freq: 1,414, IG: 0.6972 bits, Score: 710.6
+    SelReason: Top IG keyword in 'baseline' (category guarantee)
+
+CORE_JNI:
+  • JNI error
+    Rank: 1, Freq: 613, IG: 0.6016 bits, Score: 613.17
+    SelReason: Top IG keyword in 'core_jni' (category guarantee)
+  • JNI issue
+    Rank: 2, Freq: 578, IG: 0.5674 bits, Score: 578.27
+    SelReason: High IG selection (rank 2 in 'core_jni')
+  • JNI problem
+    Rank: 3, Freq: 535, IG: 0.5252 bits, Score: 535.31
+    SelReason: High IG selection (rank 3 in 'core_jni')
+  • call C from Java
+    Rank: 4, Freq: 523, IG: 0.5136 bits, Score: 523.44
+    SelReason: High IG selection (rank 4 in 'core_jni')
+  • JNI callback
+    Rank: 5, Freq: 456, IG: 0.4476 bits, Score: 456.17
+    SelReason: High IG selection (rank 5 in 'core_jni')
+  • JNI crash
+    Rank: 6, Freq: 422, IG: 0.4143 bits, Score: 422.31
+    SelReason: High IG selection (rank 6 in 'core_jni')
+  • call C++ from Java
+    Rank: 7, Freq: 396, IG: 0.3890 bits, Score: 396.5
+    SelReason: High IG selection (rank 7 in 'core_jni')
+  • call native code from Java
+    Rank: 8, Freq: 377, IG: 0.3702 bits, Score: 377.35
+    SelReason: High IG selection (rank 8 in 'core_jni')
+  • Java native integration
+    Rank: 9, Freq: 374, IG: 0.3674 bits, Score: 374.42
+    SelReason: High IG selection (rank 9 in 'core_jni')
+  • JNI bug
+    Rank: 10, Freq: 363, IG: 0.3564 bits, Score: 363.24
+    SelReason: High IG selection (rank 10 in 'core_jni')
+  • JNI native method
+    Rank: 11, Freq: 349, IG: 0.3427 bits, Score: 349.31
+    SelReason: High IG selection (rank 11 in 'core_jni')
+  • JNI integration
+    Rank: 12, Freq: 274, IG: 0.2691 bits, Score: 274.32
+    SelReason: High IG selection (rank 12 in 'core_jni')
+
+REFERENCE_MGMT:
+  • DeleteLocalRef
+    Rank: 1, Freq: 186, IG: 0.0914 bits, Score: 93.19
+    SelReason: Top IG keyword in 'reference_mgmt' (category guarantee)
+
+MEMORY:
+  • JNI native memory
+    Rank: 1, Freq: 152, IG: 0.1495 bits, Score: 152.35
+    SelReason: Top IG keyword in 'memory' (category guarantee)
+
+THREADING:
+  • JNI threading
+    Rank: 1, Freq: 228, IG: 0.2240 bits, Score: 228.26
+    SelReason: Top IG keyword in 'threading' (category guarantee)
+
+DATA_CONVERSION:
+  • jstring to const char
+    Rank: 1, Freq: 209, IG: 0.2053 bits, Score: 209.2
+    SelReason: Top IG keyword in 'data_conversion' (category guarantee)
+
+STRUCT_MAPPING:
+  • GetMethodID
+    Rank: 1, Freq: 284, IG: 0.1395 bits, Score: 142.2
+    SelReason: Top IG keyword in 'struct_mapping' (category guarantee)
+
+ERROR_HANDLING:
+  • UnsatisfiedLinkError
+    Rank: 1, Freq: 1,297, IG: 0.6365 bits, Score: 648.73
+    SelReason: Top IG keyword in 'error_handling' (category guarantee)
+  • SIGSEGV java
+    Rank: 2, Freq: 397, IG: 0.3898 bits, Score: 397.25
+    SelReason: High IG selection (rank 2 in 'error_handling')
+
+LIBRARY_LOADING:
+  • java.library.path
+    Rank: 1, Freq: 589, IG: 0.5783 bits, Score: 589.44
+    SelReason: Top IG keyword in 'library_loading' (category guarantee)
+  • System.loadLibrary
+    Rank: 2, Freq: 858, IG: 0.4212 bits, Score: 429.29
+    SelReason: High IG selection (rank 2 in 'library_loading')
+  • undefined reference JNI
+    Rank: 3, Freq: 333, IG: 0.3269 bits, Score: 333.18
+    SelReason: High IG selection (rank 3 in 'library_loading')
+
+PERFORMANCE:
+  • JNI performance
+    Rank: 1, Freq: 181, IG: 0.1780 bits, Score: 181.41
+    SelReason: Top IG keyword in 'performance' (category guarantee)
+
+SECURITY:
+  • JNI security
+    Rank: 1, Freq: 123, IG: 0.1208 bits, Score: 123.15
+    SelReason: Top IG keyword in 'security' (category guarantee)
+
+COMPILATION:
+  • javah
+    Rank: 1, Freq: 354, IG: 0.3476 bits, Score: 354.27
+    SelReason: Top IG keyword in 'compilation' (category guarantee)
+
+PLATFORM:
+  • JNI Android
+    Rank: 1, Freq: 140, IG: 0.1380 bits, Score: 140.68
+    SelReason: Top IG keyword in 'platform' (category guarantee)
+
+DEBUGGING:
+  • JNI tools
+    Rank: 1, Freq: 105, IG: 0.1034 bits, Score: 105.35
+    SelReason: Top IG keyword in 'debugging' (category guarantee)
+
+RESOURCE_MGMT:
+  • JNI socket
+    Rank: 1, Freq: 77, IG: 0.0759 bits, Score: 77.37
+    SelReason: Top IG keyword in 'resource_mgmt' (category guarantee)
+
+JNI_FUNCTIONS:
+  • JNIEnv
+    Rank: 1, Freq: 1,019, IG: 1.0000 bits, Score: 1019.23
+    SelReason: Top IG keyword in 'jni_functions' (category guarantee)
+  • JavaVM
+    Rank: 2, Freq: 452, IG: 0.4437 bits, Score: 452.21
+    SelReason: High IG selection (rank 2 in 'jni_functions')
+  • JNI_OnLoad
+    Rank: 3, Freq: 345, IG: 0.3387 bits, Score: 345.17
+    SelReason: High IG selection (rank 3 in 'jni_functions')
+
+ANTI_PATTERNS:
+  (No keywords met threshold)
+
+RELATED_TECH:
+  • JNA
+    Rank: 1, Freq: 830, IG: 0.4074 bits, Score: 415.2
+    SelReason: Top IG keyword in 'related_tech' (category guarantee)
+  • SWIG Java
+    Rank: 2, Freq: 401, IG: 0.3936 bits, Score: 401.19
+    SelReason: High IG selection (rank 2 in 'related_tech')
+
+REPRODUCIBILITY:
+----------------------------------------------------------------------
+This selection is 100% reproducible:
+- Uses existing data (no API calls)
+- Deterministic ranking algorithm
+- All metrics documented
+- Same input data → same output

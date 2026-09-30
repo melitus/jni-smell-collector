@@ -1,0 +1,21 @@
+platform,category,keyword,rank,frequency,post_count,avg_score,effectiveness_score,information_gain,jni_specificity,selection_reason,selected_at
+apache,baseline,API,1,1414,121,36.04,710.6,0.6972,0.5,Top IG keyword in 'baseline' (category guarantee),2026-09-30T19:38:37.604957
+apache,compilation,javah,1,354,229,2.71,354.27,0.3476,1.0,Top IG keyword in 'compilation' (category guarantee),2026-09-30T19:38:37.604973
+apache,core_jni,JNI error,1,613,461,1.71,613.17,0.6016,1.0,Top IG keyword in 'core_jni' (category guarantee),2026-09-30T19:38:37.604983
+apache,core_jni,JNI issue,2,578,578,2.72,578.27,0.5674,1.0,High IG selection (rank 2 in 'core_jni'),2026-09-30T19:38:37.605137
+apache,core_jni,JNI problem,3,535,535,3.08,535.31,0.5252,1.0,High IG selection (rank 3 in 'core_jni'),2026-09-30T19:38:37.605144
+apache,core_jni,call C from Java,4,523,522,4.35,523.44,0.5136,1.0,High IG selection (rank 4 in 'core_jni'),2026-09-30T19:38:37.605151
+apache,data_conversion,jstring to const char,1,209,208,2.02,209.2,0.2053,1.0,Top IG keyword in 'data_conversion' (category guarantee),2026-09-30T19:38:37.604990
+apache,debugging,JNI tools,1,105,105,3.5,105.35,0.1034,1.0,Top IG keyword in 'debugging' (category guarantee),2026-09-30T19:38:37.604998
+apache,error_handling,UnsatisfiedLinkError,1,1297,483,2.27,648.73,0.6365,0.5,Top IG keyword in 'error_handling' (category guarantee),2026-09-30T19:38:37.605007
+apache,jni_functions,JNIEnv,1,1019,160,2.3,1019.23,1.0,1.0,Top IG keyword in 'jni_functions' (category guarantee),2026-09-30T19:38:37.605015
+apache,library_loading,java.library.path,1,589,408,4.37,589.44,0.5783,1.0,Top IG keyword in 'library_loading' (category guarantee),2026-09-30T19:38:37.605024
+apache,memory,JNI native memory,1,152,152,3.53,152.35,0.1495,1.0,Top IG keyword in 'memory' (category guarantee),2026-09-30T19:38:37.605032
+apache,performance,JNI performance,1,181,179,4.07,181.41,0.178,1.0,Top IG keyword in 'performance' (category guarantee),2026-09-30T19:38:37.605038
+apache,platform,JNI Android,1,140,95,6.77,140.68,0.138,1.0,Top IG keyword in 'platform' (category guarantee),2026-09-30T19:38:37.605046
+apache,reference_mgmt,DeleteLocalRef,1,186,174,1.86,93.19,0.0914,0.5,Top IG keyword in 'reference_mgmt' (category guarantee),2026-09-30T19:38:37.605055
+apache,related_tech,JNA,1,830,547,1.95,415.2,0.4074,0.5,Top IG keyword in 'related_tech' (category guarantee),2026-09-30T19:38:37.605063
+apache,resource_mgmt,JNI socket,1,77,77,3.74,77.37,0.0759,1.0,Top IG keyword in 'resource_mgmt' (category guarantee),2026-09-30T19:38:37.605069
+apache,security,JNI security,1,123,123,1.5,123.15,0.1208,1.0,Top IG keyword in 'security' (category guarantee),2026-09-30T19:38:37.605076
+apache,struct_mapping,GetMethodID,1,284,166,1.97,142.2,0.1395,0.5,Top IG keyword in 'struct_mapping' (category guarantee),2026-09-30T19:38:37.605082
+apache,threading,JNI threading,1,228,228,2.64,228.26,0.224,1.0,Top IG keyword in 'threading' (category guarantee),2026-09-30T19:38:37.605089

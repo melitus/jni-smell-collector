@@ -1,0 +1,19 @@
+platform,category,keyword,rank,frequency,post_count,avg_score,effectiveness_score,information_gain,jni_specificity,selection_reason,selected_at
+hackernews,baseline,API,1,1414,121,36.04,710.6,0.6972,0.5,Top IG keyword in 'baseline' (category guarantee),2026-09-30T19:38:37.596514
+hackernews,compilation,javah,1,354,229,2.71,354.27,0.3476,1.0,Top IG keyword in 'compilation' (category guarantee),2026-09-30T19:38:37.596535
+hackernews,core_jni,JNI error,1,613,461,1.71,613.17,0.6016,1.0,Top IG keyword in 'core_jni' (category guarantee),2026-09-30T19:38:37.596548
+hackernews,core_jni,JNI issue,2,578,578,2.72,578.27,0.5674,1.0,High IG selection (rank 2 in 'core_jni'),2026-09-30T19:38:37.596745
+hackernews,data_conversion,jstring to const char,1,209,208,2.02,209.2,0.2053,1.0,Top IG keyword in 'data_conversion' (category guarantee),2026-09-30T19:38:37.596558
+hackernews,debugging,JNI tools,1,105,105,3.5,105.35,0.1034,1.0,Top IG keyword in 'debugging' (category guarantee),2026-09-30T19:38:37.596569
+hackernews,error_handling,UnsatisfiedLinkError,1,1297,483,2.27,648.73,0.6365,0.5,Top IG keyword in 'error_handling' (category guarantee),2026-09-30T19:38:37.596580
+hackernews,jni_functions,JNIEnv,1,1019,160,2.3,1019.23,1.0,1.0,Top IG keyword in 'jni_functions' (category guarantee),2026-09-30T19:38:37.596590
+hackernews,library_loading,java.library.path,1,589,408,4.37,589.44,0.5783,1.0,Top IG keyword in 'library_loading' (category guarantee),2026-09-30T19:38:37.596601
+hackernews,memory,JNI native memory,1,152,152,3.53,152.35,0.1495,1.0,Top IG keyword in 'memory' (category guarantee),2026-09-30T19:38:37.596611
+hackernews,performance,JNI performance,1,181,179,4.07,181.41,0.178,1.0,Top IG keyword in 'performance' (category guarantee),2026-09-30T19:38:37.596619
+hackernews,platform,JNI Android,1,140,95,6.77,140.68,0.138,1.0,Top IG keyword in 'platform' (category guarantee),2026-09-30T19:38:37.596629
+hackernews,reference_mgmt,DeleteLocalRef,1,186,174,1.86,93.19,0.0914,0.5,Top IG keyword in 'reference_mgmt' (category guarantee),2026-09-30T19:38:37.596638
+hackernews,related_tech,JNA,1,830,547,1.95,415.2,0.4074,0.5,Top IG keyword in 'related_tech' (category guarantee),2026-09-30T19:38:37.596648
+hackernews,resource_mgmt,JNI socket,1,77,77,3.74,77.37,0.0759,1.0,Top IG keyword in 'resource_mgmt' (category guarantee),2026-09-30T19:38:37.596656
+hackernews,security,JNI security,1,123,123,1.5,123.15,0.1208,1.0,Top IG keyword in 'security' (category guarantee),2026-09-30T19:38:37.596664
+hackernews,struct_mapping,GetMethodID,1,284,166,1.97,142.2,0.1395,0.5,Top IG keyword in 'struct_mapping' (category guarantee),2026-09-30T19:38:37.596673
+hackernews,threading,JNI threading,1,228,228,2.64,228.26,0.224,1.0,Top IG keyword in 'threading' (category guarantee),2026-09-30T19:38:37.596681

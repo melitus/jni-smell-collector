@@ -1,0 +1,262 @@
+keyword,category,frequency,post_count,avg_score,jni_specificity,effectiveness_score
+Python/C issue,baseline,223,223,2.14,0.5,111.71
+foreign library,baseline,126,126,5.5,0.5,63.55
+foreign function interface,baseline,78,69,3.1,0.5,39.31
+polyglot,baseline,103,101,2.42,0.5,51.74
+programming languages issues,baseline,171,171,7.27,0.5,86.23
+incompatibility,baseline,149,148,39.52,0.5,78.45
+compilation errors,baseline,300,289,44.12,0.5,154.41
+memory issues,baseline,144,139,34.4,0.5,75.44
+performance issues,baseline,101,97,60.87,0.5,56.59
+security issues,baseline,88,85,6.62,0.5,44.66
+API,baseline,1414,121,36.04,0.5,710.6
+JNI issue,core_jni,578,578,2.72,1.0,578.27
+JNI problem,core_jni,535,535,3.08,1.0,535.31
+JNI error,core_jni,613,461,1.71,1.0,613.17
+JNI crash,core_jni,422,406,3.15,1.0,422.31
+JNI bug,core_jni,363,362,2.37,1.0,363.24
+JNI interop,core_jni,23,22,1.83,1.0,23.18
+JNI integration,core_jni,274,272,3.22,1.0,274.32
+Java native integration,core_jni,374,374,4.18,1.0,374.42
+call C from Java,core_jni,523,522,4.35,1.0,523.44
+call C++ from Java,core_jni,396,391,4.96,1.0,396.5
+call native code from Java,core_jni,377,374,3.48,1.0,377.35
+JNI callback,core_jni,456,442,1.66,1.0,456.17
+JNI callback Java,core_jni,30,30,0.47,1.0,30.05
+JNI native method,core_jni,349,343,3.08,1.0,349.31
+JNI boundary,core_jni,18,17,15.44,1.0,19.54
+Global Reference Hoarding,reference_mgmt,0,0,0.0,0.5,0.0
+Overuse of Global References,reference_mgmt,2,2,6.0,0.5,1.6
+Local Reference Table Overflow,reference_mgmt,49,18,2.41,0.5,24.74
+global reference table overflow,reference_mgmt,12,0,2.42,0.5,6.24
+too many global references,reference_mgmt,41,41,12.63,0.5,21.76
+global reference limit exceeded,reference_mgmt,3,3,0.33,0.5,1.53
+local reference table overflow,reference_mgmt,32,0,2.22,0.5,16.22
+too many local references,reference_mgmt,66,66,3.82,0.5,33.38
+local reference limit,reference_mgmt,138,138,3.31,0.5,69.33
+JNI reference leak,reference_mgmt,28,28,3.86,1.0,28.39
+global reference leak,reference_mgmt,70,69,2.29,0.5,35.23
+local reference leak,reference_mgmt,90,90,4.66,0.5,45.47
+DeleteLocalRef,reference_mgmt,186,174,1.86,0.5,93.19
+DeleteGlobalRef,reference_mgmt,26,23,2.23,0.5,13.22
+NewGlobalRef,reference_mgmt,133,94,1.51,0.5,66.65
+NewLocalRef,reference_mgmt,12,10,1.25,0.5,6.12
+JNI reference management,reference_mgmt,36,36,4.08,1.0,36.41
+JNI reference cleanup,reference_mgmt,19,19,2.05,1.0,19.21
+JNI reference count,reference_mgmt,17,17,2.65,1.0,17.26
+JNI reference scope,reference_mgmt,8,8,8.25,1.0,8.82
+JNI weak global reference,reference_mgmt,10,10,1.4,1.0,10.14
+NewWeakGlobalRef,reference_mgmt,11,10,2.91,0.5,5.79
+JNI memory leak,memory,98,95,2.73,1.0,98.27
+JNI memory corruption,memory,8,7,2.25,1.0,8.22
+JNI memory management,memory,40,38,5.08,1.0,40.51
+Direct Memory Pinning,memory,24,24,1.46,0.5,12.15
+memory pinning JNI,memory,2,2,0.5,1.0,2.05
+JNI memory allocation,memory,112,111,3.1,1.0,112.31
+JNI heap memory,memory,63,63,1.9,1.0,63.19
+JNI native memory,memory,152,152,3.53,1.0,152.35
+JNI out of memory,memory,40,40,3.05,1.0,40.3
+JNI buffer overflow,security,25,25,2.96,1.0,25.3
+JNI stack overflow,memory,27,27,3.19,1.0,27.32
+JNI memory access,memory,27,27,6.89,1.0,27.69
+JNI memory safety,security,0,0,0.0,1.0,0.0
+JNI dangling pointer,memory,0,0,0.0,1.0,0.0
+JNI use after free,memory,24,24,1.58,1.0,24.16
+JNI double free,memory,14,14,3.86,1.0,14.39
+JNI memory barrier,memory,0,0,0.0,1.0,0.0
+JNI garbage collection,memory,31,31,11.23,1.0,32.12
+JNI GC interaction,memory,0,0,0.0,1.0,0.0
+JNI heap corruption,memory,2,1,3.5,1.0,2.35
+JNI MonitorEnter deadlock,threading,0,0,0.0,1.0,0.0
+JNI global reference thread safety,threading,0,0,0.0,1.0,0.0
+JNI deadlock,threading,8,8,3.0,1.0,8.3
+JNI synchronization deadlock,threading,0,0,0.0,1.0,0.0
+JNI synchronization issue,threading,1,1,0.0,1.0,1.0
+JNI thread safety,threading,2,2,3.5,1.0,2.35
+JNI threading,threading,228,228,2.64,1.0,228.26
+JNI threading issue,threading,44,44,3.8,1.0,44.38
+JNI threading global reference,threading,4,4,1.75,1.0,4.18
+global reference different thread,threading,84,84,3.88,0.5,42.39
+JNI race condition,threading,3,3,2.0,1.0,3.2
+JNI concurrent,threading,76,76,2.0,1.0,76.2
+AttachCurrentThread,threading,149,108,2.5,0.5,74.75
+DetachCurrentThread,threading,40,16,2.88,0.5,20.29
+JNI MonitorEnter,threading,2,2,0.5,1.0,2.05
+JNI MonitorExit,threading,0,0,0.0,1.0,0.0
+native code deadlock,threading,53,53,4.11,0.5,26.91
+JNI thread local storage,threading,7,7,0.86,1.0,7.09
+JNI thread attach,threading,66,66,3.32,1.0,66.33
+JNI thread detach,threading,5,5,0.6,1.0,5.06
+JNI multithreading,threading,20,20,2.8,1.0,20.28
+JNI thread pool,threading,29,29,1.59,1.0,29.16
+jstring to const char,data_conversion,209,208,2.02,1.0,209.2
+jbyteArray to C array,data_conversion,16,16,4.0,1.0,16.4
+JNI string conversion,data_conversion,22,22,1.41,1.0,22.14
+JNI array conversion,data_conversion,12,12,8.0,1.0,12.8
+JNI primitive types,data_conversion,21,21,3.81,1.0,21.38
+JNI type conversion,data_conversion,22,22,2.05,1.0,22.2
+JNI data types,data_conversion,75,75,2.31,1.0,75.23
+Modified UTF-8,data_conversion,174,163,5.44,0.5,87.54
+GetStringUTFChars,data_conversion,282,230,2.67,0.5,141.27
+ReleaseStringUTFChars,data_conversion,42,12,4.26,0.5,21.43
+NewStringUTF,data_conversion,358,285,1.94,0.5,179.19
+JNI char conversion,data_conversion,2,2,3.5,1.0,2.35
+JNI int conversion,data_conversion,9,9,0.44,1.0,9.04
+JNI byte array,data_conversion,87,87,3.53,1.0,87.35
+JNI long array,data_conversion,18,18,0.61,1.0,18.06
+JNI float array,data_conversion,20,20,3.4,1.0,20.34
+JNI double array,data_conversion,20,20,0.25,1.0,20.02
+JNI boolean array,data_conversion,12,12,1.25,1.0,12.12
+JNI object array,data_conversion,72,71,3.06,1.0,72.31
+JNI type mismatch,data_conversion,6,6,1.0,1.0,6.1
+struct mapping JNI,struct_mapping,4,4,1.0,1.0,4.1
+JNI struct,struct_mapping,119,117,2.12,1.0,119.21
+JNI object mapping,struct_mapping,29,29,2.45,1.0,29.24
+JNI class mapping,struct_mapping,27,27,1.7,1.0,27.17
+JNI field access,struct_mapping,36,35,2.81,1.0,36.28
+JNI method invocation,struct_mapping,23,22,2.0,1.0,23.2
+GetObjectField,struct_mapping,37,26,1.95,0.5,18.69
+SetObjectField,struct_mapping,10,7,0.4,0.5,5.04
+GetMethodID,struct_mapping,284,166,1.97,0.5,142.2
+GetFieldID,struct_mapping,92,68,1.8,0.5,46.18
+JNI object passing,struct_mapping,60,60,3.2,1.0,60.32
+JNI object lifecycle,struct_mapping,4,4,-0.25,1.0,3.98
+JNI object serialization,struct_mapping,7,7,3.14,1.0,7.31
+JNI complex types,struct_mapping,3,3,5.0,1.0,3.5
+UnsatisfiedLinkError,error_handling,1297,483,2.27,0.5,648.73
+JNI exception,error_handling,148,138,3.59,1.0,148.36
+JNI exception handling,error_handling,38,37,3.32,1.0,38.33
+JNI error handling,error_handling,45,45,2.2,1.0,45.22
+JNI error code,error_handling,92,92,2.35,1.0,92.23
+JNI return code,error_handling,113,113,1.78,1.0,113.18
+JNI error check,error_handling,216,216,2.61,1.0,216.26
+JNI pending exception,error_handling,61,60,1.0,1.0,61.1
+ExceptionCheck,error_handling,45,30,2.38,0.5,22.74
+ExceptionClear,error_handling,9,5,6.33,0.5,5.13
+JNI catch exception,error_handling,216,216,1.52,1.0,216.15
+SIGSEGV java,error_handling,397,397,2.45,1.0,397.25
+hs_err_pid.log,error_handling,26,22,6.5,0.5,13.65
+JVM crash,error_handling,516,422,2.92,0.5,258.29
+JNI segfault,error_handling,13,12,1.77,1.0,13.18
+JNI crash log,error_handling,42,42,2.38,1.0,42.24
+JNI fatal error,error_handling,260,258,1.87,1.0,260.19
+JNI abort,error_handling,78,78,2.42,1.0,78.24
+System.loadLibrary,library_loading,858,459,2.95,0.5,429.29
+java.library.path,library_loading,589,408,4.37,1.0,589.44
+JNI library load,library_loading,225,221,6.88,1.0,225.69
+JNI library not found,library_loading,218,218,2.32,1.0,218.23
+JNI DLL load,library_loading,82,81,1.38,1.0,82.14
+JNI SO load,library_loading,110,109,1.9,1.0,110.19
+ABI mismatch JNI,library_loading,5,5,1.4,1.0,5.14
+undefined reference JNI,library_loading,333,332,1.84,1.0,333.18
+DLL hell java,library_loading,14,14,4.93,1.0,14.49
+JNI native library,library_loading,148,138,4.22,1.0,148.42
+JNI library linking,library_loading,172,172,2.4,1.0,172.24
+JNI library path,library_loading,128,128,2.2,1.0,128.22
+JNI shared library,library_loading,168,92,8.52,1.0,168.85
+JNI dynamic library,library_loading,57,55,2.93,1.0,57.29
+JNI static library,library_loading,96,93,1.98,1.0,96.2
+JNI performance,performance,181,179,4.07,1.0,181.41
+JNI performance bottleneck,performance,0,0,0.0,1.0,0.0
+JNI performance issue,performance,0,0,0.0,1.0,0.0
+JNI slow,performance,46,46,3.3,1.0,46.33
+JNI overhead,performance,23,22,2.78,1.0,23.28
+JNI optimization,performance,42,42,5.57,1.0,42.56
+JNI optimization techniques,performance,0,0,0.0,1.0,0.0
+JNI profiling tools,performance,2,2,4.5,1.0,2.45
+JNI profiling,performance,24,24,1.67,1.0,24.17
+JNI benchmark,performance,5,5,0.6,1.0,5.06
+JNI vs pure Java performance,performance,0,0,0.0,1.0,0.0
+JNI call overhead,performance,0,0,0.0,1.0,0.0
+JNI security,security,123,123,1.5,1.0,123.15
+JNI security vulnerabilities,security,0,0,0.0,1.0,0.0
+JNI security issue,security,0,0,0.0,1.0,0.0
+JNI buffer overflow,security,25,25,2.96,1.0,25.3
+JNI injection,security,14,14,3.71,1.0,14.37
+JNI validation,security,49,49,2.45,1.0,49.24
+JNI input validation,security,0,0,0.0,1.0,0.0
+JNI unsafe code,security,4,4,2.75,1.0,4.28
+JNI memory safety,security,0,0,0.0,1.0,0.0
+JNI privilege escalation,security,0,0,0.0,1.0,0.0
+JNI compilation,compilation,110,108,1.25,1.0,110.12
+JNI compilation error,compilation,61,60,1.69,1.0,61.17
+JNI header generation,compilation,58,58,2.48,1.0,58.25
+javah,compilation,354,229,2.71,1.0,354.27
+JNI build,compilation,135,125,4.96,1.0,135.5
+JNI build error,compilation,67,65,2.07,1.0,67.21
+JNI linking error,compilation,68,67,1.13,1.0,68.11
+JNI undefined symbol,compilation,18,16,1.17,1.0,18.12
+JNI symbol not found,compilation,13,13,3.08,1.0,13.31
+JNI include path,compilation,102,101,2.79,1.0,102.28
+JNI compiler flags,compilation,30,30,1.47,1.0,30.15
+JNI cross-compilation,compilation,30,30,1.97,1.0,30.2
+JNI compatibility,platform,33,33,1.52,1.0,33.15
+JNI platform specific,platform,22,22,2.68,1.0,22.27
+JNI cross-platform,platform,19,19,4.89,1.0,19.49
+JNI Windows,platform,136,134,3.82,1.0,136.38
+JNI Linux,platform,70,69,1.8,1.0,70.18
+JNI Android,platform,140,95,6.77,1.0,140.68
+JNI Android NDK,platform,131,130,3.53,1.0,131.35
+JNI iOS,platform,52,52,2.52,1.0,52.25
+JNI portable,platform,13,13,4.62,1.0,13.46
+JNI endianness,platform,2,2,2.0,1.0,2.2
+JNI word size,platform,2,2,5.0,1.0,2.5
+JNI 32-bit 64-bit,platform,71,71,1.87,1.0,71.19
+JNI debugging,debugging,101,99,2.65,1.0,101.27
+JNI debugging techniques,debugging,0,0,0.0,1.0,0.0
+JNI debug,debugging,30,16,3.6,1.0,30.36
+JNI logging,debugging,72,72,3.28,1.0,72.33
+JNI tracing,debugging,25,25,1.8,1.0,25.18
+JNI tools,debugging,105,105,3.5,1.0,105.35
+JNI best practices,debugging,4,4,5.0,1.0,4.5
+JNI patterns,debugging,15,15,2.27,1.0,15.23
+JNI design patterns,debugging,0,0,0.0,1.0,0.0
+JNI troubleshooting,debugging,2,2,0.5,1.0,2.05
+JNI resource management,resource_mgmt,7,7,1.86,1.0,7.19
+JNI resource leak,resource_mgmt,0,0,0.0,1.0,0.0
+JNI file handle,resource_mgmt,36,36,2.33,1.0,36.23
+JNI socket,resource_mgmt,77,77,3.74,1.0,77.37
+JNI cleanup,resource_mgmt,5,4,1.6,1.0,5.16
+JNI finalize,resource_mgmt,50,50,1.88,1.0,50.19
+JNI destructor,resource_mgmt,11,11,1.45,1.0,11.15
+JNI destructor called,resource_mgmt,0,0,0.0,1.0,0.0
+JNI resource cleanup,resource_mgmt,0,0,0.0,1.0,0.0
+JNI resource release,resource_mgmt,9,9,2.33,1.0,9.23
+JNIEnv,jni_functions,1019,160,2.3,1.0,1019.23
+JavaVM,jni_functions,452,189,2.08,1.0,452.21
+JNI_OnLoad,jni_functions,345,251,1.67,1.0,345.17
+JNI_OnUnload,jni_functions,4,1,2.5,1.0,4.25
+JNI version,jni_functions,58,48,2.1,1.0,58.21
+JNI GetEnv,jni_functions,16,15,5.5,1.0,16.55
+JNI FindClass,jni_functions,33,16,1.67,1.0,33.17
+JNI CallVoidMethod,jni_functions,12,4,3.17,1.0,12.32
+JNI CallObjectMethod,jni_functions,6,3,2.17,1.0,6.22
+JNI CallIntMethod,jni_functions,2,0,1.0,1.0,2.1
+JNI NewObject,jni_functions,3,0,0.67,1.0,3.07
+JNI GetStaticMethodID,jni_functions,1,0,1.0,1.0,1.1
+JNI GetStaticFieldID,jni_functions,2,0,0.0,1.0,2.0
+JNI RegisterNatives,jni_functions,13,5,1.62,1.0,13.16
+JNI UnregisterNatives,jni_functions,0,0,0.0,1.0,0.0
+JNI PushLocalFrame,jni_functions,0,0,0.0,1.0,0.0
+JNI PopLocalFrame,jni_functions,1,1,0.0,1.0,1.0
+JNI EnsureLocalCapacity,jni_functions,1,0,10.0,1.0,2.0
+JNI anti-pattern,anti_patterns,0,0,0.0,1.0,0.0
+JNI bad practice,anti_patterns,2,2,0.0,1.0,2.0
+JNI code smell,anti_patterns,0,0,0.0,1.0,0.0
+JNI design smell,anti_patterns,0,0,0.0,1.0,0.0
+JNI technical debt,anti_patterns,0,0,0.0,1.0,0.0
+JNI refactoring,anti_patterns,0,0,0.0,1.0,0.0
+JNI improvement,anti_patterns,8,8,3.12,1.0,8.31
+JNI optimization needed,anti_patterns,0,0,0.0,1.0,0.0
+JNI maintenance,anti_patterns,0,0,0.0,1.0,0.0
+JNI legacy code,anti_patterns,8,8,5.5,1.0,8.55
+JNA,related_tech,830,547,1.95,0.5,415.2
+JNA vs JNI,related_tech,3,2,0.0,1.0,3.0
+JavaCPP,related_tech,213,185,1.17,1.0,213.12
+Project Panama,related_tech,26,21,2.27,0.5,13.23
+Panama FFI,related_tech,3,3,1.33,0.5,1.63
+SWIG Java,related_tech,401,397,1.92,1.0,401.19
+JNI wrapper,related_tech,206,87,2.51,1.0,206.25
+JNI framework,related_tech,75,72,1.92,1.0,75.19
+JNI alternative,related_tech,30,29,4.03,1.0,30.4
+JNI comparison,related_tech,2,2,0.0,1.0,2.0
