@@ -365,6 +365,19 @@ def select_keywords_offline(
                                    for term in ['jni', 'unsatisfiedlinkerror', 'segv', 'hs_err', 'global reference', 'local reference',
                                                'deletelocalref', 'system.loadlibrary', 'jni_env', 'javah', 'jni_onload', 'android', 'panama'])
 
+            elif platform == "microsoft_qa":
+                # MICROSOFT Q&A: Q&A forum (like Stack Overflow), developers asking/answering questions
+                # Prioritize: error messages, debugging terms, practical issues, specific API terms
+                # Allow: problem-oriented terms, "how-to" vocabulary, error codes
+                # Deprioritize: overly academic/theoretical terms
+                academic_terms = ['design pattern', 'anti-pattern', 'code smell', 'technical debt', 'refactoring', 'best practice']
+                if any(term in keyword.lower() for term in academic_terms):
+                    if kw['ig'] < 0.2:
+                        should_select = False
+                # Prioritize practical/debugging terms (similar to Reddit but more API-specific)
+                problem_bonus = any(term in keyword.lower()
+                                  for term in ['leak', 'crash', 'error', 'exception', 'deadlock', 'overflow', 'segfault', 'unsatisfied', 'slow', 'memory', 'thread', 'load', 'library'])
+
             elif platform == "lobsters":
                 # LOBSTERS: Professional bookmarking, technical audience, moderate-length posts
                 # Prioritize: Implementation techniques, tooling, practical engineering
@@ -571,7 +584,17 @@ def main():
         min_ig=0.05
     )
 
-    # Step 7: Save results
+    # Step 7: Select keywords for Microsoft Q&A
+    print("\n🔍 STEP 7: Selecting keywords for Microsoft Q&A...")
+    microsoft_qa_keywords, microsoft_qa_log = select_keywords_offline(
+        effectiveness_df,
+        platform="microsoft_qa",
+        max_total=34,  # Q&A forum similar to Reddit budget, rate-limited
+        min_frequency=1,
+        min_ig=0.05
+    )
+
+    # Step 8: Save results
     print("\n💾 STEP 7: Saving results...")
     
     # Save selected keywords
@@ -587,12 +610,16 @@ def main():
     pd.DataFrame({"keyword": apache_keywords}).to_csv(
         OUTPUT_DIR / "apache_selected_keywords.csv", index=False
     )
+    pd.DataFrame({"keyword": microsoft_qa_keywords}).to_csv(
+        OUTPUT_DIR / "microsoftqa_selected_keywords.csv", index=False
+    )
 
     # Save selection logs
     reddit_log.to_csv(OUTPUT_DIR / "reddit_selection_log.csv", index=False)
     lobsters_log.to_csv(OUTPUT_DIR / "lobsters_selection_log.csv", index=False)
     hackernews_log.to_csv(OUTPUT_DIR / "hackernews_selection_log.csv", index=False)
     apache_log.to_csv(OUTPUT_DIR / "apache_selection_log.csv", index=False)
+    microsoft_qa_log.to_csv(OUTPUT_DIR / "microsoftqa_selection_log.csv", index=False)
 
     # Generate reports with ACTUAL post count
     reddit_report = generate_report("reddit", reddit_keywords, reddit_log,
@@ -602,6 +629,8 @@ def main():
     hackernews_report = generate_report("hackernews", hackernews_keywords, hackernews_log,
                                      effectiveness_df, actual_post_count)  # ✅ Pass count
     apache_report = generate_report("apache", apache_keywords, apache_log,
+                                     effectiveness_df, actual_post_count)  # ✅ Pass count
+    microsoft_qa_report = generate_report("microsoft_qa", microsoft_qa_keywords, microsoft_qa_log,
                                      effectiveness_df, actual_post_count)  # ✅ Pass count
 
     with open(OUTPUT_DIR / "reddit_selection_report.txt", "w") as f:
@@ -615,6 +644,9 @@ def main():
 
     with open(OUTPUT_DIR / "apache_selection_report.txt", "w") as f:
         f.write(apache_report)
+
+    with open(OUTPUT_DIR / "microsoftqa_selection_report.txt", "w") as f:
+        f.write(microsoft_qa_report)
 
     # Print summary
     print("\n" + "="*70)

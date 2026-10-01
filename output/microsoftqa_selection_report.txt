@@ -1,10 +1,10 @@
 ======================================================================
-KEYWORD SELECTION REPORT - HACKERNEWS
+KEYWORD SELECTION REPORT - MICROSOFT_QA
 ======================================================================
 Generated: 2026-10-01 20:11:27
 Data source: Stack Overflow corpus (20,710 posts)
 Total categories: 18
-Selected keywords: 18
+Selected keywords: 34
 
 METHODOLOGY:
 ----------------------------------------------------------------------
@@ -22,7 +22,7 @@ METHODOLOGY:
    - Phase 2: Fill remaining slots by highest normalized effectiveness_score
    - Phase 3: Platform-specific deduplication and filtering
 5. Threshold: Minimum pseudo-IG = 0.05, min frequency = 1 post
-6. Selection size: max 18 keywords (knee-point optimized)
+6. Selection size: max 34 keywords (knee-point optimized)
 
 SELECTED KEYWORDS:
 ----------------------------------------------------------------------
@@ -39,6 +39,30 @@ CORE_JNI:
   • JNI issue
     Rank: 2, Freq: 578, IG: 0.5674 bits, Score: 578.27
     SelReason: High IG selection (rank 2 in 'core_jni')
+  • JNI problem
+    Rank: 3, Freq: 535, IG: 0.5252 bits, Score: 535.31
+    SelReason: High IG selection (rank 3 in 'core_jni')
+  • JNI callback
+    Rank: 4, Freq: 456, IG: 0.4476 bits, Score: 456.17
+    SelReason: High IG selection (rank 4 in 'core_jni')
+  • JNI crash
+    Rank: 5, Freq: 422, IG: 0.4143 bits, Score: 422.31
+    SelReason: High IG selection (rank 5 in 'core_jni')
+  • Java native integration
+    Rank: 6, Freq: 374, IG: 0.3674 bits, Score: 374.42
+    SelReason: High IG selection (rank 6 in 'core_jni')
+  • JNI bug
+    Rank: 7, Freq: 363, IG: 0.3564 bits, Score: 363.24
+    SelReason: High IG selection (rank 7 in 'core_jni')
+  • JNI native method
+    Rank: 8, Freq: 349, IG: 0.3427 bits, Score: 349.31
+    SelReason: High IG selection (rank 8 in 'core_jni')
+  • JNI integration
+    Rank: 9, Freq: 274, IG: 0.2691 bits, Score: 274.32
+    SelReason: High IG selection (rank 9 in 'core_jni')
+  • call C from Java
+    Rank: 10, Freq: 523, IG: 0.2570 bits, Score: 261.94
+    SelReason: High IG selection (rank 10 in 'core_jni')
 
 REFERENCE_MGMT:
   • DeleteLocalRef
@@ -69,11 +93,29 @@ ERROR_HANDLING:
   • UnsatisfiedLinkError
     Rank: 1, Freq: 1,297, IG: 0.6365 bits, Score: 648.73
     SelReason: Top IG keyword in 'error_handling' (category guarantee)
+  • JVM crash
+    Rank: 2, Freq: 516, IG: 0.5065 bits, Score: 516.29
+    SelReason: High IG selection (rank 2 in 'error_handling')
+  • JNI fatal error
+    Rank: 3, Freq: 260, IG: 0.2553 bits, Score: 260.19
+    SelReason: High IG selection (rank 3 in 'error_handling')
 
 LIBRARY_LOADING:
   • System.loadLibrary
     Rank: 1, Freq: 858, IG: 0.4212 bits, Score: 429.29
     SelReason: Top IG keyword in 'library_loading' (category guarantee)
+  • undefined reference JNI
+    Rank: 2, Freq: 333, IG: 0.3269 bits, Score: 333.18
+    SelReason: High IG selection (rank 2 in 'library_loading')
+  • java.library.path
+    Rank: 3, Freq: 589, IG: 0.2894 bits, Score: 294.94
+    SelReason: High IG selection (rank 3 in 'library_loading')
+  • JNI library load
+    Rank: 4, Freq: 225, IG: 0.2214 bits, Score: 225.69
+    SelReason: High IG selection (rank 4 in 'library_loading')
+  • JNI library not found
+    Rank: 5, Freq: 218, IG: 0.2141 bits, Score: 218.23
+    SelReason: High IG selection (rank 5 in 'library_loading')
 
 PERFORMANCE:
   • JNI performance
@@ -109,6 +151,12 @@ JNI_FUNCTIONS:
   • JNIEnv
     Rank: 1, Freq: 1,019, IG: 1.0000 bits, Score: 1019.23
     SelReason: Top IG keyword in 'jni_functions' (category guarantee)
+  • JNI_OnLoad
+    Rank: 2, Freq: 345, IG: 0.3387 bits, Score: 345.17
+    SelReason: High IG selection (rank 2 in 'jni_functions')
+  • JavaVM
+    Rank: 3, Freq: 452, IG: 0.2219 bits, Score: 226.21
+    SelReason: High IG selection (rank 3 in 'jni_functions')
 
 ANTI_PATTERNS:
   (No keywords met threshold)

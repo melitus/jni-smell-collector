@@ -363,10 +363,14 @@ class RealSmellCollector:
     
         # --- 8. MICROSOFT Q&A (Direct Search API) ---
     def search_microsoft_qa(self, keyword: str) -> List[Dict]:
-        """Search Microsoft Q&A using their internal search API."""
+        """Search Microsoft Q&A using their internal search API.
+
+        NOTE: This API returns Microsoft Learn documentation, not Q&A forum posts.
+        Creation dates are not reliably available from this endpoint.
+        """
         try:
             url = "https://learn.microsoft.com/api/search"
-            
+
             # Corrected parameters (no $ prefix)
             params = {
                 "search": keyword,
@@ -374,37 +378,36 @@ class RealSmellCollector:
                 "top": 20,
                 "category": "answers"
             }
-            
+
             headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36',
                 'Accept': 'application/json',
                 'Accept-Language': 'en-US,en;q=0.5',
                 'Referer': 'https://learn.microsoft.com/en-us/search/'
             }
-            
+
             resp = self.session.get(url, params=params, headers=headers, timeout=15)
-            
+
             if resp.status_code == 200:
                 data = resp.json()
-                
+
                 # Try different result field names
                 results = data.get("results", []) or data.get("value", []) or data.get("items", [])
-                
+
                 if not results:
                     print(f"      (Microsoft Q&A: 0 results for '{keyword}')")
                     return []
-                
+
                 formatted_results = []
                 for r in results:
                     # Try different field names for date
+                    # NOTE: Microsoft Learn API only provides lastUpdatedDate, not creation_date
                     creation_date = (
-                        r.get("date", "") or 
-                        r.get("datePublished", "") or 
-                        r.get("publishedDate", "") or 
+                        r.get("lastUpdatedDate", "") or
                         "Unknown"
                     )
                     creation_date = creation_date[:10] if creation_date and creation_date != "Unknown" else "Unknown"
-                    
+
                     formatted_results.append({
                         "title": r.get("title", "") or r.get("name", ""),
                         "link": r.get("url", "") or r.get("link", "") or r.get("uri", ""),
@@ -412,18 +415,18 @@ class RealSmellCollector:
                         "snippet": (r.get("summary", "") or r.get("description", "") or r.get("content", ""))[:400],
                         "creation_date": creation_date
                     })
-                
+
                 print(f"      ✅ Microsoft Q&A: {len(formatted_results)} results for '{keyword}'")
                 return formatted_results
-                
+
             elif resp.status_code == 403:
                 print(f"      ⚠️ Microsoft Q&A blocked (403). Skipping...")
             else:
                 print(f"      ⚠️ Microsoft Q&A returned status {resp.status_code}")
-                
+
         except Exception as e:
             print(f"      ❌ Microsoft Q&A Error: {e}")
-        
+
         return []
     
     # --- DISPATCHER ---

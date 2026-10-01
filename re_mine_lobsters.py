@@ -209,38 +209,11 @@ def main():
         jitter = random.uniform(-2, 2)
         time.sleep(REQUEST_DELAY + jitter)
     
-    # Phase 2: Search by keywords (fewer keywords to avoid rate limits)
-    print("\n📁 Phase 2: Searching by keywords")
-    
-    # Use only top 10 most important keywords to avoid rate limiting
-    top_keywords = KEYWORDS[:10] if len(KEYWORDS) > 10 else KEYWORDS
-    
-    for keyword in top_keywords:
-        print(f"\n🔍 Searching keyword: '{keyword}'")
-        results = search_lobsters(keyword)
-        
-        if results:
-            print(f"   ✅ Found {len(results)} stories")
-        
-        for res in results:
-            all_results.append({
-                "phase": "LOBSTERS_REMINING",
-                "forum": "Lobsters",
-                "keyword": res["query"],
-                "title": res["title"],
-                "link": res["link"],
-                "snippet": res["snippet"],
-                "score": res["score"],
-                "creation_date": res["creation_date"],
-                "tags": res.get("tags", ""),
-                "num_comments": res.get("num_comments", 0),
-                "collected_at": datetime.now().isoformat()
-            })
-        
-        # Conservative rate limiting with jitter
-        jitter = random.uniform(-2, 2)
-        time.sleep(REQUEST_DELAY + jitter)
-    
+    # Phase 2 REMOVED: Keyword search on Lobsters triggers bot protection
+    # /search.json returns HTML instead of JSON. Tag search (/t/{tag}.json) is the
+    # reliable method and already provides 25 stories per tag (125+ total).
+    # If keyword-specific data is needed, consider using a VPN or different network.
+
     # Save results
     if all_results:
         df = pd.DataFrame(all_results)
@@ -267,11 +240,10 @@ def main():
         return df
     else:
         print("\n❌ No results found!")
-        print("\n💡 Lobsters API is very restrictive. Consider:")
-        print("   1. Manual collection from https://lobste.rs")
-        print("   2. Using a VPN or different network")
-        print("   3. Waiting 24 hours and trying again")
-        
+        print("\n💡 Lobsters API: Tag search works reliably (Phase 1).")
+        print("   Keyword search is blocked by anti-bot measures (Phase 2 removed).")
+        print("   Consider: manual collection from https://lobste.rs, VPN, or waiting 24h.")
+
         # Create manual template
         template_df = pd.DataFrame(columns=[
             "phase", "forum", "keyword", "title", "link", "snippet",
@@ -280,7 +252,7 @@ def main():
         template_path = OUTPUT_DIR / "lobsters_manual_template.csv"
         template_df.to_csv(template_path, index=False)
         print(f"\n📋 Manual template created: {template_path}")
-        
+
         return pd.DataFrame()
 
 

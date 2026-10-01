@@ -1,0 +1,145 @@
+phase,forum,keyword,title,link,snippet,score,creation_date,tags,num_comments,collected_at
+LOBSTERS_REMINING,Lobsters,tag:java,Turbo Haskell,https://lobste.rs/s/j7kltq,,31,2026-09-30,"haskell, java, programming, vibecoding",4,2026-10-01T19:36:51.755237
+LOBSTERS_REMINING,Lobsters,tag:java,why java class files start with 0xCAFEBABE,https://lobste.rs/s/stczr0,,1,2026-09-22,"historical, java",1,2026-10-01T19:36:51.755270
+LOBSTERS_REMINING,Lobsters,tag:java,Why 0xCAFEBABE?,https://lobste.rs/s/2ym3yg,,44,2026-09-21,"historical, java",14,2026-10-01T19:36:51.755278
+LOBSTERS_REMINING,Lobsters,tag:java,JDK 27 has been released,https://lobste.rs/s/jlja1a,,38,2026-09-15,"java, release",5,2026-10-01T19:36:51.755285
+LOBSTERS_REMINING,Lobsters,tag:java,JEP 544: Ahead-of-Time Code Compilation,https://lobste.rs/s/whzj8z,,19,2026-09-10,java,8,2026-10-01T19:36:51.755290
+LOBSTERS_REMINING,Lobsters,tag:java,Gleam and BEAM- Looking beyond the JVM,https://lobste.rs/s/5wzkwm,,12,2026-09-05,"gleam, java, video",0,2026-10-01T19:36:51.755296
+LOBSTERS_REMINING,Lobsters,tag:java,How To Report A Bug So It Actually Gets Fixed,https://lobste.rs/s/tc2em9,,13,2026-08-23,"debugging, java, kotlin",0,2026-10-01T19:36:51.755302
+LOBSTERS_REMINING,Lobsters,tag:java,The road to ACID transactions in Cassandra 6,https://lobste.rs/s/c9xng0,,13,2026-08-21,"databases, distributed, java",0,2026-10-01T19:36:51.755307
+LOBSTERS_REMINING,Lobsters,tag:java,Pitfalls of Benchmarking on Modern Systems,https://lobste.rs/s/8mjvrb,,1,2026-08-20,"java, performance",0,2026-10-01T19:36:51.755313
+LOBSTERS_REMINING,Lobsters,tag:java,Hacking in the 'nameOf',https://lobste.rs/s/bcfzer,,15,2026-08-12,"java, programming",2,2026-10-01T19:36:51.755319
+LOBSTERS_REMINING,Lobsters,tag:java,Performance impact of Alignment,https://lobste.rs/s/7hm8yf,,9,2026-08-11,"java, performance",2,2026-10-01T19:36:51.755324
+LOBSTERS_REMINING,Lobsters,tag:java,Bringing Post-Quantum Cryptography to Java LTS Releases,https://lobste.rs/s/oihm9i,,2,2026-08-06,"cryptography, java",0,2026-10-01T19:36:51.755330
+LOBSTERS_REMINING,Lobsters,tag:java,"IntelliJ IDEA Goes LSP: Java and Kotlin Intelligence Comes to VS Code, Cursor, and Agentic Flows",https://lobste.rs/s/culsub,,21,2026-08-04,"java, kotlin, vibecoding, vscode",21,2026-10-01T19:36:51.755336
+LOBSTERS_REMINING,Lobsters,tag:java,JEP 401 Value Objects (Valhalla) has been integrated into JDK 28,https://lobste.rs/s/b0bz7x,"<p>For code review and discussion, see the PR:</p>
+<p><a href=""https://github.com/openjdk/jdk/pull/31120"" rel=""ugc"">https://github.com/openjdk/jdk/pull/31120</a></p>
+",7,2026-07-31,java,1,2026-10-01T19:36:51.755341
+LOBSTERS_REMINING,Lobsters,tag:java,Manual reification on the JVM,https://lobste.rs/s/nyxigf,,2,2026-07-31,"java, performance",0,2026-10-01T19:36:51.755347
+LOBSTERS_REMINING,Lobsters,tag:java,The Java Story | The Official Documentary,https://lobste.rs/s/31bikj,,13,2026-07-17,"java, video",0,2026-10-01T19:36:51.755353
+LOBSTERS_REMINING,Lobsters,tag:java,The (Petty) Reason We Didn't End Up Using jj,https://lobste.rs/s/27dxjg,,39,2026-07-06,"java, windows",31,2026-10-01T19:36:51.755358
+LOBSTERS_REMINING,Lobsters,tag:java,The mask that compiles to nothing: how HotSpot's JIT learned to reason about bits,https://lobste.rs/s/ktvazf,,13,2026-07-03,"compilers, java",2,2026-10-01T19:36:51.755364
+LOBSTERS_REMINING,Lobsters,tag:java,JEP 539: Strict Field Initialization in the JVM (Preview),https://lobste.rs/s/g1t9tm,,2,2026-07-02,java,0,2026-10-01T19:36:51.755369
+LOBSTERS_REMINING,Lobsters,tag:java,"GraalVM Hello World Program Down To ""Just"" 6.5MB",https://lobste.rs/s/paoclp,,12,2026-07-01,java,8,2026-10-01T19:36:51.755375
+LOBSTERS_REMINING,Lobsters,tag:java,"Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",https://lobste.rs/s/jk5k9i,,14,2026-06-19,"java, vibecoding",3,2026-10-01T19:36:51.755380
+LOBSTERS_REMINING,Lobsters,tag:java,Simplifying Weak Reference Processing in ZGC,https://lobste.rs/s/bbwiob,,9,2026-06-14,java,1,2026-10-01T19:36:51.755386
+LOBSTERS_REMINING,Lobsters,tag:java,Exploiting GPU Tensor Cores from Java using Babylon,https://lobste.rs/s/zd2d53,,1,2026-06-11,"compilers, java",0,2026-10-01T19:36:51.755391
+LOBSTERS_REMINING,Lobsters,tag:java,rustc_codegen_jvm: Rust compiler backend to emit JVM bytecode,https://lobste.rs/s/lcldxn,,23,2026-06-02,"java, rust",0,2026-10-01T19:36:51.755397
+LOBSTERS_REMINING,Lobsters,tag:java,H2JVM - A Haskell Library for writing JVM Bytecode,https://lobste.rs/s/8043lu,,9,2026-06-01,"haskell, java",1,2026-10-01T19:36:51.755402
+LOBSTERS_REMINING,Lobsters,tag:programming,Turbo Haskell,https://lobste.rs/s/j7kltq,,31,2026-09-30,"haskell, java, programming, vibecoding",4,2026-10-01T19:37:03.778018
+LOBSTERS_REMINING,Lobsters,tag:programming,What are you doing this week?,https://lobste.rs/s/hgmgp2,"<p>What are you doing this week? Feel free to share!</p>
+<p>Keep in mind it’s OK to do nothing at all, too.</p>
+",17,2026-09-28,"ask, programming",34,2026-10-01T19:37:03.778050
+LOBSTERS_REMINING,Lobsters,tag:programming,"Packing Binary Is Fun, Actually",https://lobste.rs/s/uawtno,,9,2026-09-28,programming,3,2026-10-01T19:37:03.778056
+LOBSTERS_REMINING,Lobsters,tag:programming,Rickrolling with a Pharmacy cross,https://lobste.rs/s/6p91by,,40,2026-09-28,programming,1,2026-10-01T19:37:03.778062
+LOBSTERS_REMINING,Lobsters,tag:programming,DogWood: Monitoring Policies using First Order Temporal Logic,https://lobste.rs/s/69mmo0,,2,2026-09-27,"formalmethods, programming",0,2026-10-01T19:37:03.778067
+LOBSTERS_REMINING,Lobsters,tag:programming,Ten Lines Of Code That Changed My World,https://lobste.rs/s/fpk9gq,,66,2026-09-27,programming,14,2026-10-01T19:37:03.778072
+LOBSTERS_REMINING,Lobsters,tag:programming,"Rusty thoughts on ""Parse, don't validate""",https://lobste.rs/s/uvmajz,,60,2026-09-26,"programming, rust",58,2026-10-01T19:37:03.778077
+LOBSTERS_REMINING,Lobsters,tag:programming,A Roman name for software,https://lobste.rs/s/5yy6pd,,8,2026-09-26,"historical, practices, programming, rant",5,2026-10-01T19:37:03.778082
+LOBSTERS_REMINING,Lobsters,tag:programming,Keep if clauses side-effect free,https://lobste.rs/s/buroqq,,26,2026-09-25,"practices, programming",15,2026-10-01T19:37:03.778088
+LOBSTERS_REMINING,Lobsters,tag:programming,Three Lenses on Coordination,https://lobste.rs/s/ylw6qp,,3,2026-09-25,programming,1,2026-10-01T19:37:03.778093
+LOBSTERS_REMINING,Lobsters,tag:programming,Who Is Open Source About?,https://lobste.rs/s/5gqorv,,35,2026-09-25,programming,29,2026-10-01T19:37:03.778098
+LOBSTERS_REMINING,Lobsters,tag:programming,What are you doing this weekend?,https://lobste.rs/s/bubfjf,"<p>Feel free to tell what you plan on doing this weekend and even ask for help or feedback.</p>
+<p>Please keep in mind it’s more than OK to do nothing at all too!</p>
+",10,2026-09-25,"ask, programming",34,2026-10-01T19:37:03.778103
+LOBSTERS_REMINING,Lobsters,tag:programming,Track GPU Availability Cloud Capacity,https://lobste.rs/s/yidizy,,1,2026-09-24,programming,1,2026-10-01T19:37:03.778108
+LOBSTERS_REMINING,Lobsters,tag:programming,From Thin Air to Bootable Images: The tine Build System,https://lobste.rs/s/c3t81d,,16,2026-09-24,programming,2,2026-10-01T19:37:03.778113
+LOBSTERS_REMINING,Lobsters,tag:programming,Why do common Rust packages depend on C code? (2023),https://lobste.rs/s/itqeag,,9,2026-09-22,programming,1,2026-10-01T19:37:03.778118
+LOBSTERS_REMINING,Lobsters,tag:programming,Arguing about arguments,https://lobste.rs/s/bvrhgq,,66,2026-09-21,"programming, rust",91,2026-10-01T19:37:03.778123
+LOBSTERS_REMINING,Lobsters,tag:programming,"Textbook review: Is Parallel Programming Hard, And, If So, What Can You Do About It?",https://lobste.rs/s/73ei6g,,52,2026-09-21,programming,0,2026-10-01T19:37:03.778129
+LOBSTERS_REMINING,Lobsters,tag:programming,What are you doing this week?,https://lobste.rs/s/fyngrv,"<p>What are you doing this week? Feel free to share!</p>
+<p>Keep in mind it’s OK to do nothing at all, too.</p>
+",16,2026-09-21,"ask, programming",41,2026-10-01T19:37:03.778134
+LOBSTERS_REMINING,Lobsters,tag:programming,What's been going on in w64devkit the past year,https://lobste.rs/s/ilqm2u,,7,2026-09-20,programming,0,2026-10-01T19:37:03.778139
+LOBSTERS_REMINING,Lobsters,tag:programming,Software sandboxing: The basics (2025),https://lobste.rs/s/brptxb,,53,2026-09-20,"programming, security, unix",35,2026-10-01T19:37:03.778144
+LOBSTERS_REMINING,Lobsters,tag:programming,Using non-breakable spaces in test method names,https://lobste.rs/s/bvsaiy,,15,2026-09-20,programming,15,2026-10-01T19:37:03.778149
+LOBSTERS_REMINING,Lobsters,tag:programming,V Language Review (2023),https://lobste.rs/s/1rjyeh,,32,2026-09-19,programming,11,2026-10-01T19:37:03.778154
+LOBSTERS_REMINING,Lobsters,tag:programming,Don’t Let Architecture Astronauts Scare You (2001),https://lobste.rs/s/3xfxnj,,45,2026-09-19,programming,24,2026-10-01T19:37:03.778159
+LOBSTERS_REMINING,Lobsters,tag:programming,Typst makes big strides,https://lobste.rs/s/j4oyxa,,121,2026-09-18,"a11y, programming",20,2026-10-01T19:37:03.778164
+LOBSTERS_REMINING,Lobsters,tag:programming,Flet : Build cross-platform apps in Python,https://lobste.rs/s/eeykfl,,1,2026-09-18,"programming, vibecoding",1,2026-10-01T19:37:03.778169
+LOBSTERS_REMINING,Lobsters,tag:compilers,The Second Golden Spike: Memory Safety Across the Valen/Rust Boundary,https://lobste.rs/s/ajtnc6,,5,2026-10-01,"compilers, performance, plt, rust",0,2026-10-01T19:37:12.744809
+LOBSTERS_REMINING,Lobsters,tag:compilers,EDG C/C++ Compiler Project,https://lobste.rs/s/nwdxko,"<p>During the 2025 November C++ ISO meeting Edison Design Group <a href=""https://herbsutter.com/2025/11/10/trip-report-november-2025-iso-c-standards-meeting-kona-usa/"" rel=""ugc"">announced that they would be winding down and that they will open-source their front end</a>. This is the repo containing said front end along with some other components like C and C++ back ends. There is also a <a href=""h",28,2026-09-30,"c, c++, compilers",10,2026-10-01T19:37:12.744835
+LOBSTERS_REMINING,Lobsters,tag:compilers,How to speed up the Rust compiler in September 2026,https://lobste.rs/s/odrfgk,,73,2026-09-29,"compilers, rust, vibecoding",5,2026-10-01T19:37:12.744842
+LOBSTERS_REMINING,Lobsters,tag:compilers,Re: Suggestions on implementing an efficient instruction set simulator in LuaJIT2 (2011),https://lobste.rs/s/v4bdwl,,14,2026-09-22,compilers,6,2026-10-01T19:37:12.744848
+LOBSTERS_REMINING,Lobsters,tag:compilers,Why I like JavaScript as a compilation target (2023),https://lobste.rs/s/pnp2io,,5,2026-09-21,"compilers, javascript",0,2026-10-01T19:37:12.744853
+LOBSTERS_REMINING,Lobsters,tag:compilers,Quarkdown: Turing-complete Markdown typesetting system,https://lobste.rs/s/wryj2p,,17,2026-09-19,"compilers, vibecoding",1,2026-10-01T19:37:12.744859
+LOBSTERS_REMINING,Lobsters,tag:compilers,Benchmarking Wild vs Mold,https://lobste.rs/s/gjjizm,,57,2026-09-18,"compilers, performance",13,2026-10-01T19:37:12.744864
+LOBSTERS_REMINING,Lobsters,tag:compilers,Why building a Rust LSP is hard,https://lobste.rs/s/q35pnm,,31,2026-09-16,"compilers, editors, rust, vibecoding",12,2026-10-01T19:37:12.744870
+LOBSTERS_REMINING,Lobsters,tag:compilers,How GCC Eliminates Unnecessary Integer Division,https://lobste.rs/s/6lntik,,6,2026-09-14,"c, compilers",0,2026-10-01T19:37:12.744875
+LOBSTERS_REMINING,Lobsters,tag:compilers,Singeli: High-level interface for low-level programming,https://lobste.rs/s/jnutrb,,11,2026-09-13,"apl, compilers, performance",8,2026-10-01T19:37:12.744880
+LOBSTERS_REMINING,Lobsters,tag:compilers,Metacarp,https://lobste.rs/s/3nk1lh,,13,2026-09-12,"compilers, lisp",1,2026-10-01T19:37:12.744885
+LOBSTERS_REMINING,Lobsters,tag:compilers,I made a build visualizer to understand Bun’s compile times,https://lobste.rs/s/qsrjs2,,112,2026-09-12,"compilers, performance",28,2026-10-01T19:37:12.744891
+LOBSTERS_REMINING,Lobsters,tag:compilers,Making a Python interpreter in 1024 bytes,https://lobste.rs/s/n0zgj1,,16,2026-09-06,compilers,10,2026-10-01T19:37:12.744896
+LOBSTERS_REMINING,Lobsters,tag:compilers,Plush's New Register-Based Interpreter Is Insanely Fast,https://lobste.rs/s/4xy1l4,,5,2026-09-04,"compilers, rust, vibecoding",0,2026-10-01T19:37:12.744901
+LOBSTERS_REMINING,Lobsters,tag:compilers,jank reimagines C++ errors and gets an official native package repo,https://lobste.rs/s/rhjedr,,31,2026-09-04,"c++, clojure, compilers, plt",0,2026-10-01T19:37:12.744906
+LOBSTERS_REMINING,Lobsters,tag:compilers,"CTTI is Exponential, RTTI is Linear",https://lobste.rs/s/mj9qti,,18,2026-09-02,"compilers, plt",21,2026-10-01T19:37:12.744912
+LOBSTERS_REMINING,Lobsters,tag:compilers,LLVM Z80 backend,https://lobste.rs/s/ozyvxn,,3,2026-09-01,"compilers, vibecoding",2,2026-10-01T19:37:12.744917
+LOBSTERS_REMINING,Lobsters,tag:compilers,Why I'm excited about effect systems (2025),https://lobste.rs/s/abkikp,,16,2026-09-01,compilers,12,2026-10-01T19:37:12.744922
+LOBSTERS_REMINING,Lobsters,tag:compilers,Could Cargo's scheduler be better?,https://lobste.rs/s/by7xg6,,37,2026-08-31,"compilers, rust",1,2026-10-01T19:37:12.744927
+LOBSTERS_REMINING,Lobsters,tag:compilers,"25x Performance, Three Optimizations",https://lobste.rs/s/rhto2r,,24,2026-08-28,"compilers, lisp, performance, rust",2,2026-10-01T19:37:12.744942
+LOBSTERS_REMINING,Lobsters,tag:compilers,Catching NaN at the MLIR Pass Boundary,https://lobste.rs/s/uvclgk,,3,2026-08-26,"c++, compilers, hardware",0,2026-10-01T19:37:12.744948
+LOBSTERS_REMINING,Lobsters,tag:compilers,mold: A Massively Parallel Linker,https://lobste.rs/s/e291dc,,80,2026-08-26,"compilers, pdf, performance",11,2026-10-01T19:37:12.744953
+LOBSTERS_REMINING,Lobsters,tag:compilers,Porffor goes alpha August 11th,https://lobste.rs/s/9w5eos,,21,2026-08-25,"compilers, javascript",1,2026-10-01T19:37:12.744958
+LOBSTERS_REMINING,Lobsters,tag:compilers,Adding JIT-compilation to a toy interpreter with libgccjit,https://lobste.rs/s/pkktjt,,15,2026-08-23,compilers,2,2026-10-01T19:37:12.744963
+LOBSTERS_REMINING,Lobsters,tag:compilers,JIT Compiling Code in 5μs,https://lobste.rs/s/aujfn1,,8,2026-08-23,"compilers, vibecoding",1,2026-10-01T19:37:12.744968
+LOBSTERS_REMINING,Lobsters,tag:security,CVE-2026-86950: The Great Glyph Grift - An in-the-wild iOS bug with a possible WhatsApp zero-click path,https://lobste.rs/s/yfttkn,,1,2026-10-01,security,0,2026-10-01T19:37:24.682317
+LOBSTERS_REMINING,Lobsters,tag:security,Is sandboxing sufficient to contain rogue agents?,https://lobste.rs/s/zcr7in,,12,2026-10-01,"ai, security",6,2026-10-01T19:37:24.682345
+LOBSTERS_REMINING,Lobsters,tag:security,ESXi Exploitation in the Wild,https://lobste.rs/s/f6dogm,,3,2026-09-30,"reversing, security",0,2026-10-01T19:37:24.682353
+LOBSTERS_REMINING,Lobsters,tag:security,Major rsync upgrade in Debian because of 33 CVEs,https://lobste.rs/s/sqyhgt,"<strong>apt-listchanges --which=both -f text --since=3.4.1+ds1-5+deb13u4 <br>
+/var/cache/apt/archives/rsync_3.5.0+ds1-0+deb13u1_amd64.deb
+apt-listchanges: Reading changelogs...
+apt-listchanges: News</strong>
+<p>rsync (3.5.0+ds1-0+deb13u1) trixie-security; urgency=medium</p>
+<p>In order to fix 33 CVEs, I have decided to bump the package to 3.5.0 rather
+than backporting all patches individually. Aft",23,2026-09-30,security,5,2026-10-01T19:37:24.682359
+LOBSTERS_REMINING,Lobsters,tag:security,Branch Target Reuse: Spectre-v2 Attacks in JIT Engines,https://lobste.rs/s/y3ppje,,10,2026-09-30,security,1,2026-10-01T19:37:24.682364
+LOBSTERS_REMINING,Lobsters,tag:security,"attezt: device attestation, PKCS11 and ACME",https://lobste.rs/s/obix99,,8,2026-09-30,"security, video",3,2026-10-01T19:37:24.682370
+LOBSTERS_REMINING,Lobsters,tag:security,The Cuckoo's Egg,https://lobste.rs/s/nicozi,,57,2026-09-30,"book, security",25,2026-10-01T19:37:24.682375
+LOBSTERS_REMINING,Lobsters,tag:security,Fake Express Packages on npm Spread a Linux Worm,https://lobste.rs/s/e2gxro,,3,2026-09-29,"linux, nodejs, security",0,2026-10-01T19:37:24.682380
+LOBSTERS_REMINING,Lobsters,tag:security,Getting root on OnePlus 15 from an untrusted app,https://lobste.rs/s/a5rcxy,,17,2026-09-29,"android, security",4,2026-10-01T19:37:24.682385
+LOBSTERS_REMINING,Lobsters,tag:security,HardenedBSD August / September 2026 Status Report,https://lobste.rs/s/roo5hm,,20,2026-09-28,"freebsd, security",0,2026-10-01T19:37:24.682390
+LOBSTERS_REMINING,Lobsters,tag:security,LuaRocks Security Incident September 2026,https://lobste.rs/s/apoyxs,,32,2026-09-27,"lua, security",6,2026-10-01T19:37:24.682395
+LOBSTERS_REMINING,Lobsters,tag:security,Honeypot on the boykisser forum,https://lobste.rs/s/0rcuoj,,8,2026-09-26,"networking, security",13,2026-10-01T19:37:24.682400
+LOBSTERS_REMINING,Lobsters,tag:security,Dissecting House of Apple 2 on modern glibc,https://lobste.rs/s/uhlr9z,,2,2026-09-26,"linux, security",0,2026-10-01T19:37:24.682405
+LOBSTERS_REMINING,Lobsters,tag:security,"How I Found a $113,337 AF_ALG Linux Local Privilege Escalation Before Copy Fail",https://lobste.rs/s/j1nvpt,,2,2026-09-26,"linux, security",0,2026-10-01T19:37:24.682410
+LOBSTERS_REMINING,Lobsters,tag:security,Revealing the details of how OpenAI agents hacked Hugging Face,https://lobste.rs/s/70f3hi,,8,2026-09-26,"security, vibecoding",4,2026-10-01T19:37:24.682415
+LOBSTERS_REMINING,Lobsters,tag:security,Cross-Site Scripting (XSS) Cheat Sheet,https://lobste.rs/s/uipfvv,,10,2026-09-25,security,1,2026-10-01T19:37:24.682420
+LOBSTERS_REMINING,Lobsters,tag:security,Understanding NvPCRs in systemd v262,https://lobste.rs/s/ya3cl7,,10,2026-09-25,security,1,2026-10-01T19:37:24.682425
+LOBSTERS_REMINING,Lobsters,tag:security,"File Notification Attacks: Side-Channel Leakage from the File-Notification System on Linux, Android, Windows, and macOS",https://lobste.rs/s/x6yjrc,,37,2026-09-24,security,9,2026-10-01T19:37:24.682430
+LOBSTERS_REMINING,Lobsters,tag:security,SourceHut account takeover via build logs (XSS in ansi2html.py),https://lobste.rs/s/ky1cr0,,98,2026-09-24,security,27,2026-10-01T19:37:24.682436
+LOBSTERS_REMINING,Lobsters,tag:security,Forging 1024-bit RSA signatures in nearly SNFS time,https://lobste.rs/s/ah5jnf,"<p>Alternate title: Nearly SNFS-Speed Signature Forgery Sans Factoring N (NSNFSSSFSFN)</p>
+<p><strong>Abstract.</strong> The security of RSA is generally understood to be based on
+the complexity of factoring, and key size parameters are extrapolated
+from the general number field sieve (GNFS). However, this may not
+accurately represent RSA security in practical scenarios.</p>
+<p>An under-appreciate",8,2026-09-24,"cryptography, pdf, security",4,2026-10-01T19:37:24.682441
+LOBSTERS_REMINING,Lobsters,tag:security,Radicle: Disclosure of Vulnerability in the Network Protocol,https://lobste.rs/s/ad5vwg,,147,2026-09-23,"distributed, security, vcs",62,2026-10-01T19:37:24.682446
+LOBSTERS_REMINING,Lobsters,tag:security,Latest BGP hijack targets hosting software vendor,https://lobste.rs/s/eqme8i,,15,2026-09-23,"networking, security",2,2026-10-01T19:37:24.682451
+LOBSTERS_REMINING,Lobsters,tag:security,SAML: A fractal of bad design,https://lobste.rs/s/4uqtta,,39,2026-09-23,"rant, security",3,2026-10-01T19:37:24.682456
+LOBSTERS_REMINING,Lobsters,tag:security,Sandboxing with minimal effort,https://lobste.rs/s/zji8bf,,15,2026-09-23,security,9,2026-10-01T19:37:24.682461
+LOBSTERS_REMINING,Lobsters,tag:security,GitHub Actions leaking secrets when Miri output is cached,https://lobste.rs/s/acz9kk,,13,2026-09-22,"rust, security",21,2026-10-01T19:37:24.682466
+LOBSTERS_REMINING,Lobsters,tag:android,Getting root on OnePlus 15 from an untrusted app,https://lobste.rs/s/a5rcxy,,17,2026-09-29,"android, security",4,2026-10-01T19:37:36.615393
+LOBSTERS_REMINING,Lobsters,tag:android,F-Droid 2.0,https://lobste.rs/s/opt2ma,,109,2026-09-24,android,11,2026-10-01T19:37:36.615422
+LOBSTERS_REMINING,Lobsters,tag:android,Breaking Up with Google Play: Why Conversations Is Now Free,https://lobste.rs/s/4jqfz1,,168,2026-09-24,android,20,2026-10-01T19:37:36.615429
+LOBSTERS_REMINING,Lobsters,tag:android,Switching password managers is easy and safe on Android,https://lobste.rs/s/rl0avg,,5,2026-09-16,android,1,2026-10-01T19:37:36.615434
+LOBSTERS_REMINING,Lobsters,tag:android,Motorola's GrapheneOS phones will launch in 2027 priced higher than Pixels,https://lobste.rs/s/me3mun,,40,2026-08-26,android,25,2026-10-01T19:37:36.615440
+LOBSTERS_REMINING,Lobsters,tag:android,C2PA Cameras Do Not Survive Contact With Reality,https://lobste.rs/s/4netv1,,70,2026-08-25,"android, cryptography, security",12,2026-10-01T19:37:36.615446
+LOBSTERS_REMINING,Lobsters,tag:android,Bypassing Android Hardware Attestation from the Analyst's Chair,https://lobste.rs/s/lbaw4d,,5,2026-08-12,"android, security",0,2026-10-01T19:37:36.615452
+LOBSTERS_REMINING,Lobsters,tag:android,my server is a phone now,https://lobste.rs/s/ykuqrc,,30,2026-08-08,android,9,2026-10-01T19:37:36.615457
+LOBSTERS_REMINING,Lobsters,tag:android,BasicSync: A simple app for running Syncthing on Android,https://lobste.rs/s/ekxllh,,12,2026-08-07,android,0,2026-10-01T19:37:36.615463
+LOBSTERS_REMINING,Lobsters,tag:android,FlickBoard,https://lobste.rs/s/qktajv,,14,2026-08-01,"android, show",4,2026-10-01T19:37:36.616046
+LOBSTERS_REMINING,Lobsters,tag:android,"Android May Soon Restrict On-Device ADB, Affecting Shizuku, libadb and Developers",https://lobste.rs/s/t5os1h,,49,2026-07-25,android,10,2026-10-01T19:37:36.616066
+LOBSTERS_REMINING,Lobsters,tag:android,Third-party app stores coming to Google Play next week as Epic settlement withdrawn,https://lobste.rs/s/bvvwkf,,9,2026-07-15,"android, law",4,2026-10-01T19:37:36.616091
+LOBSTERS_REMINING,Lobsters,tag:android,Review: iodéOS offers a frictionless de-Googled Android experience,https://lobste.rs/s/bt5rhz,,4,2026-07-09,"android, mobile, osdev",2,2026-10-01T19:37:36.616102
+LOBSTERS_REMINING,Lobsters,tag:android,Developer Verification – LineageOS,https://lobste.rs/s/avqu6k,,24,2026-07-04,"android, culture",0,2026-10-01T19:37:36.616112
+LOBSTERS_REMINING,Lobsters,tag:android,What We Talk About When We Talk About Malware,https://lobste.rs/s/ltsgnw,,6,2026-07-03,"android, security",0,2026-10-01T19:37:36.616120
+LOBSTERS_REMINING,Lobsters,tag:android,Honda Civics and the Evil Valet,https://lobste.rs/s/bt3cq8,,18,2026-06-16,"android, security",0,2026-10-01T19:37:36.616139
+LOBSTERS_REMINING,Lobsters,tag:android,KDE Android News (June 2026),https://lobste.rs/s/eli97m,,10,2026-06-16,"android, graphics",0,2026-10-01T19:37:36.616148
+LOBSTERS_REMINING,Lobsters,tag:android,Light Phone SDK: Developer Program June Update,https://lobste.rs/s/4b25bk,,2,2026-06-10,"android, mobile",0,2026-10-01T19:37:36.616156
+LOBSTERS_REMINING,Lobsters,tag:android,New reCaptcha requires approved phones to pass,https://lobste.rs/s/p07gv1,,107,2026-06-10,"android, privacy",26,2026-10-01T19:37:36.616168
+LOBSTERS_REMINING,Lobsters,tag:android,Reverse engineering Android malware with Claude Code,https://lobste.rs/s/b5hrqb,,21,2026-05-17,"android, reversing, vibecoding",1,2026-10-01T19:37:36.616176
+LOBSTERS_REMINING,Lobsters,tag:android,"A 0-click exploit chain for the Pixel 10: When a Door Closes, a Window Opens",https://lobste.rs/s/l9uweb,,4,2026-05-15,"android, security",1,2026-10-01T19:37:36.616196
+LOBSTERS_REMINING,Lobsters,tag:android,Any app on recent Android versions can leak certain traffic,https://lobste.rs/s/ulnrmv,,21,2026-05-12,"android, security",1,2026-10-01T19:37:36.616204
+LOBSTERS_REMINING,Lobsters,tag:android,Adding a feature to a closed-source app,https://lobste.rs/s/iu9rhu,,1,2026-05-03,"android, reversing, vibecoding",0,2026-10-01T19:37:36.616213
+LOBSTERS_REMINING,Lobsters,tag:android,Haptic compass belt (2023),https://lobste.rs/s/jop9k9,,1,2026-05-02,"android, hardware",0,2026-10-01T19:37:36.616222
+LOBSTERS_REMINING,Lobsters,tag:android,Android VPN IP Leak Even If Always-On VPN Enabled,https://lobste.rs/s/31gbt3,,35,2026-04-30,"android, privacy",0,2026-10-01T19:37:36.616232

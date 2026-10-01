@@ -1,0 +1,35 @@
+platform,category,keyword,rank,frequency,post_count,avg_score,effectiveness_score,information_gain,jni_specificity,selection_reason,selected_at
+microsoft_qa,baseline,compilation errors,1,300,289,44.12,154.41,0.1515,0.5,Top IG keyword in 'baseline' (category guarantee),2026-10-01T20:11:27.191733
+microsoft_qa,compilation,javah,1,354,229,2.71,177.27,0.1739,0.5,Top IG keyword in 'compilation' (category guarantee),2026-10-01T20:11:27.191769
+microsoft_qa,core_jni,JNI error,1,613,461,1.71,613.17,0.6016,1.0,Top IG keyword in 'core_jni' (category guarantee),2026-10-01T20:11:27.191792
+microsoft_qa,core_jni,JNI issue,2,578,578,2.72,578.27,0.5674,1.0,High IG selection (rank 2 in 'core_jni'),2026-10-01T20:11:27.192195
+microsoft_qa,core_jni,JNI problem,3,535,535,3.08,535.31,0.5252,1.0,High IG selection (rank 3 in 'core_jni'),2026-10-01T20:11:27.192223
+microsoft_qa,core_jni,JNI callback,4,456,442,1.66,456.17,0.4476,1.0,High IG selection (rank 4 in 'core_jni'),2026-10-01T20:11:27.192268
+microsoft_qa,core_jni,JNI crash,5,422,406,3.15,422.31,0.4143,1.0,High IG selection (rank 5 in 'core_jni'),2026-10-01T20:11:27.192291
+microsoft_qa,core_jni,Java native integration,6,374,374,4.18,374.42,0.3674,1.0,High IG selection (rank 6 in 'core_jni'),2026-10-01T20:11:27.192315
+microsoft_qa,core_jni,JNI bug,7,363,362,2.37,363.24,0.3564,1.0,High IG selection (rank 7 in 'core_jni'),2026-10-01T20:11:27.192338
+microsoft_qa,core_jni,JNI native method,8,349,343,3.08,349.31,0.3427,1.0,High IG selection (rank 8 in 'core_jni'),2026-10-01T20:11:27.192361
+microsoft_qa,core_jni,JNI integration,9,274,272,3.22,274.32,0.2691,1.0,High IG selection (rank 9 in 'core_jni'),2026-10-01T20:11:27.192453
+microsoft_qa,core_jni,call C from Java,10,523,522,4.35,261.94,0.257,0.5,High IG selection (rank 10 in 'core_jni'),2026-10-01T20:11:27.192475
+microsoft_qa,data_conversion,jstring to const char,1,209,208,2.02,209.2,0.2053,1.0,Top IG keyword in 'data_conversion' (category guarantee),2026-10-01T20:11:27.191813
+microsoft_qa,debugging,JNI tools,1,105,105,3.5,105.35,0.1034,1.0,Top IG keyword in 'debugging' (category guarantee),2026-10-01T20:11:27.191833
+microsoft_qa,error_handling,UnsatisfiedLinkError,1,1297,483,2.27,648.73,0.6365,0.5,Top IG keyword in 'error_handling' (category guarantee),2026-10-01T20:11:27.191854
+microsoft_qa,error_handling,JVM crash,2,516,422,2.92,516.29,0.5065,1.0,High IG selection (rank 2 in 'error_handling'),2026-10-01T20:11:27.192245
+microsoft_qa,error_handling,JNI fatal error,3,260,258,1.87,260.19,0.2553,1.0,High IG selection (rank 3 in 'error_handling'),2026-10-01T20:11:27.192495
+microsoft_qa,jni_functions,JNIEnv,1,1019,160,2.3,1019.23,1.0,1.0,Top IG keyword in 'jni_functions' (category guarantee),2026-10-01T20:11:27.191873
+microsoft_qa,jni_functions,JNI_OnLoad,2,345,251,1.67,345.17,0.3387,1.0,High IG selection (rank 2 in 'jni_functions'),2026-10-01T20:11:27.192385
+microsoft_qa,jni_functions,JavaVM,3,452,189,2.08,226.21,0.2219,0.5,High IG selection (rank 3 in 'jni_functions'),2026-10-01T20:11:27.192517
+microsoft_qa,library_loading,System.loadLibrary,1,858,459,2.95,429.29,0.4212,0.5,Top IG keyword in 'library_loading' (category guarantee),2026-10-01T20:11:27.191895
+microsoft_qa,library_loading,undefined reference JNI,2,333,332,1.84,333.18,0.3269,1.0,High IG selection (rank 2 in 'library_loading'),2026-10-01T20:11:27.192408
+microsoft_qa,library_loading,java.library.path,3,589,408,4.37,294.94,0.2894,0.5,High IG selection (rank 3 in 'library_loading'),2026-10-01T20:11:27.192430
+microsoft_qa,library_loading,JNI library load,4,225,221,6.88,225.69,0.2214,1.0,High IG selection (rank 4 in 'library_loading'),2026-10-01T20:11:27.192540
+microsoft_qa,library_loading,JNI library not found,5,218,218,2.32,218.23,0.2141,1.0,High IG selection (rank 5 in 'library_loading'),2026-10-01T20:11:27.192563
+microsoft_qa,memory,JNI native memory,1,152,152,3.53,152.35,0.1495,1.0,Top IG keyword in 'memory' (category guarantee),2026-10-01T20:11:27.191914
+microsoft_qa,performance,JNI performance,1,181,179,4.07,181.41,0.178,1.0,Top IG keyword in 'performance' (category guarantee),2026-10-01T20:11:27.191931
+microsoft_qa,platform,JNI Android,1,140,95,6.77,140.68,0.138,1.0,Top IG keyword in 'platform' (category guarantee),2026-10-01T20:11:27.191961
+microsoft_qa,reference_mgmt,DeleteLocalRef,1,186,174,1.86,93.19,0.0914,0.5,Top IG keyword in 'reference_mgmt' (category guarantee),2026-10-01T20:11:27.191979
+microsoft_qa,related_tech,JNA,1,830,547,1.95,415.2,0.4074,0.5,Top IG keyword in 'related_tech' (category guarantee),2026-10-01T20:11:27.191998
+microsoft_qa,resource_mgmt,JNI socket,1,77,77,3.74,77.37,0.0759,1.0,Top IG keyword in 'resource_mgmt' (category guarantee),2026-10-01T20:11:27.192015
+microsoft_qa,security,JNI security,1,123,123,1.5,123.15,0.1208,1.0,Top IG keyword in 'security' (category guarantee),2026-10-01T20:11:27.192031
+microsoft_qa,struct_mapping,GetMethodID,1,284,166,1.97,142.2,0.1395,0.5,Top IG keyword in 'struct_mapping' (category guarantee),2026-10-01T20:11:27.192049
+microsoft_qa,threading,JNI threading,1,228,228,2.64,228.26,0.224,1.0,Top IG keyword in 'threading' (category guarantee),2026-10-01T20:11:27.192067
